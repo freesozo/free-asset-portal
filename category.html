@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>カテゴリ – フリー素材ポータル</title>
+  <meta name="description" content="カテゴリ別にフリー素材サイトを比較・検索。">
+  <meta property="og:title" content="カテゴリ – フリー素材ポータル">
+  <meta property="og:description" content="カテゴリ別にフリー素材サイトを比較・検索">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <script>(function(){var t=localStorage.getItem('theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;})();</script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="site-logo">
+        <a href="index.html">📦 <span data-i18n="siteTitle">フリー素材ポータル</span></a>
+      </div>
+      <div class="header-actions">
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
+        <button class="lang-btn" id="langBtn" data-i18n="lang">🌐 English</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ===== Breadcrumb ===== -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html" data-i18n="breadcrumbHome">ホーム</a>
+      <span aria-hidden="true">›</span>
+      <span id="breadcrumbCurrent">カテゴリ</span>
+    </nav>
+
+    <!-- ===== Search ===== -->
+    <section class="section">
+      <div class="search-box" style="max-width:560px;">
+        <input type="text" id="searchInput" data-i18n="searchPlaceholder" placeholder="サイト名・キーワードで検索..." aria-label="Search">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+      </div>
+      <div class="region-toggle" style="justify-content:flex-start;margin-top:12px;">
+        <button class="region-btn" data-region="global" data-i18n="regionGlobal">🌍 海外含む</button>
+        <button class="region-btn" data-region="jp" data-i18n="regionJp">🇯🇵 日本のみ</button>
+      </div>
+    </section>
+
+    <!-- ===== Quick Filters ===== -->
+    <div class="quick-filters" style="padding-left:0;justify-content:flex-start;">
+      <button class="filter-btn" data-filter="commercial" data-i18n="filterCommercial">商用利用可</button>
+      <button class="filter-btn" data-filter="creditFree" data-i18n="filterNoCredit">クレジット不要</button>
+      <button class="filter-btn" data-filter="regFree" data-i18n="filterNoReg">登録不要</button>
+      <button class="filter-btn" data-filter="beginner" data-i18n="filterBeginner">初心者向け</button>
+      <button class="filter-btn filter-btn-fav" id="filterFavBtn" data-i18n="filterFavorites">❤️ お気に入りのみ</button>
+    </div>
+
+    <!-- ===== Category Nav ===== -->
+    <section class="section">
+      <h2 class="section-title" data-i18n="categoryHeading">カテゴリで探す</h2>
+      <nav class="nav-pills" id="categoryNav" aria-label="Category navigation"></nav>
+    </section>
+
+    <!-- ===== Use Case Nav ===== -->
+    <section class="section" style="padding-top:0">
+      <h2 class="section-title" data-i18n="useCaseHeading">用途で探す</h2>
+      <nav class="nav-pills" id="useCaseNav" aria-label="Use case navigation"></nav>
+    </section>
+
+    <!-- ===== Sites ===== -->
+    <section class="section">
+      <div class="sort-bar">
+        <select id="sortSelect" aria-label="Sort">
+          <option value="rating" data-i18n="sortRecommend">おすすめ順</option>
+          <option value="name" data-i18n="sortName">名前順</option>
+        </select>
+        <button class="btn-compare-toggle" id="compareToggleBtn" data-i18n="compareToggle">⚖️ 比較モード</button>
+        <span class="result-count" id="resultCount"></span>
+      </div>
+      <div class="card-grid" id="siteGrid"></div>
+      <div class="load-more-wrap">
+        <button class="btn-load-more" id="loadMoreBtn" style="display:none" data-i18n="loadMore">もっと見る</button>
+      </div>
+    </section>
+
+    <!-- ===== Ad Slot ===== -->
+    <div class="ad-slot ad-slot-adsense" id="adSlot1">
+      <span class="ad-slot-label" data-i18n="adLabel">広告</span>
+      <span class="ad-slot-placeholder">Google AdSense</span>
+    </div>
+
+    <!-- ===== Newsletter ===== -->
+    <section class="newsletter-section">
+      <h2 data-i18n="newsletterHeading">最新のフリー素材情報を受け取る</h2>
+      <p data-i18n="newsletterSub">新しいフリー素材サイトの追加や、お得な情報をお届けします。</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" required data-i18n="newsletterPlaceholder" placeholder="メールアドレスを入力" aria-label="Email">
+        <button type="submit" data-i18n="newsletterBtn">登録する</button>
+      </form>
+      <div class="newsletter-msg" id="newsletterMsg"></div>
+    </section>
+
+    <!-- ===== Premium Sites (最下部) ===== -->
+    <section class="premium-section">
+      <div class="premium-header">
+        <h2><span data-i18n="premiumBadge">PR</span> <span data-i18n="premiumHeading">もっと高品質な素材が必要？</span></h2>
+        <p data-i18n="premiumSub">無料素材では物足りない方に。プロ品質の有料素材サービスを比較。</p>
+      </div>
+      <div class="premium-grid" id="premiumGrid"></div>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p data-i18n="footerNotice">※ 各サイトの利用規約は変更される場合があります。素材利用前に必ず各サイトの最新の利用規約をご確認ください。</p>
+      <p class="affiliate-disclosure" data-i18n="affiliateDisclosure">※ 一部リンクはアフィリエイトリンクを含みます。サイト運営のサポートにご協力ください。</p>
+    </div>
+  </footer>
+
+  <!-- ===== Modal ===== -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" role="dialog" aria-modal="true">
+      <div class="modal-head">
+        <h3 class="modal-title" id="modalTitle"></h3>
+        <button class="modal-close" id="modalCloseBtn" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+  <script>App.init({ isCategory: true });</script>
+</body>
+</html>
