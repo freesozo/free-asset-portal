@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://freesozo.github.io/free-asset-portal/sitemap.xml
