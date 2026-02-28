@@ -835,34 +835,7 @@ const App = (() => {
     }).join('');
   }
 
-  // ── Newsletter ──
-  function bindNewsletter() {
-    const $form = document.getElementById('newsletterForm');
-    if (!$form) return;
-
-    $form.addEventListener('submit', e => {
-      e.preventDefault();
-      const $input = $form.querySelector('input[type="email"]');
-      const $msg = document.getElementById('newsletterMsg');
-      const email = $input.value.trim();
-
-      if (!email) return;
-
-      const subs = JSON.parse(localStorage.getItem('newsletter_subs') || '[]');
-      if (subs.includes(email)) {
-        $msg.textContent = I18n.t('newsletterAlready');
-        $msg.style.color = '#b45309';
-        return;
-      }
-
-      subs.push(email);
-      localStorage.setItem('newsletter_subs', JSON.stringify(subs));
-
-      $input.value = '';
-      $msg.textContent = I18n.t('newsletterSuccess');
-      $msg.style.color = '';
-    });
-  }
+  function bindNewsletter() { /* removed */ }
 
   // ── Ad Slot ──
   function renderAdSlots() {
