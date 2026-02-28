@@ -1,0 +1,144 @@
+name: Auto Check & Deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # 毎週月曜 9:00 JST (0:00 UTC)
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  validate-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Validate Data
+        run: |
+          python3 << 'PYEOF'
+          import json, sys
+
+          with open('data/sites.json', encoding='utf-8') as f:
+              data = json.load(f)
+
+          sites = data.get('sites', [])
+          categories = data.get('categories', [])
+          premium = data.get('premiumSites', [])
+          cat_ids = {c['id'] for c in categories}
+
+          print(f'Sites: {len(sites)}, Categories: {len(categories)}, Premium: {len(premium)}')
+
+          required = ['id','name','url','category','description','commercial','rating']
+          errors = 0
+          for i, s in enumerate(sites):
+              for key in required:
+                  if key not in s:
+                      print(f'ERROR: Site #{i} ({s.get("id","?")}) missing: {key}')
+                      errors += 1
+
+          ids = [s['id'] for s in sites]
+          dupes = set(x for x in ids if ids.count(x) > 1)
+          if dupes:
+              print(f'ERROR: Duplicate IDs: {dupes}')
+              errors += 1
+
+          if errors:
+              print(f'{errors} errors found')
+              sys.exit(1)
+          print('All validations passed!')
+          PYEOF
+
+      - name: Check Links (sample)
+        continue-on-error: true
+        run: |
+          python3 << 'PYEOF'
+          import json, urllib.request, ssl, random
+
+          ctx = ssl.create_default_context()
+          ctx.check_hostname = False
+          ctx.verify_mode = ssl.CERT_NONE
+
+          with open('data/sites.json', encoding='utf-8') as f:
+              data = json.load(f)
+
+          sites = data.get('sites', [])
+          sample = random.sample(sites, min(20, len(sites)))
+          ok = fail = 0
+
+          for s in sample:
+              url = s.get('url', '')
+              name = s.get('name', {})
+              if isinstance(name, dict): name = name.get('ja', s['id'])
+              if not url: continue
+              try:
+                  req = urllib.request.Request(url, method='HEAD', headers={'User-Agent':'Mozilla/5.0'})
+                  resp = urllib.request.urlopen(req, timeout=10, context=ctx)
+                  print(f'OK: {name} ({resp.getcode()})')
+                  ok += 1
+              except:
+                  try:
+                      req = urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0'})
+                      resp = urllib.request.urlopen(req, timeout=10, context=ctx)
+                      print(f'OK: {name} ({resp.getcode()} GET)')
+                      ok += 1
+                  except Exception as e:
+                      print(f'FAIL: {name} - {e}')
+                      fail += 1
+
+          print(f'Result: OK={ok}, FAIL={fail} / {len(sample)} sampled')
+          PYEOF
+
+      - name: Update sitemap
+        run: |
+          python3 << 'PYEOF'
+          import json
+
+          BASE = 'https://freesozo.github.io/free-asset-portal'
+          with open('data/sites.json', encoding='utf-8') as f:
+              data = json.load(f)
+
+          sites = data.get('sites', [])
+          categories = data.get('categories', [])
+
+          xml = f'''<?xml version="1.0" encoding="UTF-8"?>
+          <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+            <url><loc>{BASE}/index.html</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+            <url><loc>{BASE}/privacy.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>'''
+
+          for cat in categories:
+              xml += f'\n  <url><loc>{BASE}/category.html?cat={cat["id"]}</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>'
+          for s in sites:
+              xml += f'\n  <url><loc>{BASE}/detail.html?id={s["id"]}</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>'
+          xml += '\n</urlset>'
+
+          with open('sitemap.xml', 'w', encoding='utf-8') as f:
+              f.write(xml)
+          print(f'sitemap.xml: {2 + len(categories) + len(sites)} URLs')
+          PYEOF
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "auto: weekly update $(date '+%Y-%m-%d')"
+          git push || true
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
