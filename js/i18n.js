@@ -54,6 +54,9 @@ const I18n = (() => {
       affiliateDisclosure: '※ 一部リンクはアフィリエイトリンクを含みます。サイト運営のサポートにご協力ください。',
       // ページネーション
       loadMore: 'もっと見る',
+      // パーソナライズ
+      recentlyViewed: '最近チェックしたサイト',
+      favSection: '❤️ お気に入りサイト',
       // ダークモード
       themeDarkLabel: 'ダークモードに切替',
       themeLightLabel: 'ライトモードに切替',
@@ -163,6 +166,9 @@ const I18n = (() => {
       affiliateDisclosure: '* Some links are affiliate links. Your support helps us keep this site running.',
       // Pagination
       loadMore: 'Load More',
+      // Personalized sections
+      recentlyViewed: 'Recently Viewed',
+      favSection: '❤️ Your Favorites',
       // Dark mode
       themeDarkLabel: 'Switch to Dark Mode',
       themeLightLabel: 'Switch to Light Mode',

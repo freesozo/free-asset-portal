@@ -61,6 +61,8 @@ const App = (() => {
 
     const cat = data.categories.find(c => c.id === site.category);
     const catLabel = cat ? `${cat.icon} ${I18n.localize(cat.name)}` : '';
+    const isNew = site.dateAdded && (Date.now() - new Date(site.dateAdded).getTime()) < 30 * 86400000;
+    const newBadge = isNew ? ' <span class="new-badge">NEW</span>' : '';
     const favIcon = isFavorite(site.id) ? '❤️' : '🤍';
     const favLabel = isFavorite(site.id) ? I18n.t('unfavorite') : I18n.t('favorite');
 
@@ -73,7 +75,7 @@ const App = (() => {
       <article class="card${selectedClass}" data-id="${site.id}" role="button" tabindex="0" aria-label="${name}">
         ${compareOverlay}
         <div class="card-header">
-          <span class="card-name">${name}</span>
+          <span class="card-name">${name}${newBadge}</span>
           <span class="card-rating" aria-label="${site.rating}/5">${stars(site.rating)}</span>
         </div>
         <p class="card-highlight">${highlight}</p>
@@ -158,6 +160,10 @@ const App = (() => {
     if ($resultCount) {
       $resultCount.textContent = `${visible.length} / ${allSites.length}`;
     }
+
+    // Personalized sections
+    renderRecentlyViewed();
+    renderFavoritesHome();
 
     // Compare bar
     updateCompareBar();
@@ -555,6 +561,18 @@ const App = (() => {
       $recGrid.addEventListener('keydown', handleGridKeydown);
     }
 
+    // Personalized grids delegation
+    const $recentGrid = document.getElementById('recentGrid');
+    if ($recentGrid) {
+      $recentGrid.addEventListener('click', handleGridClick);
+      $recentGrid.addEventListener('keydown', handleGridKeydown);
+    }
+    const $favHomeGrid = document.getElementById('favHomeGrid');
+    if ($favHomeGrid) {
+      $favHomeGrid.addEventListener('click', handleGridClick);
+      $favHomeGrid.addEventListener('keydown', handleGridKeydown);
+    }
+
     // Modal close
     if ($modalOverlay) {
       document.getElementById('modalCloseBtn').addEventListener('click', closeModal);
@@ -584,6 +602,8 @@ const App = (() => {
     window.addEventListener('langchange', () => {
       renderCategoryNav();
       renderUseCaseNav();
+      renderRecentlyViewed();
+      renderFavoritesHome();
       render();
       renderPremiumSection();
       renderAdSlots();
@@ -597,6 +617,8 @@ const App = (() => {
     bindQuickFilters();
     renderCategoryNav();
     renderUseCaseNav();
+    renderRecentlyViewed();
+    renderFavoritesHome();
     render();
     renderPremiumSection();
     bindNewsletter();
@@ -668,6 +690,9 @@ const App = (() => {
       if ($content) $content.innerHTML = `<div class="no-results">${I18n.t('siteNotFound')}</div>`;
       return;
     }
+
+    // Track recently viewed
+    trackRecentlyViewed(site.id);
 
     // Update page meta
     const name = I18n.localize(site.name);
@@ -809,6 +834,36 @@ const App = (() => {
       document.head.appendChild(ldScript);
     }
     ldScript.textContent = JSON.stringify(jsonLd);
+  }
+
+  // ── Recently Viewed ──
+  function trackRecentlyViewed(id) {
+    let recent = JSON.parse(localStorage.getItem('recentlyViewed') || '[]');
+    recent = recent.filter(r => r !== id);
+    recent.unshift(id);
+    if (recent.length > 8) recent = recent.slice(0, 8);
+    localStorage.setItem('recentlyViewed', JSON.stringify(recent));
+  }
+
+  function renderRecentlyViewed() {
+    const section = document.getElementById('recentSection');
+    const grid = document.getElementById('recentGrid');
+    if (!section || !grid) return;
+    const recent = JSON.parse(localStorage.getItem('recentlyViewed') || '[]');
+    const recentSites = recent.map(id => data.sites.find(s => s.id === id)).filter(Boolean);
+    if (recentSites.length === 0) { section.style.display = 'none'; return; }
+    section.style.display = '';
+    grid.innerHTML = recentSites.map(cardHTML).join('');
+  }
+
+  function renderFavoritesHome() {
+    const section = document.getElementById('favHomeSection');
+    const grid = document.getElementById('favHomeGrid');
+    if (!section || !grid) return;
+    const favSites = data.sites.filter(s => isFavorite(s.id));
+    if (favSites.length === 0) { section.style.display = 'none'; return; }
+    section.style.display = '';
+    grid.innerHTML = favSites.map(cardHTML).join('');
   }
 
   // ── Premium Sites ──

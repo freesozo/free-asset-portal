@@ -1318,6 +1318,24 @@ ul { list-style: none; }
 }
 .quiz-retry:hover { background: var(--c-primary-dark); }
 
+/* ---------- NEW Badge ---------- */
+.new-badge {
+  background: var(--c-danger);
+  color: #fff;
+  font-size: .6rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 10px;
+  margin-left: 6px;
+  vertical-align: middle;
+  display: inline-block;
+  animation: newPulse 2s ease infinite;
+}
+@keyframes newPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .7; }
+}
+
 /* ---------- Responsive ---------- */
 @media (min-width: 768px) {
   .hero { padding: 64px 16px 48px; }
