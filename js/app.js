@@ -241,6 +241,8 @@ const App = (() => {
     const site = data.sites.find(s => s.id === id);
     if (!site) return;
 
+    trackRecentlyViewed(site.id);
+
     const cat = data.categories.find(c => c.id === site.category);
     const ucLabels = site.useCases.map(uid => {
       const uc = data.useCases.find(u => u.id === uid);
@@ -316,6 +318,7 @@ const App = (() => {
   function closeModal() {
     $modalOverlay.classList.remove('open');
     document.body.style.overflow = '';
+    renderRecentlyViewed();
   }
 
   // ── Category nav rendering ──
