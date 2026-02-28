@@ -1090,6 +1090,14 @@ ul { list-style: none; }
 }
 .footer-links a {
   color: var(--c-primary);
+}
+.sister-site {
+  margin-top: 10px;
+  font-size: .85rem;
+}
+.sister-site a {
+  color: var(--c-primary);
+  font-weight: 600;
   text-decoration: none;
 }
 .footer-links a:hover {
