@@ -653,6 +653,7 @@ const App = (() => {
     });
 
     renderDetailPage();
+    initBackToTop();
     I18n.applyAll();
   }
 
