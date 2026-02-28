@@ -5649,7 +5649,7 @@
         "en": "Shutterstock"
       },
       "url": "https://www.shutterstock.com/",
-      "affiliateUrl": "https://www.shutterstock.com/?ref=YOUR_AFFILIATE_ID",
+      "affiliateUrl": "",
       "category": "photo",
       "description": {
         "ja": "4億点以上の写真・イラスト・動画素材。プロ品質の素材が定額で使い放題。",
@@ -5675,7 +5675,7 @@
         "en": "Adobe Stock"
       },
       "url": "https://stock.adobe.com/",
-      "affiliateUrl": "https://stock.adobe.com/?ref=YOUR_AFFILIATE_ID",
+      "affiliateUrl": "",
       "category": "photo",
       "description": {
         "ja": "Adobe Creative Cloudと完全連携。Photoshop・Illustratorからそのまま検索・配置。",
@@ -5701,7 +5701,7 @@
         "en": "Envato Elements"
       },
       "url": "https://elements.envato.com/",
-      "affiliateUrl": "https://elements.envato.com/?ref=YOUR_AFFILIATE_ID",
+      "affiliateUrl": "",
       "category": "illustration",
       "description": {
         "ja": "写真・動画・音楽・テンプレート・フォントが全て定額で使い放題。クリエイターの万能ツール。",
@@ -5727,7 +5727,7 @@
         "en": "Artlist"
       },
       "url": "https://artlist.io/",
-      "affiliateUrl": "https://artlist.io/?ref=YOUR_AFFILIATE_ID",
+      "affiliateUrl": "",
       "category": "music",
       "description": {
         "ja": "映像クリエイター向けの高品質BGM・効果音。YouTube・SNS動画に最適。",
@@ -5753,7 +5753,7 @@
         "en": "Canva Pro"
       },
       "url": "https://www.canva.com/pro/",
-      "affiliateUrl": "https://www.canva.com/pro/?ref=YOUR_AFFILIATE_ID",
+      "affiliateUrl": "",
       "category": "illustration",
       "description": {
         "ja": "デザインツール＋1億点以上のプレミアム素材。初心者でもプロ級のデザインが作れる。",
