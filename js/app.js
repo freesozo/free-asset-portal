@@ -671,6 +671,28 @@ const App = (() => {
     document.title = `${name} – ${I18n.t('siteTitle')}`;
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.content = I18n.localize(site.description);
+    // Dynamic OGP
+    const pageUrl = 'https://freesozo.github.io/free-asset-portal/detail.html?id=' + site.id;
+    document.querySelector('meta[property="og:title"]')?.setAttribute('content', name + ' – フリー素材ポータル');
+    document.querySelector('meta[property="og:description"]')?.setAttribute('content', I18n.localize(site.description));
+    document.querySelector('link[rel="canonical"]')?.setAttribute('href', pageUrl);
+    // JSON-LD BreadcrumbList
+    const existingLd = document.querySelectorAll('script[data-dynamic-ld]');
+    existingLd.forEach(el => el.remove());
+    const bcLd = document.createElement('script');
+    bcLd.type = 'application/ld+json';
+    bcLd.dataset.dynamicLd = '1';
+    const cat0 = data.categories.find(c => c.id === site.category);
+    bcLd.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://freesozo.github.io/free-asset-portal/" },
+        { "@type": "ListItem", "position": 2, "name": cat0 ? I18n.localize(cat0.name) : site.category, "item": "https://freesozo.github.io/free-asset-portal/category.html?cat=" + site.category },
+        { "@type": "ListItem", "position": 3, "name": name }
+      ]
+    });
+    document.head.appendChild(bcLd);
 
     // Breadcrumb
     const cat = data.categories.find(c => c.id === site.category);
