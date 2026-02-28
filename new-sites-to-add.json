@@ -1,0 +1,650 @@
+[
+    {
+      "id": "shigureni",
+      "name": {
+        "ja": "しぐれうい素材",
+        "en": "Shigureni Free Illust"
+      },
+      "url": "https://shigureni.com/",
+      "category": "illustration",
+      "useCases": ["sns", "youtube", "web", "presentation"],
+      "description": {
+        "ja": "女の子の日常をテーマにしたおしゃれなフリーイラスト素材サイト。繊細で柔らかいタッチのイラストが特徴。",
+        "en": "Stylish free illustration site featuring daily life scenes of girls. Known for delicate and soft illustration style."
+      },
+      "highlight": {
+        "ja": "おしゃれで繊細な女の子イラストが無料で使える",
+        "en": "Elegant and delicate girl illustrations available for free"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["illustration", "girl", "cute", "japanese", "stylish"]
+    },
+    {
+      "id": "fontfree",
+      "name": {
+        "ja": "フォントフリー",
+        "en": "Font Free"
+      },
+      "url": "https://fontfree.me/",
+      "category": "font",
+      "useCases": ["web", "print", "youtube", "presentation"],
+      "description": {
+        "ja": "日本語フリーフォントの投稿・まとめサイト。明朝体、ゴシック体、手書き風など多彩なカテゴリで検索可能。",
+        "en": "Japanese free font posting and directory site. Searchable by categories like mincho, gothic, handwriting and more."
+      },
+      "highlight": {
+        "ja": "日本語フリーフォントを網羅的に探せる最大級のまとめサイト",
+        "en": "The largest directory for finding Japanese free fonts comprehensively"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": ["font", "japanese", "mincho", "gothic", "handwriting", "directory"]
+    },
+    {
+      "id": "goodfreefonts",
+      "name": {
+        "ja": "いいフォント",
+        "en": "Good Free Fonts"
+      },
+      "url": "https://goodfreefonts.com/",
+      "category": "font",
+      "useCases": ["web", "print", "youtube", "presentation"],
+      "description": {
+        "ja": "「かわいい」「かっこいい」「レトロ」などイメージキーワードで日本語フリーフォントを検索できるサイト。",
+        "en": "Search Japanese free fonts by image keywords like cute, cool, retro. Intuitive font discovery experience."
+      },
+      "highlight": {
+        "ja": "イメージから直感的にフォントを探せる検索体験",
+        "en": "Find fonts intuitively by searching with image keywords"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["font", "japanese", "search", "intuitive", "free"]
+    },
+    {
+      "id": "mockupworld",
+      "name": {
+        "ja": "Mockup World",
+        "en": "Mockup World"
+      },
+      "url": "https://www.mockupworld.co/",
+      "category": "mockup",
+      "useCases": ["web", "presentation", "print", "sns"],
+      "description": {
+        "ja": "世界最大級の無料モックアップコレクション。フォトリアルなPSDモックアップをカテゴリ別に探せる。",
+        "en": "One of the world's largest free mockup collections. Browse photo-realistic PSD mockups organized by category."
+      },
+      "highlight": {
+        "ja": "高品質なフォトリアルモックアップが豊富に揃う老舗サイト",
+        "en": "Established site with an extensive collection of high-quality photo-realistic mockups"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": ["mockup", "psd", "photorealistic", "design", "branding"]
+    },
+    {
+      "id": "unblast",
+      "name": {
+        "ja": "Unblast",
+        "en": "Unblast"
+      },
+      "url": "https://unblast.com/mockups/",
+      "category": "mockup",
+      "useCases": ["web", "presentation", "print", "app"],
+      "description": {
+        "ja": "PSDやFigma形式の無料モックアップをダウンロード可能。スマートフォン、パッケージ、Tシャツなど幅広いジャンル。",
+        "en": "Free customizable mockups in PSD or Figma format. Covers smartphones, packages, t-shirts, flyers, and more."
+      },
+      "highlight": {
+        "ja": "PSD・Figma両対応！幅広いジャンルのモックアップ素材",
+        "en": "PSD and Figma compatible! Wide range of mockup categories"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["mockup", "psd", "figma", "smartphone", "package", "design"]
+    },
+    {
+      "id": "mockuptree",
+      "name": {
+        "ja": "Mockup Tree",
+        "en": "Mockup Tree"
+      },
+      "url": "https://mockuptree.com/",
+      "category": "mockup",
+      "useCases": ["web", "presentation", "print"],
+      "description": {
+        "ja": "高解像度の無料モックアップをダウンロードできるサイト。個人・商用利用どちらも無料で使用可能。",
+        "en": "Download free high-resolution mockups for both personal and commercial projects."
+      },
+      "highlight": {
+        "ja": "高解像度モックアップが完全無料でダウンロード可能",
+        "en": "High-resolution mockups available completely free to download"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["mockup", "psd", "free", "high-resolution", "commercial"]
+    },
+    {
+      "id": "mrmockup",
+      "name": {
+        "ja": "Mr.Mockup",
+        "en": "Mr.Mockup"
+      },
+      "url": "https://mrmockup.com/free-mockups/",
+      "category": "mockup",
+      "useCases": ["web", "presentation", "print", "sns"],
+      "description": {
+        "ja": "Photoshop向けの高品質な無料モックアップ集。個人・商用利用ともに無料で利用可能。",
+        "en": "High-quality free mockup collection for Photoshop. Free for both personal and commercial use."
+      },
+      "highlight": {
+        "ja": "プロ品質のPSDモックアップが無料で商用利用OK",
+        "en": "Professional quality PSD mockups free for commercial use"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": ["mockup", "psd", "photoshop", "professional", "branding"]
+    },
+    {
+      "id": "goodmockups",
+      "name": {
+        "ja": "Good Mockups",
+        "en": "Good Mockups"
+      },
+      "url": "https://goodmockups.com/",
+      "category": "mockup",
+      "useCases": ["web", "presentation", "print"],
+      "description": {
+        "ja": "7000点以上の高品質フリーモックアップPSDファイル。Apple製品、ブランディング、屋内外広告など豊富なカテゴリ。",
+        "en": "Over 7000 high-quality free mockup PSD files. Rich categories including Apple devices, branding, indoor/outdoor advertising."
+      },
+      "highlight": {
+        "ja": "7000点超！あらゆるデザインシーンに対応するモックアップの宝庫",
+        "en": "Over 7000 items! A treasure trove of mockups for every design scenario"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["mockup", "psd", "apple", "branding", "advertising"]
+    },
+    {
+      "id": "resourceboy",
+      "name": {
+        "ja": "Resource Boy",
+        "en": "Resource Boy"
+      },
+      "url": "https://resourceboy.com/mockups/",
+      "category": "mockup",
+      "useCases": ["web", "presentation", "print"],
+      "description": {
+        "ja": "無料で商用利用可能なモックアップ、フォント、テクスチャなどのデザインリソース集。編集可能なPSDファイルを提供。",
+        "en": "Free design resources including mockups, fonts, and textures for commercial use. Provides editable PSD files."
+      },
+      "highlight": {
+        "ja": "モックアップだけでなくフォントやテクスチャも揃う総合デザイン素材サイト",
+        "en": "Comprehensive design resource site with mockups, fonts, and textures"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["mockup", "psd", "font", "texture", "design", "resource"]
+    },
+    {
+      "id": "sharetextures",
+      "name": {
+        "ja": "Share Textures",
+        "en": "Share Textures"
+      },
+      "url": "https://www.sharetextures.com/",
+      "category": "texture",
+      "useCases": ["game", "web", "youtube"],
+      "description": {
+        "ja": "1500種類以上のCC0ライセンスのテクスチャと200種類の3Dモデル。最大4K解像度で無料ダウンロード可能。",
+        "en": "Over 1500 CC0 licensed textures and 200 3D models. Free downloads available up to 4K resolution."
+      },
+      "highlight": {
+        "ja": "CC0ライセンスで完全自由！1500種以上の高品質テクスチャ",
+        "en": "Completely free with CC0 license! Over 1500 high-quality textures"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["texture", "cc0", "pbr", "4k", "3d", "free"]
+    },
+    {
+      "id": "texturecan",
+      "name": {
+        "ja": "TextureCan",
+        "en": "TextureCan"
+      },
+      "url": "https://www.texturecan.com/",
+      "category": "texture",
+      "useCases": ["game", "web"],
+      "description": {
+        "ja": "無料のPBRテクスチャと3Dモデルを提供。すべての素材は4K以上の高解像度で商用利用可能。",
+        "en": "Free PBR textures and 3D models. All materials at 4K+ resolution and free for commercial use."
+      },
+      "highlight": {
+        "ja": "すべて4K以上！高品質PBRテクスチャが完全無料",
+        "en": "All 4K or higher! High-quality PBR textures completely free"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["texture", "pbr", "4k", "3d-model", "free", "commercial"]
+    },
+    {
+      "id": "freepbr",
+      "name": {
+        "ja": "FreePBR",
+        "en": "FreePBR"
+      },
+      "url": "https://freepbr.com/",
+      "category": "texture",
+      "useCases": ["game", "web"],
+      "description": {
+        "ja": "600点以上の100%無料PBRテクスチャ素材。金属、木材、石材など多彩なマテリアルマップを提供。",
+        "en": "Over 600 completely free PBR texture materials. Provides diverse material maps including metal, wood, and stone."
+      },
+      "highlight": {
+        "ja": "PBRマテリアル専門！600点以上の無料テクスチャセット",
+        "en": "PBR material specialist! Over 600 free texture sets"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": ["texture", "pbr", "material", "metal", "wood", "stone"]
+    },
+    {
+      "id": "cgbookcase",
+      "name": {
+        "ja": "CG Bookcase",
+        "en": "CG Bookcase"
+      },
+      "url": "https://www.cgbookcase.com/",
+      "category": "texture",
+      "useCases": ["game", "web"],
+      "description": {
+        "ja": "CC0ライセンスのPBRテクスチャライブラリ。500点以上のテクスチャを最大4K解像度で提供。",
+        "en": "CC0 licensed PBR texture library. Over 500 textures available at up to 4K resolution."
+      },
+      "highlight": {
+        "ja": "CC0ライセンスで自由に使える高品質PBRテクスチャ集",
+        "en": "High-quality PBR textures free to use under CC0 license"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["texture", "pbr", "cc0", "4k", "tileable"]
+    },
+    {
+      "id": "poliigon",
+      "name": {
+        "ja": "Poliigon",
+        "en": "Poliigon"
+      },
+      "url": "https://www.poliigon.com/textures/free",
+      "category": "texture",
+      "useCases": ["game", "web"],
+      "description": {
+        "ja": "100点以上の無料PBRテクスチャ、3Dモデル、HDRIを提供。Blender、Maya、3ds Max等の主要ソフトに対応。",
+        "en": "Over 100 free PBR textures, 3D models, and HDRIs. Compatible with major software like Blender, Maya, and 3ds Max."
+      },
+      "highlight": {
+        "ja": "プロ向け品質のPBRテクスチャを無料で入手可能",
+        "en": "Professional-quality PBR textures available for free"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": ["texture", "pbr", "3d", "hdri", "blender", "professional"]
+    },
+    {
+      "id": "blenderkit",
+      "name": {
+        "ja": "BlenderKit",
+        "en": "BlenderKit"
+      },
+      "url": "https://www.blenderkit.com/",
+      "category": "3d",
+      "useCases": ["game", "youtube", "web"],
+      "description": {
+        "ja": "Blender統合型の3Dアセットライブラリ。12万点以上のアセットのうち約47%が無料で利用可能。",
+        "en": "Blender-integrated 3D asset library. About 47% of over 120,000 assets are available for free."
+      },
+      "highlight": {
+        "ja": "Blenderに直接統合！12万点超の3Dアセットライブラリ",
+        "en": "Directly integrated into Blender! Over 120,000 3D asset library"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": false,
+      "rating": 5,
+      "tags": ["3d", "blender", "model", "material", "hdri", "addon"]
+    },
+    {
+      "id": "cgtrader",
+      "name": {
+        "ja": "CGTrader",
+        "en": "CGTrader"
+      },
+      "url": "https://www.cgtrader.com/free-3d-models",
+      "category": "3d",
+      "useCases": ["game", "youtube", "web", "app"],
+      "description": {
+        "ja": "53万点以上の3Dモデルマーケットプレイス。多数の無料モデルをBlender、OBJ、FBX等の形式でダウンロード可能。",
+        "en": "3D model marketplace with over 530,000 models. Many free models available in Blender, OBJ, FBX formats."
+      },
+      "highlight": {
+        "ja": "53万点以上！世界有数の3Dモデルマーケットプレイス",
+        "en": "Over 530,000 models! One of the world's leading 3D model marketplaces"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": ["3d", "model", "blender", "obj", "fbx", "marketplace"]
+    },
+    {
+      "id": "otologic",
+      "name": {
+        "ja": "OtoLogic",
+        "en": "OtoLogic"
+      },
+      "url": "https://otologic.jp/",
+      "category": "music",
+      "useCases": ["youtube", "game", "web", "app"],
+      "description": {
+        "ja": "5000点以上の高品質フリーBGM、ジングル、効果音を提供。CC BY 4.0ライセンスでクレジット表記で無料利用可能。",
+        "en": "Over 5,000 high-quality free BGM, jingles, and sound effects. Free with credit under CC BY 4.0 license."
+      },
+      "highlight": {
+        "ja": "5000点以上！プロも使う高品質フリー音源サイト",
+        "en": "Over 5,000 items! High-quality free audio used by professionals"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": ["music", "bgm", "jingle", "sound-effect", "japanese", "cc-by"]
+    },
+    {
+      "id": "springinsound",
+      "name": {
+        "ja": "Springin' Sound Stock",
+        "en": "Springin' Sound Stock"
+      },
+      "url": "https://www.springin.org/sound-stock/",
+      "category": "music",
+      "useCases": ["youtube", "game", "app", "web"],
+      "description": {
+        "ja": "BGM・効果音1000点以上のフリー音源サイト。商用利用可能でクレジット不要。ゲームや動画制作に最適。",
+        "en": "Free audio site with over 1,000 BGM and sound effects. Commercial use OK, no credit required. Perfect for games and videos."
+      },
+      "highlight": {
+        "ja": "報告・クレジット不要！誰でも気軽に使えるフリー音源",
+        "en": "No reporting or credit needed! Free audio anyone can use casually"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["music", "bgm", "sound-effect", "game", "japanese", "free"]
+    },
+    {
+      "id": "chosic",
+      "name": {
+        "ja": "Chosic",
+        "en": "Chosic"
+      },
+      "url": "https://www.chosic.com/free-music/all/",
+      "category": "music",
+      "useCases": ["youtube", "web", "sns"],
+      "description": {
+        "ja": "ジャンル・ムード別にロイヤリティフリーBGMを検索・ダウンロード可能。YouTube・SNSでの利用に最適。",
+        "en": "Search and download royalty-free BGM by genre and mood. Perfect for YouTube and social media use."
+      },
+      "highlight": {
+        "ja": "ムード・ジャンルで直感的に探せるフリーBGMライブラリ",
+        "en": "Free BGM library with intuitive search by mood and genre"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["music", "bgm", "royalty-free", "youtube", "genre", "mood"]
+    },
+    {
+      "id": "fesliyanstudios",
+      "name": {
+        "ja": "Fesliyan Studios",
+        "en": "Fesliyan Studios"
+      },
+      "url": "https://www.fesliyanstudios.com/",
+      "category": "music",
+      "useCases": ["youtube", "game", "web", "app"],
+      "description": {
+        "ja": "YouTubeクリエイターや映像制作者向けのロイヤリティフリーBGMライブラリ。毎週新曲が追加される。",
+        "en": "Royalty-free background music library for YouTube creators and filmmakers. New tracks added weekly."
+      },
+      "highlight": {
+        "ja": "毎週更新！YouTube・映像制作に特化したフリーBGMサイト",
+        "en": "Updated weekly! Free BGM site specialized for YouTube and video production"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["music", "bgm", "youtube", "film", "royalty-free", "weekly-update"]
+    },
+    {
+      "id": "mockupsdesign",
+      "name": {
+        "ja": "Mockups Design",
+        "en": "Mockups Design"
+      },
+      "url": "https://mockups-design.com/",
+      "category": "mockup",
+      "useCases": ["web", "presentation", "print"],
+      "description": {
+        "ja": "プレミアム品質の無料モックアップをダウンロード可能。個人・商用利用ともに無料で即座にダウンロード可能。",
+        "en": "Download free premium-quality mockups. Instant download available free for both personal and commercial use."
+      },
+      "highlight": {
+        "ja": "プレミアム品質のモックアップが即座に無料ダウンロード",
+        "en": "Premium quality mockups available for instant free download"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["mockup", "psd", "premium", "free", "instant-download"]
+    },
+    {
+      "id": "lineicons",
+      "name": {
+        "ja": "Lineicons",
+        "en": "Lineicons"
+      },
+      "url": "https://lineicons.com/free-icons",
+      "category": "icon",
+      "useCases": ["web", "app", "presentation"],
+      "description": {
+        "ja": "2298以上のフリーSVGアイコンライブラリ。SVG、React、HTML、PNG、Vue等の形式に対応。",
+        "en": "Free SVG icon library with over 2,298 icons. Available in SVG, React, HTML, PNG, Vue and more formats."
+      },
+      "highlight": {
+        "ja": "SVG・React・Vue対応！2298以上のラインアイコン",
+        "en": "SVG, React, Vue compatible! Over 2,298 line icons"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["icon", "svg", "line", "react", "vue", "web-development"]
+    },
+    {
+      "id": "iconbuddy",
+      "name": {
+        "ja": "Iconbuddy",
+        "en": "Iconbuddy"
+      },
+      "url": "https://iconbuddy.com/",
+      "category": "icon",
+      "useCases": ["web", "app", "presentation"],
+      "description": {
+        "ja": "30万以上のオープンソースSVGアイコンを横断検索できるサイト。色・サイズのカスタマイズやSVG/PNG/JSX出力に対応。",
+        "en": "Search across 300,000+ open source SVG icons from multiple libraries. Customize color, size and export as SVG/PNG/JSX."
+      },
+      "highlight": {
+        "ja": "30万以上のアイコンを横断検索！カスタマイズして即ダウンロード",
+        "en": "Search across 300,000+ icons! Customize and download instantly"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": ["icon", "svg", "open-source", "search", "customize", "aggregator"]
+    },
+    {
+      "id": "architextures",
+      "name": {
+        "ja": "Architextures",
+        "en": "Architextures"
+      },
+      "url": "https://architextures.org/textures",
+      "category": "texture",
+      "useCases": ["web", "game", "presentation"],
+      "description": {
+        "ja": "建築・インテリア向けのシームレステクスチャ生成ツール。PBR対応で色やスケールを自由にカスタマイズ可能。",
+        "en": "Seamless texture generator for architecture and interiors. PBR-ready with customizable color and scale."
+      },
+      "highlight": {
+        "ja": "建築パースに最適！カスタマイズ可能なPBRテクスチャ生成",
+        "en": "Perfect for architectural visualization! Customizable PBR texture generation"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["texture", "pbr", "architecture", "seamless", "generator", "customizable"]
+    },
+    {
+      "id": "ffontjp",
+      "name": {
+        "ja": "日本語フリーフォント",
+        "en": "Japanese Free Font (ffont.jp)"
+      },
+      "url": "https://ffont.jp/",
+      "category": "font",
+      "useCases": ["web", "print", "youtube", "presentation"],
+      "description": {
+        "ja": "手書き風、明朝体、ゴシック体、ポップ体など多彩な日本語フリーフォントを紹介。商用利用可能なフォントも多数。",
+        "en": "Directory of Japanese free fonts including handwriting, mincho, gothic, and pop styles. Many fonts available for commercial use."
+      },
+      "highlight": {
+        "ja": "カテゴリ別に日本語フリーフォントを見つけやすいまとめサイト",
+        "en": "Easy-to-browse directory of Japanese free fonts organized by category"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["font", "japanese", "handwriting", "gothic", "mincho", "directory"]
+    },
+    {
+      "id": "soundscrate",
+      "name": {
+        "ja": "SoundsCrate",
+        "en": "SoundsCrate"
+      },
+      "url": "https://soundscrate.com/",
+      "category": "music",
+      "useCases": ["youtube", "game", "web"],
+      "description": {
+        "ja": "ロイヤリティフリーの音楽と効果音をダウンロード可能。動画制作やゲーム開発に活用できる高品質素材。",
+        "en": "Download royalty-free music and sound effects. High-quality assets for video production and game development."
+      },
+      "highlight": {
+        "ja": "動画クリエイター向けの音楽＆効果音フリー素材",
+        "en": "Free music and sound effects for video creators"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": ["music", "sound-effect", "royalty-free", "video", "game"]
+    },
+    {
+      "id": "texturebox",
+      "name": {
+        "ja": "TextureBox",
+        "en": "TextureBox"
+      },
+      "url": "https://texturebox.com/",
+      "category": "texture",
+      "useCases": ["game", "web"],
+      "description": {
+        "ja": "Unity・Unreal Engine向けの無料PBRテクスチャとマテリアル。ゲーム開発に最適化された高品質素材。",
+        "en": "Free PBR textures and materials for Unity and Unreal Engine. High-quality assets optimized for game development."
+      },
+      "highlight": {
+        "ja": "Unity・UE対応！ゲーム開発に特化したPBRテクスチャ",
+        "en": "Unity and UE compatible! PBR textures specialized for game development"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": ["texture", "pbr", "unity", "unreal-engine", "game-dev", "material"]
+    }
+]
