@@ -602,6 +602,7 @@ const App = (() => {
     bindNewsletter();
     renderAdSlots();
     initBackToTop();
+    initQuiz();
 
     if (isCategory) updateCategoryPageMeta();
     I18n.applyAll();
@@ -882,6 +883,188 @@ const App = (() => {
     });
     btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   }
+
+  // ── Quiz / おすすめ診断 ──
+  let quizState = { step: 0, q1: null, q2: null, q3: null };
+
+  function initQuiz() {
+    const startBtn = document.getElementById('quizStartBtn');
+    const overlay = document.getElementById('quizOverlay');
+    const closeBtn = document.getElementById('quizClose');
+    if (!startBtn || !overlay) return;
+
+    startBtn.addEventListener('click', () => {
+      quizState = { step: 1, q1: null, q2: null, q3: null };
+      overlay.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+      renderQuizStep();
+    });
+
+    closeBtn.addEventListener('click', closeQuiz);
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) closeQuiz();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && overlay.style.display === 'flex') closeQuiz();
+    });
+  }
+
+  function closeQuiz() {
+    const overlay = document.getElementById('quizOverlay');
+    overlay.style.display = 'none';
+    document.body.style.overflow = '';
+  }
+
+  function renderQuizProgress() {
+    const container = document.getElementById('quizProgress');
+    const steps = [1, 2, 3, 4];
+    container.innerHTML = steps.map(s => {
+      let cls = 'quiz-dot';
+      if (s < quizState.step) cls += ' done';
+      else if (s === quizState.step) cls += ' active';
+      return `<div class="${cls}"></div>`;
+    }).join('');
+  }
+
+  function renderQuizStep() {
+    renderQuizProgress();
+    const content = document.getElementById('quizContent');
+    if (quizState.step === 1) renderQuizQ1(content);
+    else if (quizState.step === 2) renderQuizQ2(content);
+    else if (quizState.step === 3) renderQuizQ3(content);
+    else if (quizState.step === 4) renderQuizResults(content);
+  }
+
+  function renderQuizQ1(el) {
+    const cats = data.categories;
+    el.innerHTML = `<h2>${I18n.t('quizQ1')}</h2>
+      <div class="quiz-options">${cats.map(c =>
+        `<button class="quiz-option" data-value="${c.id}">${c.icon} ${I18n.localize(c.name)}</button>`
+      ).join('')}</div>`;
+    el.querySelectorAll('.quiz-option').forEach(btn => {
+      btn.addEventListener('click', () => {
+        quizState.q1 = btn.dataset.value;
+        quizState.step = 2;
+        renderQuizStep();
+      });
+    });
+  }
+
+  function renderQuizQ2(el) {
+    const ucs = data.useCases;
+    el.innerHTML = `<h2>${I18n.t('quizQ2')}</h2>
+      <div class="quiz-options">
+        ${ucs.map(u =>
+          `<button class="quiz-option" data-value="${u.id}">${u.icon} ${I18n.localize(u.name)}</button>`
+        ).join('')}
+        <button class="quiz-option" data-value="any">${I18n.t('quizQ2any')}</button>
+      </div>
+      <button class="quiz-back" id="quizBackBtn">${I18n.t('quizBack')}</button>`;
+    el.querySelectorAll('.quiz-option').forEach(btn => {
+      btn.addEventListener('click', () => {
+        quizState.q2 = btn.dataset.value;
+        quizState.step = 3;
+        renderQuizStep();
+      });
+    });
+    document.getElementById('quizBackBtn').addEventListener('click', () => {
+      quizState.step = 1;
+      renderQuizStep();
+    });
+  }
+
+  function renderQuizQ3(el) {
+    const keys = ['quizQ3a', 'quizQ3b', 'quizQ3c'];
+    const values = ['commercial', 'easy', 'beginner'];
+    el.innerHTML = `<h2>${I18n.t('quizQ3')}</h2>
+      <div class="quiz-options">${keys.map((k, i) =>
+        `<button class="quiz-option" data-value="${values[i]}">${I18n.t(k)}</button>`
+      ).join('')}</div>
+      <button class="quiz-back" id="quizBackBtn">${I18n.t('quizBack')}</button>`;
+    el.querySelectorAll('.quiz-option').forEach(btn => {
+      btn.addEventListener('click', () => {
+        quizState.q3 = btn.dataset.value;
+        quizState.step = 4;
+        renderQuizStep();
+      });
+    });
+    document.getElementById('quizBackBtn').addEventListener('click', () => {
+      quizState.step = 2;
+      renderQuizStep();
+    });
+  }
+
+  function quizScoreSites(sites) {
+    return sites.map(s => {
+      let score = 0;
+      // Base rating
+      score += s.rating * 2;
+      // Q3 priority
+      if (quizState.q3 === 'commercial') {
+        if (s.commercial) score += 8;
+        if (!s.creditRequired) score += 3;
+      } else if (quizState.q3 === 'easy') {
+        if (!s.registrationRequired) score += 6;
+        if (!s.creditRequired) score += 6;
+      } else if (quizState.q3 === 'beginner') {
+        if (s.beginnerFriendly) score += 8;
+        if (!s.registrationRequired) score += 3;
+      }
+      // Affiliate bonus
+      if (s.affiliateUrl) score += 1;
+      return { site: s, score };
+    }).sort((a, b) => b.score - a.score);
+  }
+
+  function renderQuizResults(el) {
+    let sites = data.sites.filter(s => s.category === quizState.q1);
+    if (quizState.q2 !== 'any') {
+      const withUC = sites.filter(s => s.useCases.includes(quizState.q2));
+      if (withUC.length > 0) sites = withUC;
+    }
+    const scored = quizScoreSites(sites);
+    const top5 = scored.slice(0, 5);
+
+    let html = `<h2 class="quiz-results-title">${I18n.t('quizResultTitle')}</h2>`;
+    if (top5.length === 0) {
+      html += `<p class="quiz-no-result">${I18n.t('quizNoResult')}</p>`;
+    } else {
+      html += '<div class="quiz-results-grid">' +
+        top5.map(s => cardHTML(s.site)).join('') +
+        '</div>';
+    }
+    html += `<button class="quiz-retry" id="quizRetryBtn">${I18n.t('quizRetry')}</button>`;
+    el.innerHTML = html;
+
+    // Bind card clicks and fav buttons in results
+    el.querySelectorAll('.card[data-id]').forEach(card => {
+      card.addEventListener('click', (e) => {
+        if (e.target.closest('.fav-btn')) return;
+        openModal(card.dataset.id);
+      });
+    });
+    el.querySelectorAll('.fav-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleFavorite(btn.dataset.id);
+        renderQuizStep();
+        render();
+      });
+    });
+
+    document.getElementById('quizRetryBtn').addEventListener('click', () => {
+      quizState = { step: 1, q1: null, q2: null, q3: null };
+      renderQuizStep();
+    });
+  }
+
+  // Re-render quiz on language change
+  window.addEventListener('langchange', () => {
+    const overlay = document.getElementById('quizOverlay');
+    if (overlay && overlay.style.display === 'flex') {
+      renderQuizStep();
+    }
+  });
 
   return { init, initDetail };
 })();
