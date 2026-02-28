@@ -104,7 +104,7 @@ jobs:
           python3 << 'PYEOF'
           import json
 
-          BASE = 'https://freesozo.github.io/free-asset-portal'
+          BASE = 'https://freesozo.com'
           with open('data/sites.json', encoding='utf-8') as f:
               data = json.load(f)
 

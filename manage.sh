@@ -194,7 +194,7 @@ cmd_update() {
   python3 -c "
 import json
 
-BASE_URL = 'https://freesozo.github.io/free-asset-portal'
+BASE_URL = 'https://freesozo.com'
 
 with open(r'$SITES_FILE', encoding='utf-8') as f:
     data = json.load(f)
@@ -229,7 +229,7 @@ print(f'sitemap.xml: {total} URLs generated')
   cat > "$SCRIPT_DIR/robots.txt" << 'ROBOTS'
 User-agent: *
 Allow: /
-Sitemap: https://freesozo.github.io/free-asset-portal/sitemap.xml
+Sitemap: https://freesozo.com/sitemap.xml
 ROBOTS
   fix "robots.txt 更新"
 
