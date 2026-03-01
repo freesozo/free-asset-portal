@@ -81,7 +81,7 @@ const App = (() => {
         <p class="card-highlight">${highlight}</p>
         <div class="card-badges">${badges.join('')}</div>
         <div class="card-footer">
-          <span class="tag">${catLabel}</span>
+          <a class="tag" href="category.html?cat=${site.category}">${catLabel}</a>
           <button class="fav-btn" data-id="${site.id}" aria-label="${favLabel}" title="${favLabel}">${favIcon}</button>
         </div>
       </article>`;

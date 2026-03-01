@@ -1373,3 +1373,14 @@ ul { list-style: none; }
   z-index: 90;
 }
 .back-to-top.visible { opacity: 1; pointer-events: auto; }
+
+/* ---------- Sister Site Banner ---------- */
+.sister-banner {
+  background: var(--c-tag-bg);
+  border-top: 2px solid var(--c-primary);
+  padding: 16px 0;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--c-text);
+}
+.sister-banner a { color: var(--c-primary); text-decoration: underline; }
