@@ -6749,6 +6749,39 @@
         "game-dev",
         "material"
       ]
+    },
+    {
+      "id": "logoipsum",
+      "name": {
+        "ja": "Logoipsum",
+        "en": "Logoipsum"
+      },
+      "url": "https://logoipsum.com/",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation"
+      ],
+      "description": {
+        "ja": "ダミーロゴ素材集。デザインモックアップ用のプレースホルダーロゴを無料で提供。",
+        "en": "Dummy logo collection. Free placeholder logos for design mockups and prototypes."
+      },
+      "highlight": {
+        "ja": "モックアップに最適なダミーロゴ素材",
+        "en": "Perfect placeholder logos for mockups"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "logo",
+        "placeholder",
+        "mockup",
+        "free"
+      ],
+      "dateAdded": "2026-03-01"
     }
   ],
   "categories": [
