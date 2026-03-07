@@ -31,7 +31,10 @@
         "illustration",
         "cute",
         "free",
-        "japanese"
+        "japanese",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -64,7 +67,10 @@
         "illustration",
         "vector",
         "highquality",
-        "japanese"
+        "japanese",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -97,7 +103,9 @@
         "svg",
         "tech",
         "business",
-        "english"
+        "english",
+        "png",
+        "jpg"
       ]
     },
     {
@@ -130,7 +138,10 @@
         "illustration",
         "lineart",
         "stylish",
-        "japanese"
+        "japanese",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -163,7 +174,9 @@
         "photo",
         "japanese",
         "model",
-        "highquality"
+        "highquality",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -196,7 +209,9 @@
         "photo",
         "highres",
         "global",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -229,7 +244,9 @@
         "photo",
         "video",
         "api",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -264,7 +281,9 @@
         "illustration",
         "video",
         "vector",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -297,7 +316,9 @@
         "photo",
         "japanese",
         "funny",
-        "unique"
+        "unique",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -329,7 +350,8 @@
         "music",
         "bgm",
         "youtube",
-        "japanese"
+        "japanese",
+        "mp3"
       ]
     },
     {
@@ -362,7 +384,8 @@
         "music",
         "bgm",
         "calm",
-        "japanese"
+        "japanese",
+        "mp3"
       ]
     },
     {
@@ -394,7 +417,8 @@
         "sound",
         "effect",
         "game",
-        "japanese"
+        "japanese",
+        "mp3"
       ]
     },
     {
@@ -426,7 +450,8 @@
         "sound",
         "effect",
         "realistic",
-        "japanese"
+        "japanese",
+        "mp3"
       ]
     },
     {
@@ -459,7 +484,8 @@
         "icon",
         "mono",
         "svg",
-        "japanese"
+        "japanese",
+        "png"
       ]
     },
     {
@@ -490,7 +516,9 @@
         "icon",
         "font",
         "web",
-        "english"
+        "english",
+        "svg",
+        "png"
       ]
     },
     {
@@ -523,7 +551,8 @@
         "video",
         "footage",
         "background",
-        "english"
+        "english",
+        "mp4"
       ]
     },
     {
@@ -555,7 +584,8 @@
         "video",
         "music",
         "template",
-        "english"
+        "english",
+        "mp4"
       ]
     },
     {
@@ -589,7 +619,9 @@
         "pattern",
         "background",
         "web",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -623,7 +655,10 @@
         "generated",
         "prompt",
         "stable-diffusion",
-        "english"
+        "english",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -656,7 +691,9 @@
         "animation",
         "svg",
         "customizable",
-        "english"
+        "english",
+        "png",
+        "jpg"
       ]
     },
     {
@@ -691,7 +728,10 @@
         "photo",
         "psd",
         "english",
-        "global"
+        "global",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -723,7 +763,10 @@
         "illustration",
         "vector",
         "editor",
-        "english"
+        "english",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -756,7 +799,8 @@
         "svg",
         "vector",
         "open-source",
-        "english"
+        "english",
+        "png"
       ]
     },
     {
@@ -789,7 +833,10 @@
         "people",
         "customizable",
         "figma",
-        "english"
+        "english",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -821,7 +868,10 @@
         "illustration",
         "people",
         "hand-drawn",
-        "english"
+        "english",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -854,7 +904,9 @@
         "flat",
         "svg",
         "customizable",
-        "english"
+        "english",
+        "png",
+        "jpg"
       ]
     },
     {
@@ -886,7 +938,10 @@
         "illustration",
         "figma",
         "customizable",
-        "english"
+        "english",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -919,7 +974,10 @@
         "illustration",
         "silhouette",
         "vector",
-        "japanese"
+        "japanese",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -951,7 +1009,10 @@
         "illustration",
         "template",
         "frame",
-        "japanese"
+        "japanese",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -984,7 +1045,9 @@
         "lifestyle",
         "stylish",
         "color-palette",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -1017,7 +1080,9 @@
         "business",
         "ecommerce",
         "shopify",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -1050,7 +1115,9 @@
         "photo",
         "cc0",
         "highres",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -1082,7 +1149,9 @@
         "photo",
         "icon",
         "unique",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -1114,7 +1183,9 @@
         "photo",
         "food",
         "restaurant",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -1147,7 +1218,9 @@
         "creative",
         "artistic",
         "quirky",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -1179,7 +1252,9 @@
         "photo",
         "japanese",
         "landscape",
-        "natural"
+        "natural",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -1212,7 +1287,8 @@
         "bgm",
         "game",
         "rpg",
-        "japanese"
+        "japanese",
+        "mp3"
       ]
     },
     {
@@ -1246,7 +1322,8 @@
         "bgm",
         "loop",
         "game",
-        "japanese"
+        "japanese",
+        "mp3"
       ]
     },
     {
@@ -1279,7 +1356,8 @@
         "effect",
         "ui",
         "game",
-        "japanese"
+        "japanese",
+        "mp3"
       ]
     },
     {
@@ -1313,7 +1391,8 @@
         "bgm",
         "youtube",
         "royalty-free",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -1347,7 +1426,8 @@
         "bgm",
         "modern",
         "corporate",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -1379,7 +1459,8 @@
         "bgm",
         "youtube",
         "creator",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -1413,7 +1494,8 @@
         "ambient",
         "community",
         "cc",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -1445,7 +1527,8 @@
         "sound",
         "effect",
         "professional",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -1512,7 +1595,8 @@
         "svg",
         "tailwind",
         "open-source",
-        "english"
+        "english",
+        "png"
       ]
     },
     {
@@ -1545,7 +1629,8 @@
         "open-source",
         "react",
         "vue",
-        "english"
+        "english",
+        "png"
       ]
     },
     {
@@ -1578,7 +1663,9 @@
         "icon",
         "google",
         "web",
-        "english"
+        "english",
+        "svg",
+        "png"
       ]
     },
     {
@@ -1610,7 +1697,9 @@
         "icon",
         "community",
         "diverse",
-        "english"
+        "english",
+        "svg",
+        "png"
       ]
     },
     {
@@ -1643,7 +1732,8 @@
         "background",
         "loop",
         "web",
-        "english"
+        "english",
+        "mp4"
       ]
     },
     {
@@ -1675,7 +1765,8 @@
         "video",
         "4k",
         "motion-graphics",
-        "english"
+        "english",
+        "mp4"
       ]
     },
     {
@@ -1708,7 +1799,8 @@
         "cc0",
         "nature",
         "urban",
-        "english"
+        "english",
+        "mp4"
       ]
     },
     {
@@ -1740,7 +1832,9 @@
         "pattern",
         "svg",
         "css",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -1774,7 +1868,9 @@
         "generator",
         "gradient",
         "wave",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -1807,7 +1903,9 @@
         "background",
         "generator",
         "gradient",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -1839,7 +1937,8 @@
         "transparent",
         "pattern",
         "png",
-        "english"
+        "english",
+        "jpg"
       ]
     },
     {
@@ -1873,7 +1972,10 @@
         "generated",
         "image",
         "community",
-        "english"
+        "english",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -1907,7 +2009,10 @@
         "generated",
         "prompt",
         "community",
-        "english"
+        "english",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -1940,7 +2045,10 @@
         "model",
         "stable-diffusion",
         "lora",
-        "english"
+        "english",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -2891,7 +2999,10 @@
         "illustration",
         "flat",
         "icon",
-        "japanese"
+        "japanese",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -2925,7 +3036,10 @@
         "illustration",
         "simple",
         "business",
-        "japanese"
+        "japanese",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -2958,7 +3072,10 @@
         "illustration",
         "lineart",
         "simple",
-        "japanese"
+        "japanese",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -2991,7 +3108,10 @@
         "illustration",
         "business",
         "simple",
-        "japanese"
+        "japanese",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -3024,7 +3144,10 @@
         "illustration",
         "handdrawn",
         "cute",
-        "japanese"
+        "japanese",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -3057,7 +3180,10 @@
         "illustration",
         "watercolor",
         "cute",
-        "japanese"
+        "japanese",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -3089,7 +3215,9 @@
         "illustration",
         "svg",
         "modern",
-        "english"
+        "english",
+        "png",
+        "jpg"
       ]
     },
     {
@@ -3122,7 +3250,10 @@
         "animation",
         "lottie",
         "web",
-        "english"
+        "english",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -3155,7 +3286,10 @@
         "illustration",
         "variety",
         "styles",
-        "english"
+        "english",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -3188,7 +3322,10 @@
         "illustration",
         "building",
         "town",
-        "japanese"
+        "japanese",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -3221,7 +3358,9 @@
         "girly",
         "stylish",
         "sns",
-        "japanese"
+        "japanese",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -3254,7 +3393,9 @@
         "photo",
         "diversity",
         "people",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -3287,7 +3428,9 @@
         "photo",
         "publicdomain",
         "illustration",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -3319,7 +3462,9 @@
         "photo",
         "landscape",
         "architecture",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -3352,7 +3497,9 @@
         "photo",
         "blog",
         "web",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -3384,7 +3531,9 @@
         "photo",
         "artistic",
         "creative",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -3417,7 +3566,9 @@
         "photo",
         "search",
         "aggregator",
-        "japanese"
+        "japanese",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -3450,7 +3601,9 @@
         "photo",
         "cc0",
         "weekly",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -3482,7 +3635,8 @@
         "music",
         "orchestral",
         "classical",
-        "japanese"
+        "japanese",
+        "mp3"
       ]
     },
     {
@@ -3514,7 +3668,8 @@
         "music",
         "bgm",
         "variety",
-        "japanese"
+        "japanese",
+        "mp3"
       ]
     },
     {
@@ -3546,7 +3701,8 @@
         "music",
         "edm",
         "youtube",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -3579,7 +3735,8 @@
         "fantasy",
         "japanese-style",
         "game",
-        "japanese"
+        "japanese",
+        "mp3"
       ]
     },
     {
@@ -3611,7 +3768,8 @@
         "music",
         "game",
         "rpg",
-        "japanese"
+        "japanese",
+        "mp3"
       ]
     },
     {
@@ -3642,7 +3800,8 @@
         "music",
         "youtube",
         "official",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -3673,7 +3832,8 @@
         "sound",
         "game",
         "rpg",
-        "japanese"
+        "japanese",
+        "mp3"
       ]
     },
     {
@@ -3705,7 +3865,8 @@
         "sound",
         "archive",
         "bbc",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -3738,7 +3899,8 @@
         "sound",
         "cc0",
         "publicdomain",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -3770,7 +3932,8 @@
       "tags": [
         "sound",
         "royaltyfree",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -3803,7 +3966,8 @@
         "video",
         "4k",
         "motion",
-        "english"
+        "english",
+        "mp4"
       ]
     },
     {
@@ -3835,7 +3999,8 @@
         "video",
         "4k",
         "professional",
-        "english"
+        "english",
+        "mp4"
       ]
     },
     {
@@ -3867,7 +4032,8 @@
         "video",
         "artistic",
         "curated",
-        "english"
+        "english",
+        "mp4"
       ]
     },
     {
@@ -3899,7 +4065,8 @@
         "video",
         "hd",
         "weekly",
-        "english"
+        "english",
+        "mp4"
       ]
     },
     {
@@ -3931,7 +4098,9 @@
         "icon",
         "google",
         "material",
-        "english"
+        "english",
+        "svg",
+        "png"
       ]
     },
     {
@@ -3963,7 +4132,8 @@
         "bootstrap",
         "svg",
         "web",
-        "english"
+        "english",
+        "png"
       ]
     },
     {
@@ -3994,7 +4164,8 @@
         "icon",
         "svg",
         "modern",
-        "english"
+        "english",
+        "png"
       ]
     },
     {
@@ -4025,7 +4196,8 @@
         "icon",
         "svg",
         "customizable",
-        "english"
+        "english",
+        "png"
       ]
     },
     {
@@ -4058,7 +4230,8 @@
         "brand",
         "logo",
         "svg",
-        "english"
+        "english",
+        "png"
       ]
     },
     {
@@ -4091,7 +4264,9 @@
         "icon",
         "allinone",
         "variety",
-        "english"
+        "english",
+        "svg",
+        "png"
       ]
     },
     {
@@ -4124,7 +4299,9 @@
         "pattern",
         "svg",
         "generator",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -4156,7 +4333,9 @@
         "svg",
         "background",
         "css",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -4189,7 +4368,9 @@
         "svg",
         "generator",
         "wave",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -4223,7 +4404,9 @@
         "highres",
         "grunge",
         "paper",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -4256,7 +4439,9 @@
         "seamless",
         "cc0",
         "game",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -4576,7 +4761,9 @@
         "photo",
         "ai",
         "generated",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -4609,7 +4796,10 @@
         "illustration",
         "ai",
         "generator",
-        "english"
+        "english",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -4642,7 +4832,9 @@
         "photo",
         "stock",
         "free",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -4675,7 +4867,9 @@
         "photo",
         "cc0",
         "highquality",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -4708,7 +4902,9 @@
         "photo",
         "artistic",
         "cc0",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -4741,7 +4937,9 @@
         "photo",
         "cc0",
         "original",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -4774,7 +4972,9 @@
         "photo",
         "feminine",
         "styled",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -4807,7 +5007,9 @@
         "photo",
         "curated",
         "color",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -4839,7 +5041,9 @@
         "photo",
         "landscape",
         "cc0",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -4872,7 +5076,9 @@
         "doodle",
         "sketch",
         "svg",
-        "english"
+        "english",
+        "png",
+        "jpg"
       ]
     },
     {
@@ -4904,7 +5110,10 @@
         "illustration",
         "surreal",
         "creative",
-        "english"
+        "english",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -4936,7 +5145,10 @@
         "illustration",
         "gradient",
         "customizable",
-        "english"
+        "english",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -4969,7 +5181,10 @@
         "illustration",
         "ui",
         "customizable",
-        "english"
+        "english",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -5001,7 +5216,10 @@
         "illustration",
         "generator",
         "character",
-        "english"
+        "english",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -5034,7 +5252,8 @@
         "music",
         "cc",
         "archive",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -5067,7 +5286,8 @@
         "music",
         "cc",
         "remix",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -5099,7 +5319,8 @@
         "music",
         "indie",
         "large",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -5132,7 +5353,8 @@
         "music",
         "bgm",
         "icons8",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -5165,7 +5387,8 @@
         "sound",
         "sfx",
         "free",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -5197,7 +5420,8 @@
         "sound",
         "sfx",
         "loop",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -5229,7 +5453,8 @@
         "sound",
         "game",
         "sfx",
-        "english"
+        "english",
+        "mp3"
       ]
     },
     {
@@ -5261,7 +5486,8 @@
         "video",
         "cinemagraph",
         "web",
-        "english"
+        "english",
+        "mp4"
       ]
     },
     {
@@ -5294,7 +5520,8 @@
         "video",
         "asia",
         "template",
-        "japanese"
+        "japanese",
+        "mp4"
       ]
     },
     {
@@ -5326,7 +5553,8 @@
         "video",
         "motion",
         "background",
-        "english"
+        "english",
+        "mp4"
       ]
     },
     {
@@ -5358,7 +5586,8 @@
         "icon",
         "simple",
         "svg",
-        "english"
+        "english",
+        "png"
       ]
     },
     {
@@ -5389,7 +5618,9 @@
         "icon",
         "minimal",
         "opensource",
-        "english"
+        "english",
+        "svg",
+        "png"
       ]
     },
     {
@@ -5420,7 +5651,9 @@
         "icon",
         "webfont",
         "solid",
-        "english"
+        "english",
+        "svg",
+        "png"
       ]
     },
     {
@@ -5451,7 +5684,9 @@
         "icon",
         "opensource",
         "line",
-        "english"
+        "english",
+        "svg",
+        "png"
       ]
     },
     {
@@ -5482,7 +5717,8 @@
         "icon",
         "svg",
         "react",
-        "english"
+        "english",
+        "png"
       ]
     },
     {
@@ -5514,7 +5750,9 @@
         "texture",
         "cc0",
         "photo",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -5546,7 +5784,9 @@
         "texture",
         "seamless",
         "tileable",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -5578,7 +5818,9 @@
         "pbr",
         "3d",
         "cc0",
-        "english"
+        "english",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -5611,7 +5853,9 @@
         "font",
         "commercial",
         "webfont",
-        "english"
+        "english",
+        "svg",
+        "png"
       ]
     },
     {
@@ -5644,7 +5888,9 @@
         "font",
         "archive",
         "large",
-        "english"
+        "english",
+        "svg",
+        "png"
       ]
     },
     {
@@ -5677,7 +5923,9 @@
         "font",
         "commercial",
         "large",
-        "english"
+        "english",
+        "svg",
+        "png"
       ]
     },
     {
@@ -5709,7 +5957,9 @@
         "font",
         "google",
         "multilingual",
-        "english"
+        "english",
+        "svg",
+        "png"
       ]
     },
     {
@@ -5740,7 +5990,9 @@
         "icon",
         "material",
         "google",
-        "english"
+        "english",
+        "svg",
+        "png"
       ]
     },
     {
@@ -5773,7 +6025,9 @@
         "photo",
         "japanese",
         "landscape",
-        "food"
+        "food",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -5805,7 +6059,9 @@
         "photo",
         "business",
         "japanese",
-        "office"
+        "office",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -5840,7 +6096,10 @@
         "girl",
         "cute",
         "japanese",
-        "stylish"
+        "stylish",
+        "png",
+        "svg",
+        "jpg"
       ]
     },
     {
@@ -5876,7 +6135,9 @@
         "mincho",
         "gothic",
         "handwriting",
-        "directory"
+        "directory",
+        "svg",
+        "png"
       ]
     },
     {
@@ -5911,7 +6172,9 @@
         "japanese",
         "search",
         "intuitive",
-        "free"
+        "free",
+        "svg",
+        "png"
       ]
     },
     {
@@ -6155,7 +6418,9 @@
         "pbr",
         "4k",
         "3d",
-        "free"
+        "free",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -6189,7 +6454,9 @@
         "4k",
         "3d-model",
         "free",
-        "commercial"
+        "commercial",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -6223,7 +6490,9 @@
         "material",
         "metal",
         "wood",
-        "stone"
+        "stone",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -6256,7 +6525,9 @@
         "pbr",
         "cc0",
         "4k",
-        "tileable"
+        "tileable",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -6290,7 +6561,9 @@
         "3d",
         "hdri",
         "blender",
-        "professional"
+        "professional",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -6397,7 +6670,8 @@
         "jingle",
         "sound-effect",
         "japanese",
-        "cc-by"
+        "cc-by",
+        "mp3"
       ]
     },
     {
@@ -6433,7 +6707,8 @@
         "sound-effect",
         "game",
         "japanese",
-        "free"
+        "free",
+        "mp3"
       ]
     },
     {
@@ -6468,7 +6743,8 @@
         "royalty-free",
         "youtube",
         "genre",
-        "mood"
+        "mood",
+        "mp3"
       ]
     },
     {
@@ -6504,7 +6780,8 @@
         "youtube",
         "film",
         "royalty-free",
-        "weekly-update"
+        "weekly-update",
+        "mp3"
       ]
     },
     {
@@ -6573,7 +6850,8 @@
         "line",
         "react",
         "vue",
-        "web-development"
+        "web-development",
+        "png"
       ]
     },
     {
@@ -6608,7 +6886,8 @@
         "open-source",
         "search",
         "customize",
-        "aggregator"
+        "aggregator",
+        "png"
       ]
     },
     {
@@ -6643,7 +6922,9 @@
         "architecture",
         "seamless",
         "generator",
-        "customizable"
+        "customizable",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -6679,7 +6960,9 @@
         "handwriting",
         "gothic",
         "mincho",
-        "directory"
+        "directory",
+        "svg",
+        "png"
       ]
     },
     {
@@ -6713,7 +6996,8 @@
         "sound-effect",
         "royalty-free",
         "video",
-        "game"
+        "game",
+        "mp3"
       ]
     },
     {
@@ -6747,7 +7031,9 @@
         "unity",
         "unreal-engine",
         "game-dev",
-        "material"
+        "material",
+        "jpg",
+        "png"
       ]
     },
     {
@@ -6779,9 +7065,582 @@
         "logo",
         "placeholder",
         "mockup",
-        "free"
+        "free",
+        "png",
+        "svg",
+        "jpg"
       ],
       "dateAdded": "2026-03-01"
+    },
+    {
+      "id": "google-fonts",
+      "name": {
+        "ja": "Google Fonts",
+        "en": "Google Fonts"
+      },
+      "url": "https://fonts.google.com/",
+      "category": "font",
+      "useCases": [
+        "web"
+      ],
+      "description": {
+        "ja": "Googleが提供する無料Webフォントサービス。1,500以上のフォントファミリーを商用利用可能。",
+        "en": "Free web font service by Google. Over 1,500 font families available for commercial use."
+      },
+      "highlight": {
+        "ja": "1,500以上の無料フォント。Webフォントとしてそのまま使える",
+        "en": "Over 1,500 free fonts. Ready to use as web fonts"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "font",
+        "free",
+        "english",
+        "otf"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "fontna",
+      "name": {
+        "ja": "フォントな",
+        "en": "Fontna"
+      },
+      "url": "https://www.fontna.com/",
+      "category": "font",
+      "useCases": [
+        "web"
+      ],
+      "description": {
+        "ja": "日本語フリーフォントのまとめサイト。手書き風やデザイン系の日本語フォントを多数紹介。",
+        "en": "Japanese free font directory. Introduces many handwritten and design-style Japanese fonts."
+      },
+      "highlight": {
+        "ja": "日本語フリーフォント専門。手書き風からデザイン系まで",
+        "en": "Specializes in Japanese free fonts. From handwritten to design styles"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "free",
+        "japanese",
+        "otf"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "mplus-fonts",
+      "name": {
+        "ja": "M+ FONTS",
+        "en": "M+ FONTS"
+      },
+      "url": "https://mplusfonts.github.io/",
+      "category": "font",
+      "useCases": [
+        "web"
+      ],
+      "description": {
+        "ja": "M+ FONTSは高品質な日本語フリーフォント。ゴシック体を中心にウェイトも豊富。",
+        "en": "M+ FONTS offers high-quality Japanese free fonts. Primarily gothic style with various weights."
+      },
+      "highlight": {
+        "ja": "高品質日本語ゴシック体。ウェイトが豊富で使いやすい",
+        "en": "High-quality Japanese gothic font. Multiple weights for easy use"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "free",
+        "japanese",
+        "otf"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "source-han-sans",
+      "name": {
+        "ja": "源ノ角ゴシック",
+        "en": "Source Han Sans"
+      },
+      "url": "https://github.com/adobe-fonts/source-han-sans",
+      "category": "font",
+      "useCases": [
+        "web"
+      ],
+      "description": {
+        "ja": "AdobeとGoogleが共同開発したオープンソース日本語フォント。7ウェイト対応の本格的なゴシック体。",
+        "en": "Open-source Japanese font co-developed by Adobe and Google. Professional gothic typeface with 7 weights."
+      },
+      "highlight": {
+        "ja": "Adobe×Google共同開発。プロ品質の日本語ゴシック体",
+        "en": "Co-developed by Adobe and Google. Professional Japanese gothic typeface"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "font",
+        "free",
+        "japanese",
+        "otf"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "noto-fonts",
+      "name": {
+        "ja": "Noto Fonts",
+        "en": "Noto Fonts"
+      },
+      "url": "https://fonts.google.com/noto",
+      "category": "font",
+      "useCases": [
+        "web"
+      ],
+      "description": {
+        "ja": "Googleの多言語フォントプロジェクト。世界中の言語をカバーし、日本語もNoto Sans JPとして提供。",
+        "en": "Google's multilingual font project. Covers languages worldwide, with Japanese available as Noto Sans JP."
+      },
+      "highlight": {
+        "ja": "世界中の言語をカバー。日本語Noto Sans JPは定番",
+        "en": "Covers languages worldwide. Noto Sans JP is a go-to Japanese font"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "font",
+        "free",
+        "japanese",
+        "english",
+        "otf"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "fontdasu",
+      "name": {
+        "ja": "FONTDASU",
+        "en": "FONTDASU"
+      },
+      "url": "https://fontdasu.com/",
+      "category": "font",
+      "useCases": [
+        "web"
+      ],
+      "description": {
+        "ja": "無料で使えるフリーフォントを紹介するサイト。日本語フォントを中心に商用利用可能なものを厳選。",
+        "en": "A site introducing free fonts. Curates commercially usable fonts, focusing on Japanese."
+      },
+      "highlight": {
+        "ja": "商用利用可の日本語フリーフォントを厳選紹介",
+        "en": "Curated selection of commercially usable Japanese free fonts"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "free",
+        "japanese",
+        "otf"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "fontfree",
+      "name": {
+        "ja": "フォントフリー",
+        "en": "Font Free"
+      },
+      "url": "https://fontfree.me/",
+      "category": "font",
+      "useCases": [
+        "web"
+      ],
+      "description": {
+        "ja": "日本語フリーフォントの投稿サイト。ジャンル別・イメージ別にフォントを検索できる。",
+        "en": "Japanese free font submission site. Search fonts by genre and style."
+      },
+      "highlight": {
+        "ja": "日本語フォント検索サイト。ジャンル別に見つけやすい",
+        "en": "Japanese font search site. Easy to find by genre"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "free",
+        "japanese",
+        "otf"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "dafont",
+      "name": {
+        "ja": "DaFont",
+        "en": "DaFont"
+      },
+      "url": "https://www.dafont.com/",
+      "category": "font",
+      "useCases": [
+        "web"
+      ],
+      "description": {
+        "ja": "英語フォントの大規模コレクション。無料フォントが多数あるが、ライセンスはフォントごとに異なる。",
+        "en": "Large collection of English fonts. Many free fonts available, but licenses vary per font."
+      },
+      "highlight": {
+        "ja": "英語フォントの宝庫。ライセンスは要確認",
+        "en": "Treasure trove of English fonts. Check license per font"
+      },
+      "commercial": false,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "free",
+        "english",
+        "otf"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "sketchfab",
+      "name": {
+        "ja": "Sketchfab",
+        "en": "Sketchfab"
+      },
+      "url": "https://sketchfab.com/",
+      "category": "3d",
+      "useCases": [
+        "web",
+        "game"
+      ],
+      "description": {
+        "ja": "3Dモデルの閲覧・ダウンロードプラットフォーム。無料モデルもあるが商用利用はライセンス要確認。",
+        "en": "3D model viewing and download platform. Free models available, but check license for commercial use."
+      },
+      "highlight": {
+        "ja": "3Dモデルの最大級プラットフォーム。ブラウザでプレビュー可能",
+        "en": "One of the largest 3D model platforms. Preview in browser"
+      },
+      "commercial": false,
+      "creditRequired": true,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "3d",
+        "free"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "turbosquid",
+      "name": {
+        "ja": "TurboSquid",
+        "en": "TurboSquid"
+      },
+      "url": "https://www.turbosquid.com/",
+      "category": "3d",
+      "useCases": [
+        "web",
+        "game"
+      ],
+      "description": {
+        "ja": "プロ向け3Dモデルマーケット。無料モデルもあるがプロ向けの有料モデルが中心。",
+        "en": "Professional 3D model marketplace. Some free models, but primarily premium professional models."
+      },
+      "highlight": {
+        "ja": "プロ品質の3Dモデル。無料コーナーも充実",
+        "en": "Professional quality 3D models. Free section also well-stocked"
+      },
+      "commercial": false,
+      "creditRequired": true,
+      "registrationRequired": true,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": [
+        "3d"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "poly-pizza",
+      "name": {
+        "ja": "Poly Pizza",
+        "en": "Poly Pizza"
+      },
+      "url": "https://poly.pizza/",
+      "category": "3d",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "CC0ライセンスの無料ローポリ3Dモデル。ゲーム開発やプロトタイプに最適。",
+        "en": "CC0 licensed free low-poly 3D models. Perfect for game development and prototyping."
+      },
+      "highlight": {
+        "ja": "CC0の無料ローポリ3Dモデル。ゲーム開発に最適",
+        "en": "CC0 free low-poly 3D models. Perfect for game development"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "3d",
+        "free",
+        "game"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "kenney",
+      "name": {
+        "ja": "Kenney.nl",
+        "en": "Kenney.nl"
+      },
+      "url": "https://kenney.nl/",
+      "category": "3d",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "CC0ライセンスのゲーム用アセット。2D/3Dモデル、テクスチャ、UIキットなど幅広く提供。",
+        "en": "CC0 licensed game assets. Offers a wide range including 2D/3D models, textures, and UI kits."
+      },
+      "highlight": {
+        "ja": "CC0ゲーム用アセットの決定版。2D/3D/UI全て無料",
+        "en": "The definitive CC0 game asset source. 2D/3D/UI all free"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "3d",
+        "free",
+        "game"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "free3d",
+      "name": {
+        "ja": "Free3D",
+        "en": "Free3D"
+      },
+      "url": "https://free3d.com/",
+      "category": "3d",
+      "useCases": [
+        "web",
+        "game"
+      ],
+      "description": {
+        "ja": "無料3Dモデルのダウンロードサイト。多様な形式に対応するが、ライセンスはモデルごとに確認が必要。",
+        "en": "Free 3D model download site. Supports various formats, but check license per model."
+      },
+      "highlight": {
+        "ja": "無料3Dモデル多数。形式も多様",
+        "en": "Many free 3D models. Various formats available"
+      },
+      "commercial": false,
+      "creditRequired": true,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "3d",
+        "free"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "canva-templates",
+      "name": {
+        "ja": "Canva",
+        "en": "Canva"
+      },
+      "url": "https://www.canva.com/templates/",
+      "category": "template",
+      "useCases": [
+        "presentation",
+        "web",
+        "sns"
+      ],
+      "description": {
+        "ja": "デザインツールCanvaの無料テンプレート。プレゼン・SNS投稿・チラシなど多ジャンル対応。日本語テンプレートも豊富。",
+        "en": "Free templates from design tool Canva. Covers presentations, social media posts, flyers, and more. Rich Japanese templates."
+      },
+      "highlight": {
+        "ja": "日本語テンプレート豊富。SNS・プレゼン何でもあり",
+        "en": "Rich Japanese templates. Covers social media, presentations, and more"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "template",
+        "free",
+        "japanese"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "slidescarnival",
+      "name": {
+        "ja": "SlidesCarnival",
+        "en": "SlidesCarnival"
+      },
+      "url": "https://www.slidescarnival.com/",
+      "category": "template",
+      "useCases": [
+        "presentation"
+      ],
+      "description": {
+        "ja": "PowerPointとGoogleスライド用の無料テンプレート。シンプルからクリエイティブまで幅広いデザイン。",
+        "en": "Free templates for PowerPoint and Google Slides. Wide range from simple to creative designs."
+      },
+      "highlight": {
+        "ja": "PowerPoint/Googleスライド無料テンプレ。商用OK",
+        "en": "Free PowerPoint/Google Slides templates. Commercial use OK"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "template",
+        "free",
+        "english"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "slidesgo",
+      "name": {
+        "ja": "Slidesgo",
+        "en": "Slidesgo"
+      },
+      "url": "https://slidesgo.com/",
+      "category": "template",
+      "useCases": [
+        "presentation",
+        "education"
+      ],
+      "description": {
+        "ja": "Googleスライド・PowerPoint用の無料テンプレート。教育・ビジネス・クリエイティブなどカテゴリ豊富。",
+        "en": "Free templates for Google Slides and PowerPoint. Rich categories including education, business, and creative."
+      },
+      "highlight": {
+        "ja": "カテゴリ豊富なプレゼンテンプレート。無料プランあり",
+        "en": "Presentation templates with rich categories. Free plan available"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "template",
+        "free",
+        "english"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "pptmon",
+      "name": {
+        "ja": "PPTMON",
+        "en": "PPTMON"
+      },
+      "url": "https://pptmon.com/ja/",
+      "category": "template",
+      "useCases": [
+        "presentation"
+      ],
+      "description": {
+        "ja": "日本語対応のPowerPoint無料テンプレート。ビジネスプレゼンに使えるシンプルなデザインが特徴。",
+        "en": "Free PowerPoint templates with Japanese support. Features simple designs suitable for business presentations."
+      },
+      "highlight": {
+        "ja": "日本語PowerPointテンプレ。ビジネス向きのシンプルデザイン",
+        "en": "Japanese PowerPoint templates. Simple designs for business"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "template",
+        "free",
+        "japanese"
+      ],
+      "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "google-slides-themes",
+      "name": {
+        "ja": "Googleスライドテーマ",
+        "en": "SlidesMania"
+      },
+      "url": "https://slidesmania.com/",
+      "category": "template",
+      "useCases": [
+        "presentation",
+        "education"
+      ],
+      "description": {
+        "ja": "Googleスライド・PowerPoint用の無料テーマ。教育・ビジネスなど多様なデザインを提供。",
+        "en": "Free themes for Google Slides and PowerPoint. Offers diverse designs for education, business, and more."
+      },
+      "highlight": {
+        "ja": "Google Slides用テーマ多数。商用利用可",
+        "en": "Many Google Slides themes. Commercial use OK"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "template",
+        "free",
+        "english"
+      ],
+      "dateAdded": "2026-03-07"
     }
   ],
   "categories": [
@@ -6864,6 +7723,30 @@
         "en": "History / Archive"
       },
       "icon": "📜"
+    },
+    {
+      "id": "font",
+      "name": {
+        "ja": "フォント",
+        "en": "Fonts"
+      },
+      "icon": "🔤"
+    },
+    {
+      "id": "3d",
+      "name": {
+        "ja": "3Dモデル",
+        "en": "3D Models"
+      },
+      "icon": "🎲"
+    },
+    {
+      "id": "template",
+      "name": {
+        "ja": "テンプレート",
+        "en": "Templates"
+      },
+      "icon": "📄"
     }
   ],
   "useCases": [

@@ -15,6 +15,8 @@ const App = (() => {
     compareIds: [],
   };
 
+  let activeFormats = [];
+
   // DOM refs (set on init)
   let $grid, $recGrid, $searchInput, $sortSelect, $resultCount;
   let $modalOverlay;
@@ -89,7 +91,7 @@ const App = (() => {
 
   // ── Filter logic ──
   function filtered() {
-    return data.sites.filter(s => {
+    let list = data.sites.filter(s => {
       if (state.category && s.category !== state.category) return false;
       if (state.useCase && !s.useCases.includes(state.useCase)) return false;
       if (state.region === 'jp' && !s.tags.includes('japanese')) return false;
@@ -110,6 +112,14 @@ const App = (() => {
       }
       return true;
     });
+    // Format filter (AND with other filters, OR among selected formats)
+    if (activeFormats.length > 0) {
+      list = list.filter(s => {
+        const tags = s.tags || [];
+        return activeFormats.some(f => tags.includes(f));
+      });
+    }
+    return list;
   }
 
   function sorted(list) {
@@ -142,7 +152,7 @@ const App = (() => {
     const $recSection = document.getElementById('recSection');
     const hasActiveFilter = state.category || state.useCase || state.search || state.region ||
       state.filters.commercial || state.filters.creditFree || state.filters.regFree || state.filters.beginner ||
-      state.showFavoritesOnly;
+      state.showFavoritesOnly || activeFormats.length > 0;
 
     if ($recSection) {
       $recSection.style.display = hasActiveFilter ? 'none' : '';
@@ -398,6 +408,18 @@ const App = (() => {
     }
   }
 
+  // ── Format Filters ──
+  function initFormatFilters() {
+    document.getElementById('formatFilters')?.addEventListener('click', (e) => {
+      const btn = e.target.closest('[data-format]');
+      if (!btn) return;
+      btn.classList.toggle('active');
+      activeFormats = [...document.querySelectorAll('#formatFilters .filter-btn.active')].map(b => b.dataset.format);
+      state.page = 1;
+      render();
+    });
+  }
+
   // ── URL params ──
   function readURL() {
     const params = new URLSearchParams(window.location.search);
@@ -618,6 +640,7 @@ const App = (() => {
 
     initTheme();
     bindQuickFilters();
+    initFormatFilters();
     renderCategoryNav();
     renderUseCaseNav();
     renderRecentlyViewed();

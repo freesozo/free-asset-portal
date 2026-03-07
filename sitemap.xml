@@ -12,6 +12,9 @@
   <url><loc>https://freesozo.com/category.html?cat=asset</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://freesozo.com/category.html?cat=mockup</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://freesozo.com/category.html?cat=archive</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://freesozo.com/category.html?cat=font</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://freesozo.com/category.html?cat=3d</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://freesozo.com/category.html?cat=template</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=irasutoya</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=illustac</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=undraw</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -217,4 +220,22 @@
   <url><loc>https://freesozo.com/detail.html?id=soundscrate</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=texturebox</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=logoipsum</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=google-fonts</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=fontna</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=mplus-fonts</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=source-han-sans</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=noto-fonts</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=fontdasu</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=fontfree</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=dafont</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=sketchfab</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=turbosquid</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=poly-pizza</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=kenney</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=free3d</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=canva-templates</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=slidescarnival</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=slidesgo</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=pptmon</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=google-slides-themes</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>

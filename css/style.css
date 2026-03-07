@@ -348,6 +348,15 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
   color: #fff;
   border-color: #ef4444;
 }
+.filter-section-label {
+  font-size: .85rem;
+  font-weight: 700;
+  color: var(--c-text);
+  white-space: nowrap;
+}
+.format-filters {
+  padding-top: 0;
+}
 
 /* ---------- Section ---------- */
 .section {
