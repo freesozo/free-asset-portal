@@ -99,6 +99,12 @@ jobs:
           print(f'Result: OK={ok}, FAIL={fail} / {len(sample)} sampled')
           PYEOF
 
+      - name: Discover new sites
+        continue-on-error: true
+        run: |
+          echo "=== Discovering new sites ==="
+          python3 discover-new.py
+
       - name: Regenerate blog articles
         run: |
           echo "=== Regenerating blog articles ==="

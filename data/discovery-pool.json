@@ -1,0 +1,3369 @@
+{
+  "candidates": [
+    {
+      "id": "illustration-gallery-ai",
+      "name": {
+        "ja": "Illustration Gallery",
+        "en": "Illustration Gallery"
+      },
+      "url": "https://illustrationgallery.com/",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation"
+      ],
+      "description": {
+        "ja": "商用利用可能な手描き風イラスト素材。",
+        "en": "Hand-drawn style illustrations for commercial use."
+      },
+      "highlight": {
+        "ja": "手描き風の温かみのあるイラスト",
+        "en": "Warm hand-drawn style illustrations"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "illustration",
+        "svg",
+        "png",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "sapiens-ui8",
+      "name": {
+        "ja": "Sapiens",
+        "en": "Sapiens"
+      },
+      "url": "https://sapiens.ui8.net/",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation",
+        "app"
+      ],
+      "description": {
+        "ja": "キャラクター生成イラストシステム。パーツを組み合わせてカスタムキャラを作成。",
+        "en": "Character generation illustration system. Combine parts to create custom characters."
+      },
+      "highlight": {
+        "ja": "パーツ組み合わせで無限のキャラクター生成",
+        "en": "Infinite character generation through part combinations"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "illustration",
+        "svg",
+        "png",
+        "character",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "lukaszadam",
+      "name": {
+        "ja": "Lukasz Adam",
+        "en": "Lukasz Adam"
+      },
+      "url": "https://lukaszadam.com/illustrations",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation"
+      ],
+      "description": {
+        "ja": "MIT License の手描きSVGイラスト集。",
+        "en": "MIT Licensed hand-drawn SVG illustrations."
+      },
+      "highlight": {
+        "ja": "MITライセンスで完全自由に使えるSVGイラスト",
+        "en": "Fully free SVG illustrations under MIT License"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "illustration",
+        "svg",
+        "free",
+        "mit"
+      ],
+      "processed": false
+    },
+    {
+      "id": "itg-digital",
+      "name": {
+        "ja": "ITG.digital",
+        "en": "ITG.digital"
+      },
+      "url": "https://itg.digital/",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation",
+        "app"
+      ],
+      "description": {
+        "ja": "テクノロジー系の高品質イラストパック。",
+        "en": "High-quality technology-themed illustration packs."
+      },
+      "highlight": {
+        "ja": "テック企業向けのモダンなイラスト",
+        "en": "Modern illustrations for tech companies"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "illustration",
+        "svg",
+        "png",
+        "tech",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "skribbl",
+      "name": {
+        "ja": "Skribbl",
+        "en": "Skribbl"
+      },
+      "url": "https://weareskribbl.com/",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation"
+      ],
+      "description": {
+        "ja": "手描きスケッチ風のフリーイラスト素材。",
+        "en": "Free hand-sketched illustration assets."
+      },
+      "highlight": {
+        "ja": "ユニークな手描きスケッチスタイル",
+        "en": "Unique hand-sketched style illustrations"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "illustration",
+        "svg",
+        "png",
+        "sketch",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "smashillustrations",
+      "name": {
+        "ja": "Smash Illustrations",
+        "en": "Smash Illustrations"
+      },
+      "url": "https://usesmash.com/",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation",
+        "app"
+      ],
+      "description": {
+        "ja": "250以上のカスタマイズ可能なイラスト素材。",
+        "en": "Over 250 customizable illustration assets."
+      },
+      "highlight": {
+        "ja": "ビジネス向けのプロフェッショナルなイラスト",
+        "en": "Professional illustrations for business use"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "illustration",
+        "svg",
+        "png",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "glaze",
+      "name": {
+        "ja": "Glaze",
+        "en": "Glaze"
+      },
+      "url": "https://www.glazestock.com/",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation"
+      ],
+      "description": {
+        "ja": "メンフィスデザインスタイルのフリーイラスト。",
+        "en": "Free illustrations in Memphis design style."
+      },
+      "highlight": {
+        "ja": "トレンドのメンフィスデザインイラスト",
+        "en": "Trendy Memphis design style illustrations"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "illustration",
+        "png",
+        "free",
+        "memphis"
+      ],
+      "processed": false
+    },
+    {
+      "id": "growww",
+      "name": {
+        "ja": "Growww",
+        "en": "Growww"
+      },
+      "url": "https://growwwkit.com/illustrations/phonies/",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "app",
+        "presentation"
+      ],
+      "description": {
+        "ja": "フラットデザインのキャラクターイラスト素材。",
+        "en": "Flat design character illustration assets."
+      },
+      "highlight": {
+        "ja": "モバイルアプリに最適なフラットキャラクター",
+        "en": "Flat characters perfect for mobile apps"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "illustration",
+        "svg",
+        "png",
+        "flat",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "scale-flexiple",
+      "name": {
+        "ja": "Scale by Flexiple",
+        "en": "Scale by Flexiple"
+      },
+      "url": "https://2.flexiple.com/scale/all-illustrations",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation",
+        "app"
+      ],
+      "description": {
+        "ja": "カスタマイズ可能なオープンソースイラスト素材。色やパーツを変更可能。",
+        "en": "Customizable open-source illustrations. Change colors and parts freely."
+      },
+      "highlight": {
+        "ja": "色やパーツを自由に変更できるオープンソース",
+        "en": "Open-source with freely customizable colors and parts"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "illustration",
+        "svg",
+        "png",
+        "free",
+        "opensource"
+      ],
+      "processed": false
+    },
+    {
+      "id": "control-illustrations",
+      "name": {
+        "ja": "Control Illustrations",
+        "en": "Control Illustrations"
+      },
+      "url": "https://control.rocks/",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation"
+      ],
+      "description": {
+        "ja": "カスタマイズ可能なSVGイラスト。パーツ組み合わせで独自のシーンを作成。",
+        "en": "Customizable SVG illustrations. Create unique scenes by combining parts."
+      },
+      "highlight": {
+        "ja": "パーツを組み合わせて自由にシーンを作成",
+        "en": "Freely create scenes by combining illustration parts"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "illustration",
+        "svg",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "freeimages",
+      "name": {
+        "ja": "FreeImages",
+        "en": "FreeImages"
+      },
+      "url": "https://www.freeimages.com/",
+      "category": "photo",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "30万枚以上の無料ストックフォト。商用利用可能。",
+        "en": "Over 300,000 free stock photos. Available for commercial use."
+      },
+      "highlight": {
+        "ja": "膨大な数の無料ストック写真ライブラリ",
+        "en": "Massive library of free stock photographs"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "photo",
+        "jpg",
+        "free",
+        "stock"
+      ],
+      "processed": false
+    },
+    {
+      "id": "barnimages",
+      "name": {
+        "ja": "Barn Images",
+        "en": "Barn Images"
+      },
+      "url": "https://barnimages.com/",
+      "category": "photo",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "ハイクオリティな無料ストックフォト。自然やライフスタイル写真が充実。",
+        "en": "High-quality free stock photos. Rich collection of nature and lifestyle images."
+      },
+      "highlight": {
+        "ja": "厳選された高品質なライフスタイル写真",
+        "en": "Curated high-quality lifestyle photography"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "photo",
+        "jpg",
+        "free",
+        "lifestyle"
+      ],
+      "processed": false
+    },
+    {
+      "id": "littlevisuals",
+      "name": {
+        "ja": "Little Visuals",
+        "en": "Little Visuals"
+      },
+      "url": "https://littlevisuals.co/",
+      "category": "photo",
+      "useCases": [
+        "web",
+        "sns"
+      ],
+      "description": {
+        "ja": "高解像度の風景・自然写真を無料配布。",
+        "en": "Free high-resolution landscape and nature photos."
+      },
+      "highlight": {
+        "ja": "美しい風景写真コレクション",
+        "en": "Beautiful landscape photo collection"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "photo",
+        "jpg",
+        "free",
+        "landscape"
+      ],
+      "processed": false
+    },
+    {
+      "id": "fancycrave",
+      "name": {
+        "ja": "Fancycrave",
+        "en": "Fancycrave"
+      },
+      "url": "https://fancycrave.com/",
+      "category": "photo",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "CC0ライセンスの高品質写真素材。毎日更新。",
+        "en": "High-quality CC0 licensed photos. Updated daily."
+      },
+      "highlight": {
+        "ja": "CC0ライセンスで完全自由利用",
+        "en": "Completely free to use under CC0 license"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "photo",
+        "jpg",
+        "free",
+        "cc0"
+      ],
+      "processed": false
+    },
+    {
+      "id": "shotzr",
+      "name": {
+        "ja": "Shotzr",
+        "en": "Shotzr"
+      },
+      "url": "https://www.shotzr.com/",
+      "category": "photo",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "地域密着型のフリーストックフォトプラットフォーム。",
+        "en": "Location-based free stock photo platform."
+      },
+      "highlight": {
+        "ja": "地域に特化したユニークな写真素材",
+        "en": "Unique location-specific stock photos"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "photo",
+        "jpg",
+        "free",
+        "location"
+      ],
+      "processed": false
+    },
+    {
+      "id": "librestock",
+      "name": {
+        "ja": "LibreStock",
+        "en": "LibreStock"
+      },
+      "url": "https://librestock.com/",
+      "category": "photo",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "複数のフリー写真サイトを一括検索できる統合検索エンジン。",
+        "en": "Unified search engine that searches multiple free photo sites at once."
+      },
+      "highlight": {
+        "ja": "複数フリーフォトサイトを一括検索",
+        "en": "Search multiple free photo sites simultaneously"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "photo",
+        "jpg",
+        "free",
+        "search",
+        "aggregator"
+      ],
+      "processed": false
+    },
+    {
+      "id": "styledstock-co",
+      "name": {
+        "ja": "ShotStash",
+        "en": "ShotStash"
+      },
+      "url": "https://shotstash.com/",
+      "category": "photo",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "カテゴリ別に整理された高品質フリー写真素材。",
+        "en": "High-quality free photos organized by category."
+      },
+      "highlight": {
+        "ja": "カテゴリ別に整理された使いやすい構成",
+        "en": "Well-organized by category for easy browsing"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "photo",
+        "jpg",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "mmtstock",
+      "name": {
+        "ja": "MMT Stock",
+        "en": "MMT Stock"
+      },
+      "url": "https://mmtstock.com/",
+      "category": "photo",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "Jeffrey Betts による高解像度フリーストックフォト。",
+        "en": "High-resolution free stock photos by Jeffrey Betts."
+      },
+      "highlight": {
+        "ja": "プロカメラマンによる高品質写真",
+        "en": "High-quality photos by a professional photographer"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "photo",
+        "jpg",
+        "free",
+        "cc0"
+      ],
+      "processed": true,
+      "failed": true
+    },
+    {
+      "id": "picspree",
+      "name": {
+        "ja": "Picspree",
+        "en": "Picspree"
+      },
+      "url": "https://picspree.com/",
+      "category": "photo",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "ロイヤリティフリーの写真・イラスト・ベクター素材。",
+        "en": "Royalty-free photos, illustrations, and vector assets."
+      },
+      "highlight": {
+        "ja": "写真・イラスト・ベクターの統合素材サイト",
+        "en": "Integrated site for photos, illustrations, and vectors"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "photo",
+        "jpg",
+        "png",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "freelyphotos",
+      "name": {
+        "ja": "Freely Photos",
+        "en": "Freely Photos"
+      },
+      "url": "https://freelyphotos.com/",
+      "category": "photo",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "CC0ライセンスの無料写真素材。クリスチャン系のイベント写真も充実。",
+        "en": "Free CC0 licensed photos. Rich collection including church and event photos."
+      },
+      "highlight": {
+        "ja": "CC0ライセンスで自由に使える写真",
+        "en": "Freely usable photos under CC0 license"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "photo",
+        "jpg",
+        "free",
+        "cc0"
+      ],
+      "processed": false
+    },
+    {
+      "id": "css-gg",
+      "name": {
+        "ja": "css.gg",
+        "en": "css.gg"
+      },
+      "url": "https://css.gg/",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "700以上のCSSベースのアイコン。軽量でパフォーマンス重視。",
+        "en": "Over 700 CSS-based icons. Lightweight and performance-focused."
+      },
+      "highlight": {
+        "ja": "CSSのみで実装された超軽量アイコン",
+        "en": "Ultra-lightweight icons implemented with CSS only"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "icon",
+        "css",
+        "svg",
+        "free",
+        "opensource"
+      ],
+      "processed": false
+    },
+    {
+      "id": "evaicons",
+      "name": {
+        "ja": "Eva Icons",
+        "en": "Eva Icons"
+      },
+      "url": "https://akveo.github.io/eva-icons/",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "480以上のオープンソースアイコンパック。アウトラインとフィルの2スタイル。",
+        "en": "Over 480 open-source icon pack. Two styles: outline and fill."
+      },
+      "highlight": {
+        "ja": "アウトラインとフィルの2スタイル対応",
+        "en": "Supports both outline and fill styles"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "icon",
+        "svg",
+        "free",
+        "opensource"
+      ],
+      "processed": true
+    },
+    {
+      "id": "ionicons",
+      "name": {
+        "ja": "Ionicons",
+        "en": "Ionicons"
+      },
+      "url": "https://ionic.io/ionicons",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "Ionicフレームワーク公式のアイコンセット。1300以上のモダンアイコン。",
+        "en": "Official Ionic Framework icon set. Over 1300 modern icons."
+      },
+      "highlight": {
+        "ja": "Ionicフレームワーク公式の豊富なアイコン",
+        "en": "Rich icon set from the official Ionic Framework"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "icon",
+        "svg",
+        "free",
+        "opensource",
+        "web-component"
+      ],
+      "processed": false
+    },
+    {
+      "id": "teenyicons",
+      "name": {
+        "ja": "Teeny Icons",
+        "en": "Teeny Icons"
+      },
+      "url": "https://teenyicons.com/",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "ミニマルなSVGアイコンセット。15x15pxグリッドベース。",
+        "en": "Minimal SVG icon set. Based on 15x15px grid."
+      },
+      "highlight": {
+        "ja": "15x15pxベースの超ミニマルアイコン",
+        "en": "Ultra-minimal icons on a 15x15px grid"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "icon",
+        "svg",
+        "free",
+        "minimal"
+      ],
+      "processed": false
+    },
+    {
+      "id": "radix-icons",
+      "name": {
+        "ja": "Radix Icons",
+        "en": "Radix Icons"
+      },
+      "url": "https://www.radix-ui.com/icons",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "Radix UIのアイコンセット。美しく統一されたデザイン。",
+        "en": "Radix UI icon set. Beautifully unified design."
+      },
+      "highlight": {
+        "ja": "Radix UIと完全統合されたモダンアイコン",
+        "en": "Modern icons fully integrated with Radix UI"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "icon",
+        "svg",
+        "free",
+        "react",
+        "opensource"
+      ],
+      "processed": false
+    },
+    {
+      "id": "majesticons",
+      "name": {
+        "ja": "Majesticons",
+        "en": "Majesticons"
+      },
+      "url": "https://www.majesticons.com/",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "760以上のSVGアイコン。ラインとソリッドの2スタイル。",
+        "en": "Over 760 SVG icons. Two styles: line and solid."
+      },
+      "highlight": {
+        "ja": "美しいラインとソリッドの2スタイル",
+        "en": "Beautiful line and solid dual-style icons"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "icon",
+        "svg",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "akar-icons",
+      "name": {
+        "ja": "Akar Icons",
+        "en": "Akar Icons"
+      },
+      "url": "https://akaricons.com/",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "完全にカスタマイズ可能なSVGアイコンパック。",
+        "en": "Fully customizable SVG icon pack."
+      },
+      "highlight": {
+        "ja": "ストローク幅やサイズを自由にカスタマイズ",
+        "en": "Freely customize stroke width and size"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "icon",
+        "svg",
+        "free",
+        "react"
+      ],
+      "processed": false
+    },
+    {
+      "id": "iconscout-unicons",
+      "name": {
+        "ja": "Unicons",
+        "en": "Unicons"
+      },
+      "url": "https://iconscout.com/unicons",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "4500以上のアイコン。ライン、モノクローム、ソリッド、薄型の4スタイル。",
+        "en": "Over 4500 icons in 4 styles: line, monochrome, solid, and thin."
+      },
+      "highlight": {
+        "ja": "4スタイル×4500以上の豊富なアイコン",
+        "en": "Massive collection of 4500+ icons in 4 styles"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "icon",
+        "svg",
+        "free",
+        "font"
+      ],
+      "processed": false
+    },
+    {
+      "id": "system-uicons",
+      "name": {
+        "ja": "System UIcons",
+        "en": "System UIcons"
+      },
+      "url": "https://systemuicons.com/",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "システムUI向けのミニマルなアイコン集。21x21グリッドベース。",
+        "en": "Minimal icon collection for system UIs. Based on 21x21 grid."
+      },
+      "highlight": {
+        "ja": "UIデザインに最適化されたシステムアイコン",
+        "en": "System icons optimized for UI design"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "icon",
+        "svg",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "ikonate",
+      "name": {
+        "ja": "Ikonate",
+        "en": "Ikonate"
+      },
+      "url": "https://ikonate.com/",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "完全にカスタマイズ可能なSVGアイコンセット。角丸やストローク幅を調整可能。",
+        "en": "Fully customizable SVG icon set. Adjust corner radius and stroke width."
+      },
+      "highlight": {
+        "ja": "リアルタイムでカスタマイズ可能なSVGアイコン",
+        "en": "Real-time customizable SVG icons"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "icon",
+        "svg",
+        "free",
+        "customizable"
+      ],
+      "processed": false
+    },
+    {
+      "id": "purpleplanet",
+      "name": {
+        "ja": "Purple Planet",
+        "en": "Purple Planet"
+      },
+      "url": "https://www.purple-planet.com/",
+      "category": "music",
+      "useCases": [
+        "youtube",
+        "game",
+        "presentation"
+      ],
+      "description": {
+        "ja": "ロイヤリティフリーのBGM素材。映像やゲームに最適。",
+        "en": "Royalty-free background music. Perfect for video and games."
+      },
+      "highlight": {
+        "ja": "ジャンル別に整理されたロイヤリティフリーBGM",
+        "en": "Royalty-free BGM organized by genre"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "music",
+        "mp3",
+        "free",
+        "bgm"
+      ],
+      "processed": false
+    },
+    {
+      "id": "musopen",
+      "name": {
+        "ja": "Musopen",
+        "en": "Musopen"
+      },
+      "url": "https://musopen.org/",
+      "category": "music",
+      "useCases": [
+        "youtube",
+        "education",
+        "presentation"
+      ],
+      "description": {
+        "ja": "クラシック音楽のフリー音源。楽譜も入手可能。",
+        "en": "Free classical music recordings. Sheet music also available."
+      },
+      "highlight": {
+        "ja": "クラシック音楽の高品質録音が無料",
+        "en": "High-quality classical music recordings for free"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "music",
+        "mp3",
+        "free",
+        "classical"
+      ],
+      "processed": false
+    },
+    {
+      "id": "audionautix",
+      "name": {
+        "ja": "Audionautix",
+        "en": "Audionautix"
+      },
+      "url": "https://audionautix.com/",
+      "category": "music",
+      "useCases": [
+        "youtube",
+        "game",
+        "presentation"
+      ],
+      "description": {
+        "ja": "Jason Shaw による無料音楽素材。CC BY 3.0ライセンス。",
+        "en": "Free music by Jason Shaw. CC BY 3.0 license."
+      },
+      "highlight": {
+        "ja": "クレジット表記のみで商用利用可能な音楽",
+        "en": "Commercial use with attribution only"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "music",
+        "mp3",
+        "free",
+        "cc"
+      ],
+      "processed": false
+    },
+    {
+      "id": "youtube-audio-library",
+      "name": {
+        "ja": "YouTube Audio Library",
+        "en": "YouTube Audio Library"
+      },
+      "url": "https://studio.youtube.com/channel/UC/music",
+      "category": "music",
+      "useCases": [
+        "youtube"
+      ],
+      "description": {
+        "ja": "YouTube公式の無料音楽・効果音ライブラリ。YouTube動画に最適。",
+        "en": "YouTube's official free music and sound effect library. Perfect for YouTube videos."
+      },
+      "highlight": {
+        "ja": "YouTube公式の安心して使える音源",
+        "en": "Official YouTube source you can use with confidence"
+      },
+      "commercial": false,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "music",
+        "mp3",
+        "free",
+        "youtube"
+      ],
+      "processed": false
+    },
+    {
+      "id": "filmmusic-io",
+      "name": {
+        "ja": "Filmmusic.io",
+        "en": "Filmmusic.io"
+      },
+      "url": "https://filmmusic.io/",
+      "category": "music",
+      "useCases": [
+        "youtube",
+        "game",
+        "presentation"
+      ],
+      "description": {
+        "ja": "映画・映像制作向けのロイヤリティフリー音楽。",
+        "en": "Royalty-free music for film and video production."
+      },
+      "highlight": {
+        "ja": "映像制作に特化した高品質ロイヤリティフリー音楽",
+        "en": "High-quality royalty-free music for video production"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "music",
+        "mp3",
+        "free",
+        "film"
+      ],
+      "processed": false
+    },
+    {
+      "id": "silvermansound",
+      "name": {
+        "ja": "Silverman Sound",
+        "en": "Silverman Sound"
+      },
+      "url": "https://www.silvermansound.com/",
+      "category": "music",
+      "useCases": [
+        "youtube",
+        "game"
+      ],
+      "description": {
+        "ja": "フリーのBGM・音楽素材。YouTube動画やゲームに最適。",
+        "en": "Free BGM and music assets. Perfect for YouTube videos and games."
+      },
+      "highlight": {
+        "ja": "YouTube・ゲーム向けの使いやすいBGM",
+        "en": "Easy-to-use BGM for YouTube and games"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "music",
+        "mp3",
+        "free",
+        "bgm"
+      ],
+      "processed": false
+    },
+    {
+      "id": "teknoaxe",
+      "name": {
+        "ja": "TeknoAXE",
+        "en": "TeknoAXE"
+      },
+      "url": "https://teknoaxe.com/",
+      "category": "music",
+      "useCases": [
+        "youtube",
+        "game"
+      ],
+      "description": {
+        "ja": "ロイヤリティフリーの電子音楽・ロック音楽素材。",
+        "en": "Royalty-free electronic and rock music assets."
+      },
+      "highlight": {
+        "ja": "電子音楽・ロック系の多彩なBGM",
+        "en": "Diverse electronic and rock BGM"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "music",
+        "mp3",
+        "free",
+        "electronic",
+        "rock"
+      ],
+      "processed": false
+    },
+    {
+      "id": "ccsearch",
+      "name": {
+        "ja": "Openverse",
+        "en": "Openverse"
+      },
+      "url": "https://openverse.org/",
+      "category": "archive",
+      "useCases": [
+        "web",
+        "education",
+        "presentation"
+      ],
+      "description": {
+        "ja": "WordPress運営のCCライセンス素材統合検索エンジン。写真・音声・動画を横断検索。",
+        "en": "CC-licensed media search engine by WordPress. Cross-search photos, audio, and video."
+      },
+      "highlight": {
+        "ja": "6億以上のCC素材を一括検索",
+        "en": "Search over 600 million CC-licensed works at once"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "archive",
+        "photo",
+        "music",
+        "free",
+        "cc",
+        "search"
+      ],
+      "processed": false
+    },
+    {
+      "id": "allthefreestock",
+      "name": {
+        "ja": "AllTheFreeStock",
+        "en": "AllTheFreeStock"
+      },
+      "url": "https://allthefreestock.com/",
+      "category": "archive",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "フリー素材サイトの総合リンク集。写真・動画・音楽・アイコンなど全ジャンル。",
+        "en": "Comprehensive link collection of free asset sites across all genres."
+      },
+      "highlight": {
+        "ja": "あらゆるジャンルのフリー素材サイトを網羅",
+        "en": "Covers free asset sites across all genres"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "archive",
+        "aggregator",
+        "free",
+        "links"
+      ],
+      "processed": false
+    },
+    {
+      "id": "thestocks",
+      "name": {
+        "ja": "The Stocks",
+        "en": "The Stocks"
+      },
+      "url": "https://thestocks.im/",
+      "category": "archive",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "ベストなフリー素材サイトを一画面で横断検索。",
+        "en": "Cross-search the best free asset sites in one interface."
+      },
+      "highlight": {
+        "ja": "人気フリー素材サイトを一画面で比較検索",
+        "en": "Compare and search popular free asset sites in one view"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "archive",
+        "aggregator",
+        "free",
+        "search"
+      ],
+      "processed": false
+    },
+    {
+      "id": "stockio",
+      "name": {
+        "ja": "Stockio",
+        "en": "Stockio"
+      },
+      "url": "https://www.stockio.com/",
+      "category": "archive",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation",
+        "print"
+      ],
+      "description": {
+        "ja": "写真・ベクター・アイコン・フォント・動画のフリー素材総合サイト。",
+        "en": "Comprehensive free asset site for photos, vectors, icons, fonts, and videos."
+      },
+      "highlight": {
+        "ja": "多ジャンルの素材をワンストップで入手",
+        "en": "Get multi-genre assets in one stop"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "archive",
+        "photo",
+        "icon",
+        "font",
+        "video",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "designresources",
+      "name": {
+        "ja": "Design Resources",
+        "en": "Design Resources"
+      },
+      "url": "https://designresourc.es/",
+      "category": "archive",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "デザイナー向けの厳選フリーリソースカタログ。",
+        "en": "Curated catalog of free resources for designers."
+      },
+      "highlight": {
+        "ja": "デザイナー向けリソースを厳選カタログ化",
+        "en": "Curated catalog of designer resources"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "archive",
+        "design",
+        "free",
+        "aggregator"
+      ],
+      "processed": false
+    },
+    {
+      "id": "textures-com",
+      "name": {
+        "ja": "Textures.com",
+        "en": "Textures.com"
+      },
+      "url": "https://www.textures.com/",
+      "category": "texture",
+      "useCases": [
+        "game",
+        "web"
+      ],
+      "description": {
+        "ja": "世界最大級のテクスチャライブラリ。毎日15クレジット無料配布。",
+        "en": "One of the world's largest texture libraries. 15 free credits daily."
+      },
+      "highlight": {
+        "ja": "毎日15クレジット分のテクスチャが無料で使える",
+        "en": "15 free texture credits every day"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "texture",
+        "jpg",
+        "free",
+        "pbr",
+        "3d"
+      ],
+      "processed": false
+    },
+    {
+      "id": "cc0textures",
+      "name": {
+        "ja": "ambientCG (旧CC0 Textures)",
+        "en": "CC0 Textures (now ambientCG)"
+      },
+      "url": "https://ambientcg.com/",
+      "category": "texture",
+      "useCases": [
+        "game",
+        "web"
+      ],
+      "description": {
+        "ja": "CC0ライセンスの高品質PBRテクスチャ。完全無料で商用利用可能。",
+        "en": "High-quality CC0 PBR textures. Completely free for commercial use."
+      },
+      "highlight": {
+        "ja": "CC0で完全フリーのPBRテクスチャ",
+        "en": "Completely free PBR textures under CC0"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "texture",
+        "jpg",
+        "png",
+        "free",
+        "cc0",
+        "pbr"
+      ],
+      "processed": false
+    },
+    {
+      "id": "texturelib",
+      "name": {
+        "ja": "TextureLib",
+        "en": "TextureLib"
+      },
+      "url": "https://texturelib.com/",
+      "category": "texture",
+      "useCases": [
+        "game",
+        "web"
+      ],
+      "description": {
+        "ja": "建築・自然素材を含む高品質テクスチャライブラリ。",
+        "en": "High-quality texture library including architectural and natural materials."
+      },
+      "highlight": {
+        "ja": "建築・自然系テクスチャが充実",
+        "en": "Rich collection of architectural and natural textures"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "texture",
+        "jpg",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "wildtextures",
+      "name": {
+        "ja": "Wild Textures",
+        "en": "Wild Textures"
+      },
+      "url": "https://www.wildtextures.com/",
+      "category": "texture",
+      "useCases": [
+        "game",
+        "web",
+        "print"
+      ],
+      "description": {
+        "ja": "高解像度の無料テクスチャ。商用利用可能。",
+        "en": "High-resolution free textures. Available for commercial use."
+      },
+      "highlight": {
+        "ja": "高解像度で商用利用可能なテクスチャ",
+        "en": "High-resolution textures for commercial use"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "texture",
+        "jpg",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "texturepalace",
+      "name": {
+        "ja": "Texture Palace",
+        "en": "Texture Palace"
+      },
+      "url": "https://www.texturepalace.com/",
+      "category": "texture",
+      "useCases": [
+        "game",
+        "web"
+      ],
+      "description": {
+        "ja": "写真ベースの高品質テクスチャ。壁・床・自然系素材。",
+        "en": "Photo-based high-quality textures. Walls, floors, and natural materials."
+      },
+      "highlight": {
+        "ja": "写真ベースのリアルなテクスチャ素材",
+        "en": "Photo-based realistic texture assets"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "texture",
+        "jpg",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "seamlesstextures",
+      "name": {
+        "ja": "Seamless Textures",
+        "en": "Seamless Textures"
+      },
+      "url": "https://seamless-pixels.blogspot.com/",
+      "category": "texture",
+      "useCases": [
+        "game",
+        "web"
+      ],
+      "description": {
+        "ja": "シームレスに繰り返し可能なテクスチャ素材。",
+        "en": "Seamlessly tileable texture assets."
+      },
+      "highlight": {
+        "ja": "全てシームレスで繰り返し可能なテクスチャ",
+        "en": "All textures are seamlessly tileable"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "texture",
+        "jpg",
+        "free",
+        "seamless"
+      ],
+      "processed": false
+    },
+    {
+      "id": "materialmaker",
+      "name": {
+        "ja": "Material Maker",
+        "en": "Material Maker"
+      },
+      "url": "https://www.materialmaker.org/",
+      "category": "texture",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "プロシージャルテクスチャ生成ツール。ノードベースでオリジナルテクスチャを作成。",
+        "en": "Procedural texture generation tool. Create original textures with node-based system."
+      },
+      "highlight": {
+        "ja": "ノードベースでプロシージャルテクスチャを生成",
+        "en": "Generate procedural textures with a node-based system"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": [
+        "texture",
+        "tool",
+        "free",
+        "procedural",
+        "opensource"
+      ],
+      "processed": false
+    },
+    {
+      "id": "matcap-textures",
+      "name": {
+        "ja": "MatCap Textures",
+        "en": "MatCap Textures"
+      },
+      "url": "https://github.com/nidorx/matcaps",
+      "category": "texture",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "1200以上のMatCapテクスチャ。3Dモデルのスタイライズドレンダリングに。",
+        "en": "Over 1200 MatCap textures for stylized rendering of 3D models."
+      },
+      "highlight": {
+        "ja": "1200以上のMatCapテクスチャを無料公開",
+        "en": "Over 1200 MatCap textures freely available"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": [
+        "texture",
+        "png",
+        "free",
+        "matcap",
+        "3d"
+      ],
+      "processed": false
+    },
+    {
+      "id": "gameart2d",
+      "name": {
+        "ja": "GameArt2D",
+        "en": "GameArt2D"
+      },
+      "url": "https://www.gameart2d.com/freebies.html",
+      "category": "asset",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "2Dゲーム用のフリーアセット。キャラクター・背景・UIパーツ。",
+        "en": "Free assets for 2D games. Characters, backgrounds, and UI parts."
+      },
+      "highlight": {
+        "ja": "2Dゲーム制作に最適なフリーアセット",
+        "en": "Perfect free assets for 2D game development"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "asset",
+        "png",
+        "free",
+        "2d",
+        "game"
+      ],
+      "processed": false
+    },
+    {
+      "id": "kaylousberg",
+      "name": {
+        "ja": "Kay Lousberg",
+        "en": "Kay Lousberg"
+      },
+      "url": "https://kaylousberg.com/game-assets",
+      "category": "asset",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "ローポリ3Dゲームアセット。CC0ライセンスで完全無料。",
+        "en": "Low-poly 3D game assets. Completely free under CC0 license."
+      },
+      "highlight": {
+        "ja": "CC0ライセンスのローポリ3Dゲームアセット",
+        "en": "CC0 licensed low-poly 3D game assets"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "asset",
+        "3d",
+        "free",
+        "cc0",
+        "lowpoly",
+        "game"
+      ],
+      "processed": false
+    },
+    {
+      "id": "itch-io-free-assets",
+      "name": {
+        "ja": "itch.io Free Game Assets",
+        "en": "itch.io Free Game Assets"
+      },
+      "url": "https://itch.io/game-assets/free",
+      "category": "asset",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "itch.ioの無料ゲームアセットマーケット。数千のフリーアセット。",
+        "en": "Free game asset marketplace on itch.io. Thousands of free assets."
+      },
+      "highlight": {
+        "ja": "数千のフリーゲームアセットが集まるマーケット",
+        "en": "Marketplace with thousands of free game assets"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "asset",
+        "png",
+        "free",
+        "game",
+        "marketplace"
+      ],
+      "processed": false
+    },
+    {
+      "id": "craftpix-freebies",
+      "name": {
+        "ja": "CraftPix Freebies",
+        "en": "CraftPix Freebies"
+      },
+      "url": "https://craftpix.net/freebies/",
+      "category": "asset",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "CraftPixの無料ゲームアセット。2D/UIキット・タイルセット。",
+        "en": "Free game assets from CraftPix. 2D/UI kits and tilesets."
+      },
+      "highlight": {
+        "ja": "プロ品質の2Dゲーム素材が無料で入手",
+        "en": "Professional quality 2D game assets for free"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "asset",
+        "png",
+        "free",
+        "2d",
+        "game",
+        "tileset"
+      ],
+      "processed": false
+    },
+    {
+      "id": "gamedevmarket-free",
+      "name": {
+        "ja": "GameDev Market Free",
+        "en": "GameDev Market Free"
+      },
+      "url": "https://www.gamedevmarket.net/category/free/",
+      "category": "asset",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "GameDev Marketの無料アセットセクション。",
+        "en": "Free assets section of GameDev Market."
+      },
+      "highlight": {
+        "ja": "マーケットの無料セクションで品質アセットを入手",
+        "en": "Get quality assets from the marketplace free section"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "asset",
+        "png",
+        "free",
+        "game"
+      ],
+      "processed": false
+    },
+    {
+      "id": "supergameasset",
+      "name": {
+        "ja": "Super Game Asset",
+        "en": "Super Game Asset"
+      },
+      "url": "https://supergameasset.com/",
+      "category": "asset",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "無料2Dゲームアセット。スプライト・背景・エフェクトなど。",
+        "en": "Free 2D game assets including sprites, backgrounds, and effects."
+      },
+      "highlight": {
+        "ja": "2Dゲーム用スプライト・背景・エフェクト",
+        "en": "Sprites, backgrounds, and effects for 2D games"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "asset",
+        "png",
+        "free",
+        "2d",
+        "sprite",
+        "game"
+      ],
+      "processed": false
+    },
+    {
+      "id": "glitchthegame",
+      "name": {
+        "ja": "Glitch The Game Art",
+        "en": "Glitch The Game Art"
+      },
+      "url": "https://glitchthegame.com/public-domain-game-art/",
+      "category": "asset",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "旧Glitchゲームのアートアセットがパブリックドメインで公開。",
+        "en": "Art assets from the old Glitch game released to public domain."
+      },
+      "highlight": {
+        "ja": "パブリックドメインの高品質ゲームアート",
+        "en": "High-quality game art in the public domain"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "asset",
+        "png",
+        "free",
+        "publicdomain",
+        "game"
+      ],
+      "processed": false
+    },
+    {
+      "id": "pixelgameart",
+      "name": {
+        "ja": "Pixel Game Art",
+        "en": "Pixel Game Art"
+      },
+      "url": "https://pixelgameart.org/web/",
+      "category": "asset",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "ピクセルアートのゲームアセット。レトロゲーム制作に最適。",
+        "en": "Pixel art game assets. Perfect for retro game development."
+      },
+      "highlight": {
+        "ja": "レトロスタイルのピクセルアートゲーム素材",
+        "en": "Retro-style pixel art game assets"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "asset",
+        "png",
+        "free",
+        "pixel",
+        "retro",
+        "game"
+      ],
+      "processed": false
+    },
+    {
+      "id": "freesound-additions",
+      "name": {
+        "ja": "Freesound Packs",
+        "en": "Freesound Packs"
+      },
+      "url": "https://freesound.org/browse/packs/",
+      "category": "sound",
+      "useCases": [
+        "game",
+        "youtube"
+      ],
+      "description": {
+        "ja": "Freesoundのパック機能。テーマ別にまとまった効果音セットを検索。",
+        "en": "Freesound's pack feature. Browse themed sound effect sets."
+      },
+      "highlight": {
+        "ja": "テーマ別パックで効率的に効果音を入手",
+        "en": "Get sound effects efficiently with themed packs"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "sound",
+        "wav",
+        "mp3",
+        "free",
+        "sfx"
+      ],
+      "processed": false
+    },
+    {
+      "id": "soundgator",
+      "name": {
+        "ja": "SoundGator",
+        "en": "SoundGator"
+      },
+      "url": "https://www.soundgator.com/",
+      "category": "sound",
+      "useCases": [
+        "game",
+        "youtube"
+      ],
+      "description": {
+        "ja": "無料の効果音ライブラリ。カテゴリ別に検索可能。",
+        "en": "Free sound effects library. Searchable by category."
+      },
+      "highlight": {
+        "ja": "カテゴリ別に整理された無料効果音",
+        "en": "Free sound effects organized by category"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "sound",
+        "mp3",
+        "free",
+        "sfx"
+      ],
+      "processed": false
+    },
+    {
+      "id": "freesfx",
+      "name": {
+        "ja": "FreeSFX",
+        "en": "FreeSFX"
+      },
+      "url": "https://freesfx.co.uk/",
+      "category": "sound",
+      "useCases": [
+        "game",
+        "youtube"
+      ],
+      "description": {
+        "ja": "英国発の無料効果音サイト。環境音・動物・機械音など多彩。",
+        "en": "UK-based free sound effects site. Diverse sounds including ambient, animals, and machinery."
+      },
+      "highlight": {
+        "ja": "環境音から機械音まで多彩な効果音",
+        "en": "Diverse effects from ambient sounds to machinery"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "sound",
+        "mp3",
+        "free",
+        "sfx"
+      ],
+      "processed": false
+    },
+    {
+      "id": "sonniss-gdc",
+      "name": {
+        "ja": "Sonniss GDC Audio",
+        "en": "Sonniss GDC Audio"
+      },
+      "url": "https://sonniss.com/gameaudiogdc",
+      "category": "sound",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "GDC向け無料ゲームオーディオバンドル。毎年数GB分の効果音を無料配布。",
+        "en": "Free game audio bundles for GDC. Several GB of free sound effects released annually."
+      },
+      "highlight": {
+        "ja": "毎年GDCで数GBの効果音が無料配布",
+        "en": "Several GB of free sound effects released at GDC annually"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": false,
+      "rating": 5,
+      "tags": [
+        "sound",
+        "wav",
+        "free",
+        "sfx",
+        "game",
+        "gdc"
+      ],
+      "processed": false
+    },
+    {
+      "id": "mixkit-sfx",
+      "name": {
+        "ja": "Mixkit Sound Effects",
+        "en": "Mixkit Sound Effects"
+      },
+      "url": "https://mixkit.co/free-sound-effects/",
+      "category": "sound",
+      "useCases": [
+        "game",
+        "youtube"
+      ],
+      "description": {
+        "ja": "Mixkitの無料効果音セクション。高品質な効果音を無制限ダウンロード。",
+        "en": "Mixkit's free sound effects section. Unlimited downloads of high-quality SFX."
+      },
+      "highlight": {
+        "ja": "高品質効果音を無制限に無料ダウンロード",
+        "en": "Unlimited free downloads of high-quality sound effects"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "sound",
+        "wav",
+        "mp3",
+        "free",
+        "sfx"
+      ],
+      "processed": false
+    },
+    {
+      "id": "pixabay-sfx",
+      "name": {
+        "ja": "Pixabay Sound Effects",
+        "en": "Pixabay Sound Effects"
+      },
+      "url": "https://pixabay.com/sound-effects/",
+      "category": "sound",
+      "useCases": [
+        "game",
+        "youtube"
+      ],
+      "description": {
+        "ja": "Pixabayの効果音セクション。シンプルなライセンスで商用利用可能。",
+        "en": "Pixabay's sound effects section. Simple license for commercial use."
+      },
+      "highlight": {
+        "ja": "Pixabayの安心ライセンスで効果音が使える",
+        "en": "Sound effects with Pixabay's reliable license"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "sound",
+        "mp3",
+        "free",
+        "sfx"
+      ],
+      "processed": false
+    },
+    {
+      "id": "lifeofvids-main",
+      "name": {
+        "ja": "Life of Vids (メイン)",
+        "en": "Life of Vids (Main)"
+      },
+      "url": "https://lifeofvids.com/",
+      "category": "video",
+      "useCases": [
+        "youtube",
+        "web",
+        "sns"
+      ],
+      "description": {
+        "ja": "CC0ライセンスの無料動画クリップ。自然やライフスタイルの映像が充実。",
+        "en": "Free CC0 video clips. Rich collection of nature and lifestyle footage."
+      },
+      "highlight": {
+        "ja": "CC0で商用自由の高品質動画クリップ",
+        "en": "High-quality CC0 video clips for commercial use"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "video",
+        "mp4",
+        "free",
+        "cc0"
+      ],
+      "processed": false
+    },
+    {
+      "id": "splitshire-video",
+      "name": {
+        "ja": "SplitShire Video",
+        "en": "SplitShire Video"
+      },
+      "url": "https://www.splitshire.com/category/video/",
+      "category": "video",
+      "useCases": [
+        "youtube",
+        "web"
+      ],
+      "description": {
+        "ja": "SplitShireの動画セクション。アーティスティックな無料映像素材。",
+        "en": "SplitShire's video section. Artistic free footage."
+      },
+      "highlight": {
+        "ja": "アーティスティックな無料映像素材",
+        "en": "Artistic free video footage"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "video",
+        "mp4",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "freestockfootage",
+      "name": {
+        "ja": "Free Stock Footage",
+        "en": "Free Stock Footage"
+      },
+      "url": "https://www.free-stock-footage.com/",
+      "category": "video",
+      "useCases": [
+        "youtube",
+        "web"
+      ],
+      "description": {
+        "ja": "HD品質の無料ストック動画。風景・自然シーンが充実。",
+        "en": "Free HD stock footage. Rich collection of landscape and nature scenes."
+      },
+      "highlight": {
+        "ja": "HD品質の風景・自然映像を無料提供",
+        "en": "Free HD landscape and nature footage"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "video",
+        "mp4",
+        "free",
+        "hd"
+      ],
+      "processed": false
+    },
+    {
+      "id": "xstockvideo",
+      "name": {
+        "ja": "XStockVideo",
+        "en": "XStockVideo"
+      },
+      "url": "https://www.xstockvideo.com/",
+      "category": "video",
+      "useCases": [
+        "youtube",
+        "web"
+      ],
+      "description": {
+        "ja": "無料のHDストック動画クリップ。商用利用可能。",
+        "en": "Free HD stock video clips. Available for commercial use."
+      },
+      "highlight": {
+        "ja": "商用利用可能な無料HD動画",
+        "en": "Free HD videos available for commercial use"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "video",
+        "mp4",
+        "free",
+        "hd"
+      ],
+      "processed": false
+    },
+    {
+      "id": "motionplaces",
+      "name": {
+        "ja": "Motion Places",
+        "en": "Motion Places"
+      },
+      "url": "https://www.motionplaces.com/",
+      "category": "video",
+      "useCases": [
+        "youtube",
+        "web"
+      ],
+      "description": {
+        "ja": "世界各地の風景動画を無料配布。旅行・紀行映像に最適。",
+        "en": "Free landscape videos from around the world. Perfect for travel content."
+      },
+      "highlight": {
+        "ja": "世界各地のロケーション映像を無料提供",
+        "en": "Free location footage from around the world"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "video",
+        "mp4",
+        "free",
+        "landscape",
+        "travel"
+      ],
+      "processed": false
+    },
+    {
+      "id": "mixkit-video",
+      "name": {
+        "ja": "Mixkit Free Video",
+        "en": "Mixkit Free Video"
+      },
+      "url": "https://mixkit.co/free-stock-video/",
+      "category": "video",
+      "useCases": [
+        "youtube",
+        "web",
+        "sns"
+      ],
+      "description": {
+        "ja": "Mixkitの無料動画素材。高品質な映像クリップを無料ダウンロード。",
+        "en": "Mixkit's free stock footage. Download high-quality video clips for free."
+      },
+      "highlight": {
+        "ja": "高品質な映像クリップを無制限に無料ダウンロード",
+        "en": "Unlimited free downloads of high-quality video clips"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "video",
+        "mp4",
+        "free",
+        "hd",
+        "4k"
+      ],
+      "processed": false
+    },
+    {
+      "id": "1001freefonts",
+      "name": {
+        "ja": "1001 Free Fonts",
+        "en": "1001 Free Fonts"
+      },
+      "url": "https://www.1001freefonts.com/",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print",
+        "presentation"
+      ],
+      "description": {
+        "ja": "1万以上のフリーフォント。カテゴリ・スタイル別検索が充実。",
+        "en": "Over 10,000 free fonts. Rich category and style-based search."
+      },
+      "highlight": {
+        "ja": "1万以上のフォントをカテゴリ別に検索",
+        "en": "Search over 10,000 fonts by category"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "ttf",
+        "otf",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "fontesk",
+      "name": {
+        "ja": "Fontesk",
+        "en": "Fontesk"
+      },
+      "url": "https://fontesk.com/",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print",
+        "presentation"
+      ],
+      "description": {
+        "ja": "デザイナー向けの厳選フリーフォント。高品質なディスプレイフォントが豊富。",
+        "en": "Curated free fonts for designers. Rich collection of high-quality display fonts."
+      },
+      "highlight": {
+        "ja": "デザイナー向けに厳選された高品質フォント",
+        "en": "Curated high-quality fonts for designers"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "ttf",
+        "otf",
+        "free",
+        "display"
+      ],
+      "processed": false
+    },
+    {
+      "id": "befonts",
+      "name": {
+        "ja": "Befonts",
+        "en": "Befonts"
+      },
+      "url": "https://befonts.com/",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print",
+        "presentation"
+      ],
+      "description": {
+        "ja": "高品質な無料フォントコレクション。定期的に新フォントが追加。",
+        "en": "High-quality free font collection. New fonts added regularly."
+      },
+      "highlight": {
+        "ja": "定期更新の高品質フリーフォント",
+        "en": "Regularly updated high-quality free fonts"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "ttf",
+        "otf",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "league-of-moveable-type",
+      "name": {
+        "ja": "The League of Moveable Type",
+        "en": "The League of Moveable Type"
+      },
+      "url": "https://www.theleagueofmoveabletype.com/",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print"
+      ],
+      "description": {
+        "ja": "オープンソースのタイプファウンドリー。高品質で自由に使えるフォント。",
+        "en": "Open-source type foundry. High-quality freely usable fonts."
+      },
+      "highlight": {
+        "ja": "オープンソースの先駆的タイプファウンドリー",
+        "en": "Pioneering open-source type foundry"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "ttf",
+        "otf",
+        "free",
+        "opensource"
+      ],
+      "processed": false
+    },
+    {
+      "id": "open-foundry",
+      "name": {
+        "ja": "Open Foundry",
+        "en": "Open Foundry"
+      },
+      "url": "https://open-foundry.com/",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print"
+      ],
+      "description": {
+        "ja": "オープンソースフォントの厳選キュレーションサイト。",
+        "en": "Curated collection of open-source fonts."
+      },
+      "highlight": {
+        "ja": "厳選されたオープンソースフォントコレクション",
+        "en": "Carefully curated open-source font collection"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "font",
+        "ttf",
+        "otf",
+        "free",
+        "opensource"
+      ],
+      "processed": false
+    },
+    {
+      "id": "fontjoy",
+      "name": {
+        "ja": "Fontjoy",
+        "en": "Fontjoy"
+      },
+      "url": "https://fontjoy.com/",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print"
+      ],
+      "description": {
+        "ja": "AIによるフォントペアリング生成ツール。Google Fontsベース。",
+        "en": "AI-powered font pairing generator based on Google Fonts."
+      },
+      "highlight": {
+        "ja": "AIが最適なフォントの組み合わせを提案",
+        "en": "AI suggests optimal font combinations"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "free",
+        "tool",
+        "ai",
+        "google-fonts"
+      ],
+      "processed": false
+    },
+    {
+      "id": "fontget",
+      "name": {
+        "ja": "FontGet",
+        "en": "FontGet"
+      },
+      "url": "https://www.fontget.com/",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print",
+        "presentation"
+      ],
+      "description": {
+        "ja": "Google Fontsを見やすくブラウズできるサイト。プレビュー機能付き。",
+        "en": "Browse Google Fonts with a user-friendly interface. Preview feature included."
+      },
+      "highlight": {
+        "ja": "Google Fontsを見やすくブラウズ",
+        "en": "Browse Google Fonts with an intuitive interface"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "font",
+        "ttf",
+        "free",
+        "google-fonts"
+      ],
+      "processed": false
+    },
+    {
+      "id": "fontbundles-free",
+      "name": {
+        "ja": "Font Bundles Free",
+        "en": "Font Bundles Free"
+      },
+      "url": "https://fontbundles.net/free-fonts",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print",
+        "presentation"
+      ],
+      "description": {
+        "ja": "Font Bundlesの無料フォントセクション。プレミアムクオリティのフリーフォント。",
+        "en": "Free font section of Font Bundles. Premium quality free fonts."
+      },
+      "highlight": {
+        "ja": "プレミアム品質のフリーフォントが入手可能",
+        "en": "Premium quality fonts available for free"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "ttf",
+        "otf",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "graphicburger",
+      "name": {
+        "ja": "GraphicBurger",
+        "en": "GraphicBurger"
+      },
+      "url": "https://graphicburger.com/",
+      "category": "mockup",
+      "useCases": [
+        "web",
+        "presentation",
+        "print"
+      ],
+      "description": {
+        "ja": "PSD形式の高品質モックアップ・グラフィックリソース。",
+        "en": "High-quality PSD mockups and graphic resources."
+      },
+      "highlight": {
+        "ja": "PSD形式の高品質モックアップが充実",
+        "en": "Rich collection of high-quality PSD mockups"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "mockup",
+        "psd",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "pixeden-free",
+      "name": {
+        "ja": "Pixeden Free",
+        "en": "Pixeden Free"
+      },
+      "url": "https://www.pixeden.com/free-design-web-resources",
+      "category": "mockup",
+      "useCases": [
+        "web",
+        "presentation",
+        "print"
+      ],
+      "description": {
+        "ja": "Pixedenの無料デザインリソース。モックアップ・アイコン・テンプレート。",
+        "en": "Free design resources from Pixeden. Mockups, icons, and templates."
+      },
+      "highlight": {
+        "ja": "プレミアム品質の無料デザインリソース",
+        "en": "Premium quality free design resources"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "mockup",
+        "psd",
+        "free",
+        "template"
+      ],
+      "processed": false
+    },
+    {
+      "id": "mockupfree",
+      "name": {
+        "ja": "MockupFree",
+        "en": "MockupFree"
+      },
+      "url": "https://mockupfree.co/",
+      "category": "mockup",
+      "useCases": [
+        "web",
+        "presentation"
+      ],
+      "description": {
+        "ja": "PSD形式の無料モックアップ。デバイス・パッケージ・ポスターなど多彩。",
+        "en": "Free PSD mockups. Diverse collection of device, packaging, and poster mockups."
+      },
+      "highlight": {
+        "ja": "デバイスからパッケージまで多彩なモックアップ",
+        "en": "Diverse mockups from devices to packaging"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "mockup",
+        "psd",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "smartmockups-free",
+      "name": {
+        "ja": "Smartmockups Free",
+        "en": "Smartmockups Free"
+      },
+      "url": "https://smartmockups.com/mockups/free",
+      "category": "mockup",
+      "useCases": [
+        "web",
+        "presentation",
+        "sns"
+      ],
+      "description": {
+        "ja": "ブラウザ上でモックアップ作成。無料プランあり。",
+        "en": "Create mockups in the browser. Free plan available."
+      },
+      "highlight": {
+        "ja": "ブラウザ上でPSD不要のモックアップ作成",
+        "en": "Create mockups in browser without PSD"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "mockup",
+        "png",
+        "jpg",
+        "free",
+        "online"
+      ],
+      "processed": false
+    },
+    {
+      "id": "ls-graphics-free",
+      "name": {
+        "ja": "LS Graphics Free",
+        "en": "LS Graphics Free"
+      },
+      "url": "https://www.ls.graphics/free-mockups",
+      "category": "mockup",
+      "useCases": [
+        "web",
+        "presentation"
+      ],
+      "description": {
+        "ja": "高品質なUIモックアップ・デザインリソースの無料版。",
+        "en": "Free versions of high-quality UI mockups and design resources."
+      },
+      "highlight": {
+        "ja": "Appleデバイスの高品質モックアップ",
+        "en": "High-quality Apple device mockups"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "mockup",
+        "psd",
+        "sketch",
+        "figma",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "anthonyboyd-mockups",
+      "name": {
+        "ja": "Anthony Boyd Mockups",
+        "en": "Anthony Boyd Mockups"
+      },
+      "url": "https://www.anthonyboyd.graphics/mockups/",
+      "category": "mockup",
+      "useCases": [
+        "web",
+        "presentation"
+      ],
+      "description": {
+        "ja": "プロフェッショナルな無料PSDモックアップ。高クオリティなシーンモックアップ。",
+        "en": "Professional free PSD mockups. High-quality scene mockups."
+      },
+      "highlight": {
+        "ja": "シーン構成が美しいプロ品質モックアップ",
+        "en": "Professional quality mockups with beautiful scene compositions"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "mockup",
+        "psd",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "polyhaven-3d",
+      "name": {
+        "ja": "Poly Haven Models",
+        "en": "Poly Haven Models"
+      },
+      "url": "https://polyhaven.com/models",
+      "category": "3d",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "Poly Havenの3Dモデルセクション。CC0ライセンスの高品質3Dモデル。",
+        "en": "Poly Haven's 3D model section. High-quality CC0 licensed 3D models."
+      },
+      "highlight": {
+        "ja": "CC0ライセンスのスキャン3Dモデル",
+        "en": "CC0 licensed scanned 3D models"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "3d",
+        "fbx",
+        "obj",
+        "free",
+        "cc0"
+      ],
+      "processed": false
+    },
+    {
+      "id": "clara-io",
+      "name": {
+        "ja": "Clara.io",
+        "en": "Clara.io"
+      },
+      "url": "https://clara.io/library",
+      "category": "3d",
+      "useCases": [
+        "game",
+        "web"
+      ],
+      "description": {
+        "ja": "ブラウザベースの3Dモデリング＆無料3Dモデルライブラリ。",
+        "en": "Browser-based 3D modeling and free 3D model library."
+      },
+      "highlight": {
+        "ja": "ブラウザ上で3Dモデリングもできるライブラリ",
+        "en": "Library with in-browser 3D modeling capabilities"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": false,
+      "rating": 3,
+      "tags": [
+        "3d",
+        "obj",
+        "fbx",
+        "free",
+        "online"
+      ],
+      "processed": false
+    },
+    {
+      "id": "threedscans",
+      "name": {
+        "ja": "Three D Scans",
+        "en": "Three D Scans"
+      },
+      "url": "https://threedscans.com/",
+      "category": "3d",
+      "useCases": [
+        "game",
+        "education"
+      ],
+      "description": {
+        "ja": "彫刻・美術品の3Dスキャンモデル。パブリックドメイン。",
+        "en": "3D scanned sculptures and artworks. Public domain."
+      },
+      "highlight": {
+        "ja": "美術品の3Dスキャンがパブリックドメインで公開",
+        "en": "3D scanned artworks in the public domain"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": [
+        "3d",
+        "stl",
+        "obj",
+        "free",
+        "scan"
+      ],
+      "processed": false
+    },
+    {
+      "id": "renderpeople-free",
+      "name": {
+        "ja": "RenderPeople Free",
+        "en": "RenderPeople Free"
+      },
+      "url": "https://renderpeople.com/free-3d-people/",
+      "category": "3d",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "リアルな3D人物モデルの無料サンプル。建築ビジュアライゼーション向け。",
+        "en": "Free samples of realistic 3D human models for architectural visualization."
+      },
+      "highlight": {
+        "ja": "リアルな3D人物モデルを無料サンプル提供",
+        "en": "Free samples of realistic 3D human models"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": [
+        "3d",
+        "fbx",
+        "obj",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "dimensiva",
+      "name": {
+        "ja": "Dimensiva",
+        "en": "Dimensiva"
+      },
+      "url": "https://dimensiva.com/",
+      "category": "3d",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "家具・インテリアの高品質3Dモデル。建築・インテリアデザイン向け。",
+        "en": "High-quality 3D furniture and interior models for architecture and interior design."
+      },
+      "highlight": {
+        "ja": "インテリア・家具の高品質3Dモデル",
+        "en": "High-quality interior and furniture 3D models"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": false,
+      "rating": 3,
+      "tags": [
+        "3d",
+        "obj",
+        "max",
+        "free",
+        "furniture"
+      ],
+      "processed": false
+    },
+    {
+      "id": "rigmodels",
+      "name": {
+        "ja": "RigModels",
+        "en": "RigModels"
+      },
+      "url": "https://rigmodels.com/",
+      "category": "3d",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "リグ付きの無料3Dキャラクターモデル。アニメーション対応。",
+        "en": "Free rigged 3D character models. Animation-ready."
+      },
+      "highlight": {
+        "ja": "リグ付きですぐにアニメーション可能な3Dモデル",
+        "en": "Rigged 3D models ready for immediate animation"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": false,
+      "rating": 3,
+      "tags": [
+        "3d",
+        "fbx",
+        "obj",
+        "free",
+        "rigged",
+        "character"
+      ],
+      "processed": false
+    },
+    {
+      "id": "html5up",
+      "name": {
+        "ja": "HTML5 UP",
+        "en": "HTML5 UP"
+      },
+      "url": "https://html5up.net/",
+      "category": "template",
+      "useCases": [
+        "web"
+      ],
+      "description": {
+        "ja": "レスポンシブ対応の美しいHTML5/CSS3テンプレート。CC BY 3.0ライセンス。",
+        "en": "Beautiful responsive HTML5/CSS3 templates. CC BY 3.0 license."
+      },
+      "highlight": {
+        "ja": "モダンで美しいレスポンシブHTMLテンプレート",
+        "en": "Modern beautiful responsive HTML templates"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "template",
+        "html",
+        "css",
+        "free",
+        "responsive"
+      ],
+      "processed": false
+    },
+    {
+      "id": "cruip",
+      "name": {
+        "ja": "Cruip",
+        "en": "Cruip"
+      },
+      "url": "https://cruip.com/free-templates/",
+      "category": "template",
+      "useCases": [
+        "web"
+      ],
+      "description": {
+        "ja": "SaaS・スタートアップ向けの無料ランディングページテンプレート。",
+        "en": "Free landing page templates for SaaS and startups."
+      },
+      "highlight": {
+        "ja": "SaaS向けのモダンなランディングページ",
+        "en": "Modern landing pages for SaaS products"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "template",
+        "html",
+        "react",
+        "free",
+        "saas"
+      ],
+      "processed": false
+    },
+    {
+      "id": "creative-tim-free",
+      "name": {
+        "ja": "Creative Tim Free",
+        "en": "Creative Tim Free"
+      },
+      "url": "https://www.creative-tim.com/templates/free",
+      "category": "template",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "Bootstrap/React/Vue用の無料UIキット・ダッシュボードテンプレート。",
+        "en": "Free UI kits and dashboard templates for Bootstrap/React/Vue."
+      },
+      "highlight": {
+        "ja": "ダッシュボード・管理画面テンプレートが充実",
+        "en": "Rich collection of dashboard and admin templates"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "template",
+        "html",
+        "react",
+        "vue",
+        "free",
+        "bootstrap"
+      ],
+      "processed": true
+    },
+    {
+      "id": "colorlib-free",
+      "name": {
+        "ja": "Colorlib Free",
+        "en": "Colorlib Free"
+      },
+      "url": "https://colorlib.com/wp/templates/",
+      "category": "template",
+      "useCases": [
+        "web"
+      ],
+      "description": {
+        "ja": "数千の無料HTMLテンプレート・WordPressテーマ。",
+        "en": "Thousands of free HTML templates and WordPress themes."
+      },
+      "highlight": {
+        "ja": "数千の無料テンプレートから選べる",
+        "en": "Choose from thousands of free templates"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "template",
+        "html",
+        "wordpress",
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "starter-templates",
+      "name": {
+        "ja": "Starter Templates",
+        "en": "Starter Templates"
+      },
+      "url": "https://developer.microsoft.com/en-us/fluentui#/",
+      "category": "template",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "Microsoftの Fluent UI デザインシステム。React対応のUIコンポーネント。",
+        "en": "Microsoft's Fluent UI design system. React-compatible UI components."
+      },
+      "highlight": {
+        "ja": "Microsoft公式のモダンUIコンポーネント",
+        "en": "Official modern UI components from Microsoft"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": [
+        "template",
+        "react",
+        "free",
+        "ui",
+        "microsoft"
+      ],
+      "processed": false
+    },
+    {
+      "id": "error404-illustrations",
+      "name": {
+        "ja": "Error 404 Illustrations",
+        "en": "Error 404 Illustrations"
+      },
+      "url": "https://error404.fun/",
+      "category": "illustration",
+      "useCases": [
+        "web"
+      ],
+      "description": {
+        "ja": "404エラーページ用のフリーイラスト。すぐに使えるSVG/PNG素材。",
+        "en": "Free illustrations for 404 error pages. Ready-to-use SVG/PNG assets."
+      },
+      "highlight": {
+        "ja": "404ページ専用のユニークなイラスト集",
+        "en": "Unique illustration collection specifically for 404 pages"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "illustration",
+        "svg",
+        "png",
+        "free",
+        "404"
+      ],
+      "processed": false
+    },
+    {
+      "id": "pixeltrue-illustrations",
+      "name": {
+        "ja": "Pixeltrue Illustrations",
+        "en": "Pixeltrue Illustrations"
+      },
+      "url": "https://www.pixeltrue.com/free-illustrations",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation",
+        "app"
+      ],
+      "description": {
+        "ja": "MITライセンスのSVG/Lottieアニメーションイラスト。",
+        "en": "MIT licensed SVG/Lottie animated illustrations."
+      },
+      "highlight": {
+        "ja": "Lottieアニメーション対応のフリーイラスト",
+        "en": "Free illustrations with Lottie animation support"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "illustration",
+        "svg",
+        "lottie",
+        "free",
+        "animation"
+      ],
+      "processed": false
+    },
+    {
+      "id": "healthicons",
+      "name": {
+        "ja": "Health Icons",
+        "en": "Health Icons"
+      },
+      "url": "https://healthicons.org/",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app",
+        "education"
+      ],
+      "description": {
+        "ja": "ヘルスケア・医療分野向けのフリーアイコンセット。CC0ライセンス。",
+        "en": "Free icon set for healthcare and medical fields. CC0 license."
+      },
+      "highlight": {
+        "ja": "医療・ヘルスケア専門のCC0アイコン",
+        "en": "CC0 icons specialized for healthcare and medical"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "icon",
+        "svg",
+        "free",
+        "cc0",
+        "healthcare"
+      ],
+      "processed": true
+    },
+    {
+      "id": "flagicons",
+      "name": {
+        "ja": "Flag Icons",
+        "en": "Flag Icons"
+      },
+      "url": "https://flagicons.lipis.dev/",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "全世界の国旗SVGアイコンセット。MITライセンス。",
+        "en": "SVG icon set of all world flags. MIT license."
+      },
+      "highlight": {
+        "ja": "世界中の国旗をSVGで網羅",
+        "en": "All world flags covered in SVG format"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "icon",
+        "svg",
+        "free",
+        "flags",
+        "mit"
+      ],
+      "processed": false
+    },
+    {
+      "id": "freepd",
+      "name": {
+        "ja": "FreePD",
+        "en": "FreePD"
+      },
+      "url": "https://freepd.com/",
+      "category": "music",
+      "useCases": [
+        "youtube",
+        "game",
+        "presentation"
+      ],
+      "description": {
+        "ja": "パブリックドメインの無料音楽。CC0ライセンスで完全自由利用。",
+        "en": "Public domain free music. Completely free under CC0 license."
+      },
+      "highlight": {
+        "ja": "CC0で完全フリーのパブリックドメイン音楽",
+        "en": "Completely free public domain music under CC0"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "music",
+        "mp3",
+        "free",
+        "cc0",
+        "publicdomain"
+      ],
+      "processed": true
+    }
+  ]
+}
