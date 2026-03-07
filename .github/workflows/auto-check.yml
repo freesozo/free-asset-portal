@@ -99,33 +99,14 @@ jobs:
           print(f'Result: OK={ok}, FAIL={fail} / {len(sample)} sampled')
           PYEOF
 
-      - name: Update sitemap
+      - name: Regenerate blog articles
         run: |
-          python3 << 'PYEOF'
-          import json
+          echo "=== Regenerating blog articles ==="
+          python3 generate-blog.py
 
-          BASE = 'https://freesozo.com'
-          with open('data/sites.json', encoding='utf-8') as f:
-              data = json.load(f)
-
-          sites = data.get('sites', [])
-          categories = data.get('categories', [])
-
-          xml = f'''<?xml version="1.0" encoding="UTF-8"?>
-          <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-            <url><loc>{BASE}/index.html</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-            <url><loc>{BASE}/privacy.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>'''
-
-          for cat in categories:
-              xml += f'\n  <url><loc>{BASE}/category.html?cat={cat["id"]}</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>'
-          for s in sites:
-              xml += f'\n  <url><loc>{BASE}/detail.html?id={s["id"]}</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>'
-          xml += '\n</urlset>'
-
-          with open('sitemap.xml', 'w', encoding='utf-8') as f:
-              f.write(xml)
-          print(f'sitemap.xml: {2 + len(categories) + len(sites)} URLs')
-          PYEOF
+      - name: Update sitemap (with blog)
+        run: |
+          python3 regenerate-sitemap.py
 
       - name: Commit changes
         run: |
