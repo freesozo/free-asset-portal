@@ -39,8 +39,13 @@
     fetch('data/sites.json')
       .then(function(r) { return r.json(); })
       .then(function(data) {
+        // Search premium sites first, then regular sites
         var premium = data.premiumSites || [];
+        var sites = data.sites || [];
         var item = premium.find(function(p) { return p.id === id; });
+        if (!item) {
+          item = sites.find(function(s) { return s.id === id; });
+        }
         if (item) {
           var url = item.affiliateUrl || item.url;
           if (url) { location.href = url; return; }

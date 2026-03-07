@@ -626,6 +626,7 @@ const App = (() => {
     renderPremiumSection();
     bindNewsletter();
     renderAdSlots();
+    initHamburger();
     initBackToTop();
     initQuiz();
 
@@ -679,6 +680,7 @@ const App = (() => {
     });
 
     renderDetailPage();
+    initHamburger();
     initBackToTop();
     I18n.applyAll();
   }
@@ -902,6 +904,23 @@ const App = (() => {
         <span class="ad-slot-label">${I18n.t('adLabel')}</span>
         <span class="ad-slot-placeholder">Google AdSense</span>
       `;
+    });
+  }
+
+  // ── Hamburger Menu ──
+  function initHamburger() {
+    const btn = document.getElementById('hamburgerBtn');
+    const nav = document.getElementById('mobileNav');
+    if (!btn || !nav) return;
+    btn.addEventListener('click', () => {
+      nav.classList.toggle('open');
+      btn.textContent = nav.classList.contains('open') ? '✕' : '☰';
+    });
+    nav.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        nav.classList.remove('open');
+        btn.textContent = '☰';
+      });
     });
   }
 
