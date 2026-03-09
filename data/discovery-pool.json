@@ -1110,7 +1110,7 @@
         "free",
         "cc"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "youtube-audio-library",
@@ -1176,7 +1176,8 @@
         "free",
         "film"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "silvermansound",
@@ -1949,7 +1950,7 @@
         "retro",
         "game"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "freesound-additions",
@@ -2216,7 +2217,7 @@
         "mp4",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "freestockfootage",
@@ -2990,7 +2991,7 @@
         "free",
         "furniture"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "rigmodels",

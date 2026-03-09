@@ -32,6 +32,39 @@
       "dateAdded": "2026-03-07"
     },
     {
+      "id": "dimensiva",
+      "name": {
+        "ja": "Dimensiva",
+        "en": "Dimensiva"
+      },
+      "url": "https://dimensiva.com/",
+      "category": "3d",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "家具・インテリアの高品質3Dモデル。建築・インテリアデザイン向け。",
+        "en": "High-quality 3D furniture and interior models for architecture and interior design."
+      },
+      "highlight": {
+        "ja": "インテリア・家具の高品質3Dモデル",
+        "en": "High-quality interior and furniture 3D models"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": false,
+      "rating": 3,
+      "tags": [
+        "3d",
+        "obj",
+        "max",
+        "free",
+        "furniture"
+      ],
+      "dateAdded": "2026-03-09"
+    },
+    {
       "id": "wikimediacommons",
       "name": {
         "ja": "Wikimedia Commons",
@@ -1306,6 +1339,40 @@
         "opensource",
         "english"
       ]
+    },
+    {
+      "id": "pixelgameart",
+      "name": {
+        "ja": "Pixel Game Art",
+        "en": "Pixel Game Art"
+      },
+      "url": "https://pixelgameart.org/web/",
+      "category": "asset",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "ピクセルアートのゲームアセット。レトロゲーム制作に最適。",
+        "en": "Pixel art game assets. Perfect for retro game development."
+      },
+      "highlight": {
+        "ja": "レトロスタイルのピクセルアートゲーム素材",
+        "en": "Retro-style pixel art game assets"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "asset",
+        "png",
+        "free",
+        "pixel",
+        "retro",
+        "game"
+      ],
+      "dateAdded": "2026-03-09"
     },
     {
       "id": "google-fonts",
@@ -4850,6 +4917,40 @@
       "dateAdded": "2026-03-07"
     },
     {
+      "id": "audionautix",
+      "name": {
+        "ja": "Audionautix",
+        "en": "Audionautix"
+      },
+      "url": "https://audionautix.com/",
+      "category": "music",
+      "useCases": [
+        "youtube",
+        "game",
+        "presentation"
+      ],
+      "description": {
+        "ja": "Jason Shaw による無料音楽素材。CC BY 3.0ライセンス。",
+        "en": "Free music by Jason Shaw. CC BY 3.0 license."
+      },
+      "highlight": {
+        "ja": "クレジット表記のみで商用利用可能な音楽",
+        "en": "Commercial use with attribution only"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "music",
+        "mp3",
+        "free",
+        "cc"
+      ],
+      "dateAdded": "2026-03-09"
+    },
+    {
       "id": "unsplash",
       "name": {
         "ja": "Unsplash",
@@ -7592,6 +7693,38 @@
         "english",
         "mp4"
       ]
+    },
+    {
+      "id": "splitshire-video",
+      "name": {
+        "ja": "SplitShire Video",
+        "en": "SplitShire Video"
+      },
+      "url": "https://www.splitshire.com/category/video/",
+      "category": "video",
+      "useCases": [
+        "youtube",
+        "web"
+      ],
+      "description": {
+        "ja": "SplitShireの動画セクション。アーティスティックな無料映像素材。",
+        "en": "SplitShire's video section. Artistic free footage."
+      },
+      "highlight": {
+        "ja": "アーティスティックな無料映像素材",
+        "en": "Artistic free video footage"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "video",
+        "mp4",
+        "free"
+      ],
+      "dateAdded": "2026-03-09"
     }
   ],
   "categories": [
