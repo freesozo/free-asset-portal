@@ -1,6 +1,73 @@
 {
   "sites": [
     {
+      "id": "kenney",
+      "name": {
+        "ja": "Kenney",
+        "en": "Kenney"
+      },
+      "url": "https://kenney.nl/assets",
+      "category": "3d",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "2D/3Dゲームアセットの宝庫。スプライト・タイルセット・UIキット・3Dモデルが全て無料。CC0ライセンス。",
+        "en": "Treasure trove of 2D/3D game assets. Sprites, tilesets, UI kits & 3D models all free. CC0 license."
+      },
+      "highlight": {
+        "ja": "ゲーム開発者のバイブル。CC0で完全自由",
+        "en": "The game dev bible. CC0 for total freedom"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "asset",
+        "game",
+        "2d",
+        "3d",
+        "sprite",
+        "cc0",
+        "english"
+      ]
+    },
+    {
+      "id": "polyhaven-3d",
+      "name": {
+        "ja": "Poly Haven Models",
+        "en": "Poly Haven Models"
+      },
+      "url": "https://polyhaven.com/models",
+      "category": "3d",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "Poly Havenの3Dモデルセクション。CC0ライセンスの高品質3Dモデル。",
+        "en": "Poly Haven's 3D model section. High-quality CC0 licensed 3D models."
+      },
+      "highlight": {
+        "ja": "CC0ライセンスのスキャン3Dモデル",
+        "en": "CC0 licensed scanned 3D models"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "3d",
+        "fbx",
+        "obj",
+        "free",
+        "cc0"
+      ],
+      "dateAdded": "2026-03-09"
+    },
+    {
       "id": "poly-pizza",
       "name": {
         "ja": "Poly Pizza",
@@ -30,6 +97,71 @@
         "game"
       ],
       "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "sketchfab",
+      "name": {
+        "ja": "Sketchfab",
+        "en": "Sketchfab"
+      },
+      "url": "https://sketchfab.com/features/free-3d-models",
+      "category": "3d",
+      "useCases": [
+        "game",
+        "web"
+      ],
+      "description": {
+        "ja": "世界最大の3Dモデル共有プラットフォーム。無料ダウンロード可能なモデルも多数。",
+        "en": "World's largest 3D model sharing platform. Many models available for free download."
+      },
+      "highlight": {
+        "ja": "3Dモデルのプレビューが超リアル",
+        "en": "Ultra-realistic 3D model previews"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "asset",
+        "3d",
+        "model",
+        "preview",
+        "english"
+      ]
+    },
+    {
+      "id": "turbosquid",
+      "name": {
+        "ja": "TurboSquid (無料)",
+        "en": "TurboSquid (Free)"
+      },
+      "url": "https://www.turbosquid.com/Search/3D-Models/free",
+      "category": "3d",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "世界最大級の3Dモデルマーケット。無料モデルも多数。",
+        "en": "One of the world's largest 3D model marketplaces. Many free models."
+      },
+      "highlight": {
+        "ja": "世界最大級の3Dマーケット",
+        "en": "World's largest 3D market"
+      },
+      "commercial": false,
+      "creditRequired": true,
+      "registrationRequired": true,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": [
+        "asset",
+        "3d",
+        "model",
+        "marketplace",
+        "english"
+      ]
     },
     {
       "id": "dimensiva",
@@ -63,6 +195,38 @@
         "furniture"
       ],
       "dateAdded": "2026-03-09"
+    },
+    {
+      "id": "free3d",
+      "name": {
+        "ja": "Free3D",
+        "en": "Free3D"
+      },
+      "url": "https://free3d.com/",
+      "category": "3d",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "無料3Dモデルのダウンロードサイト。様々なフォーマットに対応。",
+        "en": "Free 3D model download site. Supports various formats."
+      },
+      "highlight": {
+        "ja": "無料3Dモデルが豊富",
+        "en": "Rich collection of free 3D models"
+      },
+      "commercial": false,
+      "creditRequired": true,
+      "registrationRequired": true,
+      "beginnerFriendly": false,
+      "rating": 3,
+      "tags": [
+        "asset",
+        "3d",
+        "model",
+        "free",
+        "english"
+      ]
     },
     {
       "id": "wikimediacommons",
@@ -776,40 +940,6 @@
       ]
     },
     {
-      "id": "kenney",
-      "name": {
-        "ja": "Kenney",
-        "en": "Kenney"
-      },
-      "url": "https://kenney.nl/assets",
-      "category": "3d",
-      "useCases": [
-        "game"
-      ],
-      "description": {
-        "ja": "2D/3Dゲームアセットの宝庫。スプライト・タイルセット・UIキット・3Dモデルが全て無料。CC0ライセンス。",
-        "en": "Treasure trove of 2D/3D game assets. Sprites, tilesets, UI kits & 3D models all free. CC0 license."
-      },
-      "highlight": {
-        "ja": "ゲーム開発者のバイブル。CC0で完全自由",
-        "en": "The game dev bible. CC0 for total freedom"
-      },
-      "commercial": true,
-      "creditRequired": false,
-      "registrationRequired": false,
-      "beginnerFriendly": true,
-      "rating": 5,
-      "tags": [
-        "asset",
-        "game",
-        "2d",
-        "3d",
-        "sprite",
-        "cc0",
-        "english"
-      ]
-    },
-    {
       "id": "opengameart",
       "name": {
         "ja": "OpenGameArt",
@@ -1013,39 +1143,6 @@
       ]
     },
     {
-      "id": "sketchfab",
-      "name": {
-        "ja": "Sketchfab",
-        "en": "Sketchfab"
-      },
-      "url": "https://sketchfab.com/features/free-3d-models",
-      "category": "3d",
-      "useCases": [
-        "game",
-        "web"
-      ],
-      "description": {
-        "ja": "世界最大の3Dモデル共有プラットフォーム。無料ダウンロード可能なモデルも多数。",
-        "en": "World's largest 3D model sharing platform. Many models available for free download."
-      },
-      "highlight": {
-        "ja": "3Dモデルのプレビューが超リアル",
-        "en": "Ultra-realistic 3D model previews"
-      },
-      "commercial": true,
-      "creditRequired": true,
-      "registrationRequired": true,
-      "beginnerFriendly": true,
-      "rating": 4,
-      "tags": [
-        "asset",
-        "3d",
-        "model",
-        "preview",
-        "english"
-      ]
-    },
-    {
       "id": "quaternius",
       "name": {
         "ja": "Quaternius",
@@ -1177,38 +1274,6 @@
       ]
     },
     {
-      "id": "turbosquid",
-      "name": {
-        "ja": "TurboSquid (無料)",
-        "en": "TurboSquid (Free)"
-      },
-      "url": "https://www.turbosquid.com/Search/3D-Models/free",
-      "category": "3d",
-      "useCases": [
-        "game"
-      ],
-      "description": {
-        "ja": "世界最大級の3Dモデルマーケット。無料モデルも多数。",
-        "en": "One of the world's largest 3D model marketplaces. Many free models."
-      },
-      "highlight": {
-        "ja": "世界最大級の3Dマーケット",
-        "en": "World's largest 3D market"
-      },
-      "commercial": false,
-      "creditRequired": true,
-      "registrationRequired": true,
-      "beginnerFriendly": false,
-      "rating": 4,
-      "tags": [
-        "asset",
-        "3d",
-        "model",
-        "marketplace",
-        "english"
-      ]
-    },
-    {
       "id": "blendswap",
       "name": {
         "ja": "Blend Swap",
@@ -1274,38 +1339,6 @@
         "obj",
         "fbx",
         "marketplace"
-      ]
-    },
-    {
-      "id": "free3d",
-      "name": {
-        "ja": "Free3D",
-        "en": "Free3D"
-      },
-      "url": "https://free3d.com/",
-      "category": "3d",
-      "useCases": [
-        "game"
-      ],
-      "description": {
-        "ja": "無料3Dモデルのダウンロードサイト。様々なフォーマットに対応。",
-        "en": "Free 3D model download site. Supports various formats."
-      },
-      "highlight": {
-        "ja": "無料3Dモデルが豊富",
-        "en": "Rich collection of free 3D models"
-      },
-      "commercial": false,
-      "creditRequired": true,
-      "registrationRequired": true,
-      "beginnerFriendly": false,
-      "rating": 3,
-      "tags": [
-        "asset",
-        "3d",
-        "model",
-        "free",
-        "english"
       ]
     },
     {
@@ -1472,6 +1505,44 @@
       "dateAdded": "2026-03-07"
     },
     {
+      "id": "fontfree",
+      "name": {
+        "ja": "フォントフリー",
+        "en": "Font Free"
+      },
+      "url": "https://fontfree.me/",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print",
+        "youtube",
+        "presentation"
+      ],
+      "description": {
+        "ja": "日本語フリーフォントの投稿・まとめサイト。明朝体、ゴシック体、手書き風など多彩なカテゴリで検索可能。",
+        "en": "Japanese free font posting and directory site. Searchable by categories like mincho, gothic, handwriting and more."
+      },
+      "highlight": {
+        "ja": "日本語フリーフォントを網羅的に探せる最大級のまとめサイト",
+        "en": "The largest directory for finding Japanese free fonts comprehensively"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "font",
+        "japanese",
+        "mincho",
+        "gothic",
+        "handwriting",
+        "directory",
+        "svg",
+        "png"
+      ]
+    },
+    {
       "id": "fontna",
       "name": {
         "ja": "フォントな",
@@ -1566,6 +1637,41 @@
         "otf"
       ],
       "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "dafont",
+      "name": {
+        "ja": "DaFont",
+        "en": "DaFont"
+      },
+      "url": "https://www.dafont.com/",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print",
+        "youtube"
+      ],
+      "description": {
+        "ja": "世界最大級のフリーフォントアーカイブ。80,000以上のフォントをカテゴリ・テーマ別に検索可能。ライセンスは各フォントで異なるため要確認。",
+        "en": "One of the world's largest free font archives. Browse 80,000+ fonts by category and theme. Check individual licenses."
+      },
+      "highlight": {
+        "ja": "8万以上のフォント！世界最大級のフォントアーカイブ",
+        "en": "80,000+ fonts! One of the world's largest font archives"
+      },
+      "commercial": false,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "archive",
+        "large",
+        "english",
+        "svg",
+        "png"
+      ]
     },
     {
       "id": "icooonmono",
@@ -2040,44 +2146,6 @@
       ]
     },
     {
-      "id": "fontfree",
-      "name": {
-        "ja": "フォントフリー",
-        "en": "Font Free"
-      },
-      "url": "https://fontfree.me/",
-      "category": "font",
-      "useCases": [
-        "web",
-        "print",
-        "youtube",
-        "presentation"
-      ],
-      "description": {
-        "ja": "日本語フリーフォントの投稿・まとめサイト。明朝体、ゴシック体、手書き風など多彩なカテゴリで検索可能。",
-        "en": "Japanese free font posting and directory site. Searchable by categories like mincho, gothic, handwriting and more."
-      },
-      "highlight": {
-        "ja": "日本語フリーフォントを網羅的に探せる最大級のまとめサイト",
-        "en": "The largest directory for finding Japanese free fonts comprehensively"
-      },
-      "commercial": true,
-      "creditRequired": false,
-      "registrationRequired": false,
-      "beginnerFriendly": true,
-      "rating": 5,
-      "tags": [
-        "font",
-        "japanese",
-        "mincho",
-        "gothic",
-        "handwriting",
-        "directory",
-        "svg",
-        "png"
-      ]
-    },
-    {
       "id": "iconbuddy",
       "name": {
         "ja": "Iconbuddy",
@@ -2376,41 +2444,6 @@
         "svg",
         "react",
         "english",
-        "png"
-      ]
-    },
-    {
-      "id": "dafont",
-      "name": {
-        "ja": "DaFont",
-        "en": "DaFont"
-      },
-      "url": "https://www.dafont.com/",
-      "category": "font",
-      "useCases": [
-        "web",
-        "print",
-        "youtube"
-      ],
-      "description": {
-        "ja": "世界最大級のフリーフォントアーカイブ。80,000以上のフォントをカテゴリ・テーマ別に検索可能。ライセンスは各フォントで異なるため要確認。",
-        "en": "One of the world's largest free font archives. Browse 80,000+ fonts by category and theme. Check individual licenses."
-      },
-      "highlight": {
-        "ja": "8万以上のフォント！世界最大級のフォントアーカイブ",
-        "en": "80,000+ fonts! One of the world's largest font archives"
-      },
-      "commercial": false,
-      "creditRequired": false,
-      "registrationRequired": false,
-      "beginnerFriendly": true,
-      "rating": 4,
-      "tags": [
-        "font",
-        "archive",
-        "large",
-        "english",
-        "svg",
         "png"
       ]
     },
@@ -4951,6 +4984,39 @@
       "dateAdded": "2026-03-09"
     },
     {
+      "id": "silvermansound",
+      "name": {
+        "ja": "Silverman Sound",
+        "en": "Silverman Sound"
+      },
+      "url": "https://www.silvermansound.com/",
+      "category": "music",
+      "useCases": [
+        "youtube",
+        "game"
+      ],
+      "description": {
+        "ja": "フリーのBGM・音楽素材。YouTube動画やゲームに最適。",
+        "en": "Free BGM and music assets. Perfect for YouTube videos and games."
+      },
+      "highlight": {
+        "ja": "YouTube・ゲーム向けの使いやすいBGM",
+        "en": "Easy-to-use BGM for YouTube and games"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "music",
+        "mp3",
+        "free",
+        "bgm"
+      ],
+      "dateAdded": "2026-03-09"
+    },
+    {
       "id": "unsplash",
       "name": {
         "ja": "Unsplash",
@@ -5994,6 +6060,40 @@
         "jpg",
         "png"
       ]
+    },
+    {
+      "id": "picspree",
+      "name": {
+        "ja": "Picspree",
+        "en": "Picspree"
+      },
+      "url": "https://picspree.com/",
+      "category": "photo",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "ロイヤリティフリーの写真・イラスト・ベクター素材。",
+        "en": "Royalty-free photos, illustrations, and vector assets."
+      },
+      "highlight": {
+        "ja": "写真・イラスト・ベクターの統合素材サイト",
+        "en": "Integrated site for photos, illustrations, and vectors"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "photo",
+        "jpg",
+        "png",
+        "free"
+      ],
+      "dateAdded": "2026-03-09"
     },
     {
       "id": "soundeffectlab",
@@ -7292,6 +7392,39 @@
         "jpg",
         "png"
       ]
+    },
+    {
+      "id": "seamlesstextures",
+      "name": {
+        "ja": "Seamless Textures",
+        "en": "Seamless Textures"
+      },
+      "url": "https://seamless-pixels.blogspot.com/",
+      "category": "texture",
+      "useCases": [
+        "game",
+        "web"
+      ],
+      "description": {
+        "ja": "シームレスに繰り返し可能なテクスチャ素材。",
+        "en": "Seamlessly tileable texture assets."
+      },
+      "highlight": {
+        "ja": "全てシームレスで繰り返し可能なテクスチャ",
+        "en": "All textures are seamlessly tileable"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "texture",
+        "jpg",
+        "free",
+        "seamless"
+      ],
+      "dateAdded": "2026-03-09"
     },
     {
       "id": "pexelsvideo",

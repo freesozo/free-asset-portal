@@ -643,7 +643,7 @@
         "png",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "freelyphotos",
@@ -1210,7 +1210,7 @@
         "free",
         "bgm"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "teknoaxe",
@@ -1617,7 +1617,7 @@
         "free",
         "seamless"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "materialmaker",
@@ -2084,7 +2084,8 @@
         "game",
         "gdc"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "mixkit-sfx",
@@ -2858,7 +2859,7 @@
         "free",
         "cc0"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "clara-io",
