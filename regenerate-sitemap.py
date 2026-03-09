@@ -27,6 +27,9 @@ urls = []
 # 1. Main pages
 urls.append(("index.html", "weekly", "1.0"))
 urls.append(("privacy.html", "monthly", "0.3"))
+urls.append(("font.html", "weekly", "0.8"))
+urls.append(("3d.html", "weekly", "0.8"))
+urls.append(("template.html", "weekly", "0.8"))
 
 # 2. Category pages
 for cat in categories:

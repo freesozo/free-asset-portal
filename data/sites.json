@@ -782,7 +782,7 @@
         "en": "Kenney"
       },
       "url": "https://kenney.nl/assets",
-      "category": "asset",
+      "category": "3d",
       "useCases": [
         "game"
       ],
@@ -1019,7 +1019,7 @@
         "en": "Sketchfab"
       },
       "url": "https://sketchfab.com/features/free-3d-models",
-      "category": "asset",
+      "category": "3d",
       "useCases": [
         "game",
         "web"
@@ -1183,7 +1183,7 @@
         "en": "TurboSquid (Free)"
       },
       "url": "https://www.turbosquid.com/Search/3D-Models/free",
-      "category": "asset",
+      "category": "3d",
       "useCases": [
         "game"
       ],
@@ -1283,7 +1283,7 @@
         "en": "Free3D"
       },
       "url": "https://free3d.com/",
-      "category": "asset",
+      "category": "3d",
       "useCases": [
         "game"
       ],
@@ -2046,7 +2046,7 @@
         "en": "Font Free"
       },
       "url": "https://fontfree.me/",
-      "category": "icon",
+      "category": "font",
       "useCases": [
         "web",
         "print",
@@ -2386,7 +2386,7 @@
         "en": "DaFont"
       },
       "url": "https://www.dafont.com/",
-      "category": "icon",
+      "category": "font",
       "useCases": [
         "web",
         "print",

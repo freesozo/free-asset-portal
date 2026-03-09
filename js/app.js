@@ -539,6 +539,12 @@ const App = (() => {
     await loadData();
     readURL();
 
+    // Category page override (e.g., font.html, 3d.html)
+    if (options.category) {
+      state.category = options.category;
+      isCategory = true;
+    }
+
     $grid = document.getElementById('siteGrid');
     $recGrid = document.getElementById('recGrid');
     $searchInput = document.getElementById('searchInput');
