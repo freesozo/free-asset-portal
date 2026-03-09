@@ -1,98 +1,6 @@
 {
   "sites": [
     {
-      "id": "kenney",
-      "name": {
-        "ja": "Kenney.nl",
-        "en": "Kenney.nl"
-      },
-      "url": "https://kenney.nl/",
-      "category": "3d",
-      "useCases": [
-        "game"
-      ],
-      "description": {
-        "ja": "CC0ライセンスのゲーム用アセット。2D/3Dモデル、テクスチャ、UIキットなど幅広く提供。",
-        "en": "CC0 licensed game assets. Offers a wide range including 2D/3D models, textures, and UI kits."
-      },
-      "highlight": {
-        "ja": "CC0ゲーム用アセットの決定版。2D/3D/UI全て無料",
-        "en": "The definitive CC0 game asset source. 2D/3D/UI all free"
-      },
-      "commercial": true,
-      "creditRequired": false,
-      "registrationRequired": false,
-      "beginnerFriendly": true,
-      "rating": 5,
-      "tags": [
-        "3d",
-        "free",
-        "game"
-      ],
-      "dateAdded": "2026-03-07"
-    },
-    {
-      "id": "sketchfab",
-      "name": {
-        "ja": "Sketchfab",
-        "en": "Sketchfab"
-      },
-      "url": "https://sketchfab.com/",
-      "category": "3d",
-      "useCases": [
-        "web",
-        "game"
-      ],
-      "description": {
-        "ja": "3Dモデルの閲覧・ダウンロードプラットフォーム。無料モデルもあるが商用利用はライセンス要確認。",
-        "en": "3D model viewing and download platform. Free models available, but check license for commercial use."
-      },
-      "highlight": {
-        "ja": "3Dモデルの最大級プラットフォーム。ブラウザでプレビュー可能",
-        "en": "One of the largest 3D model platforms. Preview in browser"
-      },
-      "commercial": false,
-      "creditRequired": true,
-      "registrationRequired": true,
-      "beginnerFriendly": true,
-      "rating": 4,
-      "tags": [
-        "3d",
-        "free"
-      ],
-      "dateAdded": "2026-03-07"
-    },
-    {
-      "id": "turbosquid",
-      "name": {
-        "ja": "TurboSquid",
-        "en": "TurboSquid"
-      },
-      "url": "https://www.turbosquid.com/",
-      "category": "3d",
-      "useCases": [
-        "web",
-        "game"
-      ],
-      "description": {
-        "ja": "プロ向け3Dモデルマーケット。無料モデルもあるがプロ向けの有料モデルが中心。",
-        "en": "Professional 3D model marketplace. Some free models, but primarily premium professional models."
-      },
-      "highlight": {
-        "ja": "プロ品質の3Dモデル。無料コーナーも充実",
-        "en": "Professional quality 3D models. Free section also well-stocked"
-      },
-      "commercial": false,
-      "creditRequired": true,
-      "registrationRequired": true,
-      "beginnerFriendly": false,
-      "rating": 4,
-      "tags": [
-        "3d"
-      ],
-      "dateAdded": "2026-03-07"
-    },
-    {
       "id": "poly-pizza",
       "name": {
         "ja": "Poly Pizza",
@@ -120,37 +28,6 @@
         "3d",
         "free",
         "game"
-      ],
-      "dateAdded": "2026-03-07"
-    },
-    {
-      "id": "free3d",
-      "name": {
-        "ja": "Free3D",
-        "en": "Free3D"
-      },
-      "url": "https://free3d.com/",
-      "category": "3d",
-      "useCases": [
-        "web",
-        "game"
-      ],
-      "description": {
-        "ja": "無料3Dモデルのダウンロードサイト。多様な形式に対応するが、ライセンスはモデルごとに確認が必要。",
-        "en": "Free 3D model download site. Supports various formats, but check license per model."
-      },
-      "highlight": {
-        "ja": "無料3Dモデル多数。形式も多様",
-        "en": "Many free 3D models. Various formats available"
-      },
-      "commercial": false,
-      "creditRequired": true,
-      "registrationRequired": true,
-      "beginnerFriendly": true,
-      "rating": 3,
-      "tags": [
-        "3d",
-        "free"
       ],
       "dateAdded": "2026-03-07"
     },
@@ -1619,70 +1496,6 @@
         "font",
         "free",
         "japanese",
-        "otf"
-      ],
-      "dateAdded": "2026-03-07"
-    },
-    {
-      "id": "fontfree",
-      "name": {
-        "ja": "フォントフリー",
-        "en": "Font Free"
-      },
-      "url": "https://fontfree.me/",
-      "category": "font",
-      "useCases": [
-        "web"
-      ],
-      "description": {
-        "ja": "日本語フリーフォントの投稿サイト。ジャンル別・イメージ別にフォントを検索できる。",
-        "en": "Japanese free font submission site. Search fonts by genre and style."
-      },
-      "highlight": {
-        "ja": "日本語フォント検索サイト。ジャンル別に見つけやすい",
-        "en": "Japanese font search site. Easy to find by genre"
-      },
-      "commercial": true,
-      "creditRequired": false,
-      "registrationRequired": false,
-      "beginnerFriendly": true,
-      "rating": 4,
-      "tags": [
-        "font",
-        "free",
-        "japanese",
-        "otf"
-      ],
-      "dateAdded": "2026-03-07"
-    },
-    {
-      "id": "dafont",
-      "name": {
-        "ja": "DaFont",
-        "en": "DaFont"
-      },
-      "url": "https://www.dafont.com/",
-      "category": "font",
-      "useCases": [
-        "web"
-      ],
-      "description": {
-        "ja": "英語フォントの大規模コレクション。無料フォントが多数あるが、ライセンスはフォントごとに異なる。",
-        "en": "Large collection of English fonts. Many free fonts available, but licenses vary per font."
-      },
-      "highlight": {
-        "ja": "英語フォントの宝庫。ライセンスは要確認",
-        "en": "Treasure trove of English fonts. Check license per font"
-      },
-      "commercial": false,
-      "creditRequired": true,
-      "registrationRequired": false,
-      "beginnerFriendly": true,
-      "rating": 4,
-      "tags": [
-        "font",
-        "free",
-        "english",
         "otf"
       ],
       "dateAdded": "2026-03-07"

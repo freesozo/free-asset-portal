@@ -86,13 +86,16 @@ def main():
     sites = sites_data.get("sites", [])
     candidates = pool_data.get("candidates", [])
 
-    # Get existing site IDs
+    # Get existing site IDs and URLs for deduplication
     existing_ids = {s["id"] for s in sites}
+    existing_urls = {s["url"].rstrip("/").lower() for s in sites if s.get("url")}
 
-    # Filter: not processed AND not already in sites
+    # Filter: not processed AND not already in sites (by ID or URL)
     available = [
         c for c in candidates
-        if not c.get("processed", False) and c["id"] not in existing_ids
+        if not c.get("processed", False)
+        and c["id"] not in existing_ids
+        and c.get("url", "").rstrip("/").lower() not in existing_urls
     ]
 
     if not available:
