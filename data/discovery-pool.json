@@ -371,7 +371,8 @@
         "free",
         "stock"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "barnimages",
@@ -574,7 +575,7 @@
         "jpg",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "mmtstock",
@@ -1244,7 +1245,7 @@
         "electronic",
         "rock"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "ccsearch",
@@ -2422,7 +2423,7 @@
         "free",
         "display"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "befonts",
@@ -3330,7 +3331,7 @@
         "flags",
         "mit"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "freepd",

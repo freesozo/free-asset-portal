@@ -1674,6 +1674,41 @@
       ]
     },
     {
+      "id": "fontesk",
+      "name": {
+        "ja": "Fontesk",
+        "en": "Fontesk"
+      },
+      "url": "https://fontesk.com/",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print",
+        "presentation"
+      ],
+      "description": {
+        "ja": "デザイナー向けの厳選フリーフォント。高品質なディスプレイフォントが豊富。",
+        "en": "Curated free fonts for designers. Rich collection of high-quality display fonts."
+      },
+      "highlight": {
+        "ja": "デザイナー向けに厳選された高品質フォント",
+        "en": "Curated high-quality fonts for designers"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "ttf",
+        "otf",
+        "free",
+        "display"
+      ],
+      "dateAdded": "2026-03-13"
+    },
+    {
       "id": "icooonmono",
       "name": {
         "ja": "ICOOON MONO",
@@ -2660,6 +2695,40 @@
         "opensource"
       ],
       "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "flagicons",
+      "name": {
+        "ja": "Flag Icons",
+        "en": "Flag Icons"
+      },
+      "url": "https://flagicons.lipis.dev/",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "全世界の国旗SVGアイコンセット。MITライセンス。",
+        "en": "SVG icon set of all world flags. MIT license."
+      },
+      "highlight": {
+        "ja": "世界中の国旗をSVGで網羅",
+        "en": "All world flags covered in SVG format"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "icon",
+        "svg",
+        "free",
+        "flags",
+        "mit"
+      ],
+      "dateAdded": "2026-03-13"
     },
     {
       "id": "irasutoya",
@@ -5017,6 +5086,40 @@
       "dateAdded": "2026-03-09"
     },
     {
+      "id": "teknoaxe",
+      "name": {
+        "ja": "TeknoAXE",
+        "en": "TeknoAXE"
+      },
+      "url": "https://teknoaxe.com/",
+      "category": "music",
+      "useCases": [
+        "youtube",
+        "game"
+      ],
+      "description": {
+        "ja": "ロイヤリティフリーの電子音楽・ロック音楽素材。",
+        "en": "Royalty-free electronic and rock music assets."
+      },
+      "highlight": {
+        "ja": "電子音楽・ロック系の多彩なBGM",
+        "en": "Diverse electronic and rock BGM"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "music",
+        "mp3",
+        "free",
+        "electronic",
+        "rock"
+      ],
+      "dateAdded": "2026-03-13"
+    },
+    {
       "id": "unsplash",
       "name": {
         "ja": "Unsplash",
@@ -6094,6 +6197,39 @@
         "free"
       ],
       "dateAdded": "2026-03-09"
+    },
+    {
+      "id": "styledstock-co",
+      "name": {
+        "ja": "ShotStash",
+        "en": "ShotStash"
+      },
+      "url": "https://shotstash.com/",
+      "category": "photo",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "カテゴリ別に整理された高品質フリー写真素材。",
+        "en": "High-quality free photos organized by category."
+      },
+      "highlight": {
+        "ja": "カテゴリ別に整理された使いやすい構成",
+        "en": "Well-organized by category for easy browsing"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "photo",
+        "jpg",
+        "free"
+      ],
+      "dateAdded": "2026-03-13"
     },
     {
       "id": "soundeffectlab",
