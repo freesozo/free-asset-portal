@@ -270,7 +270,8 @@
         "flat",
         "free"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "scale-flexiple",
@@ -1684,7 +1685,7 @@
         "matcap",
         "3d"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "gameart2d",
@@ -2355,7 +2356,7 @@
         "hd",
         "4k"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "1001freefonts",
@@ -2695,7 +2696,8 @@
         "free",
         "template"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "mockupfree",
@@ -2762,7 +2764,8 @@
         "free",
         "online"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "ls-graphics-free",

@@ -7593,6 +7593,39 @@
       ]
     },
     {
+      "id": "matcap-textures",
+      "name": {
+        "ja": "MatCap Textures",
+        "en": "MatCap Textures"
+      },
+      "url": "https://github.com/nidorx/matcaps",
+      "category": "texture",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "1200以上のMatCapテクスチャ。3Dモデルのスタイライズドレンダリングに。",
+        "en": "Over 1200 MatCap textures for stylized rendering of 3D models."
+      },
+      "highlight": {
+        "ja": "1200以上のMatCapテクスチャを無料公開",
+        "en": "Over 1200 MatCap textures freely available"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": [
+        "texture",
+        "png",
+        "free",
+        "matcap",
+        "3d"
+      ],
+      "dateAdded": "2026-03-13"
+    },
+    {
       "id": "texturetown",
       "name": {
         "ja": "Texture Town",
@@ -7693,6 +7726,41 @@
         "seamless"
       ],
       "dateAdded": "2026-03-09"
+    },
+    {
+      "id": "mixkit-video",
+      "name": {
+        "ja": "Mixkit Free Video",
+        "en": "Mixkit Free Video"
+      },
+      "url": "https://mixkit.co/free-stock-video/",
+      "category": "video",
+      "useCases": [
+        "youtube",
+        "web",
+        "sns"
+      ],
+      "description": {
+        "ja": "Mixkitの無料動画素材。高品質な映像クリップを無料ダウンロード。",
+        "en": "Mixkit's free stock footage. Download high-quality video clips for free."
+      },
+      "highlight": {
+        "ja": "高品質な映像クリップを無制限に無料ダウンロード",
+        "en": "Unlimited free downloads of high-quality video clips"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "video",
+        "mp4",
+        "free",
+        "hd",
+        "4k"
+      ],
+      "dateAdded": "2026-03-13"
     },
     {
       "id": "pexelsvideo",
