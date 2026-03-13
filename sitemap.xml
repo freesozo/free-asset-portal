@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://freesozo.com/index.html</loc><lastmod>2026-03-14</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://freesozo.com/privacy.html</loc><lastmod>2026-03-14</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://freesozo.com/font.html</loc><lastmod>2026-03-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://freesozo.com/3d.html</loc><lastmod>2026-03-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://freesozo.com/template.html</loc><lastmod>2026-03-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://freesozo.com/category.html</loc><lastmod>2026-03-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://freesozo.com/index.html</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://freesozo.com/privacy.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://freesozo.com/font.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://freesozo.com/3d.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://freesozo.com/template.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://freesozo.com/category.html?cat=illustration</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://freesozo.com/category.html?cat=photo</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://freesozo.com/category.html?cat=music</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -70,6 +69,7 @@
   <url><loc>https://freesozo.com/detail.html?id=fontdasu</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=dafont</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=fontesk</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=league-of-moveable-type</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=icooonmono</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=fontawesome</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=svgrepo</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -100,6 +100,8 @@
   <url><loc>https://freesozo.com/detail.html?id=healthicons</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=evaicons</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=flagicons</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=majesticons</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=system-uicons</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=irasutoya</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=undraw</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=freepik</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -133,6 +135,7 @@
   <url><loc>https://freesozo.com/detail.html?id=stubborn</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=shigureni</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=logoipsum</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=smashillustrations</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=designac</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=delesign</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=mockupworld</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>

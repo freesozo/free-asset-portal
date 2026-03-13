@@ -1709,6 +1709,40 @@
       "dateAdded": "2026-03-13"
     },
     {
+      "id": "league-of-moveable-type",
+      "name": {
+        "ja": "The League of Moveable Type",
+        "en": "The League of Moveable Type"
+      },
+      "url": "https://www.theleagueofmoveabletype.com/",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print"
+      ],
+      "description": {
+        "ja": "オープンソースのタイプファウンドリー。高品質で自由に使えるフォント。",
+        "en": "Open-source type foundry. High-quality freely usable fonts."
+      },
+      "highlight": {
+        "ja": "オープンソースの先駆的タイプファウンドリー",
+        "en": "Pioneering open-source type foundry"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "ttf",
+        "otf",
+        "free",
+        "opensource"
+      ],
+      "dateAdded": "2026-03-13"
+    },
+    {
       "id": "icooonmono",
       "name": {
         "ja": "ICOOON MONO",
@@ -2727,6 +2761,70 @@
         "free",
         "flags",
         "mit"
+      ],
+      "dateAdded": "2026-03-13"
+    },
+    {
+      "id": "majesticons",
+      "name": {
+        "ja": "Majesticons",
+        "en": "Majesticons"
+      },
+      "url": "https://www.majesticons.com/",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "760以上のSVGアイコン。ラインとソリッドの2スタイル。",
+        "en": "Over 760 SVG icons. Two styles: line and solid."
+      },
+      "highlight": {
+        "ja": "美しいラインとソリッドの2スタイル",
+        "en": "Beautiful line and solid dual-style icons"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "icon",
+        "svg",
+        "free"
+      ],
+      "dateAdded": "2026-03-13"
+    },
+    {
+      "id": "system-uicons",
+      "name": {
+        "ja": "System UIcons",
+        "en": "System UIcons"
+      },
+      "url": "https://systemuicons.com/",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "システムUI向けのミニマルなアイコン集。21x21グリッドベース。",
+        "en": "Minimal icon collection for system UIs. Based on 21x21 grid."
+      },
+      "highlight": {
+        "ja": "UIデザインに最適化されたシステムアイコン",
+        "en": "System icons optimized for UI design"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "icon",
+        "svg",
+        "free"
       ],
       "dateAdded": "2026-03-13"
     },
@@ -3914,6 +4012,40 @@
         "jpg"
       ],
       "dateAdded": "2026-03-01"
+    },
+    {
+      "id": "smashillustrations",
+      "name": {
+        "ja": "Smash Illustrations",
+        "en": "Smash Illustrations"
+      },
+      "url": "https://usesmash.com/",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation",
+        "app"
+      ],
+      "description": {
+        "ja": "250以上のカスタマイズ可能なイラスト素材。",
+        "en": "Over 250 customizable illustration assets."
+      },
+      "highlight": {
+        "ja": "ビジネス向けのプロフェッショナルなイラスト",
+        "en": "Professional illustrations for business use"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "illustration",
+        "svg",
+        "png",
+        "free"
+      ],
+      "dateAdded": "2026-03-13"
     },
     {
       "id": "designac",

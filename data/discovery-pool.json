@@ -202,7 +202,7 @@
         "png",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "glaze",
@@ -878,7 +878,7 @@
         "svg",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "akar-icons",
@@ -976,7 +976,7 @@
         "svg",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "ikonate",
@@ -2319,7 +2319,8 @@
         "landscape",
         "travel"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "mixkit-video",
@@ -2491,7 +2492,7 @@
         "free",
         "opensource"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "open-foundry",
