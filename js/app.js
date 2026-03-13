@@ -140,6 +140,14 @@ const App = (() => {
         $grid.innerHTML = `<div class="no-results">${I18n.t('noResults')}</div>`;
       } else {
         $grid.innerHTML = visible.map(cardHTML).join('');
+        // Staggered fade-in for cards
+        if (typeof IntersectionObserver !== 'undefined') {
+          $grid.querySelectorAll('.card').forEach(function(card, i) {
+            card.classList.add('fade-in-up');
+            card.style.transitionDelay = (i % 12) * 0.05 + 's';
+            fadeObserver && fadeObserver.observe(card);
+          });
+        }
       }
     }
 
@@ -332,16 +340,56 @@ const App = (() => {
   }
 
   // ── Category nav rendering ──
+  // SVG icons for category cards (simple, self-contained, no external deps)
+  var catSVG = {
+    illustration: '<path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.24 3.93L12 22l-.76-12.07A4.002 4.002 0 0 1 12 2z"/><circle cx="7" cy="8" r="2"/><circle cx="17" cy="8" r="2"/><circle cx="5" cy="14" r="2"/><circle cx="19" cy="14" r="2"/>',
+    photo: '<rect x="2" y="6" width="20" height="14" rx="2"/><circle cx="12" cy="13" r="4"/><path d="M15 2h-2l-1 4h4z"/>',
+    music: '<path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>',
+    sound: '<polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>',
+    video: '<rect x="2" y="4" width="15" height="16" rx="2"/><polygon points="22,8 17,12 22,16"/>',
+    icon: '<line x1="4" y1="9" x2="20" y2="9"/><line x1="4" y1="15" x2="20" y2="15"/><line x1="10" y1="3" x2="8" y2="21"/><line x1="16" y1="3" x2="14" y2="21"/>',
+    texture: '<rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>',
+    asset: '<line x1="6" y1="12" x2="10" y2="12"/><line x1="8" y1="10" x2="8" y2="14"/><line x1="15" y1="13" x2="15.01" y2="13"/><line x1="18" y1="11" x2="18.01" y2="11"/><rect x="2" y="6" width="20" height="12" rx="2"/>',
+    mockup: '<rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12" y2="18"/>',
+    archive: '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>',
+    font: '<polyline points="4,7 4,4 20,4 20,7"/><line x1="12" y1="4" x2="12" y2="20"/><line x1="8" y1="20" x2="16" y2="20"/>',
+    '3d': '<path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27,6.96 12,12.01 20.73,6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/>',
+    template: '<rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/>'
+  };
+
   function renderCategoryNav() {
     const $catNav = document.getElementById('categoryNav');
     if (!$catNav) return;
-    const allBtn = `<button class="nav-pill ${!state.category ? 'active' : ''}" data-cat="">${I18n.t('all')}</button>`;
-    const pills = data.categories.map(c => `
-      <button class="nav-pill ${state.category === c.id ? 'active' : ''}" data-cat="${c.id}">
-        <span class="pill-icon">${c.icon}</span> ${I18n.localize(c.name)}
-      </button>`).join('');
-    $catNav.innerHTML = allBtn + pills;
-    $catNav.querySelectorAll('.nav-pill').forEach(btn => {
+    // Use card layout if cat-card-grid class exists, otherwise fallback to pills
+    const useCards = $catNav.classList.contains('cat-card-grid');
+    if (!useCards) {
+      // Fallback: pill layout for category.html etc.
+      const allBtn = `<button class="nav-pill ${!state.category ? 'active' : ''}" data-cat="">${I18n.t('all')}</button>`;
+      const pills = data.categories.map(c => `
+        <button class="nav-pill ${state.category === c.id ? 'active' : ''}" data-cat="${c.id}">
+          <span class="pill-icon">${c.icon}</span> ${I18n.localize(c.name)}
+        </button>`).join('');
+      $catNav.innerHTML = allBtn + pills;
+    } else {
+      // Card layout for index.html
+      const lang = I18n.getLang();
+      const sitesLabel = lang === 'en' ? 'sites' : 'サイト';
+      const allCount = data.sites.length;
+      const allCard = `<button class="cat-card ${!state.category ? 'active' : ''}" data-cat="">
+        <span class="cat-card-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></span>
+        <span class="cat-card-body"><span class="cat-card-name">${I18n.t('all')}</span><span class="cat-card-count">${allCount} ${sitesLabel}</span></span>
+      </button>`;
+      const cards = data.categories.map(c => {
+        const count = data.sites.filter(s => s.category === c.id).length;
+        const svg = catSVG[c.id] || '';
+        return `<button class="cat-card ${state.category === c.id ? 'active' : ''}" data-cat="${c.id}">
+          <span class="cat-card-icon"><svg viewBox="0 0 24 24">${svg}</svg></span>
+          <span class="cat-card-body"><span class="cat-card-name">${I18n.localize(c.name)}</span><span class="cat-card-count">${count} ${sitesLabel}</span></span>
+        </button>`;
+      }).join('');
+      $catNav.innerHTML = allCard + cards;
+    }
+    $catNav.querySelectorAll('.cat-card, .nav-pill').forEach(btn => {
       btn.addEventListener('click', () => {
         state.category = btn.dataset.cat || null;
         state.page = 1;
@@ -1142,6 +1190,44 @@ const App = (() => {
     const overlay = document.getElementById('quizOverlay');
     if (overlay && overlay.style.display === 'flex') {
       renderQuizStep();
+    }
+  });
+
+  // Header scroll effect – add .scrolled class after 50px
+  window.addEventListener('scroll', function() {
+    var header = document.querySelector('.site-header');
+    if (header) {
+      header.classList.toggle('scrolled', window.scrollY > 50);
+    }
+  }, { passive: true });
+
+  // IntersectionObserver – fade-in-up on scroll
+  if ('IntersectionObserver' in window) {
+    var fadeObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          fadeObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    // Observe after DOM ready
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('.fade-in-up').forEach(function(el) {
+        fadeObserver.observe(el);
+      });
+    });
+  }
+
+  // Smooth scroll for hero CTA anchors
+  document.addEventListener('click', function(e) {
+    var link = e.target.closest('a[href^="#"]');
+    if (!link) return;
+    var target = document.querySelector(link.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   });
 
