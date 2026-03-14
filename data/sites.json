@@ -229,6 +229,74 @@
       ]
     },
     {
+      "id": "rigmodels",
+      "name": {
+        "ja": "RigModels",
+        "en": "RigModels"
+      },
+      "url": "https://rigmodels.com/",
+      "category": "3d",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "リグ付きの無料3Dキャラクターモデル。アニメーション対応。",
+        "en": "Free rigged 3D character models. Animation-ready."
+      },
+      "highlight": {
+        "ja": "リグ付きですぐにアニメーション可能な3Dモデル",
+        "en": "Rigged 3D models ready for immediate animation"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": false,
+      "rating": 3,
+      "tags": [
+        "3d",
+        "fbx",
+        "obj",
+        "free",
+        "rigged",
+        "character"
+      ],
+      "dateAdded": "2026-03-14"
+    },
+    {
+      "id": "clara-io",
+      "name": {
+        "ja": "Clara.io",
+        "en": "Clara.io"
+      },
+      "url": "https://clara.io/library",
+      "category": "3d",
+      "useCases": [
+        "game",
+        "web"
+      ],
+      "description": {
+        "ja": "ブラウザベースの3Dモデリング＆無料3Dモデルライブラリ。",
+        "en": "Browser-based 3D modeling and free 3D model library."
+      },
+      "highlight": {
+        "ja": "ブラウザ上で3Dモデリングもできるライブラリ",
+        "en": "Library with in-browser 3D modeling capabilities"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": false,
+      "rating": 3,
+      "tags": [
+        "3d",
+        "obj",
+        "fbx",
+        "free",
+        "online"
+      ],
+      "dateAdded": "2026-03-14"
+    },
+    {
       "id": "wikimediacommons",
       "name": {
         "ja": "Wikimedia Commons",
@@ -4083,6 +4151,39 @@
       "dateAdded": "2026-03-14"
     },
     {
+      "id": "glaze",
+      "name": {
+        "ja": "Glaze",
+        "en": "Glaze"
+      },
+      "url": "https://www.glazestock.com/",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation"
+      ],
+      "description": {
+        "ja": "メンフィスデザインスタイルのフリーイラスト。",
+        "en": "Free illustrations in Memphis design style."
+      },
+      "highlight": {
+        "ja": "トレンドのメンフィスデザインイラスト",
+        "en": "Trendy Memphis design style illustrations"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "illustration",
+        "png",
+        "free",
+        "memphis"
+      ],
+      "dateAdded": "2026-03-14"
+    },
+    {
       "id": "designac",
       "name": {
         "ja": "デザインAC",
@@ -4183,6 +4284,40 @@
         "png",
         "free",
         "404"
+      ],
+      "dateAdded": "2026-03-14"
+    },
+    {
+      "id": "skribbl",
+      "name": {
+        "ja": "Skribbl",
+        "en": "Skribbl"
+      },
+      "url": "https://weareskribbl.com/",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation"
+      ],
+      "description": {
+        "ja": "手描きスケッチ風のフリーイラスト素材。",
+        "en": "Free hand-sketched illustration assets."
+      },
+      "highlight": {
+        "ja": "ユニークな手描きスケッチスタイル",
+        "en": "Unique hand-sketched style illustrations"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "illustration",
+        "svg",
+        "png",
+        "sketch",
+        "free"
       ],
       "dateAdded": "2026-03-14"
     },

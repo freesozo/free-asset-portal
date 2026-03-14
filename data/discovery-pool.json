@@ -168,7 +168,7 @@
         "sketch",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "smashillustrations",
@@ -235,7 +235,7 @@
         "free",
         "memphis"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "growww",
@@ -945,7 +945,8 @@
         "free",
         "font"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "system-uicons",
@@ -2898,7 +2899,7 @@
         "free",
         "online"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "threedscans",
@@ -3031,7 +3032,7 @@
         "rigged",
         "character"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "html5up",
