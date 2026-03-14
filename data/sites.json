@@ -4048,6 +4048,41 @@
       "dateAdded": "2026-03-13"
     },
     {
+      "id": "scale-flexiple",
+      "name": {
+        "ja": "Scale by Flexiple",
+        "en": "Scale by Flexiple"
+      },
+      "url": "https://2.flexiple.com/scale/all-illustrations",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation",
+        "app"
+      ],
+      "description": {
+        "ja": "カスタマイズ可能なオープンソースイラスト素材。色やパーツを変更可能。",
+        "en": "Customizable open-source illustrations. Change colors and parts freely."
+      },
+      "highlight": {
+        "ja": "色やパーツを自由に変更できるオープンソース",
+        "en": "Open-source with freely customizable colors and parts"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "illustration",
+        "svg",
+        "png",
+        "free",
+        "opensource"
+      ],
+      "dateAdded": "2026-03-14"
+    },
+    {
       "id": "designac",
       "name": {
         "ja": "デザインAC",
@@ -4117,6 +4152,39 @@
         "svg",
         "jpg"
       ]
+    },
+    {
+      "id": "error404-illustrations",
+      "name": {
+        "ja": "Error 404 Illustrations",
+        "en": "Error 404 Illustrations"
+      },
+      "url": "https://error404.fun/",
+      "category": "illustration",
+      "useCases": [
+        "web"
+      ],
+      "description": {
+        "ja": "404エラーページ用のフリーイラスト。すぐに使えるSVG/PNG素材。",
+        "en": "Free illustrations for 404 error pages. Ready-to-use SVG/PNG assets."
+      },
+      "highlight": {
+        "ja": "404ページ専用のユニークなイラスト集",
+        "en": "Unique illustration collection specifically for 404 pages"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "illustration",
+        "svg",
+        "png",
+        "free",
+        "404"
+      ],
+      "dateAdded": "2026-03-14"
     },
     {
       "id": "mockupworld",
@@ -6764,6 +6832,39 @@
       ]
     },
     {
+      "id": "soundgator",
+      "name": {
+        "ja": "SoundGator",
+        "en": "SoundGator"
+      },
+      "url": "https://www.soundgator.com/",
+      "category": "sound",
+      "useCases": [
+        "game",
+        "youtube"
+      ],
+      "description": {
+        "ja": "無料の効果音ライブラリ。カテゴリ別に検索可能。",
+        "en": "Free sound effects library. Searchable by category."
+      },
+      "highlight": {
+        "ja": "カテゴリ別に整理された無料効果音",
+        "en": "Free sound effects organized by category"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "sound",
+        "mp3",
+        "free",
+        "sfx"
+      ],
+      "dateAdded": "2026-03-14"
+    },
+    {
       "id": "canva-templates",
       "name": {
         "ja": "Canva",
@@ -6956,6 +7057,38 @@
         "bootstrap"
       ],
       "dateAdded": "2026-03-07"
+    },
+    {
+      "id": "colorlib-free",
+      "name": {
+        "ja": "Colorlib Free",
+        "en": "Colorlib Free"
+      },
+      "url": "https://colorlib.com/wp/templates/",
+      "category": "template",
+      "useCases": [
+        "web"
+      ],
+      "description": {
+        "ja": "数千の無料HTMLテンプレート・WordPressテーマ。",
+        "en": "Thousands of free HTML templates and WordPress themes."
+      },
+      "highlight": {
+        "ja": "数千の無料テンプレートから選べる",
+        "en": "Choose from thousands of free templates"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "template",
+        "html",
+        "wordpress",
+        "free"
+      ],
+      "dateAdded": "2026-03-14"
     },
     {
       "id": "haikei",
@@ -7726,6 +7859,39 @@
         "seamless"
       ],
       "dateAdded": "2026-03-09"
+    },
+    {
+      "id": "wildtextures",
+      "name": {
+        "ja": "Wild Textures",
+        "en": "Wild Textures"
+      },
+      "url": "https://www.wildtextures.com/",
+      "category": "texture",
+      "useCases": [
+        "game",
+        "web",
+        "print"
+      ],
+      "description": {
+        "ja": "高解像度の無料テクスチャ。商用利用可能。",
+        "en": "High-resolution free textures. Available for commercial use."
+      },
+      "highlight": {
+        "ja": "高解像度で商用利用可能なテクスチャ",
+        "en": "High-resolution textures for commercial use"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "texture",
+        "jpg",
+        "free"
+      ],
+      "dateAdded": "2026-03-14"
     },
     {
       "id": "mixkit-video",

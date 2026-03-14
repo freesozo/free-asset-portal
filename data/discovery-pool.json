@@ -306,7 +306,7 @@
         "free",
         "opensource"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "control-illustrations",
@@ -1554,7 +1554,7 @@
         "jpg",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "texturepalace",
@@ -2019,7 +2019,7 @@
         "free",
         "sfx"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "freesfx",
@@ -3164,7 +3164,7 @@
         "wordpress",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "starter-templates",
@@ -3231,7 +3231,7 @@
         "free",
         "404"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "pixeltrue-illustrations",
