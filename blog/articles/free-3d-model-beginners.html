@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>【初心者向け】無料3Dモデルの始め方ガイド｜ダウンロードから商用利用の注意点まで – フリー素材ポータル</title>
+  <meta name="description" content="3DCGに興味があるけど何から始めればいい？無料3Dモデルのダウンロード方法、ライセンスの見分け方、おすすめソフト（Blender）との連携まで、初心者向けに丁寧に解説します。">
+  <meta name="keywords" content="3Dモデル,無料,フリー,Blender,OBJ,FBX,glTF,初心者,商用利用">
+  <link rel="canonical" href="https://freesozo.com/blog/articles/free-3d-model-beginners.html">
+  <meta property="og:title" content="【初心者向け】無料3Dモデルの始め方ガイド">
+  <meta property="og:description" content="無料3Dモデルのダウンロード方法、ライセンスの見分け方、Blenderでの読み込み方を初心者向けに解説。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://freesozo.com/blog/articles/free-3d-model-beginners.html">
+  <meta property="og:site_name" content="フリー素材ポータル">
+  <meta property="og:image" content="https://freesozo.com/og-image.png">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="【初心者向け】無料3Dモデルの始め方ガイド">
+  <meta name="twitter:description" content="無料3Dモデルの始め方を初心者向けに解説。">
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <script>(function(){var t=localStorage.getItem('theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;})();</script>
+  <link rel="stylesheet" href="../../css/style.css?v=9">
+  <link rel="stylesheet" href="../blog.css?v=1">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TW9TKBPSNW"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-TW9TKBPSNW');</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1060876188767022" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "【初心者向け】無料3Dモデルの始め方ガイド｜ダウンロードから商用利用の注意点まで",
+    "description": "3DCGに興味があるけど何から始めればいい？無料3Dモデルのダウンロード方法、ライセンスの見分け方、Blenderとの連携を解説。",
+    "datePublished": "2026-03-16",
+    "dateModified": "2026-03-16",
+    "author": {"@type": "Organization", "name": "freesozo編集部"},
+    "publisher": {"@type": "Organization", "name": "フリー素材ポータル", "url": "https://freesozo.com"},
+    "mainEntityOfPage": {"@type": "WebPage", "@id": "https://freesozo.com/blog/articles/free-3d-model-beginners.html"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://freesozo.com/"},
+      {"@type": "ListItem", "position": 2, "name": "ブログ", "item": "https://freesozo.com/blog/"},
+      {"@type": "ListItem", "position": 3, "name": "無料3Dモデル入門"}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="site-logo"><a href="../../index.html">📦 <span data-i18n="siteTitle">フリー素材ポータル</span></a></div>
+      <nav class="header-nav">
+        <a href="../../index.html" data-i18n="breadcrumbHome">ホーム</a>
+        <a href="../../index.html#categoryNav" data-i18n="categoryHeading">カテゴリ</a>
+        <a href="../index.html">ブログ</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
+        <button class="lang-btn" id="langBtn" data-i18n="lang">🌐 English</button>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="../../index.html" data-i18n="breadcrumbHome">ホーム</a>
+    <a href="../../index.html#categoryNav" data-i18n="categoryHeading">カテゴリ</a>
+    <a href="../index.html">ブログ</a>
+  </nav>
+
+  <main class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="../../index.html">ホーム</a> <span aria-hidden="true">›</span>
+      <a href="../index.html">ブログ</a> <span aria-hidden="true">›</span>
+      <span>無料3Dモデル入門</span>
+    </nav>
+
+    <article class="blog-article">
+      <div class="blog-meta">
+        <span class="blog-meta-cat">3D素材</span>
+        <time datetime="2026-03-16">2026年3月16日</time>
+        <span class="read-time">読了目安: 10分</span>
+      </div>
+      <h1>【初心者向け】無料3Dモデルの始め方ガイド｜ダウンロードから商用利用の注意点まで</h1>
+      <p class="article-lead">3DCGに挑戦してみたいけど、まず何をすればいい？この記事では、無料3Dモデルのダウンロード方法から、ライセンスの見分け方、Blenderでの読み込み方まで、完全初心者向けにステップバイステップで解説します。</p>
+
+      <div class="blog-toc">
+        <div class="blog-toc-title">この記事の内容</div>
+        <ol>
+          <li><a href="#section1">3Dモデルとは？ファイル形式の基礎知識</a></li>
+          <li><a href="#section2">無料3Dモデルサイトの選び方とライセンス確認方法</a></li>
+          <li><a href="#section3">おすすめ無料3Dモデルサイト10選</a></li>
+          <li><a href="#section4">Blender（無料）で3Dモデルを読み込む手順</a></li>
+          <li><a href="#section5">商用利用する際の注意点3つ</a></li>
+          <li><a href="#section6">まとめ</a></li>
+        </ol>
+      </div>
+
+      <!-- ===== Section 1 ===== -->
+      <h2 id="section1">1. 3Dモデルとは？ファイル形式の基礎知識</h2>
+      <p>3Dモデルとは、コンピュータ上で立体的なオブジェクトを数学的に表現したデータのことです。ゲーム、映画のVFX、建築ビジュアライゼーション、製品プロトタイピング、VR/ARコンテンツなど、あらゆる分野で使われています。3Dモデルは基本的に「頂点（バーテックス）」「辺（エッジ）」「面（フェース）」の3要素で構成されるポリゴンメッシュで形状を表現し、その上にテクスチャ（画像）を貼り付けることで色や質感を再現します。</p>
+      <p>無料の3Dモデルをダウンロードして使い始めるにあたって、まず知っておくべきなのがファイル形式の違いです。ファイル形式によって対応ソフトや格納できる情報が異なるため、自分の用途に合った形式を選ぶことが重要です。以下の表で主要な5つのファイル形式を比較してみましょう。</p>
+
+      <div class="blog-comparison-table">
+        <table>
+          <thead>
+            <tr>
+              <th>形式</th>
+              <th>拡張子</th>
+              <th>特徴</th>
+              <th>アニメーション</th>
+              <th>主な用途</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>OBJ</strong></td>
+              <td>.obj / .mtl</td>
+              <td>最も古く互換性が高い。テクスチャ情報は別ファイル（.mtl）で管理</td>
+              <td>非対応</td>
+              <td>静的モデルの受け渡し全般</td>
+            </tr>
+            <tr>
+              <td><strong>FBX</strong></td>
+              <td>.fbx</td>
+              <td>Autodesk開発。ボーン・アニメーション・カメラ情報を格納可能</td>
+              <td>対応</td>
+              <td>ゲーム開発（Unity/Unreal）、映像制作</td>
+            </tr>
+            <tr>
+              <td><strong>glTF / GLB</strong></td>
+              <td>.gltf / .glb</td>
+              <td>Web3D時代の新標準。軽量でThree.jsやBabylon.jsと相性抜群</td>
+              <td>対応</td>
+              <td>Webアプリ、AR/VR、リアルタイム表示</td>
+            </tr>
+            <tr>
+              <td><strong>STL</strong></td>
+              <td>.stl</td>
+              <td>三角形メッシュのみ。色・テクスチャ情報なし</td>
+              <td>非対応</td>
+              <td>3Dプリント</td>
+            </tr>
+            <tr>
+              <td><strong>BLEND</strong></td>
+              <td>.blend</td>
+              <td>Blender専用。シーン全体（ライト・カメラ・ノード設定含む）を保存</td>
+              <td>対応</td>
+              <td>Blenderプロジェクト全体の共有</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>OBJ：汎用性の王様</h3>
+      <p>OBJ形式は1980年代にWavefront Technologies社によって開発された、3D業界で最も長い歴史を持つファイル形式です。ほぼすべての3Dソフトウェアで読み込み・書き出しが可能なため、異なるソフト間でモデルをやり取りする際に最も安全な選択肢です。ただし、OBJ自体にはテクスチャ情報が含まれず、マテリアル定義は別ファイル（.mtlファイル）に、テクスチャ画像は.pngや.jpgとして同梱されます。ダウンロード後にテクスチャが表示されない場合は、.mtlファイルと画像ファイルが同じフォルダに配置されているか確認しましょう。</p>
+
+      <h3>FBX：ゲーム開発者の定番</h3>
+      <p>FBX形式はAutodesk社が開発したプロプライエタリ形式で、メッシュデータだけでなく、ボーン（骨格）、スキニング（メッシュとボーンの紐付け）、アニメーションキーフレーム、カメラ、ライト情報までを一つのファイルに格納できます。UnityやUnreal Engineとの互換性が非常に高く、ゲーム開発の現場ではデファクトスタンダードとして広く使われています。バイナリ形式とASCII形式の2種類があり、バイナリ形式の方がファイルサイズが小さくなります。</p>
+
+      <h3>glTF/GLB：Webの未来を担う新標準</h3>
+      <p>glTF（GL Transmission Format）はKhronos Groupが策定したオープン標準で、「3DのJPEG」とも呼ばれています。JSON形式のテキストファイル（.gltf）とバイナリデータ、テクスチャ画像で構成されますが、これらをすべて一つのバイナリファイルにまとめたGLB形式もあります。PBR（物理ベースレンダリング）マテリアルをネイティブサポートしており、Three.js、Babylon.js、A-FrameなどのWebGLフレームワークとの相性が抜群です。最近ではBlenderやUnityでも標準サポートされるようになりました。</p>
+
+      <h3>STL：3Dプリントの世界標準</h3>
+      <p>STL形式は3Dプリンティングに特化した形式で、三角形ポリゴンのメッシュ情報のみを保持します。色やテクスチャの情報は一切含まれないため、CG制作には不向きですが、3Dプリンターでフィギュアやパーツを出力したい場合には最もよく使われます。ASCII形式とバイナリ形式がありますが、ファイルサイズの観点からバイナリ形式が一般的です。</p>
+
+      <h3>BLEND：Blenderユーザーの最強形式</h3>
+      <p>BLEND形式はBlender専用のネイティブ形式で、3Dモデルだけでなく、シーン内のライティング、カメラ設定、マテリアルノード、アニメーション、パーティクル設定など、プロジェクト全体を丸ごと保存できます。Blenderを使っている相手とデータをやり取りする場合には、最も情報の欠落が少ない形式です。</p>
+
+      <div class="highlight-box">
+        <p><strong>初心者へのおすすめ：</strong>まずはBlenderを使うなら<strong>.blend</strong>形式のモデルを探すのが最も簡単です。テクスチャやマテリアルがすべて含まれているため、ファイルを開くだけで完成形を確認できます。他のソフトとやり取りする場合は<strong>.fbx</strong>か<strong>.glTF</strong>を選びましょう。</p>
+      </div>
+
+      <!-- ===== Section 2 ===== -->
+      <h2 id="section2">2. 無料3Dモデルサイトの選び方とライセンス確認方法</h2>
+      <p>無料の3Dモデルを安心して使うためには、ライセンス（利用規約）を正しく理解することが不可欠です。「無料＝何でも自由に使える」ではない点に注意してください。ライセンスの種類によって、商用利用の可否、クレジット表記の要否、改変の可否が異なります。</p>
+
+      <h3>Creative Commonsライセンスの種類</h3>
+      <p>無料3Dモデルの配布でよく使われるのが、Creative Commons（CC）ライセンスです。以下の4種類を覚えておけば、ほとんどのケースに対応できます。</p>
+
+      <div class="blog-comparison-table">
+        <table>
+          <thead>
+            <tr>
+              <th>ライセンス</th>
+              <th>商用利用</th>
+              <th>改変</th>
+              <th>クレジット</th>
+              <th>概要</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>CC0</strong></td>
+              <td>OK</td>
+              <td>OK</td>
+              <td>不要</td>
+              <td>パブリックドメイン。完全自由。最も制約がない</td>
+            </tr>
+            <tr>
+              <td><strong>CC BY</strong></td>
+              <td>OK</td>
+              <td>OK</td>
+              <td>必要</td>
+              <td>作者名の表示が必須。それ以外は自由</td>
+            </tr>
+            <tr>
+              <td><strong>CC BY-SA</strong></td>
+              <td>OK</td>
+              <td>OK（同一ライセンスで公開）</td>
+              <td>必要</td>
+              <td>改変作品も同じCCライセンスで配布する義務あり</td>
+            </tr>
+            <tr>
+              <td><strong>CC BY-NC</strong></td>
+              <td>NG</td>
+              <td>OK</td>
+              <td>必要</td>
+              <td>非商用に限定。個人プロジェクトや学習用途向け</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Royalty-FreeとRights-Managedの違い</h3>
+      <p><strong>Royalty-Free（RF）</strong>は、一度購入（または無料取得）すれば追加のロイヤリティ（使用料）を支払うことなく繰り返し使用できるライセンスです。ただし「無料」という意味ではなく、あくまで「使用のたびに課金されない」という意味です。多くの無料3Dモデルサイトではこの形式が採用されています。一方、<strong>Rights-Managed（RM）</strong>は、使用目的・期間・地域などに応じて都度ライセンス料が発生する形式で、無料3Dモデルサイトではほぼ見かけません。</p>
+
+      <h3>ダウンロード前に必ずチェックすべき3つのポイント</h3>
+      <ul class="check-list">
+        <li><strong>商用利用の可否：</strong>仕事やクライアントワーク、販売物に使う予定がある場合は、必ず「Commercial use allowed」や「商用利用可」の表記を確認しましょう。CC BY-NCのモデルを商用利用すると著作権侵害になります。</li>
+        <li><strong>クレジット表記の要否：</strong>CC BYライセンスの場合、作品内やプロジェクトのクレジット画面で作者名を表示する義務があります。ゲームのエンドクレジットやWebサイトのフッターなど、どこに記載するか事前に決めておきましょう。</li>
+        <li><strong>再配布・改変の条件：</strong>ダウンロードしたモデルを改変して別のサイトで配布したり、販売したりする場合は、ライセンスで明確に許可されているか確認が必要です。特にCC BY-SAでは、改変後の作品も同じライセンスで公開する義務があります。</li>
+      </ul>
+
+      <div class="notice-box">
+        <p><strong>注意：</strong>サイトによっては、同じプラットフォーム上でもモデルごとにライセンスが異なることがあります。一括ダウンロードする場合も、個々のモデルのライセンスを必ず個別に確認してください。</p>
+      </div>
+
+      <!-- ===== Section 3 ===== -->
+      <h2 id="section3">3. おすすめ無料3Dモデルサイト10選</h2>
+      <p>ここでは、初心者でも安心して使える高品質な無料3Dモデルサイトを10個厳選して紹介します。各サイトの特徴、得意ジャンル、ライセンス形態を比較しながら、自分の用途に合ったサイトを見つけてください。当サイトの<a href="../../category.html?cat=3d">3Dモデルカテゴリ</a>でも詳しく比較しています。</p>
+
+      <div class="blog-comparison-table">
+        <table>
+          <thead>
+            <tr>
+              <th>サイト名</th>
+              <th>得意ジャンル</th>
+              <th>ライセンス</th>
+              <th>会員登録</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Poly Pizza</strong></td>
+              <td>ローポリ・ゲーム向けモデル</td>
+              <td>CC BY 3.0</td>
+              <td>不要</td>
+            </tr>
+            <tr>
+              <td><strong>Sketchfab（無料枠）</strong></td>
+              <td>あらゆるジャンル。3Dビューアで事前確認可能</td>
+              <td>モデルにより異なる（CC0～CC BY-NC）</td>
+              <td>必要</td>
+            </tr>
+            <tr>
+              <td><strong>TurboSquid（無料枠）</strong></td>
+              <td>プロ品質のモデル。映像・ゲーム向け</td>
+              <td>TurboSquid 3D Model License / Royalty-Free</td>
+              <td>必要</td>
+            </tr>
+            <tr>
+              <td><strong>CGTrader（無料枠）</strong></td>
+              <td>建築・インテリア・キャラクター</td>
+              <td>Royalty-Free / モデルにより異なる</td>
+              <td>必要</td>
+            </tr>
+            <tr>
+              <td><strong>Free3D</strong></td>
+              <td>車・建物・家具など幅広い</td>
+              <td>Personal Use / 一部商用可</td>
+              <td>必要</td>
+            </tr>
+            <tr>
+              <td><strong>Clara.io</strong></td>
+              <td>ブラウザ上で3D編集可能</td>
+              <td>モデルにより異なる</td>
+              <td>必要</td>
+            </tr>
+            <tr>
+              <td><strong>Poly Haven</strong></td>
+              <td>HDRI・テクスチャ・高品質3Dモデル</td>
+              <td>CC0（完全無料・完全自由）</td>
+              <td>不要</td>
+            </tr>
+            <tr>
+              <td><strong>Kenney</strong></td>
+              <td>ゲーム用アセット（ローポリ・UI・効果音）</td>
+              <td>CC0</td>
+              <td>不要</td>
+            </tr>
+            <tr>
+              <td><strong>Open Game Art</strong></td>
+              <td>オープンソースゲーム向け素材</td>
+              <td>CC BY / CC BY-SA / CC0 / GPL</td>
+              <td>不要（DLは一部要登録）</td>
+            </tr>
+            <tr>
+              <td><strong>NASA 3D Resources</strong></td>
+              <td>宇宙関連（人工衛星・惑星・探査機）</td>
+              <td>パブリックドメイン（米国政府著作物）</td>
+              <td>不要</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>各サイトの詳細ガイド</h3>
+
+      <p><strong>Poly Pizza</strong>は、Google Poly（2021年にサービス終了）から移行したローポリ3Dモデルのアーカイブサイトです。すべてのモデルがCC BY 3.0ライセンスで公開されており、作者名をクレジット表記すれば商用利用も可能です。ゲーム開発やプロトタイピングに最適な、軽量で扱いやすいモデルが数千点揃っています。glTF形式でのダウンロードに対応しているため、Web3D開発との相性も抜群です。</p>
+
+      <p><strong>Sketchfab</strong>は、世界最大規模の3Dモデルプラットフォームで、ブラウザ上の3Dビューアでモデルをあらゆる角度から確認してからダウンロードできるのが最大の強みです。無料モデルだけでも数十万点が公開されていますが、モデルごとにライセンスが異なるため、ダウンロード前に各モデルのライセンス表記を必ず確認してください。OBJ、FBX、glTF、STLなど複数の形式でダウンロードできます。</p>
+
+      <p><strong>TurboSquid</strong>と<strong>CGTrader</strong>は、有料モデルがメインのマーケットプレイスですが、無料セクションにも高品質なモデルが多数あります。プロのCGアーティストが制作したモデルが手に入るため、ポートフォリオや映像制作に使いたい場合に特におすすめです。</p>
+
+      <p><strong>Poly Haven</strong>は、すべてのアセットがCC0ライセンスで提供されている希少なサイトです。3Dモデルだけでなく、HDRIマップ（環境照明用の360度画像）やPBRテクスチャも無料で入手できるため、Blenderでフォトリアルなシーンを作りたい初心者には特におすすめのサイトです。登録不要で即ダウンロードできる手軽さも魅力です。</p>
+
+      <p><strong>Kenney</strong>は、ゲーム開発者向けの無料アセットパックを大量に提供しているサイトで、3Dモデル以外にもUI素材やサウンドエフェクトまで揃っています。すべてCC0ライセンスなので、クレジット表記なしで商用利用可能です。UnityやGodotのチュートリアルで頻繁に使用されています。</p>
+
+      <p><strong>NASA 3D Resources</strong>は、NASA（アメリカ航空宇宙局）が公開している公式3Dモデルライブラリです。国際宇宙ステーション（ISS）、火星探査車キュリオシティ、ハッブル宇宙望遠鏡など、宇宙関連のリアルなモデルが無料で手に入ります。米国政府の著作物としてパブリックドメインで公開されているため、商用・非商用を問わず自由に利用できます。</p>
+
+      <div class="highlight-box">
+        <p><strong>ポイント：</strong>当サイトの<a href="../../index.html">フリー素材ポータル</a>では、上記のサイトを含む200以上のフリー素材サイトを横断的に検索・比較できます。<a href="../../category.html?cat=3d">3Dモデルカテゴリ</a>で条件を絞り込んで最適なサイトを見つけましょう。</p>
+      </div>
+
+      <!-- ===== Section 4 ===== -->
+      <h2 id="section4">4. Blender（無料）で3Dモデルを読み込む手順</h2>
+      <p>Blenderは、プロフェッショナルな品質の3DCG制作が可能な完全無料・オープンソースのソフトウェアです。モデリング、テクスチャリング、アニメーション、レンダリング、動画編集まで、一つのソフトで完結できる統合型ツールで、業界でもMayaや3ds Maxの代替として採用が広がっています。ここでは、ダウンロードした無料3Dモデルをblenderに読み込む手順を、初心者向けにステップバイステップで解説します。</p>
+
+      <h3>Blenderのインストール</h3>
+      <p>まだBlenderをインストールしていない場合は、<a href="https://www.blender.org/download/" target="_blank" rel="noopener">Blender公式サイト</a>から最新版（2026年3月時点でBlender 4.x系）をダウンロードしてください。Windows、macOS、Linuxに対応しています。インストーラーの指示に従ってインストールするだけで準備完了です。</p>
+
+      <h3>3Dモデルのインポート手順</h3>
+      <ol class="step-list">
+        <li>Blenderを起動し、デフォルトのキューブを選択して<kbd>Delete</kbd>キーで削除します。これにより、インポートしたモデルだけが表示されるクリーンなシーンになります。</li>
+        <li>メニューバーから <strong>File &gt; Import</strong> を選択します。対応するファイル形式の一覧が表示されるので、ダウンロードしたモデルの形式に合わせて選択します。
+          <ul>
+            <li>OBJ形式 → <strong>File &gt; Import &gt; Wavefront (.obj)</strong></li>
+            <li>FBX形式 → <strong>File &gt; Import &gt; FBX (.fbx)</strong></li>
+            <li>glTF形式 → <strong>File &gt; Import &gt; glTF 2.0 (.glb/.gltf)</strong></li>
+            <li>STL形式 → <strong>File &gt; Import &gt; STL (.stl)</strong></li>
+          </ul>
+        </li>
+        <li>ファイルブラウザが開くので、ダウンロードしたモデルファイルを選択して <strong>Import</strong> ボタンをクリックします。OBJ形式の場合は、.mtlファイルとテクスチャ画像が同じフォルダにあることを確認してください。</li>
+        <li>インポート直後、モデルが見えない場合はサイズの問題です。テンキーの<kbd>.</kbd>（ピリオド）を押すと、選択中のオブジェクトに画面がフィットします。または<kbd>Home</kbd>キーでシーン全体を表示できます。</li>
+        <li>モデルのスケールが極端に大きい・小さい場合は、右側のプロパティパネル（<kbd>N</kbd>キーで表示/非表示）で <strong>Transform &gt; Scale</strong> の値を調整します。一般的に、1 Blender unit = 1メートルとして扱うのが標準です。</li>
+      </ol>
+
+      <h3>マテリアルとテクスチャの確認</h3>
+      <p>モデルを読み込んだ後、テクスチャが正しく表示されないケースがあります。以下の手順で確認・修正しましょう。</p>
+      <ol class="step-list">
+        <li>ビューポートの表示モードを<strong>Material Preview</strong>（ヘッダー右側の球体アイコン群の3番目）に切り替えます。ショートカットは<kbd>Z</kbd>キーを押してパイメニューから選択します。</li>
+        <li>テクスチャが表示されない場合、対象オブジェクトを選択して<strong>Properties Panel &gt; Material Properties</strong>（チェッカーボード模様の球体アイコン）を開きます。</li>
+        <li><strong>Base Color</strong>の横の黄色い点をクリックし、<strong>Image Texture</strong>を選択します。<strong>Open</strong>ボタンから、同梱されていたテクスチャ画像ファイル（.png、.jpg等）を指定します。</li>
+        <li>ノーマルマップやラフネスマップなどの追加テクスチャがある場合は、<strong>Shader Editor</strong>（画面上部のワークスペースタブで<strong>Shading</strong>を選択）で各ノードにテクスチャを接続します。</li>
+      </ol>
+
+      <h3>簡単なレンダリング設定</h3>
+      <p>読み込んだモデルを画像として出力するための最低限のレンダリング設定を紹介します。</p>
+      <ol class="step-list">
+        <li><strong>Properties Panel &gt; Render Properties</strong>（カメラアイコン）で、レンダリングエンジンを<strong>Eevee</strong>（リアルタイムで高速）または<strong>Cycles</strong>（レイトレーシングで高品質）のいずれかに設定します。初心者にはまず<strong>Eevee</strong>がおすすめです。</li>
+        <li>カメラの位置を調整します。テンキーの<kbd>0</kbd>でカメラビューに切り替え、<kbd>Ctrl + Alt + 0</kbd>で現在のビューをカメラ位置として設定できます。</li>
+        <li><strong>F12</strong>キーを押すとレンダリングが実行されます。完成した画像は<strong>Image &gt; Save As</strong>で任意のフォルダに保存できます。</li>
+      </ol>
+
+      <div class="highlight-box">
+        <p><strong>ヒント：</strong>BLEND形式のモデルをダウンロードした場合は、<strong>File &gt; Open</strong>でファイルを直接開くだけでOKです。Import操作は不要で、テクスチャやライティングの設定もすべて含まれています。最も手軽に始められる形式です。</p>
+      </div>
+
+      <!-- ===== Section 5 ===== -->
+      <h2 id="section5">5. 商用利用する際の注意点3つ</h2>
+      <p>無料3Dモデルを商用プロジェクト（ゲーム販売、広告、クライアントワーク、YouTubeの収益化動画など）で使用する場合は、以下の3つのポイントを必ず確認してください。一つでも見落とすと、著作権侵害やライセンス違反のリスクが生じます。</p>
+
+      <h3>注意点1：ライセンスの「商用利用」条項を必ず確認する</h3>
+      <p>最も基本的かつ重要なポイントです。「Free Download」と書かれていても、それが「商用利用無料」を意味するとは限りません。多くのサイトでは無料ダウンロードは個人利用・学習目的に限定されており、商用利用には別途ライセンス購入が必要な場合があります。CC0やCC BYであれば商用利用が明確に許可されていますが、CC BY-NCや独自ライセンスの場合は慎重に規約を読む必要があります。判断に迷った場合は、モデルの作者に直接問い合わせるのが最も確実です。</p>
+
+      <h3>注意点2：クレジット表記の方法と場所を事前に決めておく</h3>
+      <p>CC BYライセンスなどクレジット表記が必要な場合、単に作者名を記載すればよいわけではありません。一般的には「作品タイトル」「作者名」「ライセンス名」「元のURL」の4点を記載するのが適切なクレジット表記です。ゲームであればエンドクレジット画面、Webサイトであれば利用素材ページ、映像であればエンドロールに記載するのが一般的です。プロジェクトの企画段階でクレジット表記のルールを決めておくと、後からの対応がスムーズになります。</p>
+
+      <h3>注意点3：モデルに含まれる第三者の知的財産権に注意する</h3>
+      <p>無料3Dモデルの中には、既存のキャラクターやブランドロゴ、建築物など、第三者の知的財産権（商標権、著作権、意匠権）が関わるものがあります。例えば、有名なアニメキャラクターのファンメイドモデルや、特定のブランドのロゴが入った製品モデルなどは、たとえCC0で公開されていても、商用利用すると権利者から訴えられるリスクがあります。実在する建築物についても、国によっては建築の著作権（パノラマの自由）の扱いが異なります。商用利用する前に、モデルの内容に第三者の権利が含まれていないか十分に確認しましょう。</p>
+
+      <div class="notice-box">
+        <p><strong>重要：</strong>ライセンス違反が発覚した場合、損害賠償請求やコンテンツの差し止め請求を受ける可能性があります。不明な点がある場合は、より厳格なライセンス解釈に従うか、CC0のモデルのみを使用するのが安全です。当サイトの<a href="../../category.html?cat=3d">3Dモデルカテゴリ</a>ではライセンス情報も確認できるので、ぜひ活用してください。</p>
+      </div>
+
+      <!-- ===== Section 6 ===== -->
+      <h2 id="section6">6. まとめ</h2>
+      <p>この記事では、無料3Dモデルの始め方を初心者向けに解説しました。最後に要点を振り返りましょう。</p>
+
+      <ul class="check-list">
+        <li><strong>ファイル形式</strong>：OBJ（汎用）、FBX（ゲーム開発）、glTF（Web3D）、STL（3Dプリント）、BLEND（Blender専用）の5つを押さえておけば十分です。</li>
+        <li><strong>ライセンス確認</strong>：CC0が最も自由度が高く、CC BYはクレジット表記が必須、CC BY-NCは商用利用不可です。ダウンロード前に必ず確認しましょう。</li>
+        <li><strong>おすすめサイト</strong>：初心者にはPoly Haven（CC0・登録不要）やKenney（ゲーム向けCC0）が特におすすめです。品質重視ならSketchfabやTurboSquidの無料枠もチェックしましょう。</li>
+        <li><strong>Blenderでの読み込み</strong>：<strong>File &gt; Import</strong>から対応形式を選ぶだけ。BLEND形式なら<strong>File &gt; Open</strong>で直接開けます。テクスチャが表示されない場合はマテリアル設定を確認しましょう。</li>
+        <li><strong>商用利用の注意</strong>：ライセンスの商用条項、クレジット表記、第三者の知的財産権の3点を必ず確認してから使用してください。</li>
+      </ul>
+
+      <p>3DCGの世界は奥が深いですが、無料のツール（Blender）と無料の3Dモデルを組み合わせることで、費用をかけずに本格的な作品制作を始めることができます。まずは気になるモデルをダウンロードしてBlenderで開いてみるところから始めてみてください。実際に手を動かすことで、3Dモデルの扱い方が自然と身についていきます。</p>
+
+      <p>当サイト「<a href="../../index.html">フリー素材ポータル</a>」では、3Dモデル以外にもイラスト、写真、音楽、フォントなど、あらゆるジャンルのフリー素材サイトを網羅的に比較・紹介しています。クリエイティブ制作に役立つ素材を探す際は、ぜひご活用ください。</p>
+
+      <div class="related-articles">
+        <h2>関連記事</h2>
+        <div class="related-grid" id="relatedArticles" data-current="free-3d-model-beginners"></div>
+      </div>
+      <div class="blog-back"><a href="../index.html">&larr; ブログ一覧に戻る</a></div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p data-i18n="footerNotice">※ 各サイトの利用規約は変更される場合があります。素材利用前に必ず各サイトの最新の利用規約をご確認ください。</p>
+      <p class="affiliate-disclosure" data-i18n="affiliateDisclosure">※ 一部リンクはアフィリエイトリンクを含みます。サイト運営のサポートにご協力ください。</p>
+      <p class="footer-links"><a href="../../privacy.html" data-i18n="privacyPolicy">プライバシーポリシー</a> <span style="margin:0 8px;">|</span> <a href="../index.html">ブログ</a></p>
+      <p class="sister-site">姉妹サイト: <a href="https://tools.freesozo.com/" target="_blank" rel="noopener">おすすめツール比較ナビ</a></p>
+    </div>
+  </footer>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <script src="../../js/i18n.js?v=8"></script>
+  <script src="../blog.js?v=1"></script>
+  <script>
+    document.getElementById('themeBtn')?.addEventListener('click',function(){var t=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=t;localStorage.setItem('theme',t);this.textContent=t==='dark'?'☀️':'🌙';});
+    var btt=document.getElementById('backToTop');if(btt){window.addEventListener('scroll',function(){btt.classList.toggle('visible',window.scrollY>400);});btt.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});}
+    var hb=document.getElementById('hamburgerBtn'),mn=document.getElementById('mobileNav');if(hb&&mn){hb.addEventListener('click',function(){mn.classList.toggle('open');});}
+  </script>
+</body>
+</html>
