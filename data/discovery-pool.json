@@ -407,7 +407,7 @@
         "free",
         "lifestyle"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "littlevisuals",
@@ -474,7 +474,7 @@
         "free",
         "cc0"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "shotzr",
@@ -1653,7 +1653,7 @@
         "procedural",
         "opensource"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "matcap-textures",
@@ -2832,7 +2832,7 @@
         "psd",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "polyhaven-3d",
@@ -2933,7 +2933,7 @@
         "free",
         "scan"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "renderpeople-free",

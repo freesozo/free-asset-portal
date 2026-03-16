@@ -164,6 +164,40 @@
       ]
     },
     {
+      "id": "threedscans",
+      "name": {
+        "ja": "Three D Scans",
+        "en": "Three D Scans"
+      },
+      "url": "https://threedscans.com/",
+      "category": "3d",
+      "useCases": [
+        "game",
+        "education"
+      ],
+      "description": {
+        "ja": "彫刻・美術品の3Dスキャンモデル。パブリックドメイン。",
+        "en": "3D scanned sculptures and artworks. Public domain."
+      },
+      "highlight": {
+        "ja": "美術品の3Dスキャンがパブリックドメインで公開",
+        "en": "3D scanned artworks in the public domain"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": [
+        "3d",
+        "stl",
+        "obj",
+        "free",
+        "scan"
+      ],
+      "dateAdded": "2026-03-16"
+    },
+    {
       "id": "dimensiva",
       "name": {
         "ja": "Dimensiva",
@@ -4565,6 +4599,38 @@
       ]
     },
     {
+      "id": "anthonyboyd-mockups",
+      "name": {
+        "ja": "Anthony Boyd Mockups",
+        "en": "Anthony Boyd Mockups"
+      },
+      "url": "https://www.anthonyboyd.graphics/mockups/",
+      "category": "mockup",
+      "useCases": [
+        "web",
+        "presentation"
+      ],
+      "description": {
+        "ja": "プロフェッショナルな無料PSDモックアップ。高クオリティなシーンモックアップ。",
+        "en": "Professional free PSD mockups. High-quality scene mockups."
+      },
+      "highlight": {
+        "ja": "シーン構成が美しいプロ品質モックアップ",
+        "en": "Professional quality mockups with beautiful scene compositions"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "mockup",
+        "psd",
+        "free"
+      ],
+      "dateAdded": "2026-03-16"
+    },
+    {
       "id": "dovasyndrome",
       "name": {
         "ja": "DOVA-SYNDROME",
@@ -6293,6 +6359,40 @@
       ]
     },
     {
+      "id": "barnimages",
+      "name": {
+        "ja": "Barn Images",
+        "en": "Barn Images"
+      },
+      "url": "https://barnimages.com/",
+      "category": "photo",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "ハイクオリティな無料ストックフォト。自然やライフスタイル写真が充実。",
+        "en": "High-quality free stock photos. Rich collection of nature and lifestyle images."
+      },
+      "highlight": {
+        "ja": "厳選された高品質なライフスタイル写真",
+        "en": "Curated high-quality lifestyle photography"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "photo",
+        "jpg",
+        "free",
+        "lifestyle"
+      ],
+      "dateAdded": "2026-03-16"
+    },
+    {
       "id": "gratisography",
       "name": {
         "ja": "Gratisography",
@@ -6565,6 +6665,40 @@
         "free"
       ],
       "dateAdded": "2026-03-13"
+    },
+    {
+      "id": "fancycrave",
+      "name": {
+        "ja": "Fancycrave",
+        "en": "Fancycrave"
+      },
+      "url": "https://fancycrave.com/",
+      "category": "photo",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "CC0ライセンスの高品質写真素材。毎日更新。",
+        "en": "High-quality CC0 licensed photos. Updated daily."
+      },
+      "highlight": {
+        "ja": "CC0ライセンスで完全自由利用",
+        "en": "Completely free to use under CC0 license"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "photo",
+        "jpg",
+        "free",
+        "cc0"
+      ],
+      "dateAdded": "2026-03-16"
     },
     {
       "id": "soundeffectlab",
@@ -7892,6 +8026,39 @@
         "3d"
       ],
       "dateAdded": "2026-03-13"
+    },
+    {
+      "id": "materialmaker",
+      "name": {
+        "ja": "Material Maker",
+        "en": "Material Maker"
+      },
+      "url": "https://www.materialmaker.org/",
+      "category": "texture",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "プロシージャルテクスチャ生成ツール。ノードベースでオリジナルテクスチャを作成。",
+        "en": "Procedural texture generation tool. Create original textures with node-based system."
+      },
+      "highlight": {
+        "ja": "ノードベースでプロシージャルテクスチャを生成",
+        "en": "Generate procedural textures with a node-based system"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": [
+        "texture",
+        "tool",
+        "free",
+        "procedural",
+        "opensource"
+      ],
+      "dateAdded": "2026-03-16"
     },
     {
       "id": "texturetown",
