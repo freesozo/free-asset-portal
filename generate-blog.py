@@ -685,12 +685,67 @@ def generate_blog_index(articles):
 
     cards_str = "\n".join(cards_html)
 
+    # Original articles (manually written, in blog/articles/)
+    original_articles = [
+        {
+            "href": "articles/free-font-guide-2026.html",
+            "tag": "フォント",
+            "title": "【2026年最新】商用利用OKの無料フォント30選｜デザイナーが本当に使うおすすめフリーフォント",
+            "excerpt": "プロのデザイナーが実際の制作現場で使っている、商用利用可能な無料フォントを30個厳選。ゴシック体・明朝体・手書き風・欧文まで、ジャンル別に特徴と使いどころを解説。",
+            "meta": "30選 | 2026-03-16 | 約15分",
+        },
+        {
+            "href": "articles/server-comparison-creators.html",
+            "tag": "サーバー",
+            "title": "クリエイター向けレンタルサーバー比較｜ポートフォリオサイトに最適なのは？",
+            "excerpt": "イラストレーター・デザイナー・写真家がポートフォリオサイトを作るなら、どのレンタルサーバーが最適？5社を実際のクリエイター目線で徹底比較。料金・速度・WordPress対応を解説。",
+            "meta": "5社比較 | 2026-03-16 | 約10分",
+        },
+        {
+            "href": "articles/free-3d-model-beginners.html",
+            "tag": "3Dモデル",
+            "title": "【初心者向け】無料3Dモデルの始め方ガイド｜ダウンロードから商用利用の注意点まで",
+            "excerpt": "3DCGに興味があるけど何から始めればいい？無料3Dモデルのダウンロード方法、ライセンスの見分け方、おすすめソフト（Blender）との連携まで、初心者向けに丁寧に解説。",
+            "meta": "初心者ガイド | 2026-03-16 | 約12分",
+        },
+        {
+            "href": "articles/vpn-why-creators-need.html",
+            "tag": "セキュリティ",
+            "title": "クリエイターにVPNが必要な5つの理由｜海外素材サイトへの安全なアクセス方法",
+            "excerpt": "海外のフリー素材サイトを使うとき、VPNは必要？セキュリティリスクから身を守りながら、世界中の素材にアクセスする方法を解説。おすすめVPNの選び方も紹介。",
+            "meta": "5つの理由 | 2026-03-16 | 約8分",
+        },
+        {
+            "href": "articles/ai-tools-free-vs-paid.html",
+            "tag": "AIツール",
+            "title": "無料で使えるAIツール vs 有料プラン｜クリエイターが課金すべきタイミングとは",
+            "excerpt": "ChatGPT、Midjourney、Canva、Adobe Firefly…無料プランで十分なケースと、有料プランに切り替えるべきタイミングを具体的なユースケースで解説。",
+            "meta": "無料vs有料 | 2026-03-16 | 約10分",
+        },
+    ]
+
+    original_cards = []
+    for oa in original_articles:
+        original_cards.append(f'''      <a href="{oa["href"]}" class="blog-card">
+        <div class="blog-card-tag">{oa["tag"]}</div>
+        <h3 class="blog-card-title">{oa["title"]}</h3>
+        <p class="blog-card-excerpt">{oa["excerpt"]}</p>
+        <div class="blog-card-meta">{oa["meta"]}</div>
+      </a>''')
+
+    total_articles = len(articles) + len(original_articles)
+
     content_html = f'''      <h1>ブログ – フリー素材の選び方・比較記事</h1>
       <div class="blog-meta">
         <span class="article-updated">更新日: {GENERATED_DATE}</span>
-        <span class="blog-meta-count">{len(articles)}記事</span>
+        <span class="blog-meta-count">{total_articles}記事</span>
       </div>
       <p>フリー素材サイトのカテゴリ別まとめ、特徴別比較、形式別ガイドなど、最適な素材サイトを見つけるための記事を掲載しています。</p>
+
+      <h2>クリエイター向けガイド</h2>
+      <div class="blog-card-grid">
+{chr(10).join(original_cards)}
+      </div>
 
       <h2>カテゴリ別まとめ</h2>
       <div class="blog-card-grid">
