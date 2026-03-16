@@ -1845,6 +1845,74 @@
       "dateAdded": "2026-03-13"
     },
     {
+      "id": "fontjoy",
+      "name": {
+        "ja": "Fontjoy",
+        "en": "Fontjoy"
+      },
+      "url": "https://fontjoy.com/",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print"
+      ],
+      "description": {
+        "ja": "AIによるフォントペアリング生成ツール。Google Fontsベース。",
+        "en": "AI-powered font pairing generator based on Google Fonts."
+      },
+      "highlight": {
+        "ja": "AIが最適なフォントの組み合わせを提案",
+        "en": "AI suggests optimal font combinations"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "free",
+        "tool",
+        "ai",
+        "google-fonts"
+      ],
+      "dateAdded": "2026-03-16"
+    },
+    {
+      "id": "open-foundry",
+      "name": {
+        "ja": "Open Foundry",
+        "en": "Open Foundry"
+      },
+      "url": "https://open-foundry.com/",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print"
+      ],
+      "description": {
+        "ja": "オープンソースフォントの厳選キュレーションサイト。",
+        "en": "Curated collection of open-source fonts."
+      },
+      "highlight": {
+        "ja": "厳選されたオープンソースフォントコレクション",
+        "en": "Carefully curated open-source font collection"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "font",
+        "ttf",
+        "otf",
+        "free",
+        "opensource"
+      ],
+      "dateAdded": "2026-03-16"
+    },
+    {
       "id": "icooonmono",
       "name": {
         "ja": "ICOOON MONO",
@@ -4218,6 +4286,39 @@
       "dateAdded": "2026-03-14"
     },
     {
+      "id": "lukaszadam",
+      "name": {
+        "ja": "Lukasz Adam",
+        "en": "Lukasz Adam"
+      },
+      "url": "https://lukaszadam.com/illustrations",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation"
+      ],
+      "description": {
+        "ja": "MIT License の手描きSVGイラスト集。",
+        "en": "MIT Licensed hand-drawn SVG illustrations."
+      },
+      "highlight": {
+        "ja": "MITライセンスで完全自由に使えるSVGイラスト",
+        "en": "Fully free SVG illustrations under MIT License"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "illustration",
+        "svg",
+        "free",
+        "mit"
+      ],
+      "dateAdded": "2026-03-16"
+    },
+    {
       "id": "designac",
       "name": {
         "ja": "デザインAC",
@@ -4623,6 +4724,38 @@
       "registrationRequired": false,
       "beginnerFriendly": true,
       "rating": 4,
+      "tags": [
+        "mockup",
+        "psd",
+        "free"
+      ],
+      "dateAdded": "2026-03-16"
+    },
+    {
+      "id": "mockupfree",
+      "name": {
+        "ja": "MockupFree",
+        "en": "MockupFree"
+      },
+      "url": "https://mockupfree.co/",
+      "category": "mockup",
+      "useCases": [
+        "web",
+        "presentation"
+      ],
+      "description": {
+        "ja": "PSD形式の無料モックアップ。デバイス・パッケージ・ポスターなど多彩。",
+        "en": "Free PSD mockups. Diverse collection of device, packaging, and poster mockups."
+      },
+      "highlight": {
+        "ja": "デバイスからパッケージまで多彩なモックアップ",
+        "en": "Diverse mockups from devices to packaging"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
       "tags": [
         "mockup",
         "psd",

@@ -99,7 +99,7 @@
         "free",
         "mit"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "itg-digital",
@@ -2287,7 +2287,8 @@
         "free",
         "hd"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "motionplaces",
@@ -2528,7 +2529,7 @@
         "free",
         "opensource"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "fontjoy",
@@ -2562,7 +2563,7 @@
         "ai",
         "google-fonts"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "fontget",
@@ -2730,7 +2731,7 @@
         "psd",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "smartmockups-free",
