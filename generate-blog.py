@@ -17,8 +17,8 @@ GA_ID = "G-TW9TKBPSNW"
 ADSENSE_PUB = "ca-pub-1060876188767022"
 CSS_VERSION = 8
 JS_VERSION = 8
-GENERATED_DATE = "2026-03-07"
-CURRENT_YEAR = 2026
+GENERATED_DATE = date.today().isoformat()
+CURRENT_YEAR = date.today().year
 
 CATEGORY_NAMES = {
     "illustration": ("イラスト", "Illustration"),
