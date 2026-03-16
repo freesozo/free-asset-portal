@@ -1245,6 +1245,40 @@
       ]
     },
     {
+      "id": "kaylousberg",
+      "name": {
+        "ja": "Kay Lousberg",
+        "en": "Kay Lousberg"
+      },
+      "url": "https://kaylousberg.com/game-assets",
+      "category": "asset",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "ローポリ3Dゲームアセット。CC0ライセンスで完全無料。",
+        "en": "Low-poly 3D game assets. Completely free under CC0 license."
+      },
+      "highlight": {
+        "ja": "CC0ライセンスのローポリ3Dゲームアセット",
+        "en": "CC0 licensed low-poly 3D game assets"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "asset",
+        "3d",
+        "free",
+        "cc0",
+        "lowpoly",
+        "game"
+      ],
+      "dateAdded": "2026-03-16"
+    },
+    {
       "id": "quaternius",
       "name": {
         "ja": "Quaternius",
@@ -1909,6 +1943,40 @@
         "otf",
         "free",
         "opensource"
+      ],
+      "dateAdded": "2026-03-16"
+    },
+    {
+      "id": "fontget",
+      "name": {
+        "ja": "FontGet",
+        "en": "FontGet"
+      },
+      "url": "https://www.fontget.com/",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print",
+        "presentation"
+      ],
+      "description": {
+        "ja": "Google Fontsを見やすくブラウズできるサイト。プレビュー機能付き。",
+        "en": "Browse Google Fonts with a user-friendly interface. Preview feature included."
+      },
+      "highlight": {
+        "ja": "Google Fontsを見やすくブラウズ",
+        "en": "Browse Google Fonts with an intuitive interface"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "font",
+        "ttf",
+        "free",
+        "google-fonts"
       ],
       "dateAdded": "2026-03-16"
     },
@@ -2997,6 +3065,39 @@
         "free"
       ],
       "dateAdded": "2026-03-13"
+    },
+    {
+      "id": "ikonate",
+      "name": {
+        "ja": "Ikonate",
+        "en": "Ikonate"
+      },
+      "url": "https://ikonate.com/",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "完全にカスタマイズ可能なSVGアイコンセット。角丸やストローク幅を調整可能。",
+        "en": "Fully customizable SVG icon set. Adjust corner radius and stroke width."
+      },
+      "highlight": {
+        "ja": "リアルタイムでカスタマイズ可能なSVGアイコン",
+        "en": "Real-time customizable SVG icons"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "icon",
+        "svg",
+        "free",
+        "customizable"
+      ],
+      "dateAdded": "2026-03-16"
     },
     {
       "id": "irasutoya",
@@ -4455,6 +4556,38 @@
         "free"
       ],
       "dateAdded": "2026-03-14"
+    },
+    {
+      "id": "control-illustrations",
+      "name": {
+        "ja": "Control Illustrations",
+        "en": "Control Illustrations"
+      },
+      "url": "https://control.rocks/",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation"
+      ],
+      "description": {
+        "ja": "カスタマイズ可能なSVGイラスト。パーツ組み合わせで独自のシーンを作成。",
+        "en": "Customizable SVG illustrations. Create unique scenes by combining parts."
+      },
+      "highlight": {
+        "ja": "パーツを組み合わせて自由にシーンを作成",
+        "en": "Freely create scenes by combining illustration parts"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "illustration",
+        "svg",
+        "free"
+      ],
+      "dateAdded": "2026-03-16"
     },
     {
       "id": "mockupworld",

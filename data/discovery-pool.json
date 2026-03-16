@@ -338,7 +338,7 @@
         "svg",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "freeimages",
@@ -679,7 +679,8 @@
         "free",
         "cc0"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "css-gg",
@@ -1011,7 +1012,7 @@
         "free",
         "customizable"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "purpleplanet",
@@ -1753,7 +1754,7 @@
         "lowpoly",
         "game"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "itch-io-free-assets",
@@ -2597,7 +2598,7 @@
         "free",
         "google-fonts"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "fontbundles-free",
