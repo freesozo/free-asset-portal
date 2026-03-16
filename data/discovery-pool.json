@@ -814,7 +814,7 @@
         "free",
         "minimal"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "radix-icons",
@@ -1080,7 +1080,7 @@
         "free",
         "classical"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "audionautix",
@@ -1456,7 +1456,7 @@
         "pbr",
         "3d"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "cc0textures",
@@ -2632,7 +2632,7 @@
         "otf",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "graphicburger",
@@ -3201,7 +3201,7 @@
         "ui",
         "microsoft"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "error404-illustrations",

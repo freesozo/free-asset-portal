@@ -1913,6 +1913,40 @@
       "dateAdded": "2026-03-16"
     },
     {
+      "id": "fontbundles-free",
+      "name": {
+        "ja": "Font Bundles Free",
+        "en": "Font Bundles Free"
+      },
+      "url": "https://fontbundles.net/free-fonts",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print",
+        "presentation"
+      ],
+      "description": {
+        "ja": "Font Bundlesの無料フォントセクション。プレミアムクオリティのフリーフォント。",
+        "en": "Free font section of Font Bundles. Premium quality free fonts."
+      },
+      "highlight": {
+        "ja": "プレミアム品質のフリーフォントが入手可能",
+        "en": "Premium quality fonts available for free"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "ttf",
+        "otf",
+        "free"
+      ],
+      "dateAdded": "2026-03-16"
+    },
+    {
       "id": "open-foundry",
       "name": {
         "ja": "Open Foundry",
@@ -3096,6 +3130,39 @@
         "svg",
         "free",
         "customizable"
+      ],
+      "dateAdded": "2026-03-16"
+    },
+    {
+      "id": "teenyicons",
+      "name": {
+        "ja": "Teeny Icons",
+        "en": "Teeny Icons"
+      },
+      "url": "https://teenyicons.com/",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "ミニマルなSVGアイコンセット。15x15pxグリッドベース。",
+        "en": "Minimal SVG icon set. Based on 15x15px grid."
+      },
+      "highlight": {
+        "ja": "15x15pxベースの超ミニマルアイコン",
+        "en": "Ultra-minimal icons on a 15x15px grid"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "icon",
+        "svg",
+        "free",
+        "minimal"
       ],
       "dateAdded": "2026-03-16"
     },
@@ -5720,6 +5787,40 @@
       "dateAdded": "2026-03-09"
     },
     {
+      "id": "musopen",
+      "name": {
+        "ja": "Musopen",
+        "en": "Musopen"
+      },
+      "url": "https://musopen.org/",
+      "category": "music",
+      "useCases": [
+        "youtube",
+        "education",
+        "presentation"
+      ],
+      "description": {
+        "ja": "クラシック音楽のフリー音源。楽譜も入手可能。",
+        "en": "Free classical music recordings. Sheet music also available."
+      },
+      "highlight": {
+        "ja": "クラシック音楽の高品質録音が無料",
+        "en": "High-quality classical music recordings for free"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "music",
+        "mp3",
+        "free",
+        "classical"
+      ],
+      "dateAdded": "2026-03-16"
+    },
+    {
       "id": "silvermansound",
       "name": {
         "ja": "Silverman Sound",
@@ -7626,6 +7727,40 @@
       "dateAdded": "2026-03-14"
     },
     {
+      "id": "starter-templates",
+      "name": {
+        "ja": "Starter Templates",
+        "en": "Starter Templates"
+      },
+      "url": "https://developer.microsoft.com/en-us/fluentui#/",
+      "category": "template",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "Microsoftの Fluent UI デザインシステム。React対応のUIコンポーネント。",
+        "en": "Microsoft's Fluent UI design system. React-compatible UI components."
+      },
+      "highlight": {
+        "ja": "Microsoft公式のモダンUIコンポーネント",
+        "en": "Official modern UI components from Microsoft"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": [
+        "template",
+        "react",
+        "free",
+        "ui",
+        "microsoft"
+      ],
+      "dateAdded": "2026-03-16"
+    },
+    {
       "id": "haikei",
       "name": {
         "ja": "Haikei",
@@ -7694,6 +7829,40 @@
         "jpg",
         "png"
       ]
+    },
+    {
+      "id": "textures-com",
+      "name": {
+        "ja": "Textures.com",
+        "en": "Textures.com"
+      },
+      "url": "https://www.textures.com/",
+      "category": "texture",
+      "useCases": [
+        "game",
+        "web"
+      ],
+      "description": {
+        "ja": "世界最大級のテクスチャライブラリ。毎日15クレジット無料配布。",
+        "en": "One of the world's largest texture libraries. 15 free credits daily."
+      },
+      "highlight": {
+        "ja": "毎日15クレジット分のテクスチャが無料で使える",
+        "en": "15 free texture credits every day"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "texture",
+        "jpg",
+        "free",
+        "pbr",
+        "3d"
+      ],
+      "dateAdded": "2026-03-16"
     },
     {
       "id": "subtlepatterns",
