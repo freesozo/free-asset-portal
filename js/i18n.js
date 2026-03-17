@@ -90,6 +90,30 @@ const I18n = (() => {
       quizRetry: 'もう一度診断する',
       quizBack: '← 戻る',
       quizClose: '自分で見つける',
+      // About
+      aboutHeading: 'フリー素材ポータルとは',
+      aboutBody: 'フリー素材ポータルは、Web制作・デザイン・動画編集・ゲーム開発など幅広い用途に対応した無料素材サイトを200件以上掲載する日本最大級の比較ポータルサイトです。写真・イラスト・音楽・効果音・動画・アイコン・フォント・3Dモデル・テクスチャ・テンプレートなど13カテゴリに分類し、「商用利用OK」「クレジット表記不要」「会員登録不要」「初心者向け」といった条件でワンクリック絞り込みが可能です。各素材サイトの対応フォーマット（PNG / SVG / JPG / MP3 / MP4 / OTF）も一覧で比較でき、目的の素材をすばやく見つけられます。すべての情報は定期的に更新しており、利用規約の変更や新しいサイトの追加にも対応しています。',
+      // Navigation
+      navFont: '🔤 フォント',
+      nav3D: '🎲 3D',
+      navTemplate: '📄 テンプレート',
+      navBlog: 'ブログ',
+      // Format filter
+      formatLabel: '形式:',
+      // Shutterstock banner
+      ssBannerLabel: '📸 プロ品質の有料素材をお探しなら',
+      ssBannerDesc: '写真・動画・音楽・イラスト3億点以上。フリー素材では見つからないクオリティを。',
+      ssBannerFeat1: '✅ 商用利用OK',
+      ssBannerFeat2: '✅ 日本語サポート',
+      ssBannerFeat3: '✅ 定額制プランあり',
+      ssBannerCta: '無料トライアルを試す →',
+      ssBannerNote: '※ 初月無料プランあり',
+      // Sister site
+      sisterBannerPrefix: '🔧 ビジネスツールを探すなら →',
+      sisterBannerName: 'おすすめツール比較ナビ',
+      sisterBannerSuffix: '- 100以上のツールを徹底比較',
+      footerSister: '姉妹サイト:',
+      footerSisterName: 'おすすめツール比較ナビ',
       // プライバシーポリシー
       privacyPolicy: 'プライバシーポリシー',
       privacyIntro: '当サイト「フリー素材ポータル」（以下「当サイト」）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めています。本プライバシーポリシーでは、当サイトにおける情報の取り扱いについてご説明いたします。',
@@ -201,6 +225,30 @@ const I18n = (() => {
       quizRetry: 'Try Again',
       quizBack: '← Back',
       quizClose: 'Browse on my own',
+      // About
+      aboutHeading: 'About Free Asset Portal',
+      aboutBody: 'Free Asset Portal is one of Japan\'s largest comparison portals, listing over 200 free asset sites for web design, graphic design, video editing, game development, and more. Assets are organized into 13 categories — photos, illustrations, music, sound effects, videos, icons, fonts, 3D models, textures, and templates — with one-click filtering by "Commercial Use OK," "No Credit Required," "No Registration," and "Beginner Friendly." Compare supported formats (PNG / SVG / JPG / MP3 / MP4 / OTF) at a glance to quickly find exactly what you need. All information is regularly updated to reflect terms-of-service changes and newly added sites.',
+      // Navigation
+      navFont: '🔤 Fonts',
+      nav3D: '🎲 3D',
+      navTemplate: '📄 Templates',
+      navBlog: 'Blog',
+      // Format filter
+      formatLabel: 'Format:',
+      // Shutterstock banner
+      ssBannerLabel: '📸 Looking for pro-quality paid assets?',
+      ssBannerDesc: 'Over 300 million photos, videos, music & illustrations. The quality you can\'t find in free assets.',
+      ssBannerFeat1: '✅ Commercial Use OK',
+      ssBannerFeat2: '✅ Japanese Support',
+      ssBannerFeat3: '✅ Subscription Plans',
+      ssBannerCta: 'Start Free Trial →',
+      ssBannerNote: '* Free first month available',
+      // Sister site
+      sisterBannerPrefix: '🔧 Looking for business tools? →',
+      sisterBannerName: 'Tool Comparison Navi',
+      sisterBannerSuffix: '- Compare 100+ tools',
+      footerSister: 'Sister site:',
+      footerSisterName: 'Tool Comparison Navi',
       // Detail page
       relatedHeading: 'Related Sites',
       viewDetail: 'View Details',

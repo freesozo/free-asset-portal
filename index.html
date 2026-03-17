@@ -197,10 +197,10 @@
       <nav class="header-nav">
         <a href="index.html" data-i18n="breadcrumbHome">ホーム</a>
         <a href="#categoryNav" data-i18n="categoryHeading">カテゴリ</a>
-        <a href="font.html">🔤 フォント</a>
-        <a href="3d.html">🎲 3D</a>
-        <a href="template.html">📄 テンプレート</a>
-        <a href="blog/">ブログ</a>
+        <a href="font.html" data-i18n="navFont">🔤 フォント</a>
+        <a href="3d.html" data-i18n="nav3D">🎲 3D</a>
+        <a href="template.html" data-i18n="navTemplate">📄 テンプレート</a>
+        <a href="blog/" data-i18n="navBlog">ブログ</a>
       </nav>
       <div class="header-actions">
         <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
@@ -212,10 +212,10 @@
   <nav class="mobile-nav" id="mobileNav">
     <a href="index.html" data-i18n="breadcrumbHome">ホーム</a>
     <a href="#categoryNav" data-i18n="categoryHeading">カテゴリ</a>
-    <a href="font.html">🔤 フォント</a>
-    <a href="3d.html">🎲 3D</a>
-    <a href="template.html">📄 テンプレート</a>
-    <a href="blog/">ブログ</a>
+    <a href="font.html" data-i18n="navFont">🔤 フォント</a>
+    <a href="3d.html" data-i18n="nav3D">🎲 3D</a>
+    <a href="template.html" data-i18n="navTemplate">📄 テンプレート</a>
+    <a href="blog/" data-i18n="navBlog">ブログ</a>
   </nav>
 
   <!-- ===== Hero (Full-screen) ===== -->
@@ -270,7 +270,7 @@
 
   <!-- Format Filters -->
   <div class="quick-filters format-filters" id="formatFilters">
-    <span class="filter-section-label">形式:</span>
+    <span class="filter-section-label" data-i18n="formatLabel">形式:</span>
     <button class="filter-btn" data-format="png">PNG</button>
     <button class="filter-btn" data-format="svg">SVG</button>
     <button class="filter-btn" data-format="jpg">JPG</button>
@@ -283,8 +283,8 @@
 
     <!-- ===== About (SEO static text) ===== -->
     <section class="section" id="aboutSection">
-      <h2 class="section-title">フリー素材ポータルとは</h2>
-      <p style="line-height:1.8;color:var(--text-secondary);">フリー素材ポータルは、Web制作・デザイン・動画編集・ゲーム開発など幅広い用途に対応した無料素材サイトを200件以上掲載する日本最大級の比較ポータルサイトです。写真・イラスト・音楽・効果音・動画・アイコン・フォント・3Dモデル・テクスチャ・テンプレートなど13カテゴリに分類し、「商用利用OK」「クレジット表記不要」「会員登録不要」「初心者向け」といった条件でワンクリック絞り込みが可能です。各素材サイトの対応フォーマット（PNG / SVG / JPG / MP3 / MP4 / OTF）も一覧で比較でき、目的の素材をすばやく見つけられます。すべての情報は定期的に更新しており、利用規約の変更や新しいサイトの追加にも対応しています。</p>
+      <h2 class="section-title" data-i18n="aboutHeading">フリー素材ポータルとは</h2>
+      <p style="line-height:1.8;color:var(--text-secondary);" data-i18n="aboutBody">フリー素材ポータルは、Web制作・デザイン・動画編集・ゲーム開発など幅広い用途に対応した無料素材サイトを200件以上掲載する日本最大級の比較ポータルサイトです。写真・イラスト・音楽・効果音・動画・アイコン・フォント・3Dモデル・テクスチャ・テンプレートなど13カテゴリに分類し、「商用利用OK」「クレジット表記不要」「会員登録不要」「初心者向け」といった条件でワンクリック絞り込みが可能です。各素材サイトの対応フォーマット（PNG / SVG / JPG / MP3 / MP4 / OTF）も一覧で比較でき、目的の素材をすばやく見つけられます。すべての情報は定期的に更新しており、利用規約の変更や新しいサイトの追加にも対応しています。</p>
     </section>
 
     <!-- ===== Category Nav (Card Grid) ===== -->
@@ -364,20 +364,20 @@
   <section class="shutterstock-banner">
     <div class="ss-banner-inner">
       <div class="ss-banner-text">
-        <p class="ss-banner-label">📸 プロ品質の有料素材をお探しなら</p>
+        <p class="ss-banner-label" data-i18n="ssBannerLabel">📸 プロ品質の有料素材をお探しなら</p>
         <h3 class="ss-banner-title">Shutterstock</h3>
-        <p class="ss-banner-desc">写真・動画・音楽・イラスト3億点以上。<br>フリー素材では見つからないクオリティを。</p>
+        <p class="ss-banner-desc" data-i18n="ssBannerDesc">写真・動画・音楽・イラスト3億点以上。フリー素材では見つからないクオリティを。</p>
         <ul class="ss-banner-features">
-          <li>✅ 商用利用OK</li>
-          <li>✅ 日本語サポート</li>
-          <li>✅ 定額制プランあり</li>
+          <li data-i18n="ssBannerFeat1">✅ 商用利用OK</li>
+          <li data-i18n="ssBannerFeat2">✅ 日本語サポート</li>
+          <li data-i18n="ssBannerFeat3">✅ 定額制プランあり</li>
         </ul>
       </div>
       <div class="ss-banner-cta">
-        <a href="https://shutterstock.7eer.net/yZ2RL2" target="_blank" rel="noopener sponsored" class="ss-banner-btn">
+        <a href="https://shutterstock.7eer.net/yZ2RL2" target="_blank" rel="noopener sponsored" class="ss-banner-btn" data-i18n="ssBannerCta">
           無料トライアルを試す →
         </a>
-        <p class="ss-banner-note">※ 初月無料プランあり</p>
+        <p class="ss-banner-note" data-i18n="ssBannerNote">※ 初月無料プランあり</p>
       </div>
     </div>
   </section>
@@ -385,7 +385,7 @@
   <!-- Sister Site Banner -->
   <section class="sister-banner">
     <div class="container">
-      <p>🔧 ビジネスツールを探すなら → <a href="https://tools.freesozo.com/" target="_blank" rel="noopener"><strong>おすすめツール比較ナビ</strong></a> - 100以上のツールを徹底比較</p>
+      <p><span data-i18n="sisterBannerPrefix">🔧 ビジネスツールを探すなら →</span> <a href="https://tools.freesozo.com/" target="_blank" rel="noopener"><strong data-i18n="sisterBannerName">おすすめツール比較ナビ</strong></a> <span data-i18n="sisterBannerSuffix">- 100以上のツールを徹底比較</span></p>
     </div>
   </section>
 
@@ -395,7 +395,7 @@
       <p data-i18n="footerNotice">※ 各サイトの利用規約は変更される場合があります。素材利用前に必ず各サイトの最新の利用規約をご確認ください。</p>
       <p class="affiliate-disclosure" data-i18n="affiliateDisclosure">※ 一部リンクはアフィリエイトリンクを含みます。サイト運営のサポートにご協力ください。</p>
       <p class="footer-links"><a href="privacy.html" data-i18n="privacyPolicy">プライバシーポリシー</a> <span style="margin:0 8px;">|</span> <a href="blog/">ブログ</a></p>
-      <p class="sister-site">姉妹サイト: <a href="https://tools.freesozo.com/" target="_blank" rel="noopener">おすすめツール比較ナビ</a></p>
+      <p class="sister-site"><span data-i18n="footerSister">姉妹サイト:</span> <a href="https://tools.freesozo.com/" target="_blank" rel="noopener"><span data-i18n="footerSisterName">おすすめツール比較ナビ</span></a></p>
     </div>
   </footer>
 
