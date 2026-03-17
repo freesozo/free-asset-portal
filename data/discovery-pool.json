@@ -781,7 +781,7 @@
         "opensource",
         "web-component"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "teenyicons",
@@ -913,7 +913,7 @@
         "free",
         "react"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "iconscout-unicons",
@@ -2054,7 +2054,7 @@
         "free",
         "sfx"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "sonniss-gdc",
@@ -2802,7 +2802,7 @@
         "figma",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "anthonyboyd-mockups",
@@ -3100,7 +3100,7 @@
         "free",
         "saas"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "creative-tim-free",

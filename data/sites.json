@@ -2523,6 +2523,40 @@
       ]
     },
     {
+      "id": "ionicons",
+      "name": {
+        "ja": "Ionicons",
+        "en": "Ionicons"
+      },
+      "url": "https://ionic.io/ionicons",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "Ionicフレームワーク公式のアイコンセット。1300以上のモダンアイコン。",
+        "en": "Official Ionic Framework icon set. Over 1300 modern icons."
+      },
+      "highlight": {
+        "ja": "Ionicフレームワーク公式の豊富なアイコン",
+        "en": "Rich icon set from the official Ionic Framework"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "icon",
+        "svg",
+        "free",
+        "opensource",
+        "web-component"
+      ],
+      "dateAdded": "2026-03-17"
+    },
+    {
       "id": "nounproject",
       "name": {
         "ja": "The Noun Project",
@@ -3165,6 +3199,39 @@
         "minimal"
       ],
       "dateAdded": "2026-03-16"
+    },
+    {
+      "id": "akar-icons",
+      "name": {
+        "ja": "Akar Icons",
+        "en": "Akar Icons"
+      },
+      "url": "https://akaricons.com/",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "完全にカスタマイズ可能なSVGアイコンパック。",
+        "en": "Fully customizable SVG icon pack."
+      },
+      "highlight": {
+        "ja": "ストローク幅やサイズを自由にカスタマイズ",
+        "en": "Freely customize stroke width and size"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "icon",
+        "svg",
+        "free",
+        "react"
+      ],
+      "dateAdded": "2026-03-17"
     },
     {
       "id": "irasutoya",
@@ -4930,6 +4997,40 @@
         "free"
       ],
       "dateAdded": "2026-03-16"
+    },
+    {
+      "id": "ls-graphics-free",
+      "name": {
+        "ja": "LS Graphics Free",
+        "en": "LS Graphics Free"
+      },
+      "url": "https://www.ls.graphics/free-mockups",
+      "category": "mockup",
+      "useCases": [
+        "web",
+        "presentation"
+      ],
+      "description": {
+        "ja": "高品質なUIモックアップ・デザインリソースの無料版。",
+        "en": "Free versions of high-quality UI mockups and design resources."
+      },
+      "highlight": {
+        "ja": "Appleデバイスの高品質モックアップ",
+        "en": "High-quality Apple device mockups"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "mockup",
+        "psd",
+        "sketch",
+        "figma",
+        "free"
+      ],
+      "dateAdded": "2026-03-17"
     },
     {
       "id": "mockupfree",
@@ -7401,6 +7502,39 @@
       ]
     },
     {
+      "id": "freesfx",
+      "name": {
+        "ja": "FreeSFX",
+        "en": "FreeSFX"
+      },
+      "url": "https://freesfx.co.uk/",
+      "category": "sound",
+      "useCases": [
+        "game",
+        "youtube"
+      ],
+      "description": {
+        "ja": "英国発の無料効果音サイト。環境音・動物・機械音など多彩。",
+        "en": "UK-based free sound effects site. Diverse sounds including ambient, animals, and machinery."
+      },
+      "highlight": {
+        "ja": "環境音から機械音まで多彩な効果音",
+        "en": "Diverse effects from ambient sounds to machinery"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "sound",
+        "mp3",
+        "free",
+        "sfx"
+      ],
+      "dateAdded": "2026-03-17"
+    },
+    {
       "id": "soundbible",
       "name": {
         "ja": "SoundBible",
@@ -7759,6 +7893,39 @@
         "microsoft"
       ],
       "dateAdded": "2026-03-16"
+    },
+    {
+      "id": "cruip",
+      "name": {
+        "ja": "Cruip",
+        "en": "Cruip"
+      },
+      "url": "https://cruip.com/free-templates/",
+      "category": "template",
+      "useCases": [
+        "web"
+      ],
+      "description": {
+        "ja": "SaaS・スタートアップ向けの無料ランディングページテンプレート。",
+        "en": "Free landing page templates for SaaS and startups."
+      },
+      "highlight": {
+        "ja": "SaaS向けのモダンなランディングページ",
+        "en": "Modern landing pages for SaaS products"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "template",
+        "html",
+        "react",
+        "free",
+        "saas"
+      ],
+      "dateAdded": "2026-03-17"
     },
     {
       "id": "haikei",
