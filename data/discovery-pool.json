@@ -848,7 +848,7 @@
         "react",
         "opensource"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "majesticons",
@@ -1389,7 +1389,8 @@
         "video",
         "free"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "designresources",
@@ -1422,7 +1423,7 @@
         "free",
         "aggregator"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "textures-com",
@@ -2462,7 +2463,7 @@
         "otf",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "league-of-moveable-type",
@@ -2665,7 +2666,7 @@
         "psd",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "pixeden-free",

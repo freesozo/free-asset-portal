@@ -1042,6 +1042,39 @@
       ]
     },
     {
+      "id": "designresources",
+      "name": {
+        "ja": "Design Resources",
+        "en": "Design Resources"
+      },
+      "url": "https://designresourc.es/",
+      "category": "archive",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "デザイナー向けの厳選フリーリソースカタログ。",
+        "en": "Curated catalog of free resources for designers."
+      },
+      "highlight": {
+        "ja": "デザイナー向けリソースを厳選カタログ化",
+        "en": "Curated catalog of designer resources"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "archive",
+        "design",
+        "free",
+        "aggregator"
+      ],
+      "dateAdded": "2026-03-18"
+    },
+    {
       "id": "opengameart",
       "name": {
         "ja": "OpenGameArt",
@@ -1945,6 +1978,40 @@
         "free"
       ],
       "dateAdded": "2026-03-16"
+    },
+    {
+      "id": "befonts",
+      "name": {
+        "ja": "Befonts",
+        "en": "Befonts"
+      },
+      "url": "https://befonts.com/",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print",
+        "presentation"
+      ],
+      "description": {
+        "ja": "高品質な無料フォントコレクション。定期的に新フォントが追加。",
+        "en": "High-quality free font collection. New fonts added regularly."
+      },
+      "highlight": {
+        "ja": "定期更新の高品質フリーフォント",
+        "en": "Regularly updated high-quality free fonts"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "ttf",
+        "otf",
+        "free"
+      ],
+      "dateAdded": "2026-03-18"
     },
     {
       "id": "open-foundry",
@@ -3101,6 +3168,40 @@
         "free"
       ],
       "dateAdded": "2026-03-13"
+    },
+    {
+      "id": "radix-icons",
+      "name": {
+        "ja": "Radix Icons",
+        "en": "Radix Icons"
+      },
+      "url": "https://www.radix-ui.com/icons",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "Radix UIのアイコンセット。美しく統一されたデザイン。",
+        "en": "Radix UI icon set. Beautifully unified design."
+      },
+      "highlight": {
+        "ja": "Radix UIと完全統合されたモダンアイコン",
+        "en": "Modern icons fully integrated with Radix UI"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "icon",
+        "svg",
+        "free",
+        "react",
+        "opensource"
+      ],
+      "dateAdded": "2026-03-18"
     },
     {
       "id": "system-uicons",
@@ -5031,6 +5132,39 @@
         "free"
       ],
       "dateAdded": "2026-03-17"
+    },
+    {
+      "id": "graphicburger",
+      "name": {
+        "ja": "GraphicBurger",
+        "en": "GraphicBurger"
+      },
+      "url": "https://graphicburger.com/",
+      "category": "mockup",
+      "useCases": [
+        "web",
+        "presentation",
+        "print"
+      ],
+      "description": {
+        "ja": "PSD形式の高品質モックアップ・グラフィックリソース。",
+        "en": "High-quality PSD mockups and graphic resources."
+      },
+      "highlight": {
+        "ja": "PSD形式の高品質モックアップが充実",
+        "en": "Rich collection of high-quality PSD mockups"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "mockup",
+        "psd",
+        "free"
+      ],
+      "dateAdded": "2026-03-18"
     },
     {
       "id": "mockupfree",
