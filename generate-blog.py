@@ -68,6 +68,13 @@ CATEGORY_EMOJI = {
     "video": "🎬", "font": "🔤", "mockup": "📐", "3d": "🧊", "template": "📄",
 }
 
+FEATURE_TITLES_EN = {
+    "commercial-use": "Commercial Use OK Free Asset Sites",
+    "no-credit": "No Credit Required Free Asset Sites",
+    "no-registration": "No Registration Required Free Asset Sites",
+    "beginner-friendly": "Beginner Friendly Free Asset Sites",
+}
+
 FEATURE_ARTICLES = {
     "commercial-use": {
         "filter_key": "commercial",
@@ -322,6 +329,10 @@ def html_template(*, title, description, canonical, breadcrumb_title, content_ht
   <script>
     // Minimal init for blog pages (theme toggle, lang toggle, back-to-top)
     if(typeof App!=='undefined' && App.init) try{{ App.init(); }}catch(e){{}}
+    // Lang toggle fallback
+    document.getElementById('langBtn')?.addEventListener('click',function(){{
+      I18n.toggle();
+    }});
     // Theme toggle fallback
     document.getElementById('themeBtn')?.addEventListener('click',function(){{
       var t=document.documentElement.dataset.theme==='dark'?'light':'dark';
@@ -431,11 +442,14 @@ def generate_category_article(cat_key, sites):
     schema = article_schema(title, desc, canonical, GENERATED_DATE)
 
     i18n_tag_key = CATEGORY_I18N_KEYS.get(cat_key, "")
+    cat_en = CATEGORY_NAMES[cat_key][1]
+    title_en = f"Best {n} Free {cat_en} Sites [{CURRENT_YEAR}] - Commercial OK"
+    desc_en = f"Curated {n} free {cat_en.lower()} sites. Compare commercial use, credit requirements and more."
     return filename, html_template(
         title=title, description=desc, canonical=canonical,
         breadcrumb_title=breadcrumb, content_html=content_html,
         schema_json=schema
-    ), title, desc, cat_ja, n, i18n_tag_key
+    ), title, desc, cat_ja, n, i18n_tag_key, title_en, desc_en
 
 
 def generate_feature_article(key, config, sites):
@@ -510,7 +524,9 @@ def generate_feature_article(key, config, sites):
         title=title, description=desc, canonical=canonical,
         breadcrumb_title=breadcrumb, content_html=content_html,
         schema_json=schema
-    ), title, desc, "特集", n, "blogCatFeature"
+    ), title, desc, "特集", n, "blogCatFeature", \
+       f"[{CURRENT_YEAR}] {FEATURE_TITLES_EN.get(key, key)} ({n} Sites)", \
+       f"Curated free asset sites filtered by key criteria. {n} sites listed."
 
 
 def generate_format_article(fmt_key, sites):
@@ -588,7 +604,9 @@ def generate_format_article(fmt_key, sites):
         title=title, description=desc, canonical=canonical,
         breadcrumb_title=breadcrumb, content_html=content_html,
         schema_json=schema
-    ), title, desc, fmt_name, n, ""
+    ), title, desc, fmt_name, n, "", \
+       f"[{CURRENT_YEAR}] {fmt_name} Format Free Asset Sites ({n} Sites)", \
+       f"Free asset sites offering {fmt_name} format downloads. {n} sites with commercial use options."
 
 
 def generate_ranking_article(sites):
@@ -667,7 +685,9 @@ def generate_ranking_article(sites):
         title=title, description=desc, canonical=canonical,
         breadcrumb_title=breadcrumb, content_html=content_html,
         schema_json=schema
-    ), title, desc, "ランキング", n, "blogCatRanking"
+    ), title, desc, "ランキング", n, "blogCatRanking", \
+       f"[{CURRENT_YEAR}] Top {n} Free Asset Sites Ranking", \
+       f"Top {n} free asset sites ranked by quality, usability and licensing."
 
 
 def generate_blog_index(articles):
@@ -691,14 +711,18 @@ def generate_blog_index(articles):
     schema_json = json.dumps(schema_data, ensure_ascii=False, indent=2)
 
     # Build index page with its own template (no breadcrumb trail ending)
+    def _esc(s):
+        """Escape for HTML attribute."""
+        return s.replace('&', '&amp;').replace('"', '&quot;').replace('<', '&lt;').replace('>', '&gt;')
+
     cards_html = []
     for art in articles:
-        fname, atitle, adesc, cat_label, count, i18n_tag_key = art
+        fname, atitle, adesc, cat_label, count, i18n_tag_key, atitle_en, adesc_en = art
         tag_attr = f' data-i18n="{i18n_tag_key}"' if i18n_tag_key else ''
         cards_html.append(f'''      <a href="{fname}" class="blog-card">
         <div class="blog-card-tag"{tag_attr}>{cat_label}</div>
-        <h3 class="blog-card-title">{atitle}</h3>
-        <p class="blog-card-excerpt">{adesc[:80]}...</p>
+        <h3 class="blog-card-title" data-i18n-ja="{_esc(atitle)}" data-i18n-en="{_esc(atitle_en)}">{atitle}</h3>
+        <p class="blog-card-excerpt" data-i18n-ja="{_esc(adesc[:80])}..." data-i18n-en="{_esc(adesc_en[:80])}...">{adesc[:80]}...</p>
         <div class="blog-card-meta">{count} <span data-i18n="blogSitesCount">サイト掲載</span> | {GENERATED_DATE}</div>
       </a>''')
 
@@ -826,26 +850,26 @@ def main():
     sites, premium = load_sites(json_path)
     print(f"Loaded {len(sites)} sites, {len(premium)} premium sites")
 
-    articles = []  # (filename, title, desc, cat_label, count)
+    articles = []  # (filename, title, desc, cat_label, count, i18n_key, title_en, desc_en)
 
     # 1. Category roundups (13 articles)
     print("\n--- Category Roundups ---")
     for cat_key in CATEGORY_NAMES:
-        fname, html, title, desc, cat_label, count, i18n_key = generate_category_article(cat_key, sites)
+        fname, html, title, desc, cat_label, count, i18n_key, title_en, desc_en = generate_category_article(cat_key, sites)
         out_path = os.path.join(blog_dir, fname)
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(html)
-        articles.append((fname, title, desc, cat_label, count, i18n_key))
+        articles.append((fname, title, desc, cat_label, count, i18n_key, title_en, desc_en))
         print(f"  [OK] {fname} ({count} sites)")
 
     # 2. Feature-based articles (4 articles)
     print("\n--- Feature Articles ---")
     for key, config in FEATURE_ARTICLES.items():
-        fname, html, title, desc, cat_label, count, i18n_key = generate_feature_article(key, config, sites)
+        fname, html, title, desc, cat_label, count, i18n_key, title_en, desc_en = generate_feature_article(key, config, sites)
         out_path = os.path.join(blog_dir, fname)
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(html)
-        articles.append((fname, title, desc, cat_label, count, i18n_key))
+        articles.append((fname, title, desc, cat_label, count, i18n_key, title_en, desc_en))
         print(f"  [OK] {fname} ({count} sites)")
 
     # 3. Format-based articles (6 articles)
@@ -855,20 +879,20 @@ def main():
         if result is None:
             print(f"  [SKIP] {fmt_key} (0 sites)")
             continue
-        fname, html, title, desc, cat_label, count, i18n_key = result
+        fname, html, title, desc, cat_label, count, i18n_key, title_en, desc_en = result
         out_path = os.path.join(blog_dir, fname)
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(html)
-        articles.append((fname, title, desc, cat_label, count, i18n_key))
+        articles.append((fname, title, desc, cat_label, count, i18n_key, title_en, desc_en))
         print(f"  [OK] {fname} ({count} sites)")
 
     # 4. Ranking article (1 article)
     print("\n--- Ranking Article ---")
-    fname, html, title, desc, cat_label, count, i18n_key = generate_ranking_article(sites)
+    fname, html, title, desc, cat_label, count, i18n_key, title_en, desc_en = generate_ranking_article(sites)
     out_path = os.path.join(blog_dir, fname)
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html)
-    articles.append((fname, title, desc, cat_label, count, i18n_key))
+    articles.append((fname, title, desc, cat_label, count, i18n_key, title_en, desc_en))
     print(f"  [OK] {fname} (TOP {count})")
 
     # 5. Blog index page

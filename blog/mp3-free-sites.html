@@ -517,6 +517,10 @@
   <script>
     // Minimal init for blog pages (theme toggle, lang toggle, back-to-top)
     if(typeof App!=='undefined' && App.init) try{ App.init(); }catch(e){}
+    // Lang toggle fallback
+    document.getElementById('langBtn')?.addEventListener('click',function(){
+      I18n.toggle();
+    });
     // Theme toggle fallback
     document.getElementById('themeBtn')?.addEventListener('click',function(){
       var t=document.documentElement.dataset.theme==='dark'?'light':'dark';

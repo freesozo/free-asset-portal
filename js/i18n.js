@@ -437,6 +437,12 @@ const I18n = (() => {
         el.textContent = t(key);
       }
     });
+    // Blog cards: inline ja/en translations
+    document.querySelectorAll('[data-i18n-ja]').forEach(el => {
+      el.textContent = current === 'en'
+        ? (el.getAttribute('data-i18n-en') || el.getAttribute('data-i18n-ja'))
+        : el.getAttribute('data-i18n-ja');
+    });
     // Fire custom event so app.js can re-render
     window.dispatchEvent(new CustomEvent('langchange', { detail: { lang: current } }));
   }
