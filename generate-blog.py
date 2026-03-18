@@ -36,6 +36,23 @@ CATEGORY_NAMES = {
     "template": ("テンプレート", "Template"),
 }
 
+# Mapping from category key to i18n key for blog card tags
+CATEGORY_I18N_KEYS = {
+    "illustration": "blogCatIllustration",
+    "photo": "blogCatPhoto",
+    "icon": "blogCatIcon",
+    "music": "blogCatMusic",
+    "archive": "blogCatArchive",
+    "texture": "blogCatTexture",
+    "asset": "blogCatAsset",
+    "sound": "blogCatSound",
+    "video": "blogCatVideo",
+    "font": "blogCatFont",
+    "mockup": "blogCatMockup",
+    "3d": "blogCat3D",
+    "template": "blogCatTemplate",
+}
+
 FORMAT_NAMES = {
     "png": ("PNG", "写真やイラストの標準形式"),
     "svg": ("SVG", "拡大しても劣化しないベクター形式"),
@@ -246,7 +263,7 @@ def html_template(*, title, description, canonical, breadcrumb_title, content_ht
       <nav class="header-nav">
         <a href="../index.html" data-i18n="breadcrumbHome">ホーム</a>
         <a href="../index.html#categoryNav" data-i18n="categoryHeading">カテゴリ</a>
-        <a href="index.html">ブログ</a>
+        <a href="index.html" data-i18n="navBlog">ブログ</a>
       </nav>
       <div class="header-actions">
         <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
@@ -258,15 +275,15 @@ def html_template(*, title, description, canonical, breadcrumb_title, content_ht
   <nav class="mobile-nav" id="mobileNav">
     <a href="../index.html" data-i18n="breadcrumbHome">ホーム</a>
     <a href="../index.html#categoryNav" data-i18n="categoryHeading">カテゴリ</a>
-    <a href="index.html">ブログ</a>
+    <a href="index.html" data-i18n="navBlog">ブログ</a>
   </nav>
 
   <main class="container">
     <!-- Breadcrumb -->
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="../index.html">ホーム</a>
+      <a href="../index.html" data-i18n="breadcrumbHome">ホーム</a>
       <span aria-hidden="true">›</span>
-      <a href="index.html">ブログ</a>
+      <a href="index.html" data-i18n="navBlog">ブログ</a>
       <span aria-hidden="true">›</span>
       <span>{breadcrumb_title}</span>
     </nav>
@@ -279,7 +296,7 @@ def html_template(*, title, description, canonical, breadcrumb_title, content_ht
   <!-- Sister Site Banner -->
   <section class="sister-banner">
     <div class="container">
-      <p>🔧 ビジネスツールを探すなら → <a href="https://tools.freesozo.com/" target="_blank" rel="noopener"><strong>おすすめツール比較ナビ</strong></a> - 100以上のツールを徹底比較</p>
+      <p><span data-i18n="sisterBannerPrefix">🔧 ビジネスツールを探すなら →</span> <a href="https://tools.freesozo.com/" target="_blank" rel="noopener"><strong data-i18n="sisterBannerName">おすすめツール比較ナビ</strong></a> <span data-i18n="sisterBannerSuffix">- 100以上のツールを徹底比較</span></p>
     </div>
   </section>
 
@@ -291,9 +308,9 @@ def html_template(*, title, description, canonical, breadcrumb_title, content_ht
       <p class="footer-links">
         <a href="../privacy.html" data-i18n="privacyPolicy">プライバシーポリシー</a>
         <span style="margin:0 8px;">|</span>
-        <a href="index.html">ブログ</a>
+        <a href="index.html" data-i18n="navBlog">ブログ</a>
       </p>
-      <p class="sister-site">姉妹サイト: <a href="https://tools.freesozo.com/" target="_blank" rel="noopener">おすすめツール比較ナビ</a></p>
+      <p class="sister-site"><span data-i18n="footerSister">姉妹サイト:</span> <a href="https://tools.freesozo.com/" target="_blank" rel="noopener" data-i18n="footerSisterName">おすすめツール比較ナビ</a></p>
     </div>
   </footer>
 
@@ -408,16 +425,17 @@ def generate_category_article(cat_key, sites):
     content_parts.append(f'      <h2 id="conclusion">まとめ</h2>')
     content_parts.append(f'      <p>{CURRENT_YEAR}年におすすめの{cat_ja}フリー素材サイトを{n}件ご紹介しました。どのサイトも高品質な素材を無料で提供しており、個人利用はもちろん商用利用にも対応しているサイトが多数あります。</p>')
     content_parts.append(f'      <p>まずは気になるサイトをいくつか試してみて、自分のプロジェクトに合ったサイトを見つけてください。各サイトの利用規約は変更される場合がありますので、利用前に必ず最新の規約を確認することをおすすめします。</p>')
-    content_parts.append(f'      <p class="blog-back"><a href="index.html">← ブログ記事一覧に戻る</a></p>')
+    content_parts.append(f'      <p class="blog-back"><a href="index.html" data-i18n="blogBack">← ブログ記事一覧に戻る</a></p>')
 
     content_html = "\n".join(content_parts)
     schema = article_schema(title, desc, canonical, GENERATED_DATE)
 
+    i18n_tag_key = CATEGORY_I18N_KEYS.get(cat_key, "")
     return filename, html_template(
         title=title, description=desc, canonical=canonical,
         breadcrumb_title=breadcrumb, content_html=content_html,
         schema_json=schema
-    ), title, desc, cat_ja, n
+    ), title, desc, cat_ja, n, i18n_tag_key
 
 
 def generate_feature_article(key, config, sites):
@@ -483,7 +501,7 @@ def generate_feature_article(key, config, sites):
     content_parts.append(f'')
     content_parts.append(f'      <h2 id="conclusion">まとめ</h2>')
     content_parts.append(f'      <p>{config["conclusion_ja"]}</p>')
-    content_parts.append(f'      <p class="blog-back"><a href="index.html">← ブログ記事一覧に戻る</a></p>')
+    content_parts.append(f'      <p class="blog-back"><a href="index.html" data-i18n="blogBack">← ブログ記事一覧に戻る</a></p>')
 
     content_html = "\n".join(content_parts)
     schema = article_schema(title, desc, canonical, GENERATED_DATE)
@@ -492,7 +510,7 @@ def generate_feature_article(key, config, sites):
         title=title, description=desc, canonical=canonical,
         breadcrumb_title=breadcrumb, content_html=content_html,
         schema_json=schema
-    ), title, desc, "特集", n
+    ), title, desc, "特集", n, "blogCatFeature"
 
 
 def generate_format_article(fmt_key, sites):
@@ -561,7 +579,7 @@ def generate_format_article(fmt_key, sites):
     content_parts.append(f'')
     content_parts.append(f'      <h2 id="conclusion">まとめ</h2>')
     content_parts.append(f'      <p>{fmt_name}形式の素材を提供するフリー素材サイトを{n}件ご紹介しました。目的やプロジェクトに合ったサイトを選んで、クオリティの高い素材を活用してください。各サイトの利用規約は変更される場合がありますので、利用前に必ず確認してください。</p>')
-    content_parts.append(f'      <p class="blog-back"><a href="index.html">← ブログ記事一覧に戻る</a></p>')
+    content_parts.append(f'      <p class="blog-back"><a href="index.html" data-i18n="blogBack">← ブログ記事一覧に戻る</a></p>')
 
     content_html = "\n".join(content_parts)
     schema = article_schema(title, desc, canonical, GENERATED_DATE)
@@ -570,7 +588,7 @@ def generate_format_article(fmt_key, sites):
         title=title, description=desc, canonical=canonical,
         breadcrumb_title=breadcrumb, content_html=content_html,
         schema_json=schema
-    ), title, desc, fmt_name, n
+    ), title, desc, fmt_name, n, ""
 
 
 def generate_ranking_article(sites):
@@ -640,7 +658,7 @@ def generate_ranking_article(sites):
     content_parts.append(f'      <h2 id="conclusion">まとめ</h2>')
     content_parts.append(f'      <p>{CURRENT_YEAR}年おすすめのフリー素材サイトTOP{n}をご紹介しました。ランキング上位のサイトは、品質・使いやすさ・ライセンスの分かりやすさのすべてが優れています。</p>')
     content_parts.append(f'      <p>まずは1位から順に試してみて、自分のワークフローに合ったサイトを見つけてください。複数のサイトを併用することで、より多彩な素材を活用できます。</p>')
-    content_parts.append(f'      <p class="blog-back"><a href="index.html">← ブログ記事一覧に戻る</a></p>')
+    content_parts.append(f'      <p class="blog-back"><a href="index.html" data-i18n="blogBack">← ブログ記事一覧に戻る</a></p>')
 
     content_html = "\n".join(content_parts)
     schema = article_schema(title, desc, canonical, GENERATED_DATE)
@@ -649,7 +667,7 @@ def generate_ranking_article(sites):
         title=title, description=desc, canonical=canonical,
         breadcrumb_title=breadcrumb, content_html=content_html,
         schema_json=schema
-    ), title, desc, "ランキング", n
+    ), title, desc, "ランキング", n, "blogCatRanking"
 
 
 def generate_blog_index(articles):
@@ -675,12 +693,13 @@ def generate_blog_index(articles):
     # Build index page with its own template (no breadcrumb trail ending)
     cards_html = []
     for art in articles:
-        fname, atitle, adesc, cat_label, count = art
+        fname, atitle, adesc, cat_label, count, i18n_tag_key = art
+        tag_attr = f' data-i18n="{i18n_tag_key}"' if i18n_tag_key else ''
         cards_html.append(f'''      <a href="{fname}" class="blog-card">
-        <div class="blog-card-tag">{cat_label}</div>
+        <div class="blog-card-tag"{tag_attr}>{cat_label}</div>
         <h3 class="blog-card-title">{atitle}</h3>
         <p class="blog-card-excerpt">{adesc[:80]}...</p>
-        <div class="blog-card-meta">{count}サイト掲載 | {GENERATED_DATE}</div>
+        <div class="blog-card-meta">{count} <span data-i18n="blogSitesCount">サイト掲載</span> | {GENERATED_DATE}</div>
       </a>''')
 
     cards_str = "\n".join(cards_html)
@@ -690,74 +709,94 @@ def generate_blog_index(articles):
         {
             "href": "articles/free-font-guide-2026.html",
             "tag": "フォント",
+            "tag_i18n": "blogFontGuideTag",
             "title": "【2026年最新】商用利用OKの無料フォント30選｜デザイナーが本当に使うおすすめフリーフォント",
+            "title_i18n": "blogFontGuideTitle",
             "excerpt": "プロのデザイナーが実際の制作現場で使っている、商用利用可能な無料フォントを30個厳選。ゴシック体・明朝体・手書き風・欧文まで、ジャンル別に特徴と使いどころを解説。",
+            "excerpt_i18n": "blogFontGuideExcerpt",
             "meta": "30選 | 2026-03-16 | 約15分",
+            "meta_i18n": "blogFontGuideMeta",
         },
         {
             "href": "articles/server-comparison-creators.html",
             "tag": "サーバー",
+            "tag_i18n": "blogServerTag",
             "title": "クリエイター向けレンタルサーバー比較｜ポートフォリオサイトに最適なのは？",
+            "title_i18n": "blogServerTitle",
             "excerpt": "イラストレーター・デザイナー・写真家がポートフォリオサイトを作るなら、どのレンタルサーバーが最適？5社を実際のクリエイター目線で徹底比較。料金・速度・WordPress対応を解説。",
+            "excerpt_i18n": "blogServerExcerpt",
             "meta": "5社比較 | 2026-03-16 | 約10分",
+            "meta_i18n": "blogServerMeta",
         },
         {
             "href": "articles/free-3d-model-beginners.html",
             "tag": "3Dモデル",
+            "tag_i18n": "blog3DTag",
             "title": "【初心者向け】無料3Dモデルの始め方ガイド｜ダウンロードから商用利用の注意点まで",
+            "title_i18n": "blog3DTitle",
             "excerpt": "3DCGに興味があるけど何から始めればいい？無料3Dモデルのダウンロード方法、ライセンスの見分け方、おすすめソフト（Blender）との連携まで、初心者向けに丁寧に解説。",
+            "excerpt_i18n": "blog3DExcerpt",
             "meta": "初心者ガイド | 2026-03-16 | 約12分",
+            "meta_i18n": "blog3DMeta",
         },
         {
             "href": "articles/vpn-why-creators-need.html",
             "tag": "セキュリティ",
+            "tag_i18n": "blogVPNTag",
             "title": "クリエイターにVPNが必要な5つの理由｜海外素材サイトへの安全なアクセス方法",
+            "title_i18n": "blogVPNTitle",
             "excerpt": "海外のフリー素材サイトを使うとき、VPNは必要？セキュリティリスクから身を守りながら、世界中の素材にアクセスする方法を解説。おすすめVPNの選び方も紹介。",
+            "excerpt_i18n": "blogVPNExcerpt",
             "meta": "5つの理由 | 2026-03-16 | 約8分",
+            "meta_i18n": "blogVPNMeta",
         },
         {
             "href": "articles/ai-tools-free-vs-paid.html",
             "tag": "AIツール",
+            "tag_i18n": "blogAITag",
             "title": "無料で使えるAIツール vs 有料プラン｜クリエイターが課金すべきタイミングとは",
+            "title_i18n": "blogAITitle",
             "excerpt": "ChatGPT、Midjourney、Canva、Adobe Firefly…無料プランで十分なケースと、有料プランに切り替えるべきタイミングを具体的なユースケースで解説。",
+            "excerpt_i18n": "blogAIExcerpt",
             "meta": "無料vs有料 | 2026-03-16 | 約10分",
+            "meta_i18n": "blogAIMeta",
         },
     ]
 
     original_cards = []
     for oa in original_articles:
         original_cards.append(f'''      <a href="{oa["href"]}" class="blog-card">
-        <div class="blog-card-tag">{oa["tag"]}</div>
-        <h3 class="blog-card-title">{oa["title"]}</h3>
-        <p class="blog-card-excerpt">{oa["excerpt"]}</p>
-        <div class="blog-card-meta">{oa["meta"]}</div>
+        <div class="blog-card-tag" data-i18n="{oa["tag_i18n"]}">{oa["tag"]}</div>
+        <h3 class="blog-card-title" data-i18n="{oa["title_i18n"]}">{oa["title"]}</h3>
+        <p class="blog-card-excerpt" data-i18n="{oa["excerpt_i18n"]}">{oa["excerpt"]}</p>
+        <div class="blog-card-meta" data-i18n="{oa["meta_i18n"]}">{oa["meta"]}</div>
       </a>''')
 
     total_articles = len(articles) + len(original_articles)
 
-    content_html = f'''      <h1>ブログ – フリー素材の選び方・比較記事</h1>
+    content_html = f'''      <h1 data-i18n="blogTitle">ブログ – フリー素材の選び方・比較記事</h1>
       <div class="blog-meta">
-        <span class="article-updated">更新日: {GENERATED_DATE}</span>
-        <span class="blog-meta-count">{total_articles}記事</span>
+        <span class="article-updated"><span data-i18n="blogUpdatedLabel">更新日:</span> {GENERATED_DATE}</span>
+        <span class="blog-meta-count">{total_articles} <span data-i18n="blogArticlesCount">記事</span></span>
       </div>
-      <p>フリー素材サイトのカテゴリ別まとめ、特徴別比較、形式別ガイドなど、最適な素材サイトを見つけるための記事を掲載しています。</p>
+      <p data-i18n="blogDesc">フリー素材サイトのカテゴリ別まとめ、特徴別比較、形式別ガイドなど、最適な素材サイトを見つけるための記事を掲載しています。</p>
 
-      <h2>クリエイター向けガイド</h2>
+      <h2 data-i18n="blogSectionGuide">クリエイター向けガイド</h2>
       <div class="blog-card-grid">
 {chr(10).join(original_cards)}
       </div>
 
-      <h2>カテゴリ別まとめ</h2>
+      <h2 data-i18n="blogSectionCategory">カテゴリ別まとめ</h2>
       <div class="blog-card-grid">
 {chr(10).join(c for c, a in zip(cards_html, articles) if a[3] != "特集" and a[3] != "ランキング" and not any(a[3] == f[0] for f in FORMAT_NAMES.values()))}
       </div>
 
-      <h2>特集記事</h2>
+      <h2 data-i18n="blogSectionFeature">特集記事</h2>
       <div class="blog-card-grid">
 {chr(10).join(c for c, a in zip(cards_html, articles) if a[3] == "特集" or a[3] == "ランキング")}
       </div>
 
-      <h2>形式別まとめ</h2>
+      <h2 data-i18n="blogSectionFormat">形式別まとめ</h2>
       <div class="blog-card-grid">
 {chr(10).join(c for c, a in zip(cards_html, articles) if any(a[3] == f[0] for f in FORMAT_NAMES.values()))}
       </div>'''
@@ -768,10 +807,10 @@ def generate_blog_index(articles):
         schema_json=schema_json
     ).replace(
         # Fix breadcrumb for index page (remove trailing "ブログ ›" in breadcrumb)
-        '''      <a href="index.html">ブログ</a>
+        '''      <a href="index.html" data-i18n="navBlog">ブログ</a>
       <span aria-hidden="true">›</span>
       <span>ブログ</span>''',
-        '      <span>ブログ</span>'
+        '      <span data-i18n="navBlog">ブログ</span>'
     )
 
 
@@ -792,21 +831,21 @@ def main():
     # 1. Category roundups (13 articles)
     print("\n--- Category Roundups ---")
     for cat_key in CATEGORY_NAMES:
-        fname, html, title, desc, cat_label, count = generate_category_article(cat_key, sites)
+        fname, html, title, desc, cat_label, count, i18n_key = generate_category_article(cat_key, sites)
         out_path = os.path.join(blog_dir, fname)
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(html)
-        articles.append((fname, title, desc, cat_label, count))
+        articles.append((fname, title, desc, cat_label, count, i18n_key))
         print(f"  [OK] {fname} ({count} sites)")
 
     # 2. Feature-based articles (4 articles)
     print("\n--- Feature Articles ---")
     for key, config in FEATURE_ARTICLES.items():
-        fname, html, title, desc, cat_label, count = generate_feature_article(key, config, sites)
+        fname, html, title, desc, cat_label, count, i18n_key = generate_feature_article(key, config, sites)
         out_path = os.path.join(blog_dir, fname)
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(html)
-        articles.append((fname, title, desc, cat_label, count))
+        articles.append((fname, title, desc, cat_label, count, i18n_key))
         print(f"  [OK] {fname} ({count} sites)")
 
     # 3. Format-based articles (6 articles)
@@ -816,20 +855,20 @@ def main():
         if result is None:
             print(f"  [SKIP] {fmt_key} (0 sites)")
             continue
-        fname, html, title, desc, cat_label, count = result
+        fname, html, title, desc, cat_label, count, i18n_key = result
         out_path = os.path.join(blog_dir, fname)
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(html)
-        articles.append((fname, title, desc, cat_label, count))
+        articles.append((fname, title, desc, cat_label, count, i18n_key))
         print(f"  [OK] {fname} ({count} sites)")
 
     # 4. Ranking article (1 article)
     print("\n--- Ranking Article ---")
-    fname, html, title, desc, cat_label, count = generate_ranking_article(sites)
+    fname, html, title, desc, cat_label, count, i18n_key = generate_ranking_article(sites)
     out_path = os.path.join(blog_dir, fname)
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html)
-    articles.append((fname, title, desc, cat_label, count))
+    articles.append((fname, title, desc, cat_label, count, i18n_key))
     print(f"  [OK] {fname} (TOP {count})")
 
     # 5. Blog index page
