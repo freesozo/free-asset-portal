@@ -543,7 +543,8 @@
         "search",
         "aggregator"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "styledstock-co",
@@ -1146,7 +1147,7 @@
         "free",
         "youtube"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "filmmusic-io",
@@ -1589,7 +1590,7 @@
         "jpg",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "seamlesstextures",
@@ -1721,7 +1722,7 @@
         "2d",
         "game"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "kaylousberg",
@@ -2968,7 +2969,7 @@
         "obj",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "dimensiva",

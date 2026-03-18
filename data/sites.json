@@ -198,6 +198,38 @@
       "dateAdded": "2026-03-16"
     },
     {
+      "id": "renderpeople-free",
+      "name": {
+        "ja": "RenderPeople Free",
+        "en": "RenderPeople Free"
+      },
+      "url": "https://renderpeople.com/free-3d-people/",
+      "category": "3d",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "リアルな3D人物モデルの無料サンプル。建築ビジュアライゼーション向け。",
+        "en": "Free samples of realistic 3D human models for architectural visualization."
+      },
+      "highlight": {
+        "ja": "リアルな3D人物モデルを無料サンプル提供",
+        "en": "Free samples of realistic 3D human models"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": false,
+      "rating": 4,
+      "tags": [
+        "3d",
+        "fbx",
+        "obj",
+        "free"
+      ],
+      "dateAdded": "2026-03-18"
+    },
+    {
       "id": "dimensiva",
       "name": {
         "ja": "Dimensiva",
@@ -1509,6 +1541,39 @@
         "fbx",
         "marketplace"
       ]
+    },
+    {
+      "id": "gameart2d",
+      "name": {
+        "ja": "GameArt2D",
+        "en": "GameArt2D"
+      },
+      "url": "https://www.gameart2d.com/freebies.html",
+      "category": "asset",
+      "useCases": [
+        "game"
+      ],
+      "description": {
+        "ja": "2Dゲーム用のフリーアセット。キャラクター・背景・UIパーツ。",
+        "en": "Free assets for 2D games. Characters, backgrounds, and UI parts."
+      },
+      "highlight": {
+        "ja": "2Dゲーム制作に最適なフリーアセット",
+        "en": "Perfect free assets for 2D game development"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "asset",
+        "png",
+        "free",
+        "2d",
+        "game"
+      ],
+      "dateAdded": "2026-03-18"
     },
     {
       "id": "freegamearts",
@@ -5439,6 +5504,38 @@
       ]
     },
     {
+      "id": "youtube-audio-library",
+      "name": {
+        "ja": "YouTube Audio Library",
+        "en": "YouTube Audio Library"
+      },
+      "url": "https://studio.youtube.com/channel/UC/music",
+      "category": "music",
+      "useCases": [
+        "youtube"
+      ],
+      "description": {
+        "ja": "YouTube公式の無料音楽・効果音ライブラリ。YouTube動画に最適。",
+        "en": "YouTube's official free music and sound effect library. Perfect for YouTube videos."
+      },
+      "highlight": {
+        "ja": "YouTube公式の安心して使える音源",
+        "en": "Official YouTube source you can use with confidence"
+      },
+      "commercial": false,
+      "creditRequired": false,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "music",
+        "mp3",
+        "free",
+        "youtube"
+      ],
+      "dateAdded": "2026-03-18"
+    },
+    {
       "id": "amacha",
       "name": {
         "ja": "甘茶の音楽工房",
@@ -8930,6 +9027,38 @@
         "free"
       ],
       "dateAdded": "2026-03-14"
+    },
+    {
+      "id": "texturepalace",
+      "name": {
+        "ja": "Texture Palace",
+        "en": "Texture Palace"
+      },
+      "url": "https://www.texturepalace.com/",
+      "category": "texture",
+      "useCases": [
+        "game",
+        "web"
+      ],
+      "description": {
+        "ja": "写真ベースの高品質テクスチャ。壁・床・自然系素材。",
+        "en": "Photo-based high-quality textures. Walls, floors, and natural materials."
+      },
+      "highlight": {
+        "ja": "写真ベースのリアルなテクスチャ素材",
+        "en": "Photo-based realistic texture assets"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "texture",
+        "jpg",
+        "free"
+      ],
+      "dateAdded": "2026-03-18"
     },
     {
       "id": "mixkit-video",
