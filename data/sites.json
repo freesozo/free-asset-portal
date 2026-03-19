@@ -4720,6 +4720,41 @@
       "dateAdded": "2026-03-16"
     },
     {
+      "id": "sapiens-ui8",
+      "name": {
+        "ja": "Sapiens",
+        "en": "Sapiens"
+      },
+      "url": "https://sapiens.ui8.net/",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation",
+        "app"
+      ],
+      "description": {
+        "ja": "キャラクター生成イラストシステム。パーツを組み合わせてカスタムキャラを作成。",
+        "en": "Character generation illustration system. Combine parts to create custom characters."
+      },
+      "highlight": {
+        "ja": "パーツ組み合わせで無限のキャラクター生成",
+        "en": "Infinite character generation through part combinations"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "illustration",
+        "svg",
+        "png",
+        "character",
+        "free"
+      ],
+      "dateAdded": "2026-03-19"
+    },
+    {
       "id": "designac",
       "name": {
         "ja": "デザインAC",
@@ -4888,6 +4923,41 @@
         "free"
       ],
       "dateAdded": "2026-03-16"
+    },
+    {
+      "id": "itg-digital",
+      "name": {
+        "ja": "ITG.digital",
+        "en": "ITG.digital"
+      },
+      "url": "https://itg.digital/",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation",
+        "app"
+      ],
+      "description": {
+        "ja": "テクノロジー系の高品質イラストパック。",
+        "en": "High-quality technology-themed illustration packs."
+      },
+      "highlight": {
+        "ja": "テック企業向けのモダンなイラスト",
+        "en": "Modern illustrations for tech companies"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "illustration",
+        "svg",
+        "png",
+        "tech",
+        "free"
+      ],
+      "dateAdded": "2026-03-19"
     },
     {
       "id": "mockupworld",
@@ -7764,6 +7834,40 @@
         "sfx"
       ],
       "dateAdded": "2026-03-17"
+    },
+    {
+      "id": "freesound-additions",
+      "name": {
+        "ja": "Freesound Packs",
+        "en": "Freesound Packs"
+      },
+      "url": "https://freesound.org/browse/packs/",
+      "category": "sound",
+      "useCases": [
+        "game",
+        "youtube"
+      ],
+      "description": {
+        "ja": "Freesoundのパック機能。テーマ別にまとまった効果音セットを検索。",
+        "en": "Freesound's pack feature. Browse themed sound effect sets."
+      },
+      "highlight": {
+        "ja": "テーマ別パックで効率的に効果音を入手",
+        "en": "Get sound effects efficiently with themed packs"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": true,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "sound",
+        "wav",
+        "mp3",
+        "free",
+        "sfx"
+      ],
+      "dateAdded": "2026-03-19"
     },
     {
       "id": "soundbible",
