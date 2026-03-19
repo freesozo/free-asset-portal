@@ -40,6 +40,9 @@ const I18n = (() => {
       modalCategory: 'カテゴリ',
       modalRating: '評価',
       modalLicense: 'ライセンス情報',
+      // 免責
+      cardDisclaimer: '※利用規約は各サイトでご確認ください',
+      detailDisclaimer: '掲載情報は定期的に確認していますが、各サイトの利用規約は変更される場合があります。素材利用前に必ず公式サイトで最新の利用規約をご確認ください。',
       // 収益化
       premiumHeading: 'もっと高品質な素材が必要？',
       premiumSub: '無料素材では物足りない方に。プロ品質の有料素材サービスを比較。',
@@ -240,6 +243,9 @@ const I18n = (() => {
       modalCategory: 'Category',
       modalRating: 'Rating',
       modalLicense: 'License Info',
+      // Disclaimer
+      cardDisclaimer: 'Please check each site\'s terms of use',
+      detailDisclaimer: 'We regularly verify the information listed, but each site\'s terms of use may change. Always check the latest terms on the official site before using any assets.',
       // Monetization
       premiumHeading: 'Need higher quality assets?',
       premiumSub: 'For those who need more than free. Compare pro-quality paid asset services.',
