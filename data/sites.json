@@ -1107,6 +1107,40 @@
       "dateAdded": "2026-03-18"
     },
     {
+      "id": "thestocks",
+      "name": {
+        "ja": "The Stocks",
+        "en": "The Stocks"
+      },
+      "url": "https://thestocks.im/",
+      "category": "archive",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "ベストなフリー素材サイトを一画面で横断検索。",
+        "en": "Cross-search the best free asset sites in one interface."
+      },
+      "highlight": {
+        "ja": "人気フリー素材サイトを一画面で比較検索",
+        "en": "Compare and search popular free asset sites in one view"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "archive",
+        "aggregator",
+        "free",
+        "search"
+      ],
+      "dateAdded": "2026-03-19"
+    },
+    {
       "id": "opengameart",
       "name": {
         "ja": "OpenGameArt",
@@ -3269,6 +3303,40 @@
       "dateAdded": "2026-03-18"
     },
     {
+      "id": "css-gg",
+      "name": {
+        "ja": "css.gg",
+        "en": "css.gg"
+      },
+      "url": "https://css.gg/",
+      "category": "icon",
+      "useCases": [
+        "web",
+        "app"
+      ],
+      "description": {
+        "ja": "700以上のCSSベースのアイコン。軽量でパフォーマンス重視。",
+        "en": "Over 700 CSS-based icons. Lightweight and performance-focused."
+      },
+      "highlight": {
+        "ja": "CSSのみで実装された超軽量アイコン",
+        "en": "Ultra-lightweight icons implemented with CSS only"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "icon",
+        "css",
+        "svg",
+        "free",
+        "opensource"
+      ],
+      "dateAdded": "2026-03-19"
+    },
+    {
       "id": "system-uicons",
       "name": {
         "ja": "System UIcons",
@@ -4751,6 +4819,41 @@
         "png",
         "character",
         "free"
+      ],
+      "dateAdded": "2026-03-19"
+    },
+    {
+      "id": "pixeltrue-illustrations",
+      "name": {
+        "ja": "Pixeltrue Illustrations",
+        "en": "Pixeltrue Illustrations"
+      },
+      "url": "https://www.pixeltrue.com/free-illustrations",
+      "category": "illustration",
+      "useCases": [
+        "web",
+        "presentation",
+        "app"
+      ],
+      "description": {
+        "ja": "MITライセンスのSVG/Lottieアニメーションイラスト。",
+        "en": "MIT licensed SVG/Lottie animated illustrations."
+      },
+      "highlight": {
+        "ja": "Lottieアニメーション対応のフリーイラスト",
+        "en": "Free illustrations with Lottie animation support"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "illustration",
+        "svg",
+        "lottie",
+        "free",
+        "animation"
       ],
       "dateAdded": "2026-03-19"
     },
@@ -7468,6 +7571,39 @@
         "cc0"
       ],
       "dateAdded": "2026-03-16"
+    },
+    {
+      "id": "littlevisuals",
+      "name": {
+        "ja": "Little Visuals",
+        "en": "Little Visuals"
+      },
+      "url": "https://littlevisuals.co/",
+      "category": "photo",
+      "useCases": [
+        "web",
+        "sns"
+      ],
+      "description": {
+        "ja": "高解像度の風景・自然写真を無料配布。",
+        "en": "Free high-resolution landscape and nature photos."
+      },
+      "highlight": {
+        "ja": "美しい風景写真コレクション",
+        "en": "Beautiful landscape photo collection"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "photo",
+        "jpg",
+        "free",
+        "landscape"
+      ],
+      "dateAdded": "2026-03-19"
     },
     {
       "id": "soundeffectlab",

@@ -440,7 +440,7 @@
         "free",
         "landscape"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "fancycrave",
@@ -508,7 +508,8 @@
         "free",
         "location"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "librestock",
@@ -715,7 +716,7 @@
         "free",
         "opensource"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "evaicons",
@@ -1354,7 +1355,7 @@
         "free",
         "search"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "stockio",
@@ -3273,7 +3274,7 @@
         "free",
         "animation"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "healthicons",
