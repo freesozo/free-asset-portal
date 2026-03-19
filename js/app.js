@@ -6,7 +6,7 @@ const App = (() => {
     category: null,
     useCase: null,
     region: null,
-    filters: { commercial: false, creditFree: false, regFree: false, beginner: false },
+    filters: { freeOnly: false, commercial: false, creditFree: false, regFree: false, beginner: false },
     sort: 'rating',
     page: 1,
     perPage: 24,
@@ -96,6 +96,7 @@ const App = (() => {
       if (state.category && s.category !== state.category) return false;
       if (state.useCase && !s.useCases.includes(state.useCase)) return false;
       if (state.region === 'jp' && !s.tags.includes('japanese')) return false;
+      if (state.filters.freeOnly && s.isPaid) return false;
       if (state.filters.commercial && !s.commercial) return false;
       if (state.filters.creditFree && s.creditRequired) return false;
       if (state.filters.regFree && s.registrationRequired) return false;
@@ -160,7 +161,7 @@ const App = (() => {
     // Recommended: hide when any filter is active
     const $recSection = document.getElementById('recSection');
     const hasActiveFilter = state.category || state.useCase || state.search || state.region ||
-      state.filters.commercial || state.filters.creditFree || state.filters.regFree || state.filters.beginner ||
+      state.filters.freeOnly || state.filters.commercial || state.filters.creditFree || state.filters.regFree || state.filters.beginner ||
       state.showFavoritesOnly || activeFormats.length > 0;
 
     if ($recSection) {
