@@ -30,89 +30,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
   <script>(function(){var t=localStorage.getItem('theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;})();</script>
   <link rel="stylesheet" href="css/style.css?v=10">
-  <style>
-    /* Shutterstock Affiliate Banner */
-    .shutterstock-banner {
-      background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);
-      padding: 36px 0;
-      margin: 32px 0 0;
-    }
-    .ss-banner-inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 24px;
-      flex-wrap: wrap;
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 16px;
-    }
-    .ss-banner-label {
-      color: rgba(255,255,255,0.85);
-      font-size: 0.85rem;
-      margin: 0 0 4px;
-    }
-    .ss-banner-title {
-      color: #fff;
-      font-size: 2rem;
-      font-weight: 800;
-      margin: 0 0 8px;
-      letter-spacing: -0.5px;
-    }
-    .ss-banner-desc {
-      color: rgba(255,255,255,0.9);
-      font-size: 0.95rem;
-      line-height: 1.6;
-      margin: 0 0 12px;
-    }
-    .ss-banner-features {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .ss-banner-features li {
-      color: #fff;
-      font-size: 0.85rem;
-      background: rgba(255,255,255,0.15);
-      padding: 3px 10px;
-      border-radius: 20px;
-    }
-    .ss-banner-cta {
-      text-align: center;
-      flex-shrink: 0;
-    }
-    .ss-banner-btn {
-      display: inline-block;
-      background: #fff;
-      color: #cc0000;
-      font-weight: 700;
-      font-size: 1rem;
-      padding: 14px 28px;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: transform 0.2s, box-shadow 0.2s;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.2);
-      white-space: nowrap;
-    }
-    .ss-banner-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
-    }
-    .ss-banner-note {
-      color: rgba(255,255,255,0.7);
-      font-size: 0.78rem;
-      margin: 8px 0 0;
-    }
-    @media (max-width: 600px) {
-      .ss-banner-inner { flex-direction: column; text-align: center; }
-      .ss-banner-features { justify-content: center; }
-      .ss-banner-title { font-size: 1.6rem; }
-    }
-  </style>
-
   <!-- JSON-LD 構造化データ -->
   <script type="application/ld+json">
   {
@@ -317,9 +234,6 @@
       <div class="card-grid" id="recGrid"></div>
     </section>
 
-    <!-- ===== Affiliate Recommendations ===== -->
-    <div class="affiliate-slot" data-page="index" data-max="4"></div>
-
     <!-- ===== All Sites ===== -->
     <section class="section">
       <h2 class="section-title" data-i18n="allSitesHeading">全サイト一覧</h2>
@@ -337,50 +251,7 @@
       </div>
     </section>
 
-    <!-- ===== Ad Slot 1 ===== -->
-    <div class="ad-slot ad-slot-adsense" id="adSlot1" style="display:flex;flex-wrap:wrap;gap:16px;justify-content:center;padding:16px;">
-      <!-- カラフルボックス -->
-      <a href="https://px.a8.net/svt/ejp?a8mat=4AZ9C8+44UE0I+42SG+6AJV5" rel="nofollow" target="_blank">
-      <img border="0" width="300" height="250" alt="カラフルボックス レンタルサーバー" src="https://www25.a8.net/svt/bgt?aid=260305928250&wid=001&eno=01&mid=s00000019024001057000&mc=1"></a>
-      <img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=4AZ9C8+44UE0I+42SG+6AJV5" alt="">
-      <!-- MillenVPN -->
-      <a href="https://px.a8.net/svt/ejp?a8mat=4AZ9C8+555TWY+3JTE+HXKQP" rel="nofollow" target="_blank">
-      <img border="0" width="300" height="250" alt="MillenVPN" src="https://www26.a8.net/svt/bgt?aid=260305928311&wid=001&eno=01&mid=s00000016565003012000&mc=1"></a>
-      <img border="0" width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=4AZ9C8+555TWY+3JTE+HXKQP" alt="">
-    </div>
-
-    <!-- ===== Premium Sites ===== -->
-    <section class="premium-section">
-      <div class="premium-header">
-        <h2><span data-i18n="premiumBadge">PR</span> <span data-i18n="premiumHeading">もっと高品質な素材が必要？</span></h2>
-        <p data-i18n="premiumSub">無料素材では物足りない方に。プロ品質の有料素材サービスを比較。</p>
-      </div>
-      <div class="premium-grid" id="premiumGrid"></div>
-    </section>
-
   </main>
-
-  <!-- Shutterstock Affiliate Banner -->
-  <section class="shutterstock-banner">
-    <div class="ss-banner-inner">
-      <div class="ss-banner-text">
-        <p class="ss-banner-label" data-i18n="ssBannerLabel">📸 プロ品質の有料素材をお探しなら</p>
-        <h3 class="ss-banner-title">Shutterstock</h3>
-        <p class="ss-banner-desc" data-i18n="ssBannerDesc">写真・動画・音楽・イラスト3億点以上。フリー素材では見つからないクオリティを。</p>
-        <ul class="ss-banner-features">
-          <li data-i18n="ssBannerFeat1">✅ 商用利用OK</li>
-          <li data-i18n="ssBannerFeat2">✅ 日本語サポート</li>
-          <li data-i18n="ssBannerFeat3">✅ 定額制プランあり</li>
-        </ul>
-      </div>
-      <div class="ss-banner-cta">
-        <a href="https://shutterstock.7eer.net/yZ2RL2" target="_blank" rel="noopener sponsored" class="ss-banner-btn" data-i18n="ssBannerCta">
-          無料トライアルを試す →
-        </a>
-        <p class="ss-banner-note" data-i18n="ssBannerNote">※ 初月無料プランあり</p>
-      </div>
-    </div>
-  </section>
 
   <!-- Sister Site Banner -->
   <section class="sister-banner">
