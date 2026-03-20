@@ -335,4 +335,19 @@
   <url><loc>https://freesozo.com/blog/texture-free-sites.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://freesozo.com/blog/video-free-sites.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://freesozo.com/go.html</loc><changefreq>monthly</changefreq><priority>0.2</priority></url>
+  <!-- SSG categories -->
+  <url><loc>https://freesozo.com/category/3d.html</loc><lastmod>2026-03-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://freesozo.com/category/archive.html</loc><lastmod>2026-03-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://freesozo.com/category/asset.html</loc><lastmod>2026-03-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://freesozo.com/category/font.html</loc><lastmod>2026-03-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://freesozo.com/category/icon.html</loc><lastmod>2026-03-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://freesozo.com/category/illustration.html</loc><lastmod>2026-03-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://freesozo.com/category/mockup.html</loc><lastmod>2026-03-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://freesozo.com/category/music.html</loc><lastmod>2026-03-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://freesozo.com/category/photo.html</loc><lastmod>2026-03-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://freesozo.com/category/sound.html</loc><lastmod>2026-03-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://freesozo.com/category/template.html</loc><lastmod>2026-03-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://freesozo.com/category/texture.html</loc><lastmod>2026-03-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://freesozo.com/category/video.html</loc><lastmod>2026-03-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <!-- /SSG categories -->
 </urlset>
