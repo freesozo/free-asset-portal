@@ -6326,6 +6326,40 @@
       "dateAdded": "2026-03-16"
     },
     {
+      "id": "purpleplanet",
+      "name": {
+        "ja": "Purple Planet",
+        "en": "Purple Planet"
+      },
+      "url": "https://www.purple-planet.com/",
+      "category": "music",
+      "useCases": [
+        "youtube",
+        "game",
+        "presentation"
+      ],
+      "description": {
+        "ja": "ロイヤリティフリーのBGM素材。映像やゲームに最適。",
+        "en": "Royalty-free background music. Perfect for video and games."
+      },
+      "highlight": {
+        "ja": "ジャンル別に整理されたロイヤリティフリーBGM",
+        "en": "Royalty-free BGM organized by genre"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "music",
+        "mp3",
+        "free",
+        "bgm"
+      ],
+      "dateAdded": "2026-03-20"
+    },
+    {
       "id": "silvermansound",
       "name": {
         "ja": "Silverman Sound",
@@ -8139,6 +8173,39 @@
       "dateAdded": "2026-03-07"
     },
     {
+      "id": "html5up",
+      "name": {
+        "ja": "HTML5 UP",
+        "en": "HTML5 UP"
+      },
+      "url": "https://html5up.net/",
+      "category": "template",
+      "useCases": [
+        "web"
+      ],
+      "description": {
+        "ja": "レスポンシブ対応の美しいHTML5/CSS3テンプレート。CC BY 3.0ライセンス。",
+        "en": "Beautiful responsive HTML5/CSS3 templates. CC BY 3.0 license."
+      },
+      "highlight": {
+        "ja": "モダンで美しいレスポンシブHTMLテンプレート",
+        "en": "Modern beautiful responsive HTML templates"
+      },
+      "commercial": true,
+      "creditRequired": true,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 5,
+      "tags": [
+        "template",
+        "html",
+        "css",
+        "free",
+        "responsive"
+      ],
+      "dateAdded": "2026-03-20"
+    },
+    {
       "id": "slidescarnival",
       "name": {
         "ja": "SlidesCarnival",
@@ -9299,6 +9366,38 @@
         "free"
       ],
       "dateAdded": "2026-03-18"
+    },
+    {
+      "id": "texturelib",
+      "name": {
+        "ja": "TextureLib",
+        "en": "TextureLib"
+      },
+      "url": "https://texturelib.com/",
+      "category": "texture",
+      "useCases": [
+        "game",
+        "web"
+      ],
+      "description": {
+        "ja": "建築・自然素材を含む高品質テクスチャライブラリ。",
+        "en": "High-quality texture library including architectural and natural materials."
+      },
+      "highlight": {
+        "ja": "建築・自然系テクスチャが充実",
+        "en": "Rich collection of architectural and natural textures"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 3,
+      "tags": [
+        "texture",
+        "jpg",
+        "free"
+      ],
+      "dateAdded": "2026-03-20"
     },
     {
       "id": "mixkit-video",
