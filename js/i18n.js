@@ -44,6 +44,10 @@ const I18n = (() => {
       // 免責
       cardDisclaimer: '※利用規約は各サイトでご確認ください',
       detailDisclaimer: '掲載情報は定期的に確認していますが、各サイトの利用規約は変更される場合があります。素材利用前に必ず公式サイトで最新の利用規約をご確認ください。',
+      // カテゴリガイド
+      fontGuide: '💡 フリーフォントを選ぶ際は、商用利用の可否とライセンス形態（SILオープンフォントライセンス等）を必ず確認しましょう。個人利用と商用利用で条件が異なる場合があります。',
+      guide3D: '💡 3Dモデルを使用する際は、ファイル形式（OBJ/FBX/glTF）の対応状況と、改変・再配布の可否を確認しましょう。ゲーム開発と映像制作で必要なフォーマットが異なります。',
+      guideTemplate: '💡 テンプレートは商用利用可でも、ロゴや画像の差し替えが必要な場合があります。ダウンロード前にライセンス条件と含まれる素材の利用範囲を確認しましょう。',
       // 収益化
       premiumHeading: 'もっと高品質な素材が必要？',
       premiumSub: '無料素材では物足りない方に。プロ品質の有料素材サービスを比較。',
@@ -248,6 +252,10 @@ const I18n = (() => {
       // Disclaimer
       cardDisclaimer: 'Please check each site\'s terms of use',
       detailDisclaimer: 'We regularly verify the information listed, but each site\'s terms of use may change. Always check the latest terms on the official site before using any assets.',
+      // Category guides
+      fontGuide: '💡 When choosing free fonts, always check commercial use permissions and license types (e.g., SIL Open Font License). Terms may differ between personal and commercial use.',
+      guide3D: '💡 When using 3D models, check file format support (OBJ/FBX/glTF) and whether modification or redistribution is allowed. Game dev and video production may require different formats.',
+      guideTemplate: '💡 Even commercially licensed templates may require replacing logos or images. Check the license terms and usage scope of included assets before downloading.',
       // Monetization
       premiumHeading: 'Need higher quality assets?',
       premiumSub: 'For those who need more than free. Compare pro-quality paid asset services.',
