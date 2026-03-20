@@ -565,46 +565,226 @@ def generate_site_detail_page(site, all_sites, by_cat):
     )
 
 
-def update_sitemap(generated_categories, generated_sites):
-    """Add category + site page URLs to sitemap.xml."""
+# ── Use-case page definitions ────────────────────────────────────────
+
+USE_CASES = [
+    {
+        "slug": "commercial-illustration",
+        "title_ja": "商用利用OKの無料イラスト素材サイト",
+        "lead_ja": "Webサイト・広告・パンフレットなどビジネス用途で使える、商用利用OKの無料イラスト素材サイトを厳選しました。クレジット表記不要のサイトも多数掲載しています。",
+        "filter": lambda s: s.get("category") == "illustration" and s.get("commercial"),
+    },
+    {
+        "slug": "commercial-photo",
+        "title_ja": "商用利用OKの無料写真素材サイト",
+        "lead_ja": "ブログ・ECサイト・SNS投稿に使える、商用利用OKのフリー写真素材サイトを厳選。高解像度でプロ品質の写真を無料ダウンロードできます。",
+        "filter": lambda s: s.get("category") == "photo" and s.get("commercial"),
+    },
+    {
+        "slug": "no-registration-photo",
+        "title_ja": "登録不要で使える無料写真素材サイト",
+        "lead_ja": "会員登録なしですぐにダウンロードできるフリー写真素材サイトをまとめました。急ぎのプロジェクトや手軽に素材を探したいときに最適です。",
+        "filter": lambda s: s.get("category") == "photo" and not s.get("registrationRequired"),
+    },
+    {
+        "slug": "no-credit-illustration",
+        "title_ja": "クレジット不要の無料イラスト素材サイト",
+        "lead_ja": "著作権表記（クレジット）なしで使えるフリーイラスト素材サイトを厳選。クライアントワークやSNS投稿で手軽に活用できます。",
+        "filter": lambda s: s.get("category") == "illustration" and not s.get("creditRequired"),
+    },
+    {
+        "slug": "youtube-bgm",
+        "title_ja": "YouTube向け無料BGMサイト",
+        "lead_ja": "YouTubeの動画制作に使える、商用利用OKの無料BGM・音楽素材サイトを厳選しました。クレジット表記不要のサイトも含め、用途別に比較できます。",
+        "filter": lambda s: s.get("category") in ("music", "sound") and s.get("commercial"),
+    },
+    {
+        "slug": "game-3d-model",
+        "title_ja": "ゲーム開発向け無料3Dモデル素材サイト",
+        "lead_ja": "Unity・Unreal Engine・Godotでのゲーム開発に使える無料3Dモデル素材サイトを厳選。CC0ライセンスの商用利用OKサイトも多数。",
+        "filter": lambda s: s.get("category") in ("3d", "asset") and "game" in s.get("useCases", []),
+    },
+    {
+        "slug": "beginner-all",
+        "title_ja": "初心者向けフリー素材サイト",
+        "lead_ja": "素材探しが初めての方でも安心して使える、初心者向けのフリー素材サイトをジャンル横断でまとめました。使いやすさ・分かりやすさを重視して厳選しています。",
+        "filter": lambda s: s.get("beginnerFriendly"),
+    },
+    {
+        "slug": "credit-free-icon",
+        "title_ja": "クレジット不要の無料アイコン素材サイト",
+        "lead_ja": "著作権表記なしで使えるフリーアイコン素材サイトを厳選。SVG・PNG対応でWebサイトやアプリのUIデザインにすぐ活用できます。",
+        "filter": lambda s: s.get("category") == "icon" and not s.get("creditRequired"),
+    },
+    {
+        "slug": "commercial-font",
+        "title_ja": "商用利用OKの無料フォントサイト",
+        "lead_ja": "Webサイト・ロゴ・ポスターなどに商用利用できるフリーフォントサイトを厳選。日本語フォントを含む高品質なフォントが無料でダウンロードできます。",
+        "filter": lambda s: s.get("category") == "font" and s.get("commercial"),
+    },
+    {
+        "slug": "game-sound-effect",
+        "title_ja": "ゲーム開発向け無料効果音素材サイト",
+        "lead_ja": "ゲーム制作に使える無料効果音（SE）素材サイトを厳選。RPG・アクション・カジュアルゲームなどジャンル問わず活用できる高品質な効果音が見つかります。",
+        "filter": lambda s: s.get("category") == "sound" and s.get("commercial"),
+    },
+    {
+        "slug": "no-registration-music",
+        "title_ja": "登録不要で使える無料音楽・BGMサイト",
+        "lead_ja": "会員登録なしですぐにダウンロードできる無料BGM・音楽素材サイトをまとめました。YouTube動画やプレゼン資料のBGMに最適です。",
+        "filter": lambda s: s.get("category") == "music" and not s.get("registrationRequired"),
+    },
+    {
+        "slug": "commercial-texture",
+        "title_ja": "商用利用OKの無料テクスチャ・背景素材サイト",
+        "lead_ja": "Web制作・ゲーム開発・3DCGに使える商用利用OKの無料テクスチャ・背景素材サイトを厳選。PBRマテリアルやシームレスパターンも多数。",
+        "filter": lambda s: s.get("category") == "texture" and s.get("commercial"),
+    },
+    {
+        "slug": "commercial-video",
+        "title_ja": "商用利用OKの無料動画素材サイト",
+        "lead_ja": "プロモーション動画・プレゼン・広告に使える商用利用OKの無料動画素材（ストックビデオ）サイトを厳選。4K対応の高品質素材も掲載。",
+        "filter": lambda s: s.get("category") == "video" and s.get("commercial"),
+    },
+    {
+        "slug": "japanese-illustration",
+        "title_ja": "日本語対応の無料イラスト素材サイト",
+        "lead_ja": "日本語で検索・利用できるフリーイラスト素材サイトを厳選。利用規約も日本語で確認でき、安心して使えるサイトばかりです。",
+        "filter": lambda s: s.get("category") == "illustration" and "japanese" in s.get("tags", []),
+    },
+    {
+        "slug": "game-sprite",
+        "title_ja": "ゲーム開発向け無料2Dスプライト・アセットサイト",
+        "lead_ja": "2Dゲーム開発に使える無料スプライト・ゲームアセットサイトを厳選。ドット絵・キャラクター・タイルマップなどインディーゲーム制作に最適な素材が見つかります。",
+        "filter": lambda s: s.get("category") == "asset" and s.get("commercial"),
+    },
+    {
+        "slug": "no-registration-icon",
+        "title_ja": "登録不要の無料アイコン素材サイト",
+        "lead_ja": "会員登録なしですぐにダウンロードできるフリーアイコン素材サイトを厳選。SVGやPNGをワンクリックでダウンロードして即座にプロジェクトに組み込めます。",
+        "filter": lambda s: s.get("category") == "icon" and not s.get("registrationRequired"),
+    },
+    {
+        "slug": "commercial-mockup",
+        "title_ja": "商用利用OKの無料モックアップ素材サイト",
+        "lead_ja": "デザインプレゼンやポートフォリオに使える商用利用OKのフリーモックアップ素材サイトを厳選。スマホ・PC・パッケージなどのテンプレートが無料でダウンロードできます。",
+        "filter": lambda s: s.get("category") == "mockup" and s.get("commercial"),
+    },
+    {
+        "slug": "web-design-all",
+        "title_ja": "Web制作に使える無料素材サイトまとめ",
+        "lead_ja": "Webサイト制作に必要な写真・イラスト・アイコン・フォント・テンプレートなど、Web制作向けの無料素材サイトをジャンル横断でまとめました。",
+        "filter": lambda s: "web" in s.get("useCases", []) and s.get("commercial"),
+    },
+]
+
+
+def generate_use_case_page(uc, matched_sites):
+    """Generate a use-case combination page."""
+    slug = uc["slug"]
+    title_ja = uc["title_ja"]
+    lead = uc["lead_ja"]
+    count = len(matched_sites)
+
+    title = f"{title_ja} {count}選【{YEAR}年最新】| {SITE_NAME}"
+    description = lead[:160]
+    canonical = f"{BASE_URL}/use-case/{slug}.html"
+
+    sites_sorted = sorted(matched_sites, key=lambda s: (-s.get("rating", 0), s["name"]["ja"]))
+    cards = "\n".join(site_card_static(s) for s in sites_sorted)
+
+    # Table
+    table_rows = []
+    for s in sites_sorted:
+        sid = h(s["id"])
+        name = h(s["name"]["ja"])
+        commercial = "○" if s.get("commercial") else "×"
+        credit = "不要" if not s.get("creditRequired") else "必要"
+        reg = "不要" if not s.get("registrationRequired") else "必要"
+        rating = star_html(s.get("rating", 3))
+        table_rows.append(f'          <tr><td><a href="#site-{sid}">{name}</a></td><td>{commercial}</td><td>{credit}</td><td>{reg}</td><td>{rating}</td></tr>')
+    table_str = "\n".join(table_rows)
+
+    content = f'''    <section class="section">
+      <h1 class="section-title">{h(title_ja)} {count}選【{YEAR}年最新】</h1>
+      <p class="section-lead">{h(lead)}</p>
+      <p class="section-count">該当サイト数: <strong>{count}サイト</strong>（{YEAR}年{date.today().month}月更新）</p>
+
+      <h2>比較表</h2>
+      <div class="blog-comparison-table">
+        <table>
+          <thead><tr><th>サイト名</th><th>商用利用</th><th>クレジット</th><th>登録</th><th>評価</th></tr></thead>
+          <tbody>
+{table_str}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>各サイトの詳細</h2>
+      <div class="card-grid">
+{cards}
+      </div>
+
+      <div class="sister-banner" style="background:var(--c-surface);border:1px solid var(--c-border);border-radius:12px;padding:20px;margin:24px 0">
+        <p>🔧 <strong>制作に使えるツールの比較はこちら →</strong> <a href="https://tools.freesozo.com/" target="_blank" rel="noopener">おすすめツール比較ナビ</a></p>
+      </div>
+
+      <h2>カテゴリから探す</h2>
+      <div class="category-links-grid">
+{"".join(f'        <a href="../category/{c}.html" class="tag">{CATEGORY_META[c]["emoji"]} {CATEGORY_META[c]["ja"]}</a>' + chr(10) for c in sorted(CATEGORY_META.keys()))}
+      </div>
+    </section>'''
+
+    item_list = [{"@type": "ListItem", "position": i+1, "name": s["name"]["ja"],
+                  "url": f"{BASE_URL}/site/{s['id']}.html"}
+                 for i, s in enumerate(sites_sorted)]
+
+    schema = json.dumps([
+        {"@context": "https://schema.org", "@type": "ItemList",
+         "name": title_ja, "description": lead, "numberOfItems": count,
+         "itemListElement": item_list},
+        {"@context": "https://schema.org", "@type": "BreadcrumbList",
+         "itemListElement": [
+             {"@type": "ListItem", "position": 1, "name": "ホーム", "item": f"{BASE_URL}/"},
+             {"@type": "ListItem", "position": 2, "name": title_ja, "item": canonical}
+         ]}
+    ], ensure_ascii=False, indent=2)
+
+    return page_html(
+        title=title, description=description, canonical=canonical,
+        breadcrumbs=[("ホーム", "../index.html"), (title_ja, None)],
+        content=content, schema_json=schema,
+    )
+
+
+def update_sitemap(generated_categories, generated_sites, generated_usecases):
+    """Add category + site + use-case page URLs to sitemap.xml."""
     sitemap_path = os.path.join(os.path.dirname(__file__), "sitemap.xml")
     with open(sitemap_path, "r", encoding="utf-8") as f:
         content = f.read()
 
     import re
-    # Remove previously generated blocks
-    content = re.sub(
-        r'  <!-- SSG categories -->\n(?:.*\n)*?  <!-- /SSG categories -->\n',
-        '', content
-    )
-    content = re.sub(
-        r'  <!-- SSG sites -->\n(?:.*\n)*?  <!-- /SSG sites -->\n',
-        '', content
-    )
+    content = re.sub(r'  <!-- SSG categories -->\n(?:.*\n)*?  <!-- /SSG categories -->\n', '', content)
+    content = re.sub(r'  <!-- SSG sites -->\n(?:.*\n)*?  <!-- /SSG sites -->\n', '', content)
+    content = re.sub(r'  <!-- SSG usecases -->\n(?:.*\n)*?  <!-- /SSG usecases -->\n', '', content)
 
     new_urls = ['  <!-- SSG categories -->']
     for cat_id in generated_categories:
-        new_urls.append(
-            f'  <url><loc>{BASE_URL}/category/{cat_id}.html</loc>'
-            f'<lastmod>{TODAY}</lastmod><changefreq>weekly</changefreq>'
-            f'<priority>0.8</priority></url>'
-        )
+        new_urls.append(f'  <url><loc>{BASE_URL}/category/{cat_id}.html</loc><lastmod>{TODAY}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>')
     new_urls.append('  <!-- /SSG categories -->')
     new_urls.append('  <!-- SSG sites -->')
     for sid in generated_sites:
-        new_urls.append(
-            f'  <url><loc>{BASE_URL}/site/{sid}.html</loc>'
-            f'<lastmod>{TODAY}</lastmod><changefreq>monthly</changefreq>'
-            f'<priority>0.6</priority></url>'
-        )
+        new_urls.append(f'  <url><loc>{BASE_URL}/site/{sid}.html</loc><lastmod>{TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>')
     new_urls.append('  <!-- /SSG sites -->')
-    insert_block = "\n".join(new_urls) + "\n"
+    new_urls.append('  <!-- SSG usecases -->')
+    for slug in generated_usecases:
+        new_urls.append(f'  <url><loc>{BASE_URL}/use-case/{slug}.html</loc><lastmod>{TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>')
+    new_urls.append('  <!-- /SSG usecases -->')
 
-    content = content.replace("</urlset>", insert_block + "</urlset>")
-
+    content = content.replace("</urlset>", "\n".join(new_urls) + "\n</urlset>")
     with open(sitemap_path, "w", encoding="utf-8") as f:
         f.write(content)
-    print(f"  Updated sitemap.xml ({len(generated_categories)} categories + {len(generated_sites)} sites)")
+    print(f"  Updated sitemap.xml ({len(generated_categories)} cats + {len(generated_sites)} sites + {len(generated_usecases)} use-cases)")
 
 
 # ── CSS additions ────────────────────────────────────────────────────
@@ -747,11 +927,28 @@ def main():
         generated_sites.append(sid)
     print(f"  [OK] Generated {len(generated_sites)} site detail pages")
 
+    # Generate use-case pages
+    print("\n--- Use-Case Pages ---")
+    uc_dir = os.path.join(os.path.dirname(__file__), "use-case")
+    os.makedirs(uc_dir, exist_ok=True)
+    generated_uc = []
+    for uc in USE_CASES:
+        matched = [s for s in sites if uc["filter"](s)]
+        if len(matched) < 3:
+            print(f"  [SKIP] {uc['slug']} ({len(matched)} sites - too few)")
+            continue
+        html = generate_use_case_page(uc, matched)
+        filepath = os.path.join(uc_dir, f"{uc['slug']}.html")
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(html)
+        print(f"  [OK] use-case/{uc['slug']}.html ({len(matched)} sites)")
+        generated_uc.append(uc["slug"])
+
     # Update sitemap
     print("\n--- Sitemap ---")
-    update_sitemap(generated, generated_sites)
+    update_sitemap(generated, generated_sites, generated_uc)
 
-    print(f"\n=== Done! {len(generated)} category pages + {len(generated_sites)} site pages ===")
+    print(f"\n=== Done! {len(generated)} categories + {len(generated_sites)} sites + {len(generated_uc)} use-cases ===")
 
 
 if __name__ == "__main__":
