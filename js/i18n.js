@@ -249,6 +249,9 @@ const I18n = (() => {
       aboutPrivacyBody: '個人情報の取り扱いについては、',
       aboutPrivacySuffix: 'をご覧ください。',
       aboutUpdated: '最終更新日: 2026年3月20日',
+      // 確認日
+      verifiedDate: '2026年3月 確認済み',
+      lastVerifiedLabel: '最終確認:',
     },
     en: {
       siteTitle: 'Free Asset Portal',
@@ -497,6 +500,9 @@ const I18n = (() => {
       aboutPrivacyBody: 'For details on how we handle personal information, please see our ',
       aboutPrivacySuffix: '.',
       aboutUpdated: 'Last updated: March 20, 2026',
+      // Verification
+      verifiedDate: 'Verified Mar 2026',
+      lastVerifiedLabel: 'Last verified:',
     }
   };
 

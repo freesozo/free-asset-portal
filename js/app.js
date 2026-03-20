@@ -87,6 +87,7 @@ const App = (() => {
           <button class="fav-btn" data-id="${site.id}" aria-label="${favLabel}" title="${favLabel}">${favIcon}</button>
         </div>
         <p class="card-disclaimer">${I18n.t('cardDisclaimer')}</p>
+        <span class="card-verified">${I18n.t('verifiedDate')}</span>
       </article>`;
   }
 
@@ -870,6 +871,8 @@ const App = (() => {
           <div class="modal-section-label">Tags</div>
           <div class="modal-tags">${site.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
         </div>
+
+        <div class="detail-verified">${I18n.t('lastVerifiedLabel')} ${I18n.t('verifiedDate')}</div>
 
         <div class="detail-disclaimer">
           <p>⚠️ ${I18n.t('detailDisclaimer')}</p>
