@@ -1141,6 +1141,40 @@
       "dateAdded": "2026-03-19"
     },
     {
+      "id": "allthefreestock",
+      "name": {
+        "ja": "AllTheFreeStock",
+        "en": "AllTheFreeStock"
+      },
+      "url": "https://allthefreestock.com/",
+      "category": "archive",
+      "useCases": [
+        "web",
+        "sns",
+        "presentation"
+      ],
+      "description": {
+        "ja": "フリー素材サイトの総合リンク集。写真・動画・音楽・アイコンなど全ジャンル。",
+        "en": "Comprehensive link collection of free asset sites across all genres."
+      },
+      "highlight": {
+        "ja": "あらゆるジャンルのフリー素材サイトを網羅",
+        "en": "Covers free asset sites across all genres"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "archive",
+        "aggregator",
+        "free",
+        "links"
+      ],
+      "dateAdded": "2026-03-20"
+    },
+    {
       "id": "opengameart",
       "name": {
         "ja": "OpenGameArt",
@@ -2111,6 +2145,40 @@
         "free"
       ],
       "dateAdded": "2026-03-18"
+    },
+    {
+      "id": "1001freefonts",
+      "name": {
+        "ja": "1001 Free Fonts",
+        "en": "1001 Free Fonts"
+      },
+      "url": "https://www.1001freefonts.com/",
+      "category": "font",
+      "useCases": [
+        "web",
+        "print",
+        "presentation"
+      ],
+      "description": {
+        "ja": "1万以上のフリーフォント。カテゴリ・スタイル別検索が充実。",
+        "en": "Over 10,000 free fonts. Rich category and style-based search."
+      },
+      "highlight": {
+        "ja": "1万以上のフォントをカテゴリ別に検索",
+        "en": "Search over 10,000 fonts by category"
+      },
+      "commercial": true,
+      "creditRequired": false,
+      "registrationRequired": false,
+      "beginnerFriendly": true,
+      "rating": 4,
+      "tags": [
+        "font",
+        "ttf",
+        "otf",
+        "free"
+      ],
+      "dateAdded": "2026-03-20"
     },
     {
       "id": "open-foundry",

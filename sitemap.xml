@@ -52,6 +52,7 @@
   <url><loc>https://freesozo.com/detail.html?id=tokyolib</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=designresources</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=thestocks</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=allthefreestock</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=opengameart</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=itchio</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=polyhaven</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -81,6 +82,7 @@
   <url><loc>https://freesozo.com/detail.html?id=fontjoy</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=fontbundles-free</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=befonts</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://freesozo.com/detail.html?id=1001freefonts</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=open-foundry</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=fontget</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://freesozo.com/detail.html?id=icooonmono</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -332,8 +334,5 @@
   <url><loc>https://freesozo.com/blog/template-free-sites.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://freesozo.com/blog/texture-free-sites.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://freesozo.com/blog/video-free-sites.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://freesozo.com/blog/articles/unsplash-review.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://freesozo.com/blog/articles/blender-3d-model-review.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://freesozo.com/blog/articles/font-license-mistake.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://freesozo.com/go.html</loc><changefreq>monthly</changefreq><priority>0.2</priority></url>
 </urlset>

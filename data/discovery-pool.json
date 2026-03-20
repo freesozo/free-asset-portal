@@ -1322,7 +1322,7 @@
         "free",
         "links"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "thestocks",
@@ -2262,7 +2262,8 @@
         "free",
         "hd"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "xstockvideo",
@@ -2400,7 +2401,7 @@
         "otf",
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "fontesk",
