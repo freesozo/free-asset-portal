@@ -170,7 +170,7 @@ def site_card_static(site):
       <div class="card-tags-row">{tags_html}</div>
       <div class="card-footer">
         <a href="{visit_url}" class="btn-visit-sm" target="_blank" rel="noopener noreferrer nofollow">公式サイトへ →</a>
-        <a href="../detail.html?id={sid}" class="btn-detail-sm">詳細を見る</a>
+        <a href="../site/{sid}.html" class="btn-detail-sm">詳細を見る</a>
       </div>
       <span class="card-verified" data-i18n="verifiedDate">{YEAR}年{date.today().month}月 確認済み</span>
     </article>'''
@@ -379,7 +379,7 @@ def generate_category_page(cat_id, sites):
             "@type": "ListItem",
             "position": i,
             "name": s["name"]["ja"],
-            "url": f"{BASE_URL}/detail.html?id={s['id']}"
+            "url": f"{BASE_URL}/site/{s['id']}.html"
         })
 
     schema = json.dumps([
@@ -417,20 +417,145 @@ def generate_category_page(cat_id, sites):
     )
 
 
-def update_sitemap(generated_categories):
-    """Add category page URLs to sitemap.xml."""
+def generate_site_detail_page(site, all_sites, by_cat):
+    """Generate a static detail page for a single site."""
+    sid = site["id"]
+    name_ja = site["name"]["ja"]
+    name_en = site["name"]["en"]
+    desc_ja = site["description"]["ja"]
+    highlight_ja = site["highlight"]["ja"]
+    rating = site.get("rating", 3)
+    url = site.get("url", "")
+    aff_url = site.get("affiliateUrl")
+    visit_url = aff_url if aff_url else url
+    cat_id = site.get("category", "")
+    meta = CATEGORY_META.get(cat_id, {"ja": cat_id, "en": cat_id, "emoji": ""})
+    cat_ja = meta["ja"]
+    emoji = meta["emoji"]
+    tags = site.get("tags", [])
+    badges = badge_text(site)
+
+    title = f"{name_ja}（{name_en}）の詳細・評判【無料{cat_ja}】| {SITE_NAME}"
+    description = f"{name_ja}は{highlight_ja} {desc_ja[:80]}"
+    canonical = f"{BASE_URL}/site/{sid}.html"
+
+    # Tags HTML
+    tags_html = " ".join(f'<span class="tag">{h(t)}</span>' for t in tags)
+
+    # Use cases
+    use_cases = site.get("useCases", [])
+
+    # License info
+    lic_rows = [
+        ("商用利用", "○ 可能" if site.get("commercial") else "× 不可"),
+        ("クレジット表記", "不要" if not site.get("creditRequired") else "必要"),
+        ("ユーザー登録", "不要" if not site.get("registrationRequired") else "必要"),
+        ("初心者向け", "○" if site.get("beginnerFriendly") else "—"),
+    ]
+    lic_html = "\n".join(
+        f'          <tr><th>{h(k)}</th><td>{h(v)}</td></tr>' for k, v in lic_rows
+    )
+
+    # Related sites (same category, excluding self, top 5)
+    related = [s for s in by_cat.get(cat_id, []) if s["id"] != sid]
+    related = sorted(related, key=lambda s: -s.get("rating", 0))[:5]
+    related_html = ""
+    if related:
+        related_items = "\n".join(
+            f'        <li><a href="{s["id"]}.html">{h(s["name"]["ja"])}</a> — {h(s["highlight"]["ja"])}</li>'
+            for s in related
+        )
+        related_html = f'''
+      <h2>関連する{h(cat_ja)}サイト</h2>
+      <ul class="related-list">
+{related_items}
+      </ul>'''
+
+    content = f'''    <section class="section privacy-policy">
+      <h1>{h(name_ja)}（{h(name_en)}）</h1>
+      <p class="section-lead">{h(highlight_ja)}</p>
+      <div class="card-badges" style="margin-bottom:16px">{badges}</div>
+      <span class="card-verified" style="display:inline-block;margin-bottom:16px" data-i18n="verifiedDate">{YEAR}年{date.today().month}月 確認済み</span>
+
+      <h2>サイト概要</h2>
+      <p>{h(desc_ja)}</p>
+
+      <h2>ライセンス情報</h2>
+      <div class="blog-comparison-table">
+        <table>
+          <tbody>
+{lic_html}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>タグ</h2>
+      <div class="card-tags-row" style="margin-bottom:16px">{tags_html}</div>
+
+      <div class="detail-disclaimer" style="margin:24px 0">
+        <p>⚠️ 利用規約は各サイトで変更される場合があります。素材利用前に必ず公式サイトの最新の利用規約をご確認ください。</p>
+      </div>
+
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:24px">
+        <a href="{h(visit_url)}" class="btn-visit-sm" target="_blank" rel="noopener noreferrer nofollow" style="padding:10px 24px;font-size:.9rem">公式サイトへ →</a>
+        <a href="../category/{h(cat_id)}.html" class="btn-detail-sm" style="padding:10px 24px;font-size:.9rem">{emoji} {h(cat_ja)}サイト一覧に戻る</a>
+      </div>
+{related_html}
+    </section>'''
+
+    schema = json.dumps([
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": f"{name_ja}（{name_en}）",
+            "description": description,
+            "url": canonical,
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "ホーム", "item": f"{BASE_URL}/"},
+                {"@type": "ListItem", "position": 2, "name": f"{cat_ja}サイト一覧",
+                 "item": f"{BASE_URL}/category/{cat_id}.html"},
+                {"@type": "ListItem", "position": 3, "name": name_ja, "item": canonical}
+            ]
+        }
+    ], ensure_ascii=False, indent=2)
+
+    breadcrumbs = [
+        ("ホーム", "../index.html"),
+        (f"{emoji} {cat_ja}", f"../category/{cat_id}.html"),
+        (name_ja, None),
+    ]
+
+    return page_html(
+        title=title,
+        description=description,
+        canonical=canonical,
+        breadcrumbs=breadcrumbs,
+        content=content,
+        schema_json=schema,
+    )
+
+
+def update_sitemap(generated_categories, generated_sites):
+    """Add category + site page URLs to sitemap.xml."""
     sitemap_path = os.path.join(os.path.dirname(__file__), "sitemap.xml")
     with open(sitemap_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Remove any previously generated category URLs
     import re
+    # Remove previously generated blocks
     content = re.sub(
         r'  <!-- SSG categories -->\n(?:.*\n)*?  <!-- /SSG categories -->\n',
         '', content
     )
+    content = re.sub(
+        r'  <!-- SSG sites -->\n(?:.*\n)*?  <!-- /SSG sites -->\n',
+        '', content
+    )
 
-    # Insert before </urlset>
     new_urls = ['  <!-- SSG categories -->']
     for cat_id in generated_categories:
         new_urls.append(
@@ -439,13 +564,21 @@ def update_sitemap(generated_categories):
             f'<priority>0.8</priority></url>'
         )
     new_urls.append('  <!-- /SSG categories -->')
+    new_urls.append('  <!-- SSG sites -->')
+    for sid in generated_sites:
+        new_urls.append(
+            f'  <url><loc>{BASE_URL}/site/{sid}.html</loc>'
+            f'<lastmod>{TODAY}</lastmod><changefreq>monthly</changefreq>'
+            f'<priority>0.6</priority></url>'
+        )
+    new_urls.append('  <!-- /SSG sites -->')
     insert_block = "\n".join(new_urls) + "\n"
 
     content = content.replace("</urlset>", insert_block + "</urlset>")
 
     with open(sitemap_path, "w", encoding="utf-8") as f:
         f.write(content)
-    print(f"  Updated sitemap.xml with {len(generated_categories)} category URLs")
+    print(f"  Updated sitemap.xml ({len(generated_categories)} categories + {len(generated_sites)} sites)")
 
 
 # ── CSS additions ────────────────────────────────────────────────────
@@ -574,11 +707,25 @@ def main():
         print(f"  [OK] category/{cat_id}.html ({len(cat_sites)} sites)")
         generated.append(cat_id)
 
+    # Generate individual site pages
+    print("\n--- Site Detail Pages ---")
+    site_dir = os.path.join(os.path.dirname(__file__), "site")
+    os.makedirs(site_dir, exist_ok=True)
+    generated_sites = []
+    for s in sites:
+        sid = s["id"]
+        html = generate_site_detail_page(s, sites, by_cat)
+        filepath = os.path.join(site_dir, f"{sid}.html")
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(html)
+        generated_sites.append(sid)
+    print(f"  [OK] Generated {len(generated_sites)} site detail pages")
+
     # Update sitemap
     print("\n--- Sitemap ---")
-    update_sitemap(generated)
+    update_sitemap(generated, generated_sites)
 
-    print(f"\n=== Done! Generated {len(generated)} category pages ===")
+    print(f"\n=== Done! {len(generated)} category pages + {len(generated_sites)} site pages ===")
 
 
 if __name__ == "__main__":
