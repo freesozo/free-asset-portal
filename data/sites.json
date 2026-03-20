@@ -481,8 +481,8 @@
         "web"
       ],
       "description": {
-        "ja": "米国議会図書館のフリー素材コレクション。歴史写真・ポスター・地図・楽譜など。",
-        "en": "Free-to-use collection from the Library of Congress. Historical photos, posters, maps & sheet music."
+        "ja": "米国議会図書館のフリー素材コレクション。歴史写真・ポスター・地図・楽譜・新聞など数百万点のデジタル資料を無料公開。パブリックドメインの資料が中心で、教育・研究・クリエイティブプロジェクトに幅広く活用できる世界最大級のデジタルアーカイブ。",
+        "en": "The Library of Congress free digital collection. Millions of historical photos, posters, maps, sheet music, and newspapers. Mostly public domain, widely used for education, research, and creative projects."
       },
       "highlight": {
         "ja": "アメリカ史の一次資料が自由に使える",
@@ -516,8 +516,8 @@
         "web"
       ],
       "description": {
-        "ja": "日本の国立国会図書館が公開するデジタル資料。古典籍・錦絵・古地図・雑誌など。",
-        "en": "Digital materials from Japan's National Diet Library. Classic texts, ukiyo-e, old maps & magazines."
+        "ja": "国立国会図書館が公開するデジタル資料コレクション。古典籍・錦絵・古地図・近代雑誌など日本の歴史的資料をデジタル化して無料公開。高解像度画像のダウンロードが可能で、日本の歴史・文化研究やデザイン素材として活用できる。",
+        "en": "Japan's National Diet Library digital collection. Digitized classical texts, woodblock prints, old maps, and modern magazines freely available. High-resolution downloads for Japanese history research and design."
       },
       "highlight": {
         "ja": "日本の歴史資料・古典籍の最大級デジタルアーカイブ",
@@ -585,8 +585,8 @@
         "youtube"
       ],
       "description": {
-        "ja": "NASAが公開する宇宙・天文写真・動画・音声。ほぼ全てパブリックドメイン。",
-        "en": "Space & astronomy photos, videos & audio from NASA. Almost all public domain."
+        "ja": "NASAが公開する宇宙・天文写真・動画・音声素材。ハッブル望遠鏡やジェイムズ・ウェッブ望遠鏡の高解像度画像、火星探査車の映像など。ほぼ全てパブリックドメインで商用利用OK。教育・科学コンテンツ・デザインの背景素材に活用できる。",
+        "en": "NASA's public domain space and astronomy photos, videos, and audio. High-resolution Hubble and James Webb images, Mars rover footage and more. Almost all public domain for commercial use. Great for education and design."
       },
       "highlight": {
         "ja": "宇宙写真が全て無料！パブリックドメイン",
@@ -688,8 +688,8 @@
         "education"
       ],
       "description": {
-        "ja": "インターネットの歴史的アーカイブ。書籍・音楽・映像・Webサイト。",
-        "en": "Historical internet archive. Books, music, video, websites."
+        "ja": "インターネットの歴史的アーカイブ。書籍・音楽・映像・Webサイトなど数十億点のデジタルコンテンツを無料公開。Wayback Machineで過去のWebサイトも閲覧可能。パブリックドメインの素材が豊富で、学術・クリエイティブ用途に活用できる。",
+        "en": "The Internet Archive houses billions of free digital items including books, music, video, and websites. Wayback Machine enables browsing historical web content. Rich in public domain materials for academic and creative use."
       },
       "highlight": {
         "ja": "インターネットの歴史を全て記録",
@@ -721,8 +721,8 @@
         "print"
       ],
       "description": {
-        "ja": "ゲティ美術館のオープンコンテンツ。高解像度の美術作品画像。",
-        "en": "Getty Museum open content. High-res art images."
+        "ja": "ゲティ研究所が提供するオープンコンテンツプログラム。高解像度の美術作品画像を無料公開しており、絵画・彫刻・建築写真など10万点以上をダウンロード可能。学術研究・教育・デザインプロジェクトに活用できる歴史的資料の宝庫。",
+        "en": "The Getty Research Institute's open content program. Over 100,000 high-resolution art images freely available, including paintings, sculptures, and architectural photos. A treasure trove for academic research, education, and design."
       },
       "highlight": {
         "ja": "世界的美術館の高解像度画像",
@@ -1320,8 +1320,8 @@
         "web"
       ],
       "description": {
-        "ja": "PBRマテリアル・テクスチャ・HDRIの無料ライブラリ。CC0で商用利用OK。",
-        "en": "Free PBR materials, textures & HDRIs. CC0 licensed for commercial use."
+        "ja": "ambientCGはPBRマテリアル・テクスチャ・HDRIの無料ライブラリ。CC0ライセンスで商用利用OK。2K〜8Kの高解像度素材を提供し、Blender・Unity・Unreal Engineなど主要3Dソフトに対応。建築ビジュアライゼーションやゲーム開発に最適。",
+        "en": "ambientCG provides free PBR materials, textures, and HDRIs under CC0 license. High-resolution (2K-8K) assets compatible with Blender, Unity, and Unreal Engine. Ideal for architectural visualization and game development."
       },
       "highlight": {
         "ja": "PBRマテリアルの決定版。CC0で安心",
@@ -1389,8 +1389,8 @@
         "game"
       ],
       "description": {
-        "ja": "ローポリ3Dゲームアセット。CC0ライセンスで完全無料。",
-        "en": "Low-poly 3D game assets. Completely free under CC0 license."
+        "ja": "Kay Lousbergはローポリ3Dゲームアセットを提供するクリエイター。CC0ライセンスで完全無料・商用利用OK。キャラクター、環境、プロップなど統一感のあるローポリスタイルで、Unityや Godotでのインディーゲーム開発に最適。",
+        "en": "Kay Lousberg provides low-poly 3D game assets under CC0 license, completely free for commercial use. Characters, environments, and props in a cohesive low-poly style, perfect for indie game development in Unity or Godot."
       },
       "highlight": {
         "ja": "CC0ライセンスのローポリ3Dゲームアセット",
@@ -2294,8 +2294,8 @@
         "web"
       ],
       "description": {
-        "ja": "Web開発の定番アイコンフォント。無料版でも数千種類のアイコンが利用可能。",
-        "en": "The standard icon font for web development. Thousands of icons available in the free version."
+        "ja": "Font AwesomeはWeb開発の定番アイコンフォント。無料版でも2,000種類以上のアイコンが利用可能。CDN配信やnpmインストールに対応し、HTMLクラスを追加するだけで簡単に使える。Webサイト・アプリのUIデザインに必須のツール。",
+        "en": "Font Awesome is the definitive icon font for web development. Over 2,000 free icons available via CDN or npm. Simply add HTML classes to use. Essential for website and app UI design."
       },
       "highlight": {
         "ja": "Web開発者必携のアイコンフォント",
@@ -2396,8 +2396,8 @@
         "web"
       ],
       "description": {
-        "ja": "Tailwind CSS開発チームによるSVGアイコン集。Outline/Solid/Miniの3スタイル。",
-        "en": "SVG icons by the Tailwind CSS team. Outline, Solid, and Mini styles."
+        "ja": "HeroiconsはTailwind CSS開発チームが制作した無料SVGアイコンセット。300以上のアイコンをOutlineとSolid両スタイルで提供。React・Vue対応コンポーネントもあり、Tailwind CSSプロジェクトとの相性が抜群。MITライセンスで商用利用OK。",
+        "en": "Heroicons is a free SVG icon set by the Tailwind CSS team. 300+ icons in Outline and Solid styles. React and Vue components available. MIT licensed, perfect for Tailwind CSS projects."
       },
       "highlight": {
         "ja": "Tailwindユーザーに最適なアイコンセット",
@@ -2464,8 +2464,8 @@
         "presentation"
       ],
       "description": {
-        "ja": "1,500以上の無料Webフォント＋Material Symbolsアイコン。Webサイトに簡単導入。",
-        "en": "1,500+ free web fonts + Material Symbols icons. Easy to integrate into websites."
+        "ja": "Google FontsのアイコンライブラリNoto Emoji。Googleのオープンソースフォントファミリーの一部として提供される絵文字フォント。カラー・モノクロ対応で、Webフォントとしても利用可能。Apache 2.0ライセンスで商用利用OK。",
+        "en": "Google Fonts' Noto Emoji icon library. Part of Google's open-source font family, offering color and monochrome emoji fonts usable as web fonts. Apache 2.0 licensed for commercial use."
       },
       "highlight": {
         "ja": "Webフォントの世界標準。導入が超簡単",
@@ -2499,8 +2499,8 @@
         "game"
       ],
       "description": {
-        "ja": "Google公式のマテリアルデザインアイコン。3,000以上。",
-        "en": "Google official Material Design icons. Over 3,000 icons."
+        "ja": "Google公式のマテリアルデザインアイコンセット。3,000以上のアイコンをSVG・Webフォント・Android/iOS向けに提供。5つのスタイル（Outlined, Filled, Rounded, Sharp, Two-Tone）から選べ、Googleのデザインガイドラインに準拠。",
+        "en": "Google's official Material Design icon set. Over 3,000 icons in SVG, web font, and native mobile formats. Five styles available (Outlined, Filled, Rounded, Sharp, Two-Tone), following Google's design guidelines."
       },
       "highlight": {
         "ja": "Google公式。3,000以上のアイコン",
@@ -2769,8 +2769,8 @@
         "app"
       ],
       "description": {
-        "ja": "Ionicフレームワーク公式のアイコンセット。1300以上のモダンアイコン。",
-        "en": "Official Ionic Framework icon set. Over 1300 modern icons."
+        "ja": "IonicフレームワークのIonicチームが開発した公式アイコンセット。1,300以上のモダンアイコンをOutline・Filled・Sharpの3スタイルで提供。Webコンポーネントとして使え、React・Vue・Angularに対応。MITライセンスで商用利用OK。",
+        "en": "Ionic's official icon set with 1,300+ modern icons in Outline, Filled, and Sharp styles. Available as web components for React, Vue, and Angular. MIT licensed for commercial use."
       },
       "highlight": {
         "ja": "Ionicフレームワーク公式の豊富なアイコン",
@@ -3550,8 +3550,8 @@
         "web"
       ],
       "description": {
-        "ja": "かわいいフリーイラスト素材集。季節のイベントや日常のシーンなど、幅広いジャンルを網羅。",
-        "en": "Cute free illustration collection covering seasonal events, daily scenes, and a wide range of genres."
+        "ja": "いらすとやは日本で最も有名なフリーイラスト素材サイト。かわいいタッチの人物・季節・行事イラストが数万点。商用利用OK（20点まで/媒体）・クレジット不要。プレゼン・チラシ・ブログ・SNSなど日本のあらゆるメディアで活用されている。",
+        "en": "Irasutoya is Japan's most famous free illustration site. Tens of thousands of cute people, seasonal, and event illustrations. Commercial use OK (up to 20/project), no credit needed. Used across all Japanese media."
       },
       "highlight": {
         "ja": "圧倒的な種類の数！日本で最も有名なフリー素材サイト",
@@ -3621,8 +3621,8 @@
         "youtube"
       ],
       "description": {
-        "ja": "世界最大級のベクター・写真・PSD素材サイト。無料枠でも十分使える。",
-        "en": "One of the world's largest vector, photo & PSD asset sites. Generous free tier."
+        "ja": "Freepikは世界最大級のベクター・写真・PSD素材サイト。イラスト、アイコン、テンプレートなど数百万点の素材を提供。無料枠でも十分使えるが、プレミアムプランでダウンロード無制限に。Web制作・プレゼン・SNS用デザインに幅広く対応。",
+        "en": "Freepik is one of the world's largest vector, photo, and PSD resource sites. Millions of illustrations, icons, and templates. Free tier is generous; premium unlocks unlimited downloads. Great for web design, presentations, and social media."
       },
       "highlight": {
         "ja": "ベクター素材の数が世界トップクラス",
@@ -3658,8 +3658,8 @@
         "game"
       ],
       "description": {
-        "ja": "軽量アニメーション（Lottie）素材のマーケットプレイス。Web・アプリに最適。",
-        "en": "Marketplace for lightweight Lottie animations for web and apps."
+        "ja": "LottieFilesはLottieアニメーション素材のプラットフォーム。軽量なJSON形式のモーショングラフィックスをWeb・アプリに簡単に組み込み可能。無料素材も豊富で、After Effectsで制作したアニメーションをWebで再生できる。UI/UXデザインに最適。",
+        "en": "LottieFiles is a platform for Lottie animation assets. Lightweight JSON motion graphics easily embeddable in web and apps. Rich free content. Play After Effects animations on the web. Ideal for UI/UX design."
       },
       "highlight": {
         "ja": "アニメーション素材の定番",
@@ -5517,8 +5517,8 @@
         "game"
       ],
       "description": {
-        "ja": "YouTuberに大人気のフリーBGM・音楽素材サイト。ジャンル別に探しやすい。",
-        "en": "Free BGM/music site hugely popular with YouTubers. Easy to browse by genre."
+        "ja": "DOVA-SYNDROMEは日本最大級のフリーBGM素材サイト。15,000曲以上のオリジナル楽曲を無料提供。YouTuber・ゲーム開発者に人気が高く、ジャンル・雰囲気・楽器で細かく検索可能。商用利用OK・クレジット任意で使いやすい。",
+        "en": "DOVA-SYNDROME is one of Japan's largest free BGM sites with over 15,000 original tracks. Popular with YouTubers and game developers, with detailed genre/mood/instrument search. Commercial use OK."
       },
       "highlight": {
         "ja": "YouTuber御用達のBGMサイト",
@@ -5550,8 +5550,8 @@
         "game"
       ],
       "description": {
-        "ja": "ゲーム・動画向けBGM・効果音が充実。RPG系やバトル系BGMが特に豊富。",
-        "en": "BGM & SFX for games and videos. Especially rich in RPG and battle BGM."
+        "ja": "魔王魂はゲーム・動画向けBGM・効果音が充実した日本最大級の無料音楽素材サイト。RPG系やバトル系BGMが特に豊富で、1,000曲以上を提供。商用利用OK・クレジット不要。ゲーム開発やYouTube動画制作の定番サイト。",
+        "en": "Maou Damashii is one of Japan's largest free music sites for games and videos. Over 1,000 tracks, especially strong in RPG and battle BGM. Commercial use OK, no credit required. A go-to for game dev and YouTube."
       },
       "highlight": {
         "ja": "ゲーム制作者に大人気のBGMサイト",
@@ -5619,8 +5619,8 @@
         "sns"
       ],
       "description": {
-        "ja": "EDM系フリー音楽の大手。YouTubeクリエイター御用達。",
-        "en": "Major EDM free music platform. Go-to for YouTube creators."
+        "ja": "NCS（NoCopyrightSounds）はEDM系フリー音楽の大手レーベル。YouTubeクリエイター御用達で、高品質なエレクトロニックミュージックを無料提供。クレジット表記で商用利用OK。Spotify・Apple Musicでも配信しており、知名度の高いアーティストが多数参加。",
+        "en": "NCS (NoCopyrightSounds) is a leading EDM free music label. Popular with YouTube creators, offering high-quality electronic music for free with credit. Also on Spotify and Apple Music with well-known artists."
       },
       "highlight": {
         "ja": "YouTubeクリエイター御用達のEDM",
@@ -5652,8 +5652,8 @@
         "youtube"
       ],
       "description": {
-        "ja": "ファンタジー・和風BGMが充実。ゲーム制作者に人気。",
-        "en": "Rich in fantasy and Japanese-style BGM. Popular among game developers."
+        "ja": "Perituneはファンタジー・和風BGMが充実した日本の音楽素材サイト。ゲーム制作者やYouTuberに人気が高く、オーケストラ調やケルト風など独特の世界観のBGMが豊富。商用利用OK・クレジット不要で、RPGやアドベンチャーゲームに最適。",
+        "en": "Peritune offers fantasy and Japanese-style BGM compositions. Popular with game developers and YouTubers, featuring orchestral and Celtic-inspired tracks. Commercial use OK, no credit required. Ideal for RPGs and adventure games."
       },
       "highlight": {
         "ja": "ファンタジー・和風BGMが充実",
@@ -6508,8 +6508,8 @@
         "youtube"
       ],
       "description": {
-        "ja": "世界中のフォトグラファーが投稿する高解像度写真。商用利用完全無料。",
-        "en": "High-resolution photos from photographers worldwide. Completely free for commercial use."
+        "ja": "Unsplashは世界最大級の高品質写真素材サイト。プロの写真家が撮影した400万枚以上の写真を完全無料で提供。独自のUnsplashライセンスにより商用利用・加工が可能で、クレジット表記も任意。風景・ビジネス・テクノロジーなど幅広いジャンルを網羅し、Web制作やSNS投稿に最適。",
+        "en": "Unsplash is one of the world's largest high-quality photo stock sites. Over 4 million photos from professional photographers, completely free. The Unsplash License allows commercial use and modification without credit. Covers landscape, business, technology and more."
       },
       "highlight": {
         "ja": "世界最高クラスの写真クオリティ",
@@ -6543,8 +6543,8 @@
         "youtube"
       ],
       "description": {
-        "ja": "美しい無料写真と動画のライブラリ。APIも提供しており開発者にも便利。",
-        "en": "Beautiful free photo and video library. Also provides API for developers."
+        "ja": "Pexelsは美しい無料写真と動画のライブラリ。プロが撮影した高解像度の写真素材を商用利用含め完全無料で提供。APIも充実しており開発者にも人気。日本語検索にも対応し、写真・動画ともにクレジット不要で使いやすい。",
+        "en": "Pexels offers a library of beautiful free photos and videos. High-resolution, professionally shot stock content, completely free for commercial use. API available for developers. Supports Japanese search with no credit required."
       },
       "highlight": {
         "ja": "写真も動画も両方揃う万能サイト",
@@ -8252,8 +8252,8 @@
         "web"
       ],
       "description": {
-        "ja": "レスポンシブ対応の美しいHTML5/CSS3テンプレート。CC BY 3.0ライセンス。",
-        "en": "Beautiful responsive HTML5/CSS3 templates. CC BY 3.0 license."
+        "ja": "HTML5 UPは高品質なレスポンシブHTMLテンプレートを無料提供。モダンなデザインのポートフォリオ・ランディングページ・ブログテンプレートが揃う。CC BY 3.0ライセンスでクレジット表記のみで商用利用可能。HTML/CSS初心者のWebサイト構築に最適。",
+        "en": "HTML5 UP offers free, beautifully designed responsive HTML templates. Modern portfolios, landing pages, and blog templates. CC BY 3.0 licensed (credit required). Great for beginners building websites."
       },
       "highlight": {
         "ja": "モダンで美しいレスポンシブHTMLテンプレート",
@@ -9481,8 +9481,8 @@
         "sns"
       ],
       "description": {
-        "ja": "Mixkitの無料動画素材。高品質な映像クリップを無料ダウンロード。",
-        "en": "Mixkit's free stock footage. Download high-quality video clips for free."
+        "ja": "Mixkitの無料動画素材セクション。高品質な映像クリップを完全無料でダウンロード可能。背景映像・自然風景・ビジネスシーンなど幅広いジャンルを網羅。商用利用OK・クレジット不要で、YouTube動画やプレゼン資料の制作に最適。",
+        "en": "Mixkit's free stock video section. Download high-quality footage completely free. Covers backgrounds, nature, business scenes and more. Commercial use OK, no credit required. Great for YouTube and presentations."
       },
       "highlight": {
         "ja": "高品質な映像クリップを無制限に無料ダウンロード",

@@ -344,6 +344,19 @@ def generate_category_page(cat_id, sites):
         for c in other_cats
     )
 
+    # Related blog articles
+    blog_links = []
+    cat_blog = f"../blog/{cat_id}-free-sites.html"
+    blog_links.append(f'        <li><a href="{cat_blog}">無料{h(cat_ja)}サイトまとめ【{YEAR}年版】</a></li>')
+    # Feature articles that might relate
+    for feat, feat_label in [("commercial-use", "商用利用OKの"), ("no-credit", "クレジット不要の"),
+                              ("no-registration", "登録不要の"), ("beginner-friendly", "初心者向けの")]:
+        blog_links.append(
+            f'        <li><a href="../blog/{feat}-free-sites.html">{feat_label}フリー素材サイトまとめ</a></li>'
+        )
+    blog_links.append(f'        <li><a href="../blog/best-free-sites-ranking.html">フリー素材サイトおすすめランキングTOP20</a></li>')
+    blog_section = "\n".join(blog_links)
+
     content = f'''    <section class="section">
       <h1 class="section-title">{emoji} 無料{h(cat_ja)}サイト一覧 {count}選【{YEAR}年最新】</h1>
       <p class="section-lead">{h(description)}</p>
@@ -364,6 +377,15 @@ def generate_category_page(cat_id, sites):
       <h2>各サイトの詳細</h2>
       <div class="card-grid">
 {cards}
+      </div>
+
+      <h2>{emoji} {h(cat_ja)}に関する記事</h2>
+      <ul class="related-list" style="margin-bottom:24px">
+{blog_section}
+      </ul>
+
+      <div class="sister-banner" style="background:var(--c-surface);border:1px solid var(--c-border);border-radius:12px;padding:20px;margin-bottom:24px">
+        <p>🔧 <strong>制作に使えるツールの比較はこちら →</strong> <a href="https://tools.freesozo.com/" target="_blank" rel="noopener">おすすめツール比較ナビ</a> — デザイン・AI・動画編集など100以上のツールを徹底比較</p>
       </div>
 
       <h2>他のカテゴリを見る</h2>
@@ -501,6 +523,10 @@ def generate_site_detail_page(site, all_sites, by_cat):
         <a href="../category/{h(cat_id)}.html" class="btn-detail-sm" style="padding:10px 24px;font-size:.9rem">{emoji} {h(cat_ja)}サイト一覧に戻る</a>
       </div>
 {related_html}
+
+      <div style="background:var(--c-surface);border:1px solid var(--c-border);border-radius:12px;padding:20px;margin-top:24px">
+        <p>🔧 <strong>制作に使えるツールも探す →</strong> <a href="https://tools.freesozo.com/" target="_blank" rel="noopener">おすすめツール比較ナビ</a></p>
+      </div>
     </section>'''
 
     schema = json.dumps([
