@@ -19,8 +19,8 @@ SITE_NAME = "フリー素材ポータル"
 SITE_NAME_EN = "Free Asset Portal"
 GA_ID = "G-TW9TKBPSNW"
 ADSENSE_PUB = "ca-pub-1060876188767022"
-CSS_VERSION = 10
-JS_VERSION = 10
+CSS_VERSION = 12
+JS_VERSION = 12
 TODAY = date.today().isoformat()
 YEAR = date.today().year
 
@@ -235,11 +235,31 @@ def page_html(*, title, description, canonical, breadcrumbs, content, schema_jso
   <header class="site-header">
     <div class="container header-inner">
       <div class="site-logo">
-        <a href="{root_prefix}/index.html">📦 <span data-i18n="siteTitle">{SITE_NAME}</span></a>
+        <a href="{root_prefix}/index.html"><span class="logo-text">freesozo</span></a>
       </div>
       <nav class="header-nav">
         <a href="{root_prefix}/index.html" data-i18n="breadcrumbHome">ホーム</a>
-        <a href="{root_prefix}/index.html#categoryNav" data-i18n="categoryHeading">カテゴリ</a>
+        <div class="nav-dropdown">
+          <a href="{root_prefix}/index.html#categoryNav" class="nav-dropdown-trigger">
+            <span data-i18n="categoryHeading">カテゴリ</span> <span class="dropdown-arrow">▾</span>
+          </a>
+          <div class="nav-dropdown-menu">
+            <a href="{root_prefix}/category.html?cat=illustration">🎨 イラスト</a>
+            <a href="{root_prefix}/category.html?cat=photo">📷 写真</a>
+            <a href="{root_prefix}/category.html?cat=icon">🔷 アイコン</a>
+            <a href="{root_prefix}/category.html?cat=music">🎵 音楽</a>
+            <a href="{root_prefix}/category.html?cat=video">🎬 動画</a>
+            <a href="{root_prefix}/category.html?cat=font">🔤 フォント</a>
+            <a href="{root_prefix}/category.html?cat=3d">🧊 3D</a>
+            <a href="{root_prefix}/category.html?cat=template">📄 テンプレート</a>
+            <a href="{root_prefix}/category.html?cat=texture">🖼️ テクスチャ</a>
+            <a href="{root_prefix}/category.html?cat=asset">🎮 ゲーム素材</a>
+            <a href="{root_prefix}/category.html?cat=archive">📚 総合</a>
+            <a href="{root_prefix}/category.html?cat=mockup">📱 モックアップ</a>
+            <a href="{root_prefix}/category.html?cat=sound">🔊 効果音</a>
+          </div>
+        </div>
+        <a href="{root_prefix}/checker.html" data-i18n="navChecker">チェッカー</a>
         <a href="{root_prefix}/blog/" data-i18n="navBlog">ブログ</a>
         <a href="{root_prefix}/about.html" data-i18n="aboutNav">サイトについて</a>
       </nav>
@@ -252,7 +272,25 @@ def page_html(*, title, description, canonical, breadcrumbs, content, schema_jso
   </header>
   <nav class="mobile-nav" id="mobileNav">
     <a href="{root_prefix}/index.html" data-i18n="breadcrumbHome">ホーム</a>
-    <a href="{root_prefix}/index.html#categoryNav" data-i18n="categoryHeading">カテゴリ</a>
+    <details class="mobile-dropdown">
+      <summary data-i18n="categoryHeading">カテゴリ</summary>
+      <div class="mobile-dropdown-menu">
+        <a href="{root_prefix}/category.html?cat=illustration">🎨 イラスト</a>
+        <a href="{root_prefix}/category.html?cat=photo">📷 写真</a>
+        <a href="{root_prefix}/category.html?cat=icon">🔷 アイコン</a>
+        <a href="{root_prefix}/category.html?cat=music">🎵 音楽</a>
+        <a href="{root_prefix}/category.html?cat=video">🎬 動画</a>
+        <a href="{root_prefix}/category.html?cat=font">🔤 フォント</a>
+        <a href="{root_prefix}/category.html?cat=3d">🧊 3D</a>
+        <a href="{root_prefix}/category.html?cat=template">📄 テンプレート</a>
+        <a href="{root_prefix}/category.html?cat=texture">🖼️ テクスチャ</a>
+        <a href="{root_prefix}/category.html?cat=asset">🎮 ゲーム素材</a>
+        <a href="{root_prefix}/category.html?cat=archive">📚 総合</a>
+        <a href="{root_prefix}/category.html?cat=mockup">📱 モックアップ</a>
+        <a href="{root_prefix}/category.html?cat=sound">🔊 効果音</a>
+      </div>
+    </details>
+    <a href="{root_prefix}/checker.html" data-i18n="navChecker">チェッカー</a>
     <a href="{root_prefix}/blog/" data-i18n="navBlog">ブログ</a>
     <a href="{root_prefix}/about.html" data-i18n="aboutNav">サイトについて</a>
   </nav>

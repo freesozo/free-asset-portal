@@ -15,8 +15,8 @@ BASE_URL = "https://freesozo.com"
 SITE_NAME = "フリー素材ポータル"
 GA_ID = "G-TW9TKBPSNW"
 ADSENSE_PUB = "ca-pub-1060876188767022"
-CSS_VERSION = 8
-JS_VERSION = 8
+CSS_VERSION = 12
+JS_VERSION = 12
 GENERATED_DATE = date.today().isoformat()
 CURRENT_YEAR = date.today().year
 
@@ -265,12 +265,33 @@ def html_template(*, title, description, canonical, breadcrumb_title, content_ht
   <header class="site-header">
     <div class="container header-inner">
       <div class="site-logo">
-        <a href="../index.html">📦 <span data-i18n="siteTitle">{SITE_NAME}</span></a>
+        <a href="../index.html"><span class="logo-text">freesozo</span></a>
       </div>
       <nav class="header-nav">
         <a href="../index.html" data-i18n="breadcrumbHome">ホーム</a>
-        <a href="../index.html#categoryNav" data-i18n="categoryHeading">カテゴリ</a>
+        <div class="nav-dropdown">
+          <a href="../index.html#categoryNav" class="nav-dropdown-trigger">
+            <span data-i18n="categoryHeading">カテゴリ</span> <span class="dropdown-arrow">▾</span>
+          </a>
+          <div class="nav-dropdown-menu">
+            <a href="../category.html?cat=illustration">🎨 イラスト</a>
+            <a href="../category.html?cat=photo">📷 写真</a>
+            <a href="../category.html?cat=icon">🔷 アイコン</a>
+            <a href="../category.html?cat=music">🎵 音楽</a>
+            <a href="../category.html?cat=video">🎬 動画</a>
+            <a href="../category.html?cat=font">🔤 フォント</a>
+            <a href="../category.html?cat=3d">🧊 3D</a>
+            <a href="../category.html?cat=template">📄 テンプレート</a>
+            <a href="../category.html?cat=texture">🖼️ テクスチャ</a>
+            <a href="../category.html?cat=asset">🎮 ゲーム素材</a>
+            <a href="../category.html?cat=archive">📚 総合</a>
+            <a href="../category.html?cat=mockup">📱 モックアップ</a>
+            <a href="../category.html?cat=sound">🔊 効果音</a>
+          </div>
+        </div>
+        <a href="../checker.html" data-i18n="navChecker">チェッカー</a>
         <a href="index.html" data-i18n="navBlog">ブログ</a>
+        <a href="../about.html" data-i18n="aboutNav">サイトについて</a>
       </nav>
       <div class="header-actions">
         <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
@@ -281,8 +302,27 @@ def html_template(*, title, description, canonical, breadcrumb_title, content_ht
   </header>
   <nav class="mobile-nav" id="mobileNav">
     <a href="../index.html" data-i18n="breadcrumbHome">ホーム</a>
-    <a href="../index.html#categoryNav" data-i18n="categoryHeading">カテゴリ</a>
+    <details class="mobile-dropdown">
+      <summary data-i18n="categoryHeading">カテゴリ</summary>
+      <div class="mobile-dropdown-menu">
+        <a href="../category.html?cat=illustration">🎨 イラスト</a>
+        <a href="../category.html?cat=photo">📷 写真</a>
+        <a href="../category.html?cat=icon">🔷 アイコン</a>
+        <a href="../category.html?cat=music">🎵 音楽</a>
+        <a href="../category.html?cat=video">🎬 動画</a>
+        <a href="../category.html?cat=font">🔤 フォント</a>
+        <a href="../category.html?cat=3d">🧊 3D</a>
+        <a href="../category.html?cat=template">📄 テンプレート</a>
+        <a href="../category.html?cat=texture">🖼️ テクスチャ</a>
+        <a href="../category.html?cat=asset">🎮 ゲーム素材</a>
+        <a href="../category.html?cat=archive">📚 総合</a>
+        <a href="../category.html?cat=mockup">📱 モックアップ</a>
+        <a href="../category.html?cat=sound">🔊 効果音</a>
+      </div>
+    </details>
+    <a href="../checker.html" data-i18n="navChecker">チェッカー</a>
     <a href="index.html" data-i18n="navBlog">ブログ</a>
+    <a href="../about.html" data-i18n="aboutNav">サイトについて</a>
   </nav>
 
   <main class="container">
