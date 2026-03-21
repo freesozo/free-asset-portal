@@ -689,6 +689,7 @@ const App = (() => {
       render();
       renderPremiumSection();
       renderAdSlots();
+      renderBlogHighlights();
       if (isCategory) updateCategoryPageMeta();
       const lb = document.getElementById('langBtn');
       if (lb) lb.textContent = I18n.t('lang');
@@ -706,6 +707,7 @@ const App = (() => {
     renderPremiumSection();
     bindNewsletter();
     renderAdSlots();
+    renderBlogHighlights();
     initHamburger();
     initBackToTop();
     initQuiz();
@@ -1008,6 +1010,43 @@ const App = (() => {
         btn.textContent = '☰';
       });
     });
+  }
+
+  // ── Blog Highlights ──
+  function renderBlogHighlights() {
+    const grid = document.getElementById('blogHighlightGrid');
+    if (!grid) return;
+    const articles = [
+      {
+        tag: I18n.t('blogUnsplashTag'),
+        title: I18n.t('blogUnsplashTitle'),
+        excerpt: I18n.t('blogUnsplashExcerpt'),
+        meta: I18n.t('blogUnsplashMeta'),
+        url: 'blog/articles/unsplash-review.html'
+      },
+      {
+        tag: I18n.t('blogBlenderTag'),
+        title: I18n.t('blogBlenderTitle'),
+        excerpt: I18n.t('blogBlenderExcerpt'),
+        meta: I18n.t('blogBlenderMeta'),
+        url: 'blog/articles/blender-3d-model-review.html'
+      },
+      {
+        tag: I18n.t('blogFontMistakeTag'),
+        title: I18n.t('blogFontMistakeTitle'),
+        excerpt: I18n.t('blogFontMistakeExcerpt'),
+        meta: I18n.t('blogFontMistakeMeta'),
+        url: 'blog/articles/font-license-mistake.html'
+      }
+    ];
+    grid.innerHTML = articles.map(a => `
+      <a href="${a.url}" class="blog-highlight-card">
+        <span class="blog-highlight-tag">${a.tag}</span>
+        <span class="blog-highlight-title">${a.title}</span>
+        <p class="blog-highlight-excerpt">${a.excerpt}</p>
+        <span class="blog-highlight-meta">${a.meta}</span>
+      </a>
+    `).join('');
   }
 
   // ── Back to Top ──

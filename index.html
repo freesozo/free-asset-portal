@@ -8,6 +8,8 @@
   <meta name="keywords" content="フリー素材,無料素材,商用利用可,クレジット不要,フリー画像,無料イラスト,フリー音楽,フリー動画,素材サイト比較">
   <meta name="author" content="フリー素材ポータル">
   <meta name="theme-color" content="#1a1a2e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="google-site-verification" content="ZZ8V28yMS2_AgisTkFp1fYb4fpw4zrpzxSdB-5uEZz8" />
   <meta name="google-site-verification" content="YnQclUpXFYIcacvHM-ecytM1DS7v4R-AEG2XT7R8_4k" />
   <meta name='impact-site-verification' value='1fd94e80-b736-4343-82a7-3f26abdf207c'>
@@ -25,11 +27,13 @@
   <link rel="alternate" hreflang="ja" href="https://freesozo.com/">
   <link rel="alternate" hreflang="en" href="https://freesozo.com/?lang=en">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="images/icon-192.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
   <script>(function(){var t=localStorage.getItem('theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;})();</script>
-  <link rel="stylesheet" href="css/style.css?v=10">
+  <link rel="stylesheet" href="css/style.css?v=11">
   <!-- JSON-LD 構造化データ -->
   <script type="application/ld+json">
   {
@@ -105,7 +109,7 @@
 </head>
 <body>
 
-  <!-- ===== Header ===== -->
+  <!-- ===== Header (5 items) ===== -->
   <header class="site-header">
     <div class="container header-inner">
       <div class="site-logo">
@@ -113,11 +117,27 @@
       </div>
       <nav class="header-nav">
         <a href="index.html" data-i18n="breadcrumbHome">ホーム</a>
-        <a href="#categoryNav" data-i18n="categoryHeading">カテゴリ</a>
+        <div class="nav-dropdown">
+          <a href="#categoryNav" class="nav-dropdown-trigger">
+            <span data-i18n="categoryHeading">カテゴリ</span> <span class="dropdown-arrow">▾</span>
+          </a>
+          <div class="nav-dropdown-menu">
+            <a href="category.html?cat=illustration">🎨 <span data-i18n="dropCatIllustration">イラスト</span></a>
+            <a href="category.html?cat=photo">📷 <span data-i18n="dropCatPhoto">写真</span></a>
+            <a href="category.html?cat=icon">🔷 <span data-i18n="dropCatIcon">アイコン</span></a>
+            <a href="category.html?cat=music">🎵 <span data-i18n="dropCatMusic">音楽</span></a>
+            <a href="category.html?cat=video">🎬 <span data-i18n="dropCatVideo">動画</span></a>
+            <a href="category.html?cat=font">🔤 <span data-i18n="dropCatFont">フォント</span></a>
+            <a href="category.html?cat=3d">🧊 <span data-i18n="dropCat3D">3D</span></a>
+            <a href="category.html?cat=template">📄 <span data-i18n="dropCatTemplate">テンプレート</span></a>
+            <a href="category.html?cat=texture">🖼️ <span data-i18n="dropCatTexture">テクスチャ</span></a>
+            <a href="category.html?cat=asset">🎮 <span data-i18n="dropCatGame">ゲーム素材</span></a>
+            <a href="category.html?cat=archive">📚 <span data-i18n="dropCatArchive">総合</span></a>
+            <a href="category.html?cat=mockup">📱 <span data-i18n="dropCatMockup">モックアップ</span></a>
+            <a href="category.html?cat=sound">🔊 <span data-i18n="dropCatSound">効果音</span></a>
+          </div>
+        </div>
         <a href="checker.html" data-i18n="navChecker">🔍 チェッカー</a>
-        <a href="font.html" data-i18n="navFont">🔤 フォント</a>
-        <a href="3d.html" data-i18n="nav3D">🎲 3D</a>
-        <a href="template.html" data-i18n="navTemplate">📄 テンプレート</a>
         <a href="blog/" data-i18n="navBlog">ブログ</a>
         <a href="about.html" data-i18n="aboutNav">サイトについて</a>
       </nav>
@@ -130,16 +150,30 @@
   </header>
   <nav class="mobile-nav" id="mobileNav">
     <a href="index.html" data-i18n="breadcrumbHome">ホーム</a>
-    <a href="#categoryNav" data-i18n="categoryHeading">カテゴリ</a>
+    <details class="mobile-dropdown">
+      <summary data-i18n="categoryHeading">カテゴリ</summary>
+      <div class="mobile-dropdown-menu">
+        <a href="category.html?cat=illustration">🎨 <span data-i18n="dropCatIllustration">イラスト</span></a>
+        <a href="category.html?cat=photo">📷 <span data-i18n="dropCatPhoto">写真</span></a>
+        <a href="category.html?cat=icon">🔷 <span data-i18n="dropCatIcon">アイコン</span></a>
+        <a href="category.html?cat=music">🎵 <span data-i18n="dropCatMusic">音楽</span></a>
+        <a href="category.html?cat=video">🎬 <span data-i18n="dropCatVideo">動画</span></a>
+        <a href="category.html?cat=font">🔤 <span data-i18n="dropCatFont">フォント</span></a>
+        <a href="category.html?cat=3d">🧊 <span data-i18n="dropCat3D">3D</span></a>
+        <a href="category.html?cat=template">📄 <span data-i18n="dropCatTemplate">テンプレート</span></a>
+        <a href="category.html?cat=texture">🖼️ <span data-i18n="dropCatTexture">テクスチャ</span></a>
+        <a href="category.html?cat=asset">🎮 <span data-i18n="dropCatGame">ゲーム素材</span></a>
+        <a href="category.html?cat=archive">📚 <span data-i18n="dropCatArchive">総合</span></a>
+        <a href="category.html?cat=mockup">📱 <span data-i18n="dropCatMockup">モックアップ</span></a>
+        <a href="category.html?cat=sound">🔊 <span data-i18n="dropCatSound">効果音</span></a>
+      </div>
+    </details>
     <a href="checker.html" data-i18n="navChecker">🔍 チェッカー</a>
-    <a href="font.html" data-i18n="navFont">🔤 フォント</a>
-    <a href="3d.html" data-i18n="nav3D">🎲 3D</a>
-    <a href="template.html" data-i18n="navTemplate">📄 テンプレート</a>
     <a href="blog/" data-i18n="navBlog">ブログ</a>
     <a href="about.html" data-i18n="aboutNav">サイトについて</a>
   </nav>
 
-  <!-- ===== Hero (Full-screen) ===== -->
+  <!-- ===== Hero (3 Action Cards) ===== -->
   <section class="hero" id="heroSection">
     <div class="hero-inner container">
       <h1 class="hero-line" data-i18n="heroHeading">無料で使える、プロ品質の素材を。</h1>
@@ -150,15 +184,21 @@
           <span class="search-icon" aria-hidden="true">🔍</span>
         </div>
       </div>
-      <div class="hero-line hero-cta-group">
-        <a href="#categoryNav" class="hero-cta hero-cta-primary">
-          <span data-i18n="heroCta1">素材を探す</span> &rarr;
+      <div class="hero-line hero-action-cards">
+        <a href="#categoryNav" class="hero-action-card">
+          <span class="hero-action-icon">🔍</span>
+          <span class="hero-action-title" data-i18n="heroCard1Title">素材を探す</span>
+          <span class="hero-action-desc" data-i18n="heroCard1Desc">221サイトから条件で絞り込み</span>
         </a>
-        <a href="https://tools.freesozo.com/" target="_blank" rel="noopener" class="hero-cta hero-cta-outline">
-          <span data-i18n="heroCta2">ツールを比較する</span>
+        <a href="checker.html" class="hero-action-card">
+          <span class="hero-action-icon">✅</span>
+          <span class="hero-action-title" data-i18n="heroCard2Title">ライセンスチェック</span>
+          <span class="hero-action-desc" data-i18n="heroCard2Desc">商用利用OK？一発で確認</span>
         </a>
-        <a href="checker.html" class="hero-cta hero-cta-outline">
-          <span data-i18n="checkerCta">ライセンスが不安？ → チェッカーで確認する</span>
+        <a href="https://tools.freesozo.com/" target="_blank" rel="noopener" class="hero-action-card">
+          <span class="hero-action-icon">⚖️</span>
+          <span class="hero-action-title" data-i18n="heroCard3Title">ツールを比較する</span>
+          <span class="hero-action-desc" data-i18n="heroCard3Desc">101種を比較</span>
         </a>
       </div>
       <div class="hero-line hero-extras">
@@ -183,51 +223,7 @@
     </div>
   </div>
 
-  <!-- ===== Quick Filters ===== -->
-  <div class="quick-filters">
-    <button class="filter-btn" data-filter="freeOnly" data-i18n="filterFreeOnly">🆓 無料のみ</button>
-    <button class="filter-btn" data-filter="commercial" data-i18n="filterCommercial">商用利用可</button>
-    <button class="filter-btn" data-filter="creditFree" data-i18n="filterNoCredit">クレジット不要</button>
-    <button class="filter-btn" data-filter="regFree" data-i18n="filterNoReg">登録不要</button>
-    <button class="filter-btn" data-filter="beginner" data-i18n="filterBeginner">初心者向け</button>
-    <button class="filter-btn filter-btn-fav" id="filterFavBtn" data-i18n="filterFavorites">❤️ お気に入りのみ</button>
-  </div>
-
-  <!-- Format Filters -->
-  <div class="quick-filters format-filters" id="formatFilters">
-    <span class="filter-section-label" data-i18n="formatLabel">形式:</span>
-    <button class="filter-btn" data-format="png">PNG</button>
-    <button class="filter-btn" data-format="svg">SVG</button>
-    <button class="filter-btn" data-format="jpg">JPG</button>
-    <button class="filter-btn" data-format="mp3">MP3</button>
-    <button class="filter-btn" data-format="mp4">MP4</button>
-    <button class="filter-btn" data-format="otf">OTF/TTF</button>
-  </div>
-
   <main class="container">
-
-    <!-- ===== About (SEO static text) ===== -->
-    <section class="section" id="aboutSection">
-      <h2 class="section-title" data-i18n="aboutHeading">フリー素材ポータルとは</h2>
-      <p style="line-height:1.8;color:var(--text-secondary);" data-i18n="aboutBody">フリー素材ポータルは、Web制作・デザイン・動画編集・ゲーム開発など幅広い用途に対応した無料素材サイトを200件以上掲載する日本最大級の比較ポータルサイトです。写真・イラスト・音楽・効果音・動画・アイコン・フォント・3Dモデル・テクスチャ・テンプレートなど13カテゴリに分類し、「商用利用OK」「クレジット表記不要」「会員登録不要」「初心者向け」といった条件でワンクリック絞り込みが可能です。各素材サイトの対応フォーマット（PNG / SVG / JPG / MP3 / MP4 / OTF）も一覧で比較でき、目的の素材をすばやく見つけられます。すべての情報は定期的に更新しており、利用規約の変更や新しいサイトの追加にも対応しています。</p>
-    </section>
-
-    <!-- ===== Popular Searches (SEO internal links) ===== -->
-    <section class="section" id="popularSearches" style="padding-top:0">
-      <h2 class="section-title">🔍 よく探される条件</h2>
-      <div class="category-links-grid" style="margin-top:8px">
-        <a href="category/illustration.html" class="tag">🎨 商用OK × イラスト</a>
-        <a href="category/photo.html" class="tag">📷 登録不要 × 写真</a>
-        <a href="category/music.html" class="tag">🎵 YouTube BGM × 音楽</a>
-        <a href="category/icon.html" class="tag">🔷 無料アイコン</a>
-        <a href="category/font.html" class="tag">🔤 商用OK × フォント</a>
-        <a href="category/video.html" class="tag">🎬 無料動画素材</a>
-        <a href="category/3d.html" class="tag">🧊 ゲーム × 3Dモデル</a>
-        <a href="category/texture.html" class="tag">🖼️ テクスチャ・背景</a>
-        <a href="category/sound.html" class="tag">🔊 効果音素材</a>
-        <a href="category/template.html" class="tag">📄 HTMLテンプレート</a>
-      </div>
-    </section>
 
     <!-- ===== Category Nav (Card Grid) ===== -->
     <section class="section cat-nav-section fade-in-up" id="categoryNavSection">
@@ -235,29 +231,38 @@
       <div class="cat-card-grid" id="categoryNav" aria-label="Category navigation"></div>
     </section>
 
-    <!-- ===== Use Case Nav ===== -->
-    <section class="section" style="padding-top:0">
-      <h2 class="section-title" data-i18n="useCaseHeading">用途で探す</h2>
-      <nav class="nav-pills" id="useCaseNav" aria-label="Use case navigation"></nav>
-    </section>
-
-    <!-- ===== Recently Viewed ===== -->
+    <!-- ===== Recently Viewed (conditional) ===== -->
     <section class="section" id="recentSection" style="display:none;padding-top:0">
       <h2 class="section-title" data-i18n="recentlyViewed">最近チェックしたサイト</h2>
       <div class="card-grid" id="recentGrid"></div>
     </section>
 
-    <!-- ===== Favorites Home ===== -->
+    <!-- ===== Favorites Home (conditional) ===== -->
     <section class="section" id="favHomeSection" style="display:none;padding-top:0">
       <h2 class="section-title" data-i18n="favSection">❤️ お気に入りサイト</h2>
       <div class="card-grid" id="favHomeGrid"></div>
     </section>
 
-    <!-- ===== Recommended (フィルター時は非表示) ===== -->
-    <section class="section" style="padding-top:0" id="recSection">
-      <h2 class="section-title" data-i18n="recommendHeading">おすすめサイト</h2>
-      <div class="card-grid" id="recGrid"></div>
-    </section>
+    <!-- ===== Quick Filters ===== -->
+    <div class="quick-filters">
+      <button class="filter-btn" data-filter="freeOnly" data-i18n="filterFreeOnly">🆓 無料のみ</button>
+      <button class="filter-btn" data-filter="commercial" data-i18n="filterCommercial">商用利用可</button>
+      <button class="filter-btn" data-filter="creditFree" data-i18n="filterNoCredit">クレジット不要</button>
+      <button class="filter-btn" data-filter="regFree" data-i18n="filterNoReg">登録不要</button>
+      <button class="filter-btn" data-filter="beginner" data-i18n="filterBeginner">初心者向け</button>
+      <button class="filter-btn filter-btn-fav" id="filterFavBtn" data-i18n="filterFavorites">❤️ お気に入りのみ</button>
+    </div>
+
+    <!-- Format Filters -->
+    <div class="quick-filters format-filters" id="formatFilters">
+      <span class="filter-section-label" data-i18n="formatLabel">形式:</span>
+      <button class="filter-btn" data-format="png">PNG</button>
+      <button class="filter-btn" data-format="svg">SVG</button>
+      <button class="filter-btn" data-format="jpg">JPG</button>
+      <button class="filter-btn" data-format="mp3">MP3</button>
+      <button class="filter-btn" data-format="mp4">MP4</button>
+      <button class="filter-btn" data-format="otf">OTF/TTF</button>
+    </div>
 
     <!-- ===== All Sites ===== -->
     <section class="section">
@@ -273,6 +278,21 @@
       <div class="card-grid" id="siteGrid"></div>
       <div class="load-more-wrap">
         <button class="btn-load-more" id="loadMoreBtn" style="display:none" data-i18n="loadMore">もっと見る</button>
+      </div>
+    </section>
+
+    <!-- ===== Use Case Nav ===== -->
+    <section class="section" style="padding-top:0">
+      <h2 class="section-title" data-i18n="useCaseHeading">用途で探す</h2>
+      <nav class="nav-pills" id="useCaseNav" aria-label="Use case navigation"></nav>
+    </section>
+
+    <!-- ===== Blog Highlights ===== -->
+    <section class="section blog-highlights" id="blogHighlights">
+      <h2 class="section-title" data-i18n="blogHighlightHeading">クリエイター向けガイド</h2>
+      <div class="blog-highlight-grid" id="blogHighlightGrid"></div>
+      <div class="blog-highlight-more">
+        <a href="blog/" data-i18n="blogHighlightMore">もっと読む →</a>
       </div>
     </section>
 
@@ -319,9 +339,9 @@
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1060876188767022" crossorigin="anonymous"></script>
 
-  <script src="js/i18n.js?v=10"></script>
-  <script src="js/app.js?v=10"></script>
-  <script src="js/affiliate-loader.js?v=10"></script>
+  <script src="js/i18n.js?v=11"></script>
+  <script src="js/app.js?v=11"></script>
+  <script src="js/affiliate-loader.js?v=11"></script>
   <script>App.init();</script>
 </body>
 </html>

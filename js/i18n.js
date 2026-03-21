@@ -287,6 +287,30 @@ const I18n = (() => {
       compareAdd: '比較に追加',
       compareRemove: '比較から削除',
       compareClear: '比較をクリア',
+      // Hero action cards
+      heroCard1Title: '素材を探す',
+      heroCard1Desc: '221サイトから条件で絞り込み',
+      heroCard2Title: 'ライセンスチェック',
+      heroCard2Desc: '商用利用OK？一発で確認',
+      heroCard3Title: 'ツールを比較する',
+      heroCard3Desc: '101種を比較',
+      // Blog highlights
+      blogHighlightHeading: 'クリエイター向けガイド',
+      blogHighlightMore: 'もっと読む →',
+      // Nav dropdown categories
+      dropCatIllustration: 'イラスト',
+      dropCatPhoto: '写真',
+      dropCatIcon: 'アイコン',
+      dropCatMusic: '音楽',
+      dropCatVideo: '動画',
+      dropCatFont: 'フォント',
+      dropCat3D: '3D',
+      dropCatTemplate: 'テンプレート',
+      dropCatTexture: 'テクスチャ',
+      dropCatGame: 'ゲーム素材',
+      dropCatArchive: '総合',
+      dropCatMockup: 'モックアップ',
+      dropCatSound: '効果音',
     },
     en: {
       siteTitle: 'Free Asset Portal',
@@ -573,6 +597,30 @@ const I18n = (() => {
       compareAdd: 'Add to Compare',
       compareRemove: 'Remove from Compare',
       compareClear: 'Clear Comparison',
+      // Hero action cards
+      heroCard1Title: 'Browse Assets',
+      heroCard1Desc: 'Filter from 221 curated sites',
+      heroCard2Title: 'License Check',
+      heroCard2Desc: 'Commercial use OK? Check instantly',
+      heroCard3Title: 'Compare Tools',
+      heroCard3Desc: 'Compare 101 tools',
+      // Blog highlights
+      blogHighlightHeading: 'Creator Guides',
+      blogHighlightMore: 'Read More →',
+      // Nav dropdown categories
+      dropCatIllustration: 'Illustration',
+      dropCatPhoto: 'Photo',
+      dropCatIcon: 'Icon',
+      dropCatMusic: 'Music',
+      dropCatVideo: 'Video',
+      dropCatFont: 'Font',
+      dropCat3D: '3D',
+      dropCatTemplate: 'Template',
+      dropCatTexture: 'Texture',
+      dropCatGame: 'Game Assets',
+      dropCatArchive: 'General',
+      dropCatMockup: 'Mockup',
+      dropCatSound: 'Sound FX',
     }
   };
 
