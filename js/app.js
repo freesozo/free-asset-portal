@@ -65,7 +65,9 @@ const App = (() => {
     const catLabel = cat ? `${cat.icon} ${I18n.localize(cat.name)}` : '';
     const isNew = site.dateAdded && (Date.now() - new Date(site.dateAdded).getTime()) < 30 * 86400000;
     const newBadge = isNew ? ' <span class="new-badge">NEW</span>' : '';
-    const favIcon = isFavorite(site.id) ? '❤️' : '🤍';
+    const favFill = isFavorite(site.id) ? '#ef4444' : 'none';
+    const favStroke = isFavorite(site.id) ? '#ef4444' : 'currentColor';
+    const favIcon = `<svg width="18" height="18" viewBox="0 0 24 24" fill="${favFill}" stroke="${favStroke}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>`;
     const favLabel = isFavorite(site.id) ? I18n.t('unfavorite') : I18n.t('favorite');
 
     const compareOverlay = state.compareMode

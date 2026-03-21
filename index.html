@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
   <script>(function(){var t=localStorage.getItem('theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;})();</script>
-  <link rel="stylesheet" href="css/style.css?v=11">
+  <link rel="stylesheet" href="css/style.css?v=12">
   <!-- JSON-LD 構造化データ -->
   <script type="application/ld+json">
   {
@@ -113,7 +113,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <div class="site-logo">
-        <a href="index.html">📦 <span data-i18n="siteTitle">フリー素材ポータル</span></a>
+        <a href="index.html"><span class="logo-text">freesozo</span></a>
       </div>
       <nav class="header-nav">
         <a href="index.html" data-i18n="breadcrumbHome">ホーム</a>
@@ -181,22 +181,22 @@
       <div class="hero-line hero-search-wrap">
         <div class="search-box">
           <input type="text" id="searchInput" data-i18n="searchPlaceholder" placeholder="サイト名・キーワードで検索..." aria-label="Search">
-          <span class="search-icon" aria-hidden="true">🔍</span>
+          <span class="search-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></span>
         </div>
       </div>
       <div class="hero-line hero-action-cards">
         <a href="#categoryNav" class="hero-action-card">
-          <span class="hero-action-icon">🔍</span>
+          <span class="hero-action-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></span>
           <span class="hero-action-title" data-i18n="heroCard1Title">素材を探す</span>
           <span class="hero-action-desc" data-i18n="heroCard1Desc">221サイトから条件で絞り込み</span>
         </a>
         <a href="checker.html" class="hero-action-card">
-          <span class="hero-action-icon">✅</span>
+          <span class="hero-action-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span>
           <span class="hero-action-title" data-i18n="heroCard2Title">ライセンスチェック</span>
           <span class="hero-action-desc" data-i18n="heroCard2Desc">商用利用OK？一発で確認</span>
         </a>
         <a href="https://tools.freesozo.com/" target="_blank" rel="noopener" class="hero-action-card">
-          <span class="hero-action-icon">⚖️</span>
+          <span class="hero-action-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg></span>
           <span class="hero-action-title" data-i18n="heroCard3Title">ツールを比較する</span>
           <span class="hero-action-desc" data-i18n="heroCard3Desc">101種を比較</span>
         </a>
@@ -245,12 +245,12 @@
 
     <!-- ===== Quick Filters ===== -->
     <div class="quick-filters">
-      <button class="filter-btn" data-filter="freeOnly" data-i18n="filterFreeOnly">🆓 無料のみ</button>
+      <button class="filter-btn" data-filter="freeOnly" data-i18n="filterFreeOnly">無料のみ</button>
       <button class="filter-btn" data-filter="commercial" data-i18n="filterCommercial">商用利用可</button>
       <button class="filter-btn" data-filter="creditFree" data-i18n="filterNoCredit">クレジット不要</button>
       <button class="filter-btn" data-filter="regFree" data-i18n="filterNoReg">登録不要</button>
       <button class="filter-btn" data-filter="beginner" data-i18n="filterBeginner">初心者向け</button>
-      <button class="filter-btn filter-btn-fav" id="filterFavBtn" data-i18n="filterFavorites">❤️ お気に入りのみ</button>
+      <button class="filter-btn filter-btn-fav" id="filterFavBtn" data-i18n="filterFavorites">お気に入りのみ</button>
     </div>
 
     <!-- Format Filters -->
@@ -272,7 +272,7 @@
           <option value="rating" data-i18n="sortRecommend">おすすめ順</option>
           <option value="name" data-i18n="sortName">名前順</option>
         </select>
-        <button class="btn-compare-toggle" id="compareToggleBtn" data-i18n="compareToggle">⚖️ 比較モード</button>
+        <button class="btn-compare-toggle" id="compareToggleBtn" data-i18n="compareToggle">比較モード</button>
         <span class="result-count" id="resultCount"></span>
       </div>
       <div class="card-grid" id="siteGrid"></div>
@@ -339,9 +339,9 @@
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1060876188767022" crossorigin="anonymous"></script>
 
-  <script src="js/i18n.js?v=11"></script>
-  <script src="js/app.js?v=11"></script>
-  <script src="js/affiliate-loader.js?v=11"></script>
+  <script src="js/i18n.js?v=12"></script>
+  <script src="js/app.js?v=12"></script>
+  <script src="js/affiliate-loader.js?v=12"></script>
   <script>App.init();</script>
 </body>
 </html>
