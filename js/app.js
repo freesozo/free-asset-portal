@@ -73,9 +73,14 @@ const App = (() => {
       : '';
     const selectedClass = state.compareMode && state.compareIds.includes(site.id) ? ' compare-selected' : '';
 
+    const screenshotHTML = site.screenshot
+      ? `<img class="card-screenshot" src="${site.screenshot}" loading="lazy" width="600" height="400" alt="${name}">`
+      : '';
+
     return `
       <article class="card${selectedClass}" data-id="${site.id}" role="button" tabindex="0" aria-label="${name}">
         ${compareOverlay}
+        ${screenshotHTML}
         <div class="card-header">
           <span class="card-name">${name}${newBadge}</span>
           <span class="card-rating" aria-label="${site.rating}/5">${stars(site.rating)}</span>
