@@ -32,7 +32,26 @@
         "sprite",
         "cc0",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 5,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": "https://kenney.nl/assets"
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "polyhaven-3d",
@@ -65,7 +84,26 @@
         "free",
         "cc0"
       ],
-      "dateAdded": "2026-03-09"
+      "dateAdded": "2026-03-09",
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 5,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": "https://polyhaven.com/license"
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "poly-pizza",
@@ -96,7 +134,26 @@
         "free",
         "game"
       ],
-      "dateAdded": "2026-03-07"
+      "dateAdded": "2026-03-07",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "sketchfab",
@@ -129,6 +186,31 @@
         "model",
         "preview",
         "english"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 4,
+        "termsClarity": 4,
+        "adFree": 4,
+        "japaneseSupport": 2
+      },
+      "licenseDetail": {
+        "commercial": "conditional",
+        "modification": "conditional",
+        "credit": "required",
+        "registration": "required",
+        "redistribution": "conditional",
+        "licenseType": "CC BY / CC BY-SA etc.",
+        "licenseUrl": "https://sketchfab.com/licenses"
+      },
+      "cautions": [
+        "モデルごとにライセンスが異なる",
+        "無料モデルはCC系ライセンスが多い"
+      ],
+      "cautionsEn": [
+        "License varies by model",
+        "Free models mostly use CC licenses"
       ]
     },
     {
@@ -161,6 +243,31 @@
         "model",
         "marketplace",
         "english"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "conditional",
+        "modification": "conditional",
+        "credit": "conditional",
+        "registration": "required",
+        "redistribution": "ng",
+        "licenseType": "TurboSquid License",
+        "licenseUrl": "https://blog.turbosquid.com/turbosquid-3d-model-license/"
+      },
+      "cautions": [
+        "無料モデルはライセンスが個別に異なる",
+        "品質にばらつきあり"
+      ],
+      "cautionsEn": [
+        "Free model licenses vary individually",
+        "Quality varies across models"
       ]
     },
     {
@@ -195,7 +302,26 @@
         "free",
         "scan"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "renderpeople-free",
@@ -227,7 +353,26 @@
         "obj",
         "free"
       ],
-      "dateAdded": "2026-03-18"
+      "dateAdded": "2026-03-18",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "dimensiva",
@@ -260,7 +405,26 @@
         "free",
         "furniture"
       ],
-      "dateAdded": "2026-03-09"
+      "dateAdded": "2026-03-09",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "free3d",
@@ -292,7 +456,26 @@
         "model",
         "free",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "unknown",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "rigmodels",
@@ -326,7 +509,26 @@
         "rigged",
         "character"
       ],
-      "dateAdded": "2026-03-14"
+      "dateAdded": "2026-03-14",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "clara-io",
@@ -360,7 +562,26 @@
         "free",
         "online"
       ],
-      "dateAdded": "2026-03-14"
+      "dateAdded": "2026-03-14",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "wikimediacommons",
@@ -396,6 +617,31 @@
         "photo",
         "cc",
         "english"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 3,
+        "downloadEase": 4,
+        "termsClarity": 3,
+        "adFree": 5,
+        "japaneseSupport": 4
+      },
+      "licenseDetail": {
+        "commercial": "conditional",
+        "modification": "conditional",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "conditional",
+        "licenseType": "CC BY / CC BY-SA / GFDL etc.",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing"
+      },
+      "cautions": [
+        "メディアごとにライセンスが異なる",
+        "CC-BY系はクレジット表記必須"
+      ],
+      "cautionsEn": [
+        "License varies by media file",
+        "CC-BY licenses require attribution"
       ]
     },
     {
@@ -430,7 +676,26 @@
         "painting",
         "museum",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "smithsonian",
@@ -466,7 +731,26 @@
         "space",
         "museum",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "loc",
@@ -501,7 +785,26 @@
         "map",
         "poster",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "ndl",
@@ -535,7 +838,26 @@
         "map",
         "classic",
         "japanese"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "europeana",
@@ -569,7 +891,26 @@
         "art",
         "map",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "nasa",
@@ -604,6 +945,31 @@
         "photo",
         "video",
         "english"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 4,
+        "termsClarity": 4,
+        "adFree": 5,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "optional",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "NASA Media Usage Guidelines",
+        "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+      },
+      "cautions": [
+        "NASAロゴの使用は制限あり",
+        "クレジット表記は推奨"
+      ],
+      "cautionsEn": [
+        "NASA logo usage is restricted",
+        "Credit/attribution is recommended"
       ]
     },
     {
@@ -639,7 +1005,26 @@
         "dutch",
         "museum",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "artvee",
@@ -674,7 +1059,26 @@
         "poster",
         "public-domain",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "internetarchive",
@@ -706,7 +1110,26 @@
         "books",
         "video",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "unknown",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "gettyresearch",
@@ -739,7 +1162,26 @@
         "museum",
         "highres",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "colbase",
@@ -772,7 +1214,26 @@
         "art",
         "museum",
         "japanese"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "unknown",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "ukiyoe",
@@ -806,7 +1267,26 @@
         "ukiyo-e",
         "art",
         "japanese"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "britishmuseum",
@@ -840,7 +1320,26 @@
         "egypt",
         "museum",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "unknown",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "oldbookillustrations",
@@ -875,7 +1374,26 @@
         "antique",
         "book",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "biodiversity",
@@ -909,7 +1427,26 @@
         "biology",
         "illustration",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "nypl",
@@ -943,7 +1480,26 @@
         "map",
         "poster",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "gallica",
@@ -977,7 +1533,26 @@
         "french",
         "manuscript",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "dpla",
@@ -1008,7 +1583,26 @@
         "library",
         "american",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "unknown",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "nationalarchives",
@@ -1039,7 +1633,26 @@
         "government",
         "history",
         "japanese"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "unknown",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "tokyolib",
@@ -1071,7 +1684,26 @@
         "edo",
         "history",
         "japanese"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "unknown",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "designresources",
@@ -1104,7 +1736,26 @@
         "free",
         "aggregator"
       ],
-      "dateAdded": "2026-03-18"
+      "dateAdded": "2026-03-18",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "thestocks",
@@ -1138,7 +1789,26 @@
         "free",
         "search"
       ],
-      "dateAdded": "2026-03-19"
+      "dateAdded": "2026-03-19",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "allthefreestock",
@@ -1172,7 +1842,26 @@
         "free",
         "links"
       ],
-      "dateAdded": "2026-03-20"
+      "dateAdded": "2026-03-20",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "opengameart",
@@ -1205,6 +1894,31 @@
         "sprite",
         "community",
         "english"
+      ],
+      "qualityScore": {
+        "security": 4,
+        "usability": 3,
+        "downloadEase": 4,
+        "termsClarity": 4,
+        "adFree": 4,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "conditional",
+        "modification": "conditional",
+        "credit": "conditional",
+        "registration": "not_required",
+        "redistribution": "conditional",
+        "licenseType": "CC BY / CC BY-SA / GPL etc.",
+        "licenseUrl": "https://opengameart.org/content/faq"
+      },
+      "cautions": [
+        "素材ごとにライセンスが異なる",
+        "CC-BY系はクレジット表記必須"
+      ],
+      "cautionsEn": [
+        "License varies by asset",
+        "CC-BY licenses require attribution"
       ]
     },
     {
@@ -1237,7 +1951,26 @@
         "indie",
         "marketplace",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "polyhaven",
@@ -1272,7 +2005,26 @@
         "cc0",
         "blender",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 5,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": "https://polyhaven.com/license"
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "mixamo",
@@ -1305,7 +2057,26 @@
         "character",
         "adobe",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "ambientcg",
@@ -1340,7 +2111,26 @@
         "texture",
         "cc0",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 5,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": "https://ambientcg.com/license"
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "blenderkit",
@@ -1375,7 +2165,26 @@
         "material",
         "hdri",
         "addon"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "kaylousberg",
@@ -1409,7 +2218,26 @@
         "lowpoly",
         "game"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "quaternius",
@@ -1441,7 +2269,26 @@
         "lowpoly",
         "cc0",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "craftpix",
@@ -1474,7 +2321,26 @@
         "sprite",
         "tileset",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "gamedevmarket",
@@ -1507,7 +2373,26 @@
         "3d",
         "marketplace",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "unityassetstore",
@@ -1540,7 +2425,26 @@
         "shader",
         "tool",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "blendswap",
@@ -1572,7 +2476,26 @@
         "blender",
         "cc",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "conditional",
+        "credit": "required",
+        "registration": "required",
+        "redistribution": "conditional",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "cgtrader",
@@ -1608,7 +2531,26 @@
         "obj",
         "fbx",
         "marketplace"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "gameart2d",
@@ -1641,7 +2583,26 @@
         "2d",
         "game"
       ],
-      "dateAdded": "2026-03-18"
+      "dateAdded": "2026-03-18",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "freegamearts",
@@ -1673,7 +2634,26 @@
         "3d",
         "opensource",
         "english"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "pixelgameart",
@@ -1707,7 +2687,26 @@
         "retro",
         "game"
       ],
-      "dateAdded": "2026-03-09"
+      "dateAdded": "2026-03-09",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "google-fonts",
@@ -1739,7 +2738,26 @@
         "english",
         "otf"
       ],
-      "dateAdded": "2026-03-07"
+      "dateAdded": "2026-03-07",
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 5,
+        "japaneseSupport": 4
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "SIL Open Font License / Apache 2.0",
+        "licenseUrl": "https://fonts.google.com/about"
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "source-han-sans",
@@ -1771,7 +2789,26 @@
         "japanese",
         "otf"
       ],
-      "dateAdded": "2026-03-07"
+      "dateAdded": "2026-03-07",
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 4,
+        "termsClarity": 5,
+        "adFree": 5,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "SIL Open Font License 1.1",
+        "licenseUrl": "https://github.com/adobe-fonts/source-han-sans/blob/master/LICENSE.txt"
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "noto-fonts",
@@ -1804,7 +2841,26 @@
         "english",
         "otf"
       ],
-      "dateAdded": "2026-03-07"
+      "dateAdded": "2026-03-07",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "fontfree",
@@ -1842,6 +2898,31 @@
         "directory",
         "svg",
         "png"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 3,
+        "termsClarity": 4,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "conditional",
+        "modification": "conditional",
+        "credit": "conditional",
+        "registration": "not_required",
+        "redistribution": "conditional",
+        "licenseType": "フォントにより異なる",
+        "licenseUrl": "https://fontfree.me/"
+      },
+      "cautions": [
+        "フォント紹介サイトのため、ライセンスは各フォントの配布元で確認",
+        "商用利用の可否はフォントにより異なる"
+      ],
+      "cautionsEn": [
+        "This is a font directory; check license at each font's source",
+        "Commercial use permission varies by font"
       ]
     },
     {
@@ -1874,7 +2955,26 @@
         "japanese",
         "otf"
       ],
-      "dateAdded": "2026-03-07"
+      "dateAdded": "2026-03-07",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "mplus-fonts",
@@ -1906,7 +3006,26 @@
         "japanese",
         "otf"
       ],
-      "dateAdded": "2026-03-07"
+      "dateAdded": "2026-03-07",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "fontdasu",
@@ -1938,7 +3057,26 @@
         "japanese",
         "otf"
       ],
-      "dateAdded": "2026-03-07"
+      "dateAdded": "2026-03-07",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "dafont",
@@ -1973,6 +3111,33 @@
         "english",
         "svg",
         "png"
+      ],
+      "qualityScore": {
+        "security": 4,
+        "usability": 3,
+        "downloadEase": 4,
+        "termsClarity": 2,
+        "adFree": 2,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "conditional",
+        "modification": "conditional",
+        "credit": "conditional",
+        "registration": "not_required",
+        "redistribution": "conditional",
+        "licenseType": "フォントにより異なる",
+        "licenseUrl": "https://www.dafont.com/faq.php"
+      },
+      "cautions": [
+        "フォントごとにライセンスが異なる",
+        "個人利用のみの場合あり",
+        "商用利用前に必ず確認"
+      ],
+      "cautionsEn": [
+        "License varies by font",
+        "Some fonts are personal use only",
+        "Always verify before commercial use"
       ]
     },
     {
@@ -2008,7 +3173,26 @@
         "free",
         "display"
       ],
-      "dateAdded": "2026-03-13"
+      "dateAdded": "2026-03-13",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "league-of-moveable-type",
@@ -2042,7 +3226,26 @@
         "free",
         "opensource"
       ],
-      "dateAdded": "2026-03-13"
+      "dateAdded": "2026-03-13",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "fontjoy",
@@ -2076,7 +3279,26 @@
         "ai",
         "google-fonts"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "fontbundles-free",
@@ -2110,7 +3332,26 @@
         "otf",
         "free"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "befonts",
@@ -2144,7 +3385,26 @@
         "otf",
         "free"
       ],
-      "dateAdded": "2026-03-18"
+      "dateAdded": "2026-03-18",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "1001freefonts",
@@ -2178,7 +3438,26 @@
         "otf",
         "free"
       ],
-      "dateAdded": "2026-03-20"
+      "dateAdded": "2026-03-20",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "open-foundry",
@@ -2212,7 +3491,26 @@
         "free",
         "opensource"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "fontget",
@@ -2246,7 +3544,26 @@
         "free",
         "google-fonts"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "icooonmono",
@@ -2280,6 +3597,29 @@
         "svg",
         "japanese",
         "png"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "ICOOON MONO利用規約",
+        "licenseUrl": "https://icooon-mono.com/license/"
+      },
+      "cautions": [
+        "アイコン素材の再配布は禁止"
+      ],
+      "cautionsEn": [
+        "Redistribution of icon assets is prohibited"
       ]
     },
     {
@@ -2313,6 +3653,31 @@
         "english",
         "svg",
         "png"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 5,
+        "japaneseSupport": 2
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC BY 4.0 / SIL OFL / MIT",
+        "licenseUrl": "https://fontawesome.com/license/free"
+      },
+      "cautions": [
+        "Pro版は有料",
+        "無料版はアイコン数が限定"
+      ],
+      "cautionsEn": [
+        "Pro version is paid",
+        "Free version has limited icons"
       ]
     },
     {
@@ -2347,6 +3712,29 @@
         "open-source",
         "english",
         "png"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 5,
+        "termsClarity": 4,
+        "adFree": 4,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "conditional",
+        "registration": "not_required",
+        "redistribution": "conditional",
+        "licenseType": "CC0 / MIT / CC BY etc.",
+        "licenseUrl": "https://www.svgrepo.com/page/licensing"
+      },
+      "cautions": [
+        "アイコンごとにライセンスが異なる"
+      ],
+      "cautionsEn": [
+        "License varies by icon"
       ]
     },
     {
@@ -2382,6 +3770,31 @@
         "png",
         "english",
         "global"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 2,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "required",
+        "registration": "required",
+        "redistribution": "ng",
+        "licenseType": "Flaticon License",
+        "licenseUrl": "https://www.flaticon.com/terms-of-use"
+      },
+      "cautions": [
+        "無料プランはクレジット表記必須",
+        "有料プランでクレジット不要"
+      ],
+      "cautionsEn": [
+        "Free plan requires attribution",
+        "Premium plan removes attribution requirement"
       ]
     },
     {
@@ -2415,7 +3828,26 @@
         "open-source",
         "english",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 5,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "MIT License",
+        "licenseUrl": "https://github.com/tailwindlabs/heroicons/blob/master/LICENSE"
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "lucide",
@@ -2449,7 +3881,26 @@
         "vue",
         "english",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 5,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "ISC License",
+        "licenseUrl": "https://github.com/lucide-icons/lucide/blob/main/LICENSE"
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "googlefonts",
@@ -2484,7 +3935,26 @@
         "english",
         "svg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "materialicons",
@@ -2518,7 +3988,26 @@
         "english",
         "svg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "tablericons",
@@ -2550,7 +4039,26 @@
         "modern",
         "english",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "iconmonstr",
@@ -2583,7 +4091,26 @@
         "svg",
         "english",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "feathericons",
@@ -2616,7 +4143,26 @@
         "english",
         "svg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "fontsquirrel",
@@ -2651,7 +4197,26 @@
         "english",
         "svg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "notosans",
@@ -2685,7 +4250,26 @@
         "english",
         "svg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "materialdesignicons",
@@ -2718,7 +4302,26 @@
         "english",
         "svg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "iconbuddy",
@@ -2754,7 +4357,26 @@
         "customize",
         "aggregator",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "ionicons",
@@ -2788,7 +4410,26 @@
         "opensource",
         "web-component"
       ],
-      "dateAdded": "2026-03-17"
+      "dateAdded": "2026-03-17",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "nounproject",
@@ -2822,7 +4463,26 @@
         "english",
         "svg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "bootstrapicons",
@@ -2855,7 +4515,26 @@
         "web",
         "english",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "phosphoricons",
@@ -2887,7 +4566,26 @@
         "customizable",
         "english",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "simpleicons",
@@ -2921,7 +4619,26 @@
         "svg",
         "english",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "icons8",
@@ -2956,7 +4673,26 @@
         "english",
         "svg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "boxicons",
@@ -2989,7 +4725,26 @@
         "english",
         "svg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "remixicon",
@@ -3022,7 +4777,26 @@
         "english",
         "svg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "iconoir",
@@ -3054,7 +4828,26 @@
         "react",
         "english",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "fontspace",
@@ -3089,7 +4882,26 @@
         "english",
         "svg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "goodfreefonts",
@@ -3126,7 +4938,26 @@
         "free",
         "svg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "lineicons",
@@ -3162,7 +4993,26 @@
         "vue",
         "web-development",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "ffontjp",
@@ -3200,7 +5050,26 @@
         "directory",
         "svg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "healthicons",
@@ -3235,7 +5104,26 @@
         "cc0",
         "healthcare"
       ],
-      "dateAdded": "2026-03-07"
+      "dateAdded": "2026-03-07",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "evaicons",
@@ -3268,7 +5156,26 @@
         "free",
         "opensource"
       ],
-      "dateAdded": "2026-03-07"
+      "dateAdded": "2026-03-07",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "flagicons",
@@ -3302,7 +5209,26 @@
         "flags",
         "mit"
       ],
-      "dateAdded": "2026-03-13"
+      "dateAdded": "2026-03-13",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "majesticons",
@@ -3334,7 +5260,26 @@
         "svg",
         "free"
       ],
-      "dateAdded": "2026-03-13"
+      "dateAdded": "2026-03-13",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "radix-icons",
@@ -3368,7 +5313,26 @@
         "react",
         "opensource"
       ],
-      "dateAdded": "2026-03-18"
+      "dateAdded": "2026-03-18",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "css-gg",
@@ -3402,7 +5366,26 @@
         "free",
         "opensource"
       ],
-      "dateAdded": "2026-03-19"
+      "dateAdded": "2026-03-19",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "system-uicons",
@@ -3434,7 +5417,26 @@
         "svg",
         "free"
       ],
-      "dateAdded": "2026-03-13"
+      "dateAdded": "2026-03-13",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "ikonate",
@@ -3467,7 +5469,26 @@
         "free",
         "customizable"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "teenyicons",
@@ -3500,7 +5521,26 @@
         "free",
         "minimal"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "akar-icons",
@@ -3533,7 +5573,26 @@
         "free",
         "react"
       ],
-      "dateAdded": "2026-03-17"
+      "dateAdded": "2026-03-17",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "irasutoya",
@@ -3570,6 +5629,31 @@
         "png",
         "svg",
         "jpg"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "いらすとや利用規約",
+        "licenseUrl": "https://www.irasutoya.com/p/terms.html"
+      },
+      "cautions": [
+        "1つの制作物に21点以上使う場合は有料",
+        "素材の再配布は禁止"
+      ],
+      "cautionsEn": [
+        "Using 21+ illustrations in one project requires payment",
+        "Redistribution of assets is prohibited"
       ]
     },
     {
@@ -3605,6 +5689,29 @@
         "english",
         "png",
         "jpg"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 5,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "unDraw License",
+        "licenseUrl": "https://undraw.co/license"
+      },
+      "cautions": [
+        "カラーカスタマイズはサイト上でのみ可能"
+      ],
+      "cautionsEn": [
+        "Color customization is only available on the website"
       ]
     },
     {
@@ -3643,6 +5750,31 @@
         "png",
         "svg",
         "jpg"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 2,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "required",
+        "registration": "required",
+        "redistribution": "ng",
+        "licenseType": "Freepik License",
+        "licenseUrl": "https://www.freepik.com/legal/terms-of-use"
+      },
+      "cautions": [
+        "無料プランはクレジット表記必須",
+        "1日のDL数制限あり"
+      ],
+      "cautionsEn": [
+        "Free plan requires attribution",
+        "Daily download limits apply"
       ]
     },
     {
@@ -3679,6 +5811,29 @@
         "png",
         "svg",
         "jpg"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 4,
+        "termsClarity": 4,
+        "adFree": 4,
+        "japaneseSupport": 2
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "ng",
+        "licenseType": "LottieFiles License",
+        "licenseUrl": "https://lottiefiles.com/page/license"
+      },
+      "cautions": [
+        "アニメーションごとにライセンスが異なる場合あり"
+      ],
+      "cautionsEn": [
+        "License may vary by animation"
       ]
     },
     {
@@ -3715,6 +5870,31 @@
         "png",
         "svg",
         "jpg"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 2,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "ng",
+        "licenseType": "イラストAC利用規約",
+        "licenseUrl": "https://www.ac-illust.com/main/terms.php"
+      },
+      "cautions": [
+        "無料会員は1日のDL数制限あり",
+        "広告が多め"
+      ],
+      "cautionsEn": [
+        "Free members have daily download limits",
+        "Contains many ads"
       ]
     },
     {
@@ -3751,6 +5931,29 @@
         "png",
         "svg",
         "jpg"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 4,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "Loose Drawing利用規約",
+        "licenseUrl": "https://loosedrawing.com/terms/"
+      },
+      "cautions": [
+        "素材の再配布は禁止"
+      ],
+      "cautionsEn": [
+        "Redistribution of assets is prohibited"
       ]
     },
     {
@@ -3788,7 +5991,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "unknown",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "storyset",
@@ -3823,6 +6045,29 @@
         "english",
         "png",
         "jpg"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 5,
+        "termsClarity": 4,
+        "adFree": 5,
+        "japaneseSupport": 2
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "Freepik Terms",
+        "licenseUrl": "https://storyset.com/terms"
+      },
+      "cautions": [
+        "クレジット表記が必要（Freepik系列）"
+      ],
+      "cautionsEn": [
+        "Attribution required (Freepik family)"
       ]
     },
     {
@@ -3858,6 +6103,31 @@
         "png",
         "svg",
         "jpg"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 2,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "Vecteezy License",
+        "licenseUrl": "https://www.vecteezy.com/licensing-agreement"
+      },
+      "cautions": [
+        "無料素材はクレジット表記必須",
+        "広告が多め"
+      ],
+      "cautionsEn": [
+        "Free assets require attribution",
+        "Contains many ads"
       ]
     },
     {
@@ -3894,7 +6164,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "openpeeps",
@@ -3929,7 +6218,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "manypixels",
@@ -3964,7 +6272,26 @@
         "english",
         "png",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "blush",
@@ -3999,7 +6326,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "silhouetteac",
@@ -4035,7 +6381,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "playgroundai",
@@ -4072,7 +6437,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "openart",
@@ -4109,7 +6493,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "unknown",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "civitai",
@@ -4145,7 +6548,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "unknown",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "flaticondesign",
@@ -4181,7 +6603,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "choudoii",
@@ -4218,6 +6659,29 @@
         "png",
         "svg",
         "jpg"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 5,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "ちょうどいいイラスト利用規約",
+        "licenseUrl": ""
+      },
+      "cautions": [
+        "素材の再配布は禁止"
+      ],
+      "cautionsEn": [
+        "Redistribution of assets is prohibited"
       ]
     },
     {
@@ -4254,7 +6718,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "socoost",
@@ -4290,7 +6773,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "illustrain",
@@ -4326,7 +6828,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "irasuton",
@@ -4362,7 +6883,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "drawkit",
@@ -4396,7 +6936,26 @@
         "english",
         "png",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "icons8illust",
@@ -4432,7 +6991,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "townillust",
@@ -4468,7 +7046,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "pixelied",
@@ -4504,7 +7101,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "opendoodles",
@@ -4539,7 +7155,26 @@
         "english",
         "png",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "absurddesign",
@@ -4574,7 +7209,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "iradesign",
@@ -4609,7 +7263,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "stubborn",
@@ -4644,7 +7317,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "shigureni",
@@ -4682,7 +7374,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "logoipsum",
@@ -4718,7 +7429,26 @@
         "svg",
         "jpg"
       ],
-      "dateAdded": "2026-03-01"
+      "dateAdded": "2026-03-01",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "smashillustrations",
@@ -4752,7 +7482,26 @@
         "png",
         "free"
       ],
-      "dateAdded": "2026-03-13"
+      "dateAdded": "2026-03-13",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "scale-flexiple",
@@ -4787,7 +7536,26 @@
         "free",
         "opensource"
       ],
-      "dateAdded": "2026-03-14"
+      "dateAdded": "2026-03-14",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "glaze",
@@ -4820,7 +7588,26 @@
         "free",
         "memphis"
       ],
-      "dateAdded": "2026-03-14"
+      "dateAdded": "2026-03-14",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "lukaszadam",
@@ -4853,7 +7640,26 @@
         "free",
         "mit"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "sapiens-ui8",
@@ -4888,7 +7694,26 @@
         "character",
         "free"
       ],
-      "dateAdded": "2026-03-19"
+      "dateAdded": "2026-03-19",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "pixeltrue-illustrations",
@@ -4923,7 +7748,26 @@
         "free",
         "animation"
       ],
-      "dateAdded": "2026-03-19"
+      "dateAdded": "2026-03-19",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "designac",
@@ -4958,7 +7802,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "delesign",
@@ -4994,7 +7857,26 @@
         "png",
         "svg",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "error404-illustrations",
@@ -5027,7 +7909,26 @@
         "free",
         "404"
       ],
-      "dateAdded": "2026-03-14"
+      "dateAdded": "2026-03-14",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "skribbl",
@@ -5061,7 +7962,26 @@
         "sketch",
         "free"
       ],
-      "dateAdded": "2026-03-14"
+      "dateAdded": "2026-03-14",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "control-illustrations",
@@ -5093,7 +8013,26 @@
         "svg",
         "free"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "itg-digital",
@@ -5128,7 +8067,26 @@
         "tech",
         "free"
       ],
-      "dateAdded": "2026-03-19"
+      "dateAdded": "2026-03-19",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "mockupworld",
@@ -5163,6 +8121,29 @@
         "photorealistic",
         "design",
         "branding"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 4,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "conditional",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "素材元のライセンスに準拠",
+        "licenseUrl": ""
+      },
+      "cautions": [
+        "外部サイトのモックアップを集約しているため、ライセンスは各サイトで確認"
+      ],
+      "cautionsEn": [
+        "Aggregates mockups from external sites; check each source for license terms"
       ]
     },
     {
@@ -5199,7 +8180,26 @@
         "smartphone",
         "package",
         "design"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "mockuptree",
@@ -5233,7 +8233,26 @@
         "free",
         "high-resolution",
         "commercial"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "mrmockup",
@@ -5268,7 +8287,26 @@
         "photoshop",
         "professional",
         "branding"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "goodmockups",
@@ -5302,7 +8340,26 @@
         "apple",
         "branding",
         "advertising"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "resourceboy",
@@ -5337,7 +8394,26 @@
         "texture",
         "design",
         "resource"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "mockupsdesign",
@@ -5371,7 +8447,26 @@
         "premium",
         "free",
         "instant-download"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "anthonyboyd-mockups",
@@ -5403,7 +8498,26 @@
         "psd",
         "free"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "ls-graphics-free",
@@ -5437,7 +8551,26 @@
         "figma",
         "free"
       ],
-      "dateAdded": "2026-03-17"
+      "dateAdded": "2026-03-17",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "graphicburger",
@@ -5470,7 +8603,26 @@
         "psd",
         "free"
       ],
-      "dateAdded": "2026-03-18"
+      "dateAdded": "2026-03-18",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "mockupfree",
@@ -5502,7 +8654,26 @@
         "psd",
         "free"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "dovasyndrome",
@@ -5535,6 +8706,31 @@
         "youtube",
         "japanese",
         "mp3"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 4,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "conditional",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "DOVA-SYNDROME利用規約",
+        "licenseUrl": "https://dova-s.jp/agreement/"
+      },
+      "cautions": [
+        "楽曲により個別の条件がある場合あり",
+        "各楽曲ページで確認が必要"
+      ],
+      "cautionsEn": [
+        "Some tracks may have individual conditions",
+        "Check each track page for specific terms"
       ]
     },
     {
@@ -5569,6 +8765,31 @@
         "rpg",
         "japanese",
         "mp3"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "魔王魂利用規約",
+        "licenseUrl": "https://maou.audio/rule/"
+      },
+      "cautions": [
+        "素材の再配布は禁止",
+        "楽曲ページごとに利用条件を確認"
+      ],
+      "cautionsEn": [
+        "Redistribution of assets is prohibited",
+        "Check terms on each track page"
       ]
     },
     {
@@ -5604,7 +8825,26 @@
         "royalty-free",
         "english",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "ncs",
@@ -5637,6 +8877,31 @@
         "youtube",
         "english",
         "mp3"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 4,
+        "termsClarity": 4,
+        "adFree": 4,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "conditional",
+        "modification": "ng",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "NCS License",
+        "licenseUrl": "https://ncs.io/usage-policy"
+      },
+      "cautions": [
+        "クレジット表記必須",
+        "YouTube以外の商用利用は確認が必要"
+      ],
+      "cautionsEn": [
+        "Attribution required",
+        "Commercial use outside YouTube needs verification"
       ]
     },
     {
@@ -5671,7 +8936,26 @@
         "game",
         "japanese",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "freemusicarchive",
@@ -5705,7 +8989,26 @@
         "archive",
         "english",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "conditional",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "conditional",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "otologic",
@@ -5742,7 +9045,26 @@
         "japanese",
         "cc-by",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "conditional",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "conditional",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "youtube-audio-library",
@@ -5774,7 +9096,26 @@
         "free",
         "youtube"
       ],
-      "dateAdded": "2026-03-18"
+      "dateAdded": "2026-03-18",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "unknown",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "amacha",
@@ -5808,6 +9149,31 @@
         "calm",
         "japanese",
         "mp3"
+      ],
+      "qualityScore": {
+        "security": 4,
+        "usability": 3,
+        "downloadEase": 4,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "甘茶の音楽工房利用規約",
+        "licenseUrl": "https://amachamusic.chagasi.com/terms.html"
+      },
+      "cautions": [
+        "素材の再配布禁止",
+        "サイトデザインがやや古い"
+      ],
+      "cautionsEn": [
+        "Redistribution of assets is prohibited",
+        "Site design is somewhat dated"
       ]
     },
     {
@@ -5843,7 +9209,26 @@
         "game",
         "japanese",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "bensound",
@@ -5878,7 +9263,26 @@
         "corporate",
         "english",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "uppbeat",
@@ -5911,7 +9315,26 @@
         "creator",
         "english",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "hmixgallery",
@@ -5944,7 +9367,26 @@
         "classical",
         "japanese",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "hurtrecord",
@@ -5977,7 +9419,26 @@
         "variety",
         "japanese",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "shw",
@@ -6010,7 +9471,26 @@
         "rpg",
         "japanese",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "audiolibrary",
@@ -6042,7 +9522,26 @@
         "official",
         "english",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "unknown",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "ccmixter",
@@ -6076,7 +9575,26 @@
         "remix",
         "english",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "conditional",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "conditional",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "jamendo",
@@ -6109,7 +9627,26 @@
         "large",
         "english",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "unknown",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "fugue",
@@ -6143,7 +9680,26 @@
         "icons8",
         "english",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "springinsound",
@@ -6180,7 +9736,26 @@
         "japanese",
         "free",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "chosic",
@@ -6216,7 +9791,26 @@
         "genre",
         "mood",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "fesliyanstudios",
@@ -6253,7 +9847,26 @@
         "royalty-free",
         "weekly-update",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "soundscrate",
@@ -6288,7 +9901,26 @@
         "video",
         "game",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "freepd",
@@ -6323,7 +9955,26 @@
         "cc0",
         "publicdomain"
       ],
-      "dateAdded": "2026-03-07"
+      "dateAdded": "2026-03-07",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "audionautix",
@@ -6357,7 +10008,26 @@
         "free",
         "cc"
       ],
-      "dateAdded": "2026-03-09"
+      "dateAdded": "2026-03-09",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "conditional",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "conditional",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "musopen",
@@ -6391,7 +10061,26 @@
         "free",
         "classical"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "purpleplanet",
@@ -6425,7 +10114,26 @@
         "free",
         "bgm"
       ],
-      "dateAdded": "2026-03-20"
+      "dateAdded": "2026-03-20",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "silvermansound",
@@ -6458,7 +10166,26 @@
         "free",
         "bgm"
       ],
-      "dateAdded": "2026-03-09"
+      "dateAdded": "2026-03-09",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "teknoaxe",
@@ -6492,7 +10219,26 @@
         "electronic",
         "rock"
       ],
-      "dateAdded": "2026-03-13"
+      "dateAdded": "2026-03-13",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "unsplash",
@@ -6527,6 +10273,31 @@
         "english",
         "jpg",
         "png"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 5,
+        "termsClarity": 4,
+        "adFree": 5,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "optional",
+        "registration": "not_required",
+        "redistribution": "conditional",
+        "licenseType": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license"
+      },
+      "cautions": [
+        "人物写真はモデルリリースが不明な場合あり",
+        "ブランドロゴが映り込んだ写真の商用利用に注意"
+      ],
+      "cautionsEn": [
+        "Model releases may not be available for photos with identifiable people",
+        "Be cautious with photos containing visible brand logos"
       ]
     },
     {
@@ -6562,6 +10333,31 @@
         "english",
         "jpg",
         "png"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 4,
+        "termsClarity": 4,
+        "adFree": 4,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "conditional",
+        "licenseType": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/"
+      },
+      "cautions": [
+        "人物写真の商用利用は肖像権に注意",
+        "そのまま再販売は禁止"
+      ],
+      "cautionsEn": [
+        "Be careful with personality rights when using photos of people commercially",
+        "Reselling photos as-is is prohibited"
       ]
     },
     {
@@ -6597,6 +10393,33 @@
         "highquality",
         "jpg",
         "png"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 2,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "ng",
+        "licenseType": "写真AC利用規約",
+        "licenseUrl": "https://www.photo-ac.com/main/terms"
+      },
+      "cautions": [
+        "無料会員は1日のDL数制限あり",
+        "広告が多め",
+        "素材の再配布禁止"
+      ],
+      "cautionsEn": [
+        "Free members have daily download limits",
+        "Contains many ads",
+        "Redistribution of assets is prohibited"
       ]
     },
     {
@@ -6634,6 +10457,33 @@
         "english",
         "jpg",
         "png"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 4
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "conditional",
+        "licenseType": "Pixabay License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/"
+      },
+      "cautions": [
+        "2019年にCC0からPixabay独自ライセンスに変更",
+        "AI生成画像が含まれる場合あり",
+        "高解像度DLに登録必要"
+      ],
+      "cautionsEn": [
+        "Changed from CC0 to Pixabay License in 2019",
+        "May include AI-generated images",
+        "Registration required for high-res downloads"
       ]
     },
     {
@@ -6669,6 +10519,31 @@
         "unique",
         "jpg",
         "png"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "ぱくたそ利用規約",
+        "licenseUrl": "https://www.pakutaso.com/userpolicy.html"
+      },
+      "cautions": [
+        "素材の再配布は禁止",
+        "人物写真は用途によりNGの場合あり"
+      ],
+      "cautionsEn": [
+        "Redistribution of assets is prohibited",
+        "Some uses of photos with people may be restricted"
       ]
     },
     {
@@ -6704,7 +10579,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "burst",
@@ -6739,7 +10633,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "stocksnap",
@@ -6774,6 +10687,29 @@
         "english",
         "jpg",
         "png"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 3,
+        "downloadEase": 5,
+        "termsClarity": 4,
+        "adFree": 4,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": "https://stocksnap.io/license"
+      },
+      "cautions": [
+        "更新頻度がやや低下傾向"
+      ],
+      "cautionsEn": [
+        "Update frequency has been declining"
       ]
     },
     {
@@ -6808,7 +10744,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "foodiesfeed",
@@ -6842,7 +10797,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "girlydrop",
@@ -6877,7 +10851,26 @@
         "japanese",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "nappy",
@@ -6912,7 +10905,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "rawpixel",
@@ -6947,7 +10959,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "lifeofpix",
@@ -6981,7 +11012,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "picjumbo",
@@ -7016,7 +11066,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "splitshire",
@@ -7050,7 +11119,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "tadapic",
@@ -7085,7 +11173,26 @@
         "japanese",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "stockai",
@@ -7120,7 +11227,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "morguefile",
@@ -7155,7 +11281,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "isorepublic",
@@ -7190,7 +11335,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "picography",
@@ -7225,7 +11389,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "styledstock",
@@ -7260,7 +11443,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "magdeleine",
@@ -7295,7 +11497,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "photock",
@@ -7330,7 +11551,26 @@
         "food",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "barnimages",
@@ -7364,7 +11604,26 @@
         "free",
         "lifestyle"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "gratisography",
@@ -7399,7 +11658,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "ashinari",
@@ -7433,7 +11711,26 @@
         "natural",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "negativespace",
@@ -7468,7 +11765,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "skitterphoto",
@@ -7503,7 +11819,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "jaymantri",
@@ -7537,7 +11872,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "busitry",
@@ -7571,7 +11925,26 @@
         "office",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "picspree",
@@ -7605,7 +11978,26 @@
         "png",
         "free"
       ],
-      "dateAdded": "2026-03-09"
+      "dateAdded": "2026-03-09",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "styledstock-co",
@@ -7638,7 +12030,26 @@
         "jpg",
         "free"
       ],
-      "dateAdded": "2026-03-13"
+      "dateAdded": "2026-03-13",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "fancycrave",
@@ -7672,7 +12083,26 @@
         "free",
         "cc0"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "littlevisuals",
@@ -7705,7 +12135,26 @@
         "free",
         "landscape"
       ],
-      "dateAdded": "2026-03-19"
+      "dateAdded": "2026-03-19",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "soundeffectlab",
@@ -7738,6 +12187,29 @@
         "game",
         "japanese",
         "mp3"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "効果音ラボ利用規約",
+        "licenseUrl": "https://soundeffect-lab.info/agreement/"
+      },
+      "cautions": [
+        "素材の再配布は禁止"
+      ],
+      "cautionsEn": [
+        "Redistribution of assets is prohibited"
       ]
     },
     {
@@ -7772,7 +12244,26 @@
         "free",
         "english",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "onjin",
@@ -7805,7 +12296,26 @@
         "realistic",
         "japanese",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "pocketsound",
@@ -7839,7 +12349,26 @@
         "game",
         "japanese",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "freesound",
@@ -7874,6 +12403,31 @@
         "cc",
         "english",
         "mp3"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 4,
+        "adFree": 4,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "conditional",
+        "modification": "conditional",
+        "credit": "conditional",
+        "registration": "required",
+        "redistribution": "conditional",
+        "licenseType": "CC0 / CC BY / CC BY-NC",
+        "licenseUrl": "https://freesound.org/help/faq/#licenses"
+      },
+      "cautions": [
+        "音源ごとにライセンスが異なる",
+        "会員登録が必要"
+      ],
+      "cautionsEn": [
+        "License varies by sound",
+        "Registration required"
       ]
     },
     {
@@ -7907,7 +12461,26 @@
         "professional",
         "english",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "kuragekoushou",
@@ -7939,7 +12512,26 @@
         "rpg",
         "japanese",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "bbcsfx",
@@ -7972,7 +12564,26 @@
         "bbc",
         "english",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "unknown",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "pixabaysfx",
@@ -8005,7 +12616,26 @@
         "royaltyfree",
         "english",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "gamesoundsxyz",
@@ -8038,7 +12668,26 @@
         "sfx",
         "english",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "freesfx",
@@ -8071,7 +12720,26 @@
         "free",
         "sfx"
       ],
-      "dateAdded": "2026-03-17"
+      "dateAdded": "2026-03-17",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "freesound-additions",
@@ -8105,7 +12773,26 @@
         "free",
         "sfx"
       ],
-      "dateAdded": "2026-03-19"
+      "dateAdded": "2026-03-19",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "soundbible",
@@ -8139,7 +12826,26 @@
         "publicdomain",
         "english",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "orangefreesounds",
@@ -8172,7 +12878,26 @@
         "loop",
         "english",
         "mp3"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "soundgator",
@@ -8205,7 +12930,26 @@
         "free",
         "sfx"
       ],
-      "dateAdded": "2026-03-14"
+      "dateAdded": "2026-03-14",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "canva-templates",
@@ -8238,7 +12982,32 @@
         "free",
         "japanese"
       ],
-      "dateAdded": "2026-03-07"
+      "dateAdded": "2026-03-07",
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 4,
+        "termsClarity": 4,
+        "adFree": 4,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "ng",
+        "licenseType": "Canva Free License",
+        "licenseUrl": "https://www.canva.com/policies/content-license-agreement/"
+      },
+      "cautions": [
+        "無料版と有料版の素材が混在",
+        "テンプレートの再販は禁止"
+      ],
+      "cautionsEn": [
+        "Free and premium elements are mixed",
+        "Reselling templates is prohibited"
+      ]
     },
     {
       "id": "html5up",
@@ -8271,7 +13040,26 @@
         "free",
         "responsive"
       ],
-      "dateAdded": "2026-03-20"
+      "dateAdded": "2026-03-20",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "slidescarnival",
@@ -8302,7 +13090,26 @@
         "free",
         "english"
       ],
-      "dateAdded": "2026-03-07"
+      "dateAdded": "2026-03-07",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "slidesgo",
@@ -8334,7 +13141,26 @@
         "free",
         "english"
       ],
-      "dateAdded": "2026-03-07"
+      "dateAdded": "2026-03-07",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "pptmon",
@@ -8365,7 +13191,26 @@
         "free",
         "japanese"
       ],
-      "dateAdded": "2026-03-07"
+      "dateAdded": "2026-03-07",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "google-slides-themes",
@@ -8397,7 +13242,26 @@
         "free",
         "english"
       ],
-      "dateAdded": "2026-03-07"
+      "dateAdded": "2026-03-07",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "creative-tim-free",
@@ -8432,7 +13296,26 @@
         "free",
         "bootstrap"
       ],
-      "dateAdded": "2026-03-07"
+      "dateAdded": "2026-03-07",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "colorlib-free",
@@ -8464,7 +13347,26 @@
         "wordpress",
         "free"
       ],
-      "dateAdded": "2026-03-14"
+      "dateAdded": "2026-03-14",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "starter-templates",
@@ -8498,7 +13400,26 @@
         "ui",
         "microsoft"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "cruip",
@@ -8531,7 +13452,26 @@
         "free",
         "saas"
       ],
-      "dateAdded": "2026-03-17"
+      "dateAdded": "2026-03-17",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "haikei",
@@ -8567,6 +13507,29 @@
         "english",
         "jpg",
         "png"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 5,
+        "termsClarity": 5,
+        "adFree": 5,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "Haikei License",
+        "licenseUrl": ""
+      },
+      "cautions": [
+        "生成した背景は自由に使えるが、ジェネレーター自体の再配布は禁止"
+      ],
+      "cautionsEn": [
+        "Generated backgrounds can be used freely, but redistribution of the generator itself is prohibited"
       ]
     },
     {
@@ -8601,7 +13564,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "textures-com",
@@ -8635,7 +13617,26 @@
         "pbr",
         "3d"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "subtlepatterns",
@@ -8671,7 +13672,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "heropatterns",
@@ -8705,7 +13725,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "coolbackgrounds",
@@ -8740,7 +13779,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "transparenttextures",
@@ -8773,7 +13831,26 @@
         "png",
         "english",
         "jpg"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "patternmonster",
@@ -8808,7 +13885,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "svgbackgrounds",
@@ -8842,7 +13938,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "bgjar",
@@ -8877,7 +13992,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "lostandtaken",
@@ -8913,7 +14047,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "textureninja",
@@ -8947,7 +14100,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "sharetextures",
@@ -8984,7 +14156,26 @@
         "free",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "texturecan",
@@ -9020,7 +14211,26 @@
         "commercial",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "freepbr",
@@ -9056,7 +14266,26 @@
         "stone",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "cgbookcase",
@@ -9091,7 +14320,26 @@
         "tileable",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "poliigon",
@@ -9127,7 +14375,26 @@
         "professional",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "architextures",
@@ -9164,7 +14431,26 @@
         "customizable",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "texturebox",
@@ -9200,7 +14486,26 @@
         "material",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "matcap-textures",
@@ -9233,7 +14538,26 @@
         "matcap",
         "3d"
       ],
-      "dateAdded": "2026-03-13"
+      "dateAdded": "2026-03-13",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "materialmaker",
@@ -9266,7 +14590,26 @@
         "procedural",
         "opensource"
       ],
-      "dateAdded": "2026-03-16"
+      "dateAdded": "2026-03-16",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "texturetown",
@@ -9301,7 +14644,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "plaintextures",
@@ -9335,7 +14697,26 @@
         "english",
         "jpg",
         "png"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "seamlesstextures",
@@ -9368,7 +14749,26 @@
         "free",
         "seamless"
       ],
-      "dateAdded": "2026-03-09"
+      "dateAdded": "2026-03-09",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "wildtextures",
@@ -9401,7 +14801,26 @@
         "jpg",
         "free"
       ],
-      "dateAdded": "2026-03-14"
+      "dateAdded": "2026-03-14",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "texturepalace",
@@ -9433,7 +14852,26 @@
         "jpg",
         "free"
       ],
-      "dateAdded": "2026-03-18"
+      "dateAdded": "2026-03-18",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "texturelib",
@@ -9465,7 +14903,26 @@
         "jpg",
         "free"
       ],
-      "dateAdded": "2026-03-20"
+      "dateAdded": "2026-03-20",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "mixkit-video",
@@ -9500,7 +14957,30 @@
         "hd",
         "4k"
       ],
-      "dateAdded": "2026-03-13"
+      "dateAdded": "2026-03-13",
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 5,
+        "termsClarity": 4,
+        "adFree": 4,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "Mixkit License",
+        "licenseUrl": "https://mixkit.co/license/"
+      },
+      "cautions": [
+        "Envato系列のサービス"
+      ],
+      "cautionsEn": [
+        "Part of Envato family of services"
+      ]
     },
     {
       "id": "pexelsvideo",
@@ -9534,6 +15014,29 @@
         "background",
         "english",
         "mp4"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 4,
+        "termsClarity": 4,
+        "adFree": 4,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "conditional",
+        "licenseType": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/"
+      },
+      "cautions": [
+        "そのまま再販売は禁止"
+      ],
+      "cautionsEn": [
+        "Reselling videos as-is is prohibited"
       ]
     },
     {
@@ -9567,6 +15070,29 @@
         "template",
         "english",
         "mp4"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 5,
+        "downloadEase": 5,
+        "termsClarity": 4,
+        "adFree": 4,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "Mixkit License",
+        "licenseUrl": "https://mixkit.co/license/"
+      },
+      "cautions": [
+        "Envato系列のサービス"
+      ],
+      "cautionsEn": [
+        "Part of Envato family of services"
       ]
     },
     {
@@ -9601,6 +15127,29 @@
         "web",
         "english",
         "mp4"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 5,
+        "termsClarity": 4,
+        "adFree": 5,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "Coverr License",
+        "licenseUrl": "https://coverr.co/license"
+      },
+      "cautions": [
+        "動画素材のみ（写真なし）"
+      ],
+      "cautionsEn": [
+        "Video assets only (no photos)"
       ]
     },
     {
@@ -9634,6 +15183,31 @@
         "motion-graphics",
         "english",
         "mp4"
+      ],
+      "qualityScore": {
+        "security": 5,
+        "usability": 4,
+        "downloadEase": 4,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "conditional",
+        "registration": "not_required",
+        "redistribution": "ng",
+        "licenseType": "Videvo License",
+        "licenseUrl": "https://www.videvo.net/terms-and-conditions/"
+      },
+      "cautions": [
+        "ライセンスが素材により異なる（Free/Videvo Attribution/Premium）",
+        "Attribution必須の素材あり"
+      ],
+      "cautionsEn": [
+        "License varies by asset (Free/Videvo Attribution/Premium)",
+        "Some assets require attribution"
       ]
     },
     {
@@ -9668,7 +15242,26 @@
         "motion",
         "english",
         "mp4"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "dareful",
@@ -9701,7 +15294,26 @@
         "professional",
         "english",
         "mp4"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "mazwai",
@@ -9734,7 +15346,26 @@
         "curated",
         "english",
         "mp4"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "motionelements",
@@ -9768,7 +15399,26 @@
         "template",
         "japanese",
         "mp4"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 5
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "lifeofvids",
@@ -9802,7 +15452,26 @@
         "urban",
         "english",
         "mp4"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 5,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "ok",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "ok",
+        "licenseType": "CC0",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "vidsplay",
@@ -9835,7 +15504,26 @@
         "weekly",
         "english",
         "mp4"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "clipstill",
@@ -9868,7 +15556,26 @@
         "web",
         "english",
         "mp4"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "ignitemotion",
@@ -9901,7 +15608,26 @@
         "background",
         "english",
         "mp4"
-      ]
+      ],
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 1
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     },
     {
       "id": "splitshire-video",
@@ -9933,7 +15659,26 @@
         "mp4",
         "free"
       ],
-      "dateAdded": "2026-03-09"
+      "dateAdded": "2026-03-09",
+      "qualityScore": {
+        "security": 3,
+        "usability": 3,
+        "downloadEase": 3,
+        "termsClarity": 3,
+        "adFree": 3,
+        "japaneseSupport": 3
+      },
+      "licenseDetail": {
+        "commercial": "ok",
+        "modification": "unknown",
+        "credit": "not_required",
+        "registration": "not_required",
+        "redistribution": "unknown",
+        "licenseType": "",
+        "licenseUrl": ""
+      },
+      "cautions": [],
+      "cautionsEn": []
     }
   ],
   "categories": [
