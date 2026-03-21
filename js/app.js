@@ -51,23 +51,42 @@ const App = (() => {
     return '★'.repeat(n) + '☆'.repeat(5 - n);
   }
 
+  // ── Category colors for initials icon ──
+  var catColors = {
+    photo:'#3d5a80', illustration:'#8b7bb8', icon:'#457b6e', music:'#6d597a',
+    video:'#b56b4f', font:'#2d3142', '3d':'#4a6fa5', template:'#9e8c6c',
+    texture:'#7d8570', asset:'#6a4c93', sound:'#5c6b73', archive:'#8b8589', mockup:'#a68a64'
+  };
+  function gradeLabel(r) {
+    if (r >= 5) return { letter: 'S', cls: 'grade-s' };
+    if (r >= 4) return { letter: 'A', cls: 'grade-a' };
+    if (r >= 3) return { letter: 'B', cls: 'grade-b' };
+    if (r >= 2) return { letter: 'C', cls: 'grade-c' };
+    return { letter: 'D', cls: 'grade-d' };
+  }
+  function getInitials(name) {
+    if (!name) return '??';
+    // For ASCII names take first 2 chars; for CJK take first 1-2
+    const c = name.charAt(0);
+    if (c.charCodeAt(0) > 255) return name.substring(0, 1);
+    return name.substring(0, 2);
+  }
+
   // ── Card HTML ──
   function cardHTML(site) {
     const name = I18n.localize(site.name);
     const highlight = I18n.localize(site.highlight);
     const badges = [];
-    if (site.commercial) badges.push(`<span class="badge badge-ok">✓ ${I18n.t('commercial')}</span>`);
-    if (!site.creditRequired) badges.push(`<span class="badge badge-ok">✓ ${I18n.t('creditFree')}</span>`);
-    else badges.push(`<span class="badge badge-warn">⚠ ${I18n.t('creditRequired')}</span>`);
+    if (site.commercial) badges.push(`<span class="badge badge-ok">${I18n.t('commercial')}</span>`);
+    if (!site.creditRequired) badges.push(`<span class="badge badge-credit">${I18n.t('creditFree')}</span>`);
     if (!site.registrationRequired) badges.push(`<span class="badge badge-info">${I18n.t('regFree')}</span>`);
 
     const cat = data.categories.find(c => c.id === site.category);
-    const catLabel = cat ? `${cat.icon} ${I18n.localize(cat.name)}` : '';
     const isNew = site.dateAdded && (Date.now() - new Date(site.dateAdded).getTime()) < 30 * 86400000;
     const newBadge = isNew ? ' <span class="new-badge">NEW</span>' : '';
     const favFill = isFavorite(site.id) ? '#ef4444' : 'none';
     const favStroke = isFavorite(site.id) ? '#ef4444' : 'currentColor';
-    const favIcon = `<svg width="18" height="18" viewBox="0 0 24 24" fill="${favFill}" stroke="${favStroke}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>`;
+    const favIcon = `<svg width="16" height="16" viewBox="0 0 24 24" fill="${favFill}" stroke="${favStroke}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>`;
     const favLabel = isFavorite(site.id) ? I18n.t('unfavorite') : I18n.t('favorite');
 
     const compareOverlay = state.compareMode
@@ -75,26 +94,33 @@ const App = (() => {
       : '';
     const selectedClass = state.compareMode && state.compareIds.includes(site.id) ? ' compare-selected' : '';
 
-    const screenshotHTML = site.screenshot
-      ? `<img class="card-screenshot" src="${site.screenshot}" loading="lazy" width="600" height="400" alt="${name}">`
-      : '';
+    const initials = getInitials(name);
+    const iconColor = catColors[site.category] || '#8b8589';
+    const grade = gradeLabel(site.rating);
+    const domain = (site.url || '').replace(/^https?:\/\//, '').replace(/\/.*$/, '');
+    const formats = (site.tags || []).filter(t => ['png','svg','jpg','mp3','mp4','otf'].includes(t)).map(t => t.toUpperCase()).join('  ');
 
     return `
       <article class="card${selectedClass}" data-id="${site.id}" role="button" tabindex="0" aria-label="${name}">
         ${compareOverlay}
-        ${screenshotHTML}
-        <div class="card-header">
-          <span class="card-name">${name}${newBadge}</span>
-          <span class="card-rating" aria-label="${site.rating}/5">${stars(site.rating)}</span>
+        <div class="card-top">
+          <div class="card-initials" style="background:${iconColor}">${initials}</div>
+          <div class="card-identity">
+            <span class="card-name">${name}${newBadge}</span>
+            <span class="card-domain">${domain}</span>
+          </div>
+          <div class="card-score">
+            <span class="card-grade ${grade.cls}">${grade.letter}</span>
+            <span class="card-rating-num">★ ${site.rating}</span>
+          </div>
+          <button class="fav-btn" data-id="${site.id}" aria-label="${favLabel}" title="${favLabel}">${favIcon}</button>
         </div>
         <p class="card-highlight">${highlight}</p>
         <div class="card-badges">${badges.join('')}</div>
-        <div class="card-footer">
-          <a class="tag" href="category.html?cat=${site.category}">${catLabel}</a>
-          <button class="fav-btn" data-id="${site.id}" aria-label="${favLabel}" title="${favLabel}">${favIcon}</button>
+        <div class="card-meta">
+          <span class="card-formats">${formats}</span>
+          <span class="card-verified">${I18n.t('verifiedDate')}</span>
         </div>
-        <p class="card-disclaimer">${I18n.t('cardDisclaimer')}</p>
-        <span class="card-verified">${I18n.t('verifiedDate')}</span>
       </article>`;
   }
 

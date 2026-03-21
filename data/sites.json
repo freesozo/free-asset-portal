@@ -51,8 +51,7 @@
         "licenseUrl": "https://kenney.nl/assets"
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/kenney.png"
+      "cautionsEn": []
     },
     {
       "id": "polyhaven-3d",
@@ -104,8 +103,7 @@
         "licenseUrl": "https://polyhaven.com/license"
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/polyhaven-3d.png"
+      "cautionsEn": []
     },
     {
       "id": "poly-pizza",
@@ -644,8 +642,7 @@
       "cautionsEn": [
         "License varies by media file",
         "CC-BY licenses require attribution"
-      ],
-      "screenshot": "images/screenshots/wikimediacommons.png"
+      ]
     },
     {
       "id": "metmuseum",
@@ -698,8 +695,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/metmuseum.png"
+      "cautionsEn": []
     },
     {
       "id": "smithsonian",
@@ -754,8 +750,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/smithsonian.png"
+      "cautionsEn": []
     },
     {
       "id": "loc",
@@ -809,8 +804,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/loc.png"
+      "cautionsEn": []
     },
     {
       "id": "ndl",
@@ -863,8 +857,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/ndl.png"
+      "cautionsEn": []
     },
     {
       "id": "europeana",
@@ -917,8 +910,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/europeana.png"
+      "cautionsEn": []
     },
     {
       "id": "nasa",
@@ -978,8 +970,7 @@
       "cautionsEn": [
         "NASA logo usage is restricted",
         "Credit/attribution is recommended"
-      ],
-      "screenshot": "images/screenshots/nasa.png"
+      ]
     },
     {
       "id": "rijksmuseum",
@@ -1033,8 +1024,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/rijksmuseum.png"
+      "cautionsEn": []
     },
     {
       "id": "artvee",
@@ -1088,8 +1078,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/artvee.png"
+      "cautionsEn": []
     },
     {
       "id": "internetarchive",
@@ -1140,8 +1129,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/internetarchive.png"
+      "cautionsEn": []
     },
     {
       "id": "gettyresearch",
@@ -1193,8 +1181,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/gettyresearch.png"
+      "cautionsEn": []
     },
     {
       "id": "colbase",
@@ -1932,8 +1919,7 @@
       "cautionsEn": [
         "License varies by asset",
         "CC-BY licenses require attribution"
-      ],
-      "screenshot": "images/screenshots/opengameart.png"
+      ]
     },
     {
       "id": "itchio",
@@ -1984,8 +1970,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/itchio.png"
+      "cautionsEn": []
     },
     {
       "id": "polyhaven",
@@ -2039,8 +2024,7 @@
         "licenseUrl": "https://polyhaven.com/license"
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/polyhaven.png"
+      "cautionsEn": []
     },
     {
       "id": "mixamo",
@@ -2092,8 +2076,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/mixamo.png"
+      "cautionsEn": []
     },
     {
       "id": "ambientcg",
@@ -2147,8 +2130,7 @@
         "licenseUrl": "https://ambientcg.com/license"
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/ambientcg.png"
+      "cautionsEn": []
     },
     {
       "id": "blenderkit",
@@ -2202,8 +2184,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/blenderkit.png"
+      "cautionsEn": []
     },
     {
       "id": "kaylousberg",
@@ -2256,8 +2237,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/kaylousberg.png"
+      "cautionsEn": []
     },
     {
       "id": "quaternius",
@@ -2777,8 +2757,7 @@
         "licenseUrl": "https://fonts.google.com/about"
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/google-fonts.png"
+      "cautionsEn": []
     },
     {
       "id": "source-han-sans",
@@ -2829,8 +2808,7 @@
         "licenseUrl": "https://github.com/adobe-fonts/source-han-sans/blob/master/LICENSE.txt"
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/source-han-sans.png"
+      "cautionsEn": []
     },
     {
       "id": "noto-fonts",
@@ -2882,8 +2860,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/noto-fonts.png"
+      "cautionsEn": []
     },
     {
       "id": "fontfree",
@@ -2946,8 +2923,7 @@
       "cautionsEn": [
         "This is a font directory; check license at each font's source",
         "Commercial use permission varies by font"
-      ],
-      "screenshot": "images/screenshots/fontfree.png"
+      ]
     },
     {
       "id": "fontna",
@@ -3644,8 +3620,7 @@
       ],
       "cautionsEn": [
         "Redistribution of icon assets is prohibited"
-      ],
-      "screenshot": "images/screenshots/icooonmono.png"
+      ]
     },
     {
       "id": "fontawesome",
@@ -3703,8 +3678,7 @@
       "cautionsEn": [
         "Pro version is paid",
         "Free version has limited icons"
-      ],
-      "screenshot": "images/screenshots/fontawesome.png"
+      ]
     },
     {
       "id": "svgrepo",
@@ -3761,8 +3735,7 @@
       ],
       "cautionsEn": [
         "License varies by icon"
-      ],
-      "screenshot": "images/screenshots/svgrepo.png"
+      ]
     },
     {
       "id": "flaticon",
@@ -3822,8 +3795,7 @@
       "cautionsEn": [
         "Free plan requires attribution",
         "Premium plan removes attribution requirement"
-      ],
-      "screenshot": "images/screenshots/flaticon.png"
+      ]
     },
     {
       "id": "heroicons",
@@ -3875,8 +3847,7 @@
         "licenseUrl": "https://github.com/tailwindlabs/heroicons/blob/master/LICENSE"
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/heroicons.png"
+      "cautionsEn": []
     },
     {
       "id": "lucide",
@@ -3929,8 +3900,7 @@
         "licenseUrl": "https://github.com/lucide-icons/lucide/blob/main/LICENSE"
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/lucide.png"
+      "cautionsEn": []
     },
     {
       "id": "googlefonts",
@@ -3984,8 +3954,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/googlefonts.png"
+      "cautionsEn": []
     },
     {
       "id": "materialicons",
@@ -4038,8 +4007,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/materialicons.png"
+      "cautionsEn": []
     },
     {
       "id": "tablericons",
@@ -4090,8 +4058,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/tablericons.png"
+      "cautionsEn": []
     },
     {
       "id": "iconmonstr",
@@ -4143,8 +4110,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/iconmonstr.png"
+      "cautionsEn": []
     },
     {
       "id": "feathericons",
@@ -4196,8 +4162,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/feathericons.png"
+      "cautionsEn": []
     },
     {
       "id": "fontsquirrel",
@@ -4251,8 +4216,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/fontsquirrel.png"
+      "cautionsEn": []
     },
     {
       "id": "notosans",
@@ -4305,8 +4269,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/notosans.png"
+      "cautionsEn": []
     },
     {
       "id": "materialdesignicons",
@@ -4358,8 +4321,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/materialdesignicons.png"
+      "cautionsEn": []
     },
     {
       "id": "iconbuddy",
@@ -4414,8 +4376,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/iconbuddy.png"
+      "cautionsEn": []
     },
     {
       "id": "ionicons",
@@ -4468,8 +4429,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/ionicons.png"
+      "cautionsEn": []
     },
     {
       "id": "nounproject",
@@ -5694,8 +5654,7 @@
       "cautionsEn": [
         "Using 21+ illustrations in one project requires payment",
         "Redistribution of assets is prohibited"
-      ],
-      "screenshot": "images/screenshots/irasutoya.png"
+      ]
     },
     {
       "id": "undraw",
@@ -5753,8 +5712,7 @@
       ],
       "cautionsEn": [
         "Color customization is only available on the website"
-      ],
-      "screenshot": "images/screenshots/undraw.png"
+      ]
     },
     {
       "id": "freepik",
@@ -5817,8 +5775,7 @@
       "cautionsEn": [
         "Free plan requires attribution",
         "Daily download limits apply"
-      ],
-      "screenshot": "images/screenshots/freepik.png"
+      ]
     },
     {
       "id": "lottiefiles",
@@ -5877,8 +5834,7 @@
       ],
       "cautionsEn": [
         "License may vary by animation"
-      ],
-      "screenshot": "images/screenshots/lottiefiles.png"
+      ]
     },
     {
       "id": "illustac",
@@ -8188,8 +8144,7 @@
       ],
       "cautionsEn": [
         "Aggregates mockups from external sites; check each source for license terms"
-      ],
-      "screenshot": "images/screenshots/mockupworld.png"
+      ]
     },
     {
       "id": "unblast",
@@ -8776,8 +8731,7 @@
       "cautionsEn": [
         "Some tracks may have individual conditions",
         "Check each track page for specific terms"
-      ],
-      "screenshot": "images/screenshots/dovasyndrome.png"
+      ]
     },
     {
       "id": "maoudamashii",
@@ -8836,8 +8790,7 @@
       "cautionsEn": [
         "Redistribution of assets is prohibited",
         "Check terms on each track page"
-      ],
-      "screenshot": "images/screenshots/maoudamashii.png"
+      ]
     },
     {
       "id": "incompetech",
@@ -8891,8 +8844,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/incompetech.png"
+      "cautionsEn": []
     },
     {
       "id": "ncs",
@@ -8950,8 +8902,7 @@
       "cautionsEn": [
         "Attribution required",
         "Commercial use outside YouTube needs verification"
-      ],
-      "screenshot": "images/screenshots/ncs.png"
+      ]
     },
     {
       "id": "peritune",
@@ -9004,8 +8955,7 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": [],
-      "screenshot": "images/screenshots/peritune.png"
+      "cautionsEn": []
     },
     {
       "id": "freemusicarchive",
