@@ -19,8 +19,8 @@ SITE_NAME = "フリー素材ポータル"
 SITE_NAME_EN = "Free Asset Portal"
 GA_ID = "G-TW9TKBPSNW"
 ADSENSE_PUB = "ca-pub-1060876188767022"
-CSS_VERSION = 13
-JS_VERSION = 13
+CSS_VERSION = 14
+JS_VERSION = 14
 TODAY = date.today().isoformat()
 YEAR = date.today().year
 
@@ -321,6 +321,8 @@ def page_html(*, title, description, canonical, breadcrumbs, content, schema_jso
         <a href="{root_prefix}/about.html" data-i18n="aboutNav">サイトについて</a>
         <span style="margin:0 8px;">|</span>
         <a href="{root_prefix}/blog/" data-i18n="navBlog">ブログ</a>
+        <span style="margin:0 8px;">|</span>
+        <a href="{root_prefix}/contact.html">お問い合わせ</a>
       </p>
       <p class="sister-site"><span data-i18n="footerSister">姉妹サイト:</span> <a href="https://tools.freesozo.com/" target="_blank" rel="noopener"><span data-i18n="footerSisterName">おすすめツール比較ナビ</span></a></p>
     </div>
@@ -479,6 +481,131 @@ def generate_category_page(cat_id, sites):
     )
 
 
+CATEGORY_RECOMMENDATIONS = {
+    "photo": "ブログのアイキャッチ画像やSNS投稿素材を探しているブロガー・マーケター",
+    "illustration": "プレゼン資料やWebサイトに使えるイラストを探しているデザイナー・ビジネスパーソン",
+    "icon": "WebサイトやアプリのUIデザインに使えるアイコンを探しているデザイナー・開発者",
+    "music": "YouTube動画やポッドキャストのBGMを探しているクリエイター",
+    "video": "Webサイトや広告に使える動画素材を探している映像クリエイター",
+    "font": "デザインプロジェクトに合うフォントを探しているグラフィックデザイナー",
+    "3d": "ゲーム開発やビジュアル制作に使える3Dモデルを探している3Dアーティスト",
+    "template": "素早くデザインを仕上げたいマーケター・起業家",
+    "texture": "リアルな質感を表現したい3DCGアーティスト・ゲームデザイナー",
+    "asset": "ゲーム開発に使えるスプライトやタイルマップを探しているインディーゲーム開発者",
+    "archive": "幅広いジャンルの素材を一箇所で探したいクリエイター",
+    "mockup": "クライアントへのプレゼンに使えるモックアップを探しているデザイナー",
+    "sound": "動画やゲームに効果音を追加したいクリエイター",
+}
+
+
+def generate_editorial_content(site):
+    """Generate editorial sections for a site detail page (AdSense quality)."""
+    name_ja = site.get("name", {}).get("ja", site.get("id", ""))
+    category = site.get("category", "")
+    commercial = site.get("commercial", False)
+    credit_req = site.get("creditRequired", False)
+    reg_req = site.get("registrationRequired", False)
+
+    sections = []
+
+    # Section 1: Feature summary
+    comm_val = "可能" if commercial else "要確認 — 公式サイトの利用規約をチェック"
+    comm_cls = "ok" if commercial else "check"
+    cred_val = "不要" if not credit_req else "必要 — 作品に著作者名を記載"
+    cred_cls = "ok" if not credit_req else "required"
+    reg_val = "不要 — すぐにダウンロード可能" if not reg_req else "必要 — メールアドレスで無料登録"
+    reg_cls = "ok" if not reg_req else "required"
+
+    sections.append(f'''
+      <section class="editorial-section">
+        <h2>「{h(name_ja)}」の特徴まとめ</h2>
+        <div class="feature-summary">
+          <div class="feature-item">
+            <span class="feature-label">商用利用</span>
+            <span class="feature-value {comm_cls}">{h(comm_val)}</span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-label">クレジット表記</span>
+            <span class="feature-value {cred_cls}">{h(cred_val)}</span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-label">ユーザー登録</span>
+            <span class="feature-value {reg_cls}">{h(reg_val)}</span>
+          </div>
+        </div>
+      </section>''')
+
+    # Section 2: Who should use this
+    rec = CATEGORY_RECOMMENDATIONS.get(category,
+        "様々なプロジェクトに素材を活用したいクリエイター")
+    comm_note = ("商用利用OKなので、ビジネス用途にも安心して使えます。"
+                 if commercial else
+                 "利用前に必ず公式サイトでライセンス条件をご確認ください。")
+    sections.append(f'''
+      <section class="editorial-section">
+        <h2>こんな人におすすめ</h2>
+        <p>{h(rec)}に最適です。{h(comm_note)}</p>
+      </section>''')
+
+    # Section 3: Cautions
+    cautions = []
+    if credit_req:
+        cautions.append("素材を使用する際はクレジット（著作者名）の表記が必要です。表記方法は各素材のダウンロードページで確認してください。")
+    if reg_req:
+        cautions.append("素材のダウンロードにはユーザー登録が必要です。メールアドレスで無料登録できます。")
+    if not commercial:
+        cautions.append("商用利用の可否はサイトや素材によって異なります。プロジェクトで使用する前に、必ず公式サイトの利用規約を確認してください。")
+    cautions.append(f"各サイトの利用規約は予告なく変更される場合があります。本ページの情報は{YEAR}年{date.today().month}月時点のものです。")
+
+    caution_items = "\n".join(f'          <li>{h(c)}</li>' for c in cautions)
+    sections.append(f'''
+      <section class="editorial-section caution-section">
+        <h2>利用時の注意点</h2>
+        <ul class="caution-list">
+{caution_items}
+        </ul>
+      </section>''')
+
+    return "\n".join(sections)
+
+
+def generate_related_cards(site, by_cat):
+    """Generate related sites section with card-style links."""
+    cat_id = site.get("category", "")
+    sid = site.get("id", "")
+    meta = CATEGORY_META.get(cat_id, {"ja": cat_id, "en": cat_id, "emoji": ""})
+    cat_ja = meta["ja"]
+
+    related = [s for s in by_cat.get(cat_id, []) if s["id"] != sid]
+    related = sorted(related, key=lambda s: -s.get("rating", 0))[:3]
+
+    if not related:
+        return ""
+
+    cards = []
+    for s in related:
+        s_name = s["name"]["ja"]
+        s_initials = s_name[0] if ord(s_name[0]) > 255 else s_name[:2]
+        s_grade = "S" if s.get("rating", 0) >= 5 else "A" if s.get("rating", 0) >= 4 else "B" if s.get("rating", 0) >= 3 else "C"
+        cards.append(f'''        <a href="{s["id"]}.html" class="related-card">
+          <div class="related-initial">{h(s_initials)}</div>
+          <div class="related-info">
+            <span class="related-name">{h(s_name)}</span>
+            <span class="related-grade">{s_grade}</span>
+          </div>
+        </a>''')
+
+    cards_html = "\n".join(cards)
+    return f'''
+      <section class="editorial-section related-sites">
+        <h2>同じカテゴリの人気サイト</h2>
+        <div class="related-grid">
+{cards_html}
+        </div>
+        <a href="../category/{h(cat_id)}.html" class="view-all-link">{h(cat_ja)}の全サイトを見る →</a>
+      </section>'''
+
+
 def generate_site_detail_page(site, all_sites, by_cat):
     """Generate a static detail page for a single site."""
     sid = site["id"]
@@ -504,9 +631,6 @@ def generate_site_detail_page(site, all_sites, by_cat):
     # Tags HTML
     tags_html = " ".join(f'<span class="tag">{h(t)}</span>' for t in tags)
 
-    # Use cases
-    use_cases = site.get("useCases", [])
-
     # License info
     lic_rows = [
         ("商用利用", "○ 可能" if site.get("commercial") else "× 不可"),
@@ -518,20 +642,11 @@ def generate_site_detail_page(site, all_sites, by_cat):
         f'          <tr><th>{h(k)}</th><td>{h(v)}</td></tr>' for k, v in lic_rows
     )
 
-    # Related sites (same category, excluding self, top 5)
-    related = [s for s in by_cat.get(cat_id, []) if s["id"] != sid]
-    related = sorted(related, key=lambda s: -s.get("rating", 0))[:5]
-    related_html = ""
-    if related:
-        related_items = "\n".join(
-            f'        <li><a href="{s["id"]}.html">{h(s["name"]["ja"])}</a> — {h(s["highlight"]["ja"])}</li>'
-            for s in related
-        )
-        related_html = f'''
-      <h2>関連する{h(cat_ja)}サイト</h2>
-      <ul class="related-list">
-{related_items}
-      </ul>'''
+    # Editorial content (AdSense quality)
+    editorial_html = generate_editorial_content(site)
+
+    # Related sites cards
+    related_cards = generate_related_cards(site, by_cat)
 
     content = f'''    <section class="section privacy-policy">
       <h1>{h(name_ja)}（{h(name_en)}）</h1>
@@ -553,6 +668,7 @@ def generate_site_detail_page(site, all_sites, by_cat):
 
       <h2>タグ</h2>
       <div class="card-tags-row" style="margin-bottom:16px">{tags_html}</div>
+{editorial_html}
 
       <div class="detail-disclaimer" style="margin:24px 0">
         <p><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> 利用規約は各サイトで変更される場合があります。素材利用前に必ず公式サイトの最新の利用規約をご確認ください。</p>
@@ -562,7 +678,7 @@ def generate_site_detail_page(site, all_sites, by_cat):
         <a href="{h(visit_url)}" class="btn-visit-sm" target="_blank" rel="noopener noreferrer nofollow" style="padding:10px 24px;font-size:.9rem">公式サイトへ →</a>
         <a href="../category/{h(cat_id)}.html" class="btn-detail-sm" style="padding:10px 24px;font-size:.9rem">{emoji} {h(cat_ja)}サイト一覧に戻る</a>
       </div>
-{related_html}
+{related_cards}
 
       <div style="background:var(--c-surface);border:1px solid var(--c-border);border-radius:12px;padding:20px;margin-top:24px">
         <p><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg> <strong>制作に使えるツールも探す →</strong> <a href="https://tools.freesozo.com/" target="_blank" rel="noopener">おすすめツール比較ナビ</a></p>

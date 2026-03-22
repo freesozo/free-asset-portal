@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
   <script>(function(){var t=localStorage.getItem('theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;})();</script>
-  <link rel="stylesheet" href="css/style.css?v=13">
+  <link rel="stylesheet" href="css/style.css?v=14">
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TW9TKBPSNW"></script>
   <script>
@@ -139,16 +139,63 @@
       <p data-i18n="aboutOperatorDesc">Web制作・デザイン分野で活動するクリエイターチームが運営しています。</p>
       <p><strong data-i18n="aboutContactLabel">お問い合わせ:</strong> <a href="https://github.com/freesozo/free-asset-portal/issues" target="_blank" rel="noopener"><span data-i18n="aboutContactLink">GitHub Issues</span></a> <span data-i18n="aboutContactSuffix">よりお願いいたします。</span></p>
 
-      <!-- 4. 免責事項 -->
-      <h2 data-i18n="aboutDisclaimerHeading">4. 免責事項</h2>
+      <!-- 4. 品質基準 (E-E-A-T) -->
+      <h2>4. サイトの品質基準</h2>
+      <p>freesozoでは、掲載する全てのフリー素材サイトに対して以下の6項目で独自の品質評価を行っています。</p>
+      <div class="quality-criteria">
+        <div class="criterion">
+          <h3>セキュリティ</h3>
+          <p>SSL対応やマルウェアの報告がないか、安全にアクセス・ダウンロードできるか</p>
+        </div>
+        <div class="criterion">
+          <h3>使いやすさ</h3>
+          <p>検索機能やカテゴリ分けが充実しているか、ダウンロードまでの手順は簡単か</p>
+        </div>
+        <div class="criterion">
+          <h3>ダウンロードのしやすさ</h3>
+          <p>素材のダウンロードが容易か、不要な手順や広告クリックを要求されないか</p>
+        </div>
+        <div class="criterion">
+          <h3>利用規約の明確さ</h3>
+          <p>利用規約が明確に記載されているか、商用利用の可否がわかりやすいか</p>
+        </div>
+        <div class="criterion">
+          <h3>広告の少なさ</h3>
+          <p>過剰な広告表示がないか、ユーザー体験を損なう広告手法を使っていないか</p>
+        </div>
+        <div class="criterion">
+          <h3>日本語対応</h3>
+          <p>日本語での閲覧・検索に対応しているか、日本語フォントや日本向け素材があるか</p>
+        </div>
+      </div>
+
+      <!-- 5. 運営方針 -->
+      <h2>5. 運営方針</h2>
+      <p>当サイトは以下の方針で運営しています。</p>
+      <ul>
+        <li>掲載する全サイトを実際に確認し、利用規約とライセンス条件を調査しています</li>
+        <li>品質スコアは独自の6項目評価基準に基づいて算出しています</li>
+        <li>利用規約の変更を定期的に確認し、情報を更新しています</li>
+        <li>ユーザーに有益でないサイトは掲載基準を満たさない場合、除外します</li>
+        <li>アフィリエイトリンクの有無は、掲載判断や品質スコアに影響しません</li>
+      </ul>
+
+      <!-- 6. 免責事項 -->
+      <h2 data-i18n="aboutDisclaimerHeading">6. 免責事項</h2>
       <ul>
         <li data-i18n="aboutDisclaimer1">当サイトはアフィリエイトプログラムに参加しています。当サイト経由で商品・サービスをご購入いただいた場合、紹介料を受け取ることがあります。これによりユーザーに追加の費用が発生することはありません。</li>
         <li data-i18n="aboutDisclaimer2">掲載情報の正確性について最善を尽くしていますが、その内容を保証するものではありません。</li>
         <li data-i18n="aboutDisclaimer3">各サービスのご利用は自己責任でお願いいたします。当サイトの情報を利用することによって生じたいかなる損害についても、責任を負いかねます。</li>
       </ul>
 
-      <!-- 5. プライバシーポリシー -->
-      <h2 data-i18n="aboutPrivacyHeading">5. プライバシーポリシー</h2>
+      <!-- 7. お問い合わせ -->
+      <h2>7. お問い合わせ</h2>
+      <p>掲載情報の誤り、リンク切れ、新規サイトの掲載リクエストなどは
+      <a href="https://github.com/freesozo/free-asset-portal/issues" target="_blank" rel="noopener">GitHub Issues</a>
+      または <a href="contact.html">お問い合わせページ</a> からお知らせください。</p>
+
+      <!-- 8. プライバシーポリシー -->
+      <h2 data-i18n="aboutPrivacyHeading">8. プライバシーポリシー</h2>
       <p><span data-i18n="aboutPrivacyBody">個人情報の取り扱いについては、</span><a href="privacy.html" data-i18n="privacyPolicy">プライバシーポリシー</a><span data-i18n="aboutPrivacySuffix">をご覧ください。</span></p>
 
       <p class="privacy-updated" data-i18n="aboutUpdated">最終更新日: 2026年3月20日</p>
@@ -161,7 +208,7 @@
     <div class="container">
       <p data-i18n="footerNotice">※ 各サイトの利用規約は変更される場合があります。素材利用前に必ず各サイトの最新の利用規約をご確認ください。</p>
       <p class="affiliate-disclosure" data-i18n="affiliateDisclosure">※ 一部リンクはアフィリエイトリンクを含みます。サイト運営のサポートにご協力ください。</p>
-      <p class="footer-links"><a href="privacy.html" data-i18n="privacyPolicy">プライバシーポリシー</a> <span style="margin:0 8px;">|</span> <a href="about.html" data-i18n="aboutNav">サイトについて</a> <span style="margin:0 8px;">|</span> <a href="blog/">ブログ</a></p>
+      <p class="footer-links"><a href="privacy.html" data-i18n="privacyPolicy">プライバシーポリシー</a> <span style="margin:0 8px;">|</span> <a href="about.html" data-i18n="aboutNav">サイトについて</a> <span style="margin:0 8px;">|</span> <a href="blog/">ブログ</a> <span style="margin:0 8px;">|</span> <a href="contact.html">お問い合わせ</a></p>
       <p class="sister-site"><span data-i18n="footerSister">姉妹サイト:</span> <a href="https://tools.freesozo.com/" target="_blank" rel="noopener"><span data-i18n="footerSisterName">おすすめツール比較ナビ</span></a></p>
     </div>
   </footer>

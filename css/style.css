@@ -1955,6 +1955,184 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 }
 .btn-retry:hover { color: var(--c-primary); }
 
+/* ---------- Editorial Sections (Site Detail Pages) ---------- */
+.editorial-section {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--c-border);
+}
+.editorial-section h2 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  padding-left: 12px;
+  border-left: 2px solid var(--c-accent);
+}
+.feature-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.feature-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-sm);
+}
+.feature-label {
+  font-weight: 600;
+  font-size: .9rem;
+}
+.feature-value.ok { color: var(--c-success); }
+.feature-value.check,
+.feature-value.required { color: var(--c-text-sub); }
+.caution-list {
+  list-style: none;
+  padding: 0;
+}
+.caution-list li {
+  padding: 8px 0 8px 24px;
+  position: relative;
+  font-size: .9rem;
+  color: var(--c-text-sub);
+  line-height: 1.6;
+}
+.caution-list li::before {
+  content: "\26A0";
+  position: absolute;
+  left: 0;
+  font-size: .85rem;
+}
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.related-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: background var(--transition);
+}
+.related-card:hover {
+  background: var(--c-tag-bg);
+  text-decoration: none;
+}
+.related-initial {
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  background: var(--c-primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: .85rem;
+  flex-shrink: 0;
+}
+.related-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.related-name {
+  font-weight: 600;
+  font-size: .9rem;
+  color: var(--c-text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.related-grade {
+  font-size: .75rem;
+  font-weight: 700;
+  color: var(--c-accent);
+}
+.view-all-link {
+  display: inline-block;
+  font-size: .9rem;
+  font-weight: 600;
+  color: var(--c-primary);
+  margin-top: 8px;
+}
+/* Quality criteria grid */
+.quality-criteria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 16px 0 32px;
+}
+.criterion {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+.criterion h3 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.criterion p {
+  font-size: .9rem;
+  color: var(--c-text-sub);
+  line-height: 1.6;
+}
+/* Contact page */
+.contact-methods {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+.contact-method {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+.contact-method h2 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.contact-link {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 20px;
+  background: var(--c-primary);
+  color: #fff;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: .9rem;
+  text-decoration: none;
+  transition: background var(--transition);
+}
+.contact-link:hover {
+  background: var(--c-primary-dark);
+  text-decoration: none;
+  color: #fff;
+}
+.contact-note {
+  font-size: .85rem;
+  color: var(--c-text-sub);
+  margin-top: 16px;
+}
+
 /* ---------- NEW Badge ---------- */
 .new-badge {
   background: var(--c-danger);

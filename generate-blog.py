@@ -15,8 +15,8 @@ BASE_URL = "https://freesozo.com"
 SITE_NAME = "フリー素材ポータル"
 GA_ID = "G-TW9TKBPSNW"
 ADSENSE_PUB = "ca-pub-1060876188767022"
-CSS_VERSION = 13
-JS_VERSION = 13
+CSS_VERSION = 14
+JS_VERSION = 14
 GENERATED_DATE = date.today().isoformat()
 CURRENT_YEAR = date.today().year
 
@@ -228,7 +228,8 @@ def adsense_mid_article():
 </div>'''
 
 
-def html_template(*, title, description, canonical, breadcrumb_title, content_html, schema_json, article_date=GENERATED_DATE):
+def html_template(*, title, description, canonical, breadcrumb_title, content_html, schema_json, article_date=GENERATED_DATE, noindex=False):
+    noindex_tag = '\n  <meta name="robots" content="noindex, follow">' if noindex else ''
     return f'''<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -237,7 +238,7 @@ def html_template(*, title, description, canonical, breadcrumb_title, content_ht
   <title>{title} – {SITE_NAME}</title>
   <meta name="description" content="{description}">
   <meta name="author" content="{SITE_NAME}">
-  <meta name="theme-color" content="#6c63ff">
+  <meta name="theme-color" content="#6c63ff">{noindex_tag}
   <meta property="og:title" content="{title}">
   <meta property="og:description" content="{description}">
   <meta property="og:type" content="article">
@@ -502,7 +503,7 @@ def generate_category_article(cat_key, sites):
     return filename, html_template(
         title=title, description=desc, canonical=canonical,
         breadcrumb_title=breadcrumb, content_html=content_html,
-        schema_json=schema
+        schema_json=schema, noindex=True
     ), title, desc, cat_ja, n, i18n_tag_key, title_en, desc_en
 
 
@@ -577,7 +578,7 @@ def generate_feature_article(key, config, sites):
     return filename, html_template(
         title=title, description=desc, canonical=canonical,
         breadcrumb_title=breadcrumb, content_html=content_html,
-        schema_json=schema
+        schema_json=schema, noindex=True
     ), title, desc, "特集", n, "blogCatFeature", \
        f"[{CURRENT_YEAR}] {FEATURE_TITLES_EN.get(key, key)} ({n} Sites)", \
        f"Curated free asset sites filtered by key criteria. {n} sites listed."
@@ -657,7 +658,7 @@ def generate_format_article(fmt_key, sites):
     return filename, html_template(
         title=title, description=desc, canonical=canonical,
         breadcrumb_title=breadcrumb, content_html=content_html,
-        schema_json=schema
+        schema_json=schema, noindex=True
     ), title, desc, fmt_name, n, "", \
        f"[{CURRENT_YEAR}] {fmt_name} Format Free Asset Sites ({n} Sites)", \
        f"Free asset sites offering {fmt_name} format downloads. {n} sites with commercial use options."
@@ -738,7 +739,7 @@ def generate_ranking_article(sites):
     return filename, html_template(
         title=title, description=desc, canonical=canonical,
         breadcrumb_title=breadcrumb, content_html=content_html,
-        schema_json=schema
+        schema_json=schema, noindex=True
     ), title, desc, "ランキング", n, "blogCatRanking", \
        f"[{CURRENT_YEAR}] Top {n} Free Asset Sites Ranking", \
        f"Top {n} free asset sites ranked by quality, usability and licensing."
