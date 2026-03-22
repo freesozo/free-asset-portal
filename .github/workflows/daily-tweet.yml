@@ -1,0 +1,40 @@
+name: Daily Tweet Bot
+
+on:
+  schedule:
+    # 毎日日本時間 12:00 (UTC 3:00) に投稿
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  post-tweet:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install tweepy
+
+      - name: Post daily tweet
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: python3 scripts/post-tweet.py
+
+      - name: Commit updated schedule
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tweets/tweets.json
+          git diff --staged --quiet || git commit -m "auto: tweet posted $(date '+%Y-%m-%d') [skip ci]"
+          git push
