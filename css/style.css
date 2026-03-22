@@ -2700,3 +2700,15 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 [data-theme="dark"] .badge-ok { border-color: #34d399; color: #34d399; }
 [data-theme="dark"] .badge-credit { border-color: #60a5fa; color: #60a5fa; }
 [data-theme="dark"] .badge-info { border-color: #34d399; color: #34d399; }
+
+/* ---------- SVG icon inline alignment ---------- */
+.icon-svg { display: inline-block; vertical-align: middle; flex-shrink: 0; }
+.theme-btn svg, .lang-btn svg, .hamburger-btn svg,
+.nav-dropdown-menu svg, .mobile-dropdown-menu svg,
+.region-btn svg, .quiz-start-btn svg, .filter-btn svg,
+.fav-btn svg, .modal-fav-btn svg, .detail-fav-btn svg,
+.card-rating-num svg, .modal-rating svg, .detail-rating svg,
+.sister-banner svg, .section-title svg,
+.ck-license-icon svg, .ck-bar-stars svg, .ck-rating svg,
+.ck-header h2 svg, .checker-dropdown-item svg,
+.hero-extras svg, .btn-compare-toggle svg { display: inline-block; vertical-align: middle; }

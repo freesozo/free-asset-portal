@@ -9,14 +9,14 @@ const I18n = (() => {
       heroCta1: '素材を探す',
       heroCta2: 'ツールを比較する',
       searchPlaceholder: 'サイト名・キーワードで検索...',
-      filterFreeOnly: '🆓 無料のみ',
+      filterFreeOnly: '無料のみ',
       filterCommercial: '商用利用可',
       filterNoCredit: 'クレジット不要',
       filterNoReg: '登録不要',
       filterBeginner: '初心者向け',
       filterMore: '詳細フィルター',
-      regionGlobal: '🌍 海外含む',
-      regionJp: '🇯🇵 日本のみ',
+      regionGlobal: '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> 海外含む',
+      regionJp: '<svg viewBox="0 0 24 16" width="18" height="12" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="16" fill="#fff" rx="2"/><circle cx="12" cy="8" r="4.5" fill="#bc002d"/></svg> 日本のみ',
       categoryHeading: 'カテゴリで探す',
       useCaseHeading: '用途で探す',
       recommendHeading: 'おすすめサイト',
@@ -33,7 +33,7 @@ const I18n = (() => {
       close: '閉じる',
       footerNotice: '※ 各サイトの利用規約は変更される場合があります。素材利用前に必ず各サイトの最新の利用規約をご確認ください。',
       noResults: '該当するサイトが見つかりませんでした',
-      lang: '🌐 English',
+      lang: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> English',
       breadcrumbHome: 'ホーム',
       allCategories: 'すべてのカテゴリ',
       all: 'すべて',
@@ -45,9 +45,9 @@ const I18n = (() => {
       cardDisclaimer: '※利用規約は各サイトでご確認ください',
       detailDisclaimer: '掲載情報は定期的に確認していますが、各サイトの利用規約は変更される場合があります。素材利用前に必ず公式サイトで最新の利用規約をご確認ください。',
       // カテゴリガイド
-      fontGuide: '💡 フリーフォントを選ぶ際は、商用利用の可否とライセンス形態（SILオープンフォントライセンス等）を必ず確認しましょう。個人利用と商用利用で条件が異なる場合があります。',
-      guide3D: '💡 3Dモデルを使用する際は、ファイル形式（OBJ/FBX/glTF）の対応状況と、改変・再配布の可否を確認しましょう。ゲーム開発と映像制作で必要なフォーマットが異なります。',
-      guideTemplate: '💡 テンプレートは商用利用可でも、ロゴや画像の差し替えが必要な場合があります。ダウンロード前にライセンス条件と含まれる素材の利用範囲を確認しましょう。',
+      fontGuide: 'フリーフォントを選ぶ際は、商用利用の可否とライセンス形態（SILオープンフォントライセンス等）を必ず確認しましょう。個人利用と商用利用で条件が異なる場合があります。',
+      guide3D: '3Dモデルを使用する際は、ファイル形式（OBJ/FBX/glTF）の対応状況と、改変・再配布の可否を確認しましょう。ゲーム開発と映像制作で必要なフォーマットが異なります。',
+      guideTemplate: 'テンプレートは商用利用可でも、ロゴや画像の差し替えが必要な場合があります。ダウンロード前にライセンス条件と含まれる素材の利用範囲を確認しましょう。',
       // 収益化
       premiumHeading: 'もっと高品質な素材が必要？',
       premiumSub: '無料素材では物足りない方に。プロ品質の有料素材サービスを比較。',
@@ -67,16 +67,16 @@ const I18n = (() => {
       loadMore: 'もっと見る',
       // パーソナライズ
       recentlyViewed: '最近チェックしたサイト',
-      favSection: '❤️ お気に入りサイト',
+      favSection: '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> お気に入りサイト',
       // ダークモード
       themeDarkLabel: 'ダークモードに切替',
       themeLightLabel: 'ライトモードに切替',
       // お気に入り
-      filterFavorites: '❤️ お気に入りのみ',
+      filterFavorites: '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> お気に入りのみ',
       favorite: 'お気に入りに追加',
       unfavorite: 'お気に入りから削除',
       // 比較
-      compareToggle: '⚖️ 比較モード',
+      compareToggle: '比較モード',
       compareSelect: '比較するサイトを選択（最大3件）',
       compareNow: '比較を見る',
       compareHeading: 'サイト比較',
@@ -85,14 +85,14 @@ const I18n = (() => {
       viewDetail: '詳細を見る',
       siteNotFound: 'サイトが見つかりませんでした',
       // Quiz
-      quizBtn: '🔍 おすすめ診断',
+      quizBtn: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> おすすめ診断',
       quizQ1: 'どんな素材を探していますか？',
       quizQ2: '何に使いますか？',
-      quizQ2any: '🔍 こだわらない',
+      quizQ2any: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> こだわらない',
       quizQ3: '重視するポイントは？',
-      quizQ3a: '💼 商用利用OK重視',
-      quizQ3b: '🔓 手軽さ重視（登録不要・クレジット不要）',
-      quizQ3c: '🌱 初心者向け・使いやすさ',
+      quizQ3a: '商用利用OK重視',
+      quizQ3b: '手軽さ重視（登録不要・クレジット不要）',
+      quizQ3c: '初心者向け・使いやすさ',
       quizResultTitle: 'あなたにおすすめのフリー素材サイト',
       quizNoResult: '条件に合うサイトが見つかりませんでした。',
       quizRetry: 'もう一度診断する',
@@ -102,22 +102,22 @@ const I18n = (() => {
       aboutHeading: 'フリー素材ポータルとは',
       aboutBody: 'フリー素材ポータルは、Web制作・デザイン・動画編集・ゲーム開発など幅広い用途に対応した無料素材サイトを200件以上掲載する日本最大級の比較ポータルサイトです。写真・イラスト・音楽・効果音・動画・アイコン・フォント・3Dモデル・テクスチャ・テンプレートなど13カテゴリに分類し、「商用利用OK」「クレジット表記不要」「会員登録不要」「初心者向け」といった条件でワンクリック絞り込みが可能です。各素材サイトの対応フォーマット（PNG / SVG / JPG / MP3 / MP4 / OTF）も一覧で比較でき、目的の素材をすばやく見つけられます。すべての情報は定期的に更新しており、利用規約の変更や新しいサイトの追加にも対応しています。',
       // Navigation
-      navFont: '🔤 フォント',
-      nav3D: '🎲 3D',
-      navTemplate: '📄 テンプレート',
+      navFont: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 4 4 20 4 20 7"/><line x1="12" y1="4" x2="12" y2="20"/><line x1="8" y1="20" x2="16" y2="20"/></svg> フォント',
+      nav3D: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg> 3D',
+      navTemplate: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg> テンプレート',
       navBlog: 'ブログ',
       // Format filter
       formatLabel: '形式:',
       // Shutterstock banner
-      ssBannerLabel: '📸 プロ品質の有料素材をお探しなら',
+      ssBannerLabel: 'プロ品質の有料素材をお探しなら',
       ssBannerDesc: '写真・動画・音楽・イラスト3億点以上。フリー素材では見つからないクオリティを。',
-      ssBannerFeat1: '✅ 商用利用OK',
-      ssBannerFeat2: '✅ 日本語サポート',
-      ssBannerFeat3: '✅ 定額制プランあり',
+      ssBannerFeat1: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 商用利用OK',
+      ssBannerFeat2: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 日本語サポート',
+      ssBannerFeat3: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 定額制プランあり',
       ssBannerCta: '無料トライアルを試す →',
       ssBannerNote: '※ 初月無料プランあり',
       // Sister site
-      sisterBannerPrefix: '🔧 ビジネスツールを探すなら →',
+      sisterBannerPrefix: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg> ビジネスツールを探すなら →',
       sisterBannerName: 'おすすめツール比較ナビ',
       sisterBannerSuffix: '- 100以上のツールを徹底比較',
       footerSister: '姉妹サイト:',
@@ -253,7 +253,7 @@ const I18n = (() => {
       verifiedDate: '2026年3月 確認済み',
       lastVerifiedLabel: '最終確認:',
       // チェッカー
-      navChecker: '🔍 チェッカー',
+      navChecker: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> チェッカー',
       checkerTitle: 'フリー素材ライセンス＆品質チェッカー',
       checkerDesc: 'サイト名を入力して、ライセンス条件と品質スコアを確認',
       checkerPlaceholder: 'サイト名またはURLを入力...',
@@ -320,14 +320,14 @@ const I18n = (() => {
       heroCta1: 'Browse Assets',
       heroCta2: 'Compare Tools',
       searchPlaceholder: 'Search by site name or keyword...',
-      filterFreeOnly: '🆓 Free Only',
+      filterFreeOnly: 'Free Only',
       filterCommercial: 'Commercial OK',
       filterNoCredit: 'No Credit Needed',
       filterNoReg: 'No Registration',
       filterBeginner: 'Beginner Friendly',
       filterMore: 'More Filters',
-      regionGlobal: '🌍 Global + Japan',
-      regionJp: '🇯🇵 Japan Only',
+      regionGlobal: '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Global + Japan',
+      regionJp: '<svg viewBox="0 0 24 16" width="18" height="12" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="16" fill="#fff" rx="2"/><circle cx="12" cy="8" r="4.5" fill="#bc002d"/></svg> Japan Only',
       categoryHeading: 'Browse by Category',
       useCaseHeading: 'Browse by Use Case',
       recommendHeading: 'Recommended Sites',
@@ -344,7 +344,7 @@ const I18n = (() => {
       close: 'Close',
       footerNotice: '* Terms of service may change. Always check each site\'s latest terms before using assets.',
       noResults: 'No matching sites found',
-      lang: '🌐 日本語',
+      lang: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> 日本語',
       breadcrumbHome: 'Home',
       allCategories: 'All Categories',
       all: 'All',
@@ -356,9 +356,9 @@ const I18n = (() => {
       cardDisclaimer: 'Please check each site\'s terms of use',
       detailDisclaimer: 'We regularly verify the information listed, but each site\'s terms of use may change. Always check the latest terms on the official site before using any assets.',
       // Category guides
-      fontGuide: '💡 When choosing free fonts, always check commercial use permissions and license types (e.g., SIL Open Font License). Terms may differ between personal and commercial use.',
-      guide3D: '💡 When using 3D models, check file format support (OBJ/FBX/glTF) and whether modification or redistribution is allowed. Game dev and video production may require different formats.',
-      guideTemplate: '💡 Even commercially licensed templates may require replacing logos or images. Check the license terms and usage scope of included assets before downloading.',
+      fontGuide: 'When choosing free fonts, always check commercial use permissions and license types (e.g., SIL Open Font License). Terms may differ between personal and commercial use.',
+      guide3D: 'When using 3D models, check file format support (OBJ/FBX/glTF) and whether modification or redistribution is allowed. Game dev and video production may require different formats.',
+      guideTemplate: 'Even commercially licensed templates may require replacing logos or images. Check the license terms and usage scope of included assets before downloading.',
       // Monetization
       premiumHeading: 'Need higher quality assets?',
       premiumSub: 'For those who need more than free. Compare pro-quality paid asset services.',
@@ -378,28 +378,28 @@ const I18n = (() => {
       loadMore: 'Load More',
       // Personalized sections
       recentlyViewed: 'Recently Viewed',
-      favSection: '❤️ Your Favorites',
+      favSection: '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> Your Favorites',
       // Dark mode
       themeDarkLabel: 'Switch to Dark Mode',
       themeLightLabel: 'Switch to Light Mode',
       // Favorites
-      filterFavorites: '❤️ Favorites Only',
+      filterFavorites: '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> Favorites Only',
       favorite: 'Add to Favorites',
       unfavorite: 'Remove from Favorites',
       // Compare
-      compareToggle: '⚖️ Compare Mode',
+      compareToggle: 'Compare Mode',
       compareSelect: 'Select sites to compare (max 3)',
       compareNow: 'Compare Now',
       compareHeading: 'Site Comparison',
       // Quiz
-      quizBtn: '🔍 Find Your Site',
+      quizBtn: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> Find Your Site',
       quizQ1: 'What kind of asset are you looking for?',
       quizQ2: 'What will you use it for?',
-      quizQ2any: '🔍 No preference',
+      quizQ2any: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> No preference',
       quizQ3: 'What matters most to you?',
-      quizQ3a: '💼 Commercial use OK',
-      quizQ3b: '🔓 Easy access (No registration / No credit needed)',
-      quizQ3c: '🌱 Beginner friendly',
+      quizQ3a: 'Commercial use OK',
+      quizQ3b: 'Easy access (No registration / No credit needed)',
+      quizQ3c: 'Beginner friendly',
       quizResultTitle: 'Recommended Free Asset Sites',
       quizNoResult: 'No sites matched your criteria.',
       quizRetry: 'Try Again',
@@ -409,22 +409,22 @@ const I18n = (() => {
       aboutHeading: 'About Free Asset Portal',
       aboutBody: 'Free Asset Portal is one of Japan\'s largest comparison portals, listing over 200 free asset sites for web design, graphic design, video editing, game development, and more. Assets are organized into 13 categories — photos, illustrations, music, sound effects, videos, icons, fonts, 3D models, textures, and templates — with one-click filtering by "Commercial Use OK," "No Credit Required," "No Registration," and "Beginner Friendly." Compare supported formats (PNG / SVG / JPG / MP3 / MP4 / OTF) at a glance to quickly find exactly what you need. All information is regularly updated to reflect terms-of-service changes and newly added sites.',
       // Navigation
-      navFont: '🔤 Fonts',
-      nav3D: '🎲 3D',
-      navTemplate: '📄 Templates',
+      navFont: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 4 4 20 4 20 7"/><line x1="12" y1="4" x2="12" y2="20"/><line x1="8" y1="20" x2="16" y2="20"/></svg> Fonts',
+      nav3D: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg> 3D',
+      navTemplate: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg> Templates',
       navBlog: 'Blog',
       // Format filter
       formatLabel: 'Format:',
       // Shutterstock banner
-      ssBannerLabel: '📸 Looking for pro-quality paid assets?',
+      ssBannerLabel: 'Looking for pro-quality paid assets?',
       ssBannerDesc: 'Over 300 million photos, videos, music & illustrations. The quality you can\'t find in free assets.',
-      ssBannerFeat1: '✅ Commercial Use OK',
-      ssBannerFeat2: '✅ Japanese Support',
-      ssBannerFeat3: '✅ Subscription Plans',
+      ssBannerFeat1: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Commercial Use OK',
+      ssBannerFeat2: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Japanese Support',
+      ssBannerFeat3: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Subscription Plans',
       ssBannerCta: 'Start Free Trial →',
       ssBannerNote: '* Free first month available',
       // Sister site
-      sisterBannerPrefix: '🔧 Looking for business tools? →',
+      sisterBannerPrefix: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg> Looking for business tools? →',
       sisterBannerName: 'Tool Comparison Navi',
       sisterBannerSuffix: '- Compare 100+ tools',
       footerSister: 'Sister site:',
@@ -563,7 +563,7 @@ const I18n = (() => {
       verifiedDate: 'Verified Mar 2026',
       lastVerifiedLabel: 'Last verified:',
       // Checker
-      navChecker: '🔍 Checker',
+      navChecker: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> Checker',
       checkerTitle: 'Free Asset License & Quality Checker',
       checkerDesc: 'Enter a site name to check license terms and quality score',
       checkerPlaceholder: 'Enter site name or URL...',
@@ -655,12 +655,12 @@ const I18n = (() => {
       if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
         el.placeholder = t(key);
       } else {
-        el.textContent = t(key);
+        el.innerHTML = t(key);
       }
     });
     // Blog cards: inline ja/en translations
     document.querySelectorAll('[data-i18n-ja]').forEach(el => {
-      el.textContent = current === 'en'
+      el.innerHTML = current === 'en'
         ? (el.getAttribute('data-i18n-en') || el.getAttribute('data-i18n-ja'))
         : el.getAttribute('data-i18n-ja');
     });

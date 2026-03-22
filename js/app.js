@@ -48,7 +48,9 @@ const App = (() => {
 
   // ── Stars ──
   function stars(n) {
-    return '★'.repeat(n) + '☆'.repeat(5 - n);
+    const filled = `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
+    const empty = `<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
+    return filled.repeat(n) + empty.repeat(5 - n);
   }
 
   // ── Category colors for initials icon ──
@@ -111,7 +113,7 @@ const App = (() => {
           </div>
           <div class="card-score">
             <span class="card-grade ${grade.cls}">${grade.letter}</span>
-            <span class="card-rating-num">★ ${site.rating}</span>
+            <span class="card-rating-num"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> ${site.rating}</span>
           </div>
           <button class="fav-btn" data-id="${site.id}" aria-label="${favLabel}" title="${favLabel}">${favIcon}</button>
         </div>
@@ -303,7 +305,7 @@ const App = (() => {
       return uc ? `<span class="badge badge-info">${uc.icon} ${I18n.localize(uc.name)}</span>` : '';
     }).join('');
 
-    const favIcon = isFavorite(site.id) ? '❤️' : '🤍';
+    const favIcon = isFavorite(site.id) ? '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>' : '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>';
     const favLabel = isFavorite(site.id) ? I18n.t('unfavorite') : I18n.t('favorite');
 
     document.getElementById('modalTitle').textContent = I18n.localize(site.name);
@@ -575,7 +577,7 @@ const App = (() => {
     document.documentElement.dataset.theme = theme;
     const $themeBtn = document.getElementById('themeBtn');
     if ($themeBtn) {
-      $themeBtn.textContent = theme === 'dark' ? '☀️' : '🌙';
+      $themeBtn.innerHTML = theme === 'dark' ? '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>' : '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
       $themeBtn.setAttribute('aria-label', theme === 'dark' ? I18n.t('themeLightLabel') : I18n.t('themeDarkLabel'));
     }
   }
@@ -725,7 +727,7 @@ const App = (() => {
       renderBlogHighlights();
       if (isCategory) updateCategoryPageMeta();
       const lb = document.getElementById('langBtn');
-      if (lb) lb.textContent = I18n.t('lang');
+      if (lb) lb.innerHTML = I18n.t('lang');
       applyTheme(document.documentElement.dataset.theme || 'light');
     });
 
@@ -790,7 +792,7 @@ const App = (() => {
     window.addEventListener('langchange', () => {
       renderDetailPage();
       const lb = document.getElementById('langBtn');
-      if (lb) lb.textContent = I18n.t('lang');
+      if (lb) lb.innerHTML = I18n.t('lang');
       applyTheme(document.documentElement.dataset.theme || 'light');
     });
 
@@ -858,7 +860,7 @@ const App = (() => {
       return uc ? `<span class="badge badge-info">${uc.icon} ${I18n.localize(uc.name)}</span>` : '';
     }).join('');
 
-    const favIcon = isFavorite(site.id) ? '❤️' : '🤍';
+    const favIcon = isFavorite(site.id) ? '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>' : '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>';
     const favLabel = isFavorite(site.id) ? I18n.t('unfavorite') : I18n.t('favorite');
 
     if ($content) {
@@ -910,7 +912,7 @@ const App = (() => {
         <div class="detail-verified">${I18n.t('lastVerifiedLabel')} ${I18n.t('verifiedDate')}</div>
 
         <div class="detail-disclaimer">
-          <p>⚠️ ${I18n.t('detailDisclaimer')}</p>
+          <p><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> ${I18n.t('detailDisclaimer')}</p>
         </div>
 
         <a href="${site.affiliateUrl || site.url}" target="_blank" rel="noopener noreferrer" class="btn-visit" style="align-self:flex-start;">
@@ -1033,14 +1035,16 @@ const App = (() => {
     const btn = document.getElementById('hamburgerBtn');
     const nav = document.getElementById('mobileNav');
     if (!btn || !nav) return;
+    const hamburgerSVG = '<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+    const closeSVG = '<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>';
     btn.addEventListener('click', () => {
       nav.classList.toggle('open');
-      btn.textContent = nav.classList.contains('open') ? '✕' : '☰';
+      btn.innerHTML = nav.classList.contains('open') ? closeSVG : hamburgerSVG;
     });
     nav.querySelectorAll('a').forEach(a => {
       a.addEventListener('click', () => {
         nav.classList.remove('open');
-        btn.textContent = '☰';
+        btn.innerHTML = hamburgerSVG;
       });
     });
   }
