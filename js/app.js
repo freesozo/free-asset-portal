@@ -1096,8 +1096,115 @@ const App = (() => {
     btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   }
 
-  // ── Quiz / おすすめ診断 ──
-  let quizState = { step: 0, q1: null, q2: null, q3: null };
+  // ── Creator Type Diagnosis / クリエイタータイプ診断 ──
+  const CREATOR_TYPES = {
+    "visual-storyteller": {
+      name: { ja: "\u30d3\u30b8\u30e5\u30a2\u30eb\u30b9\u30c8\u30fc\u30ea\u30fc\u30c6\u30e9\u30fc\u578b", en: "Visual Storyteller" },
+      emoji: "\ud83c\udfa8", color: "#3d5a80",
+      description: { ja: "\u5199\u771f\u3068\u30a4\u30e9\u30b9\u30c8\u3092\u7d44\u307f\u5408\u308f\u305b\u3001\u8996\u899a\u7684\u306a\u7269\u8a9e\u3092\u7d21\u3050\u30bf\u30a4\u30d7", en: "Weaves visual stories by combining photos and illustrations" },
+      categories: ["photo", "illustration", "video"],
+      shareText: { ja: "\u5199\u771f\u30fb\u30a4\u30e9\u30b9\u30c8\u30fb\u52d5\u753b\u3092\u99c6\u4f7f\u3059\u308b\u30d3\u30b8\u30e5\u30a2\u30eb\u6d3e", en: "A visual creator using photos, illustrations & videos" }
+    },
+    "pixel-craftsman": {
+      name: { ja: "\u30d4\u30af\u30bb\u30eb\u30af\u30e9\u30d5\u30c8\u30de\u30f3\u578b", en: "Pixel Craftsman" },
+      emoji: "\ud83d\udd37", color: "#457b6e",
+      description: { ja: "UI\u30c7\u30b6\u30a4\u30f3\u3068\u30a2\u30a4\u30b3\u30f3\u5236\u4f5c\u306b\u60c5\u71b1\u3092\u6ce8\u3050\u3001\u7d30\u90e8\u306b\u3053\u3060\u308f\u308b\u30bf\u30a4\u30d7", en: "A detail-oriented creator passionate about UI design and icons" },
+      categories: ["icon", "font", "template"],
+      shareText: { ja: "UI\u30fb\u30a2\u30a4\u30b3\u30f3\u30fb\u30d5\u30a9\u30f3\u30c8\u306e\u7d30\u90e8\u306b\u3053\u3060\u308f\u308b\u8077\u4eba\u6d3e", en: "A craftsman obsessed with UI, icon & font details" }
+    },
+    "sound-architect": {
+      name: { ja: "\u30b5\u30a6\u30f3\u30c9\u30a2\u30fc\u30ad\u30c6\u30af\u30c8\u578b", en: "Sound Architect" },
+      emoji: "\ud83c\udfb5", color: "#6d597a",
+      description: { ja: "\u97f3\u697d\u3068\u52b9\u679c\u97f3\u3067\u7a7a\u9593\u3092\u6f14\u51fa\u3059\u308b\u3001\u8074\u899a\u306e\u30af\u30ea\u30a8\u30a4\u30bf\u30fc", en: "An auditory creator who crafts atmospheres with music and sound effects" },
+      categories: ["music", "sound", "video"],
+      shareText: { ja: "BGM\u30fb\u52b9\u679c\u97f3\u3067\u4e16\u754c\u89b3\u3092\u4f5c\u308b\u30b5\u30a6\u30f3\u30c9\u6d3e", en: "A sound creator who builds worlds with BGM & SFX" }
+    },
+    "dimension-explorer": {
+      name: { ja: "\u30c7\u30a3\u30e1\u30f3\u30b7\u30e7\u30f3\u63a2\u691c\u5bb6\u578b", en: "Dimension Explorer" },
+      emoji: "\ud83e\uddca", color: "#4a6fa5",
+      description: { ja: "3D\u30e2\u30c7\u30eb\u3068CG\u3067\u65b0\u3057\u3044\u6b21\u5143\u3092\u5275\u9020\u3059\u308b\u3001\u672a\u6765\u5fd7\u5411\u306e\u30bf\u30a4\u30d7", en: "A future-oriented creator who builds new dimensions with 3D models and CG" },
+      categories: ["3d", "texture", "asset"],
+      shareText: { ja: "3DCG\u30fb\u30c6\u30af\u30b9\u30c1\u30e3\u3067\u672a\u6765\u3092\u5275\u9020\u3059\u308b\u63a2\u691c\u5bb6\u6d3e", en: "An explorer creating futures with 3DCG & textures" }
+    },
+    "content-strategist": {
+      name: { ja: "\u30b3\u30f3\u30c6\u30f3\u30c4\u30b9\u30c8\u30e9\u30c6\u30b8\u30b9\u30c8\u578b", en: "Content Strategist" },
+      emoji: "\ud83d\udcc4", color: "#9e8c6c",
+      description: { ja: "\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u3068\u30e2\u30c3\u30af\u30a2\u30c3\u30d7\u3067\u52b9\u7387\u7684\u306b\u30b3\u30f3\u30c6\u30f3\u30c4\u3092\u91cf\u7523\u3059\u308b\u30bf\u30a4\u30d7", en: "Efficiently produces content with templates and mockups" },
+      categories: ["template", "mockup", "font"],
+      shareText: { ja: "\u30c6\u30f3\u30d7\u30ec\u6d3b\u7528\u3067\u52b9\u7387MAX\u306e\u30b9\u30c8\u30e9\u30c6\u30b8\u30b9\u30c8\u6d3e", en: "A strategist maximizing efficiency with templates" }
+    },
+    "photo-hunter": {
+      name: { ja: "\u30d5\u30a9\u30c8\u30cf\u30f3\u30bf\u30fc\u578b", en: "Photo Hunter" },
+      emoji: "\ud83d\udcf8", color: "#b56b4f",
+      description: { ja: "\u6700\u9ad8\u306e1\u679a\u3092\u63a2\u3057\u6c42\u3081\u308b\u3001\u5199\u771f\u7d20\u6750\u306e\u30b9\u30da\u30b7\u30e3\u30ea\u30b9\u30c8", en: "A photo asset specialist who hunts for the perfect shot" },
+      categories: ["photo", "texture"],
+      shareText: { ja: "\u6700\u9ad8\u306e\u5199\u771f\u7d20\u6750\u3092\u72e9\u308a\u96c6\u3081\u308b\u30cf\u30f3\u30bf\u30fc\u6d3e", en: "A hunter who tracks down the best photo assets" }
+    },
+    "game-creator": {
+      name: { ja: "\u30b2\u30fc\u30e0\u30af\u30ea\u30a8\u30a4\u30bf\u30fc\u578b", en: "Game Creator" },
+      emoji: "\ud83c\udfae", color: "#6a4c93",
+      description: { ja: "\u30b2\u30fc\u30e0\u7d20\u6750\u30fb\u52b9\u679c\u97f3\u30fb3D\u30e2\u30c7\u30eb\u3092\u99c6\u4f7f\u3057\u3066\u4e16\u754c\u3092\u69cb\u7bc9\u3059\u308b\u30bf\u30a4\u30d7", en: "Builds worlds using game assets, sound effects & 3D models" },
+      categories: ["asset", "sound", "3d"],
+      shareText: { ja: "\u30b2\u30fc\u30e0\u7d20\u6750\u3067\u65b0\u3057\u3044\u4e16\u754c\u3092\u69cb\u7bc9\u3059\u308b\u30af\u30ea\u30a8\u30a4\u30bf\u30fc\u6d3e", en: "A creator building new worlds with game assets" }
+    },
+    "all-rounder": {
+      name: { ja: "\u30aa\u30fc\u30eb\u30e9\u30a6\u30f3\u30c0\u30fc\u578b", en: "All-Rounder" },
+      emoji: "\u2728", color: "#2d3142",
+      description: { ja: "\u3042\u3089\u3086\u308b\u7d20\u6750\u3092\u4f7f\u3044\u3053\u306a\u3059\u4e07\u80fd\u30bf\u30a4\u30d7\u3002\u5f15\u304d\u51fa\u3057\u306e\u591a\u3055\u304c\u6b66\u5668", en: "A versatile all-rounder who masters every type of asset" },
+      categories: ["photo", "illustration", "icon", "font"],
+      shareText: { ja: "\u3042\u3089\u3086\u308b\u7d20\u6750\u3092\u4f7f\u3044\u3053\u306a\u3059\u30aa\u30fc\u30eb\u30e9\u30a6\u30f3\u30c0\u30fc\u6d3e", en: "An all-rounder who masters every type of asset" }
+    }
+  };
+
+  const DIAGNOSIS_QUESTIONS = [
+    {
+      key: 'diagQ1',
+      options: [
+        { key: 'diagQ1a', scores: { photo: 3, illustration: 2 } },
+        { key: 'diagQ1b', scores: { template: 3, mockup: 2 } },
+        { key: 'diagQ1c', scores: { music: 3, sound: 2, video: 1 } },
+        { key: 'diagQ1d', scores: { "3d": 3, texture: 2, asset: 1 } }
+      ]
+    },
+    {
+      key: 'diagQ2',
+      options: [
+        { key: 'diagQ2a', scores: { photo: 3, texture: 1 } },
+        { key: 'diagQ2b', scores: { icon: 3, font: 2, illustration: 1 } },
+        { key: 'diagQ2c', scores: { video: 3, music: 1, sound: 1 } },
+        { key: 'diagQ2d', scores: { "3d": 3, asset: 2, texture: 1 } }
+      ]
+    },
+    {
+      key: 'diagQ3',
+      options: [
+        { key: 'diagQ3a', scores: { photo: 3, texture: 2 } },
+        { key: 'diagQ3b', scores: { illustration: 3, icon: 2 } },
+        { key: 'diagQ3c', scores: { music: 3, sound: 3 } },
+        { key: 'diagQ3d', scores: { font: 3, template: 3 } }
+      ]
+    },
+    {
+      key: 'diagQ4',
+      options: [
+        { key: 'diagQ4a', scores: { photo: 2, icon: 2, template: 2, font: 1 } },
+        { key: 'diagQ4b', scores: { video: 3, music: 2, sound: 1 } },
+        { key: 'diagQ4c', scores: { asset: 3, "3d": 2, sound: 2, icon: 1 } },
+        { key: 'diagQ4d', scores: { illustration: 2, photo: 2, template: 1 } }
+      ]
+    },
+    {
+      key: 'diagQ5',
+      options: [
+        { key: 'diagQ5a', scores: { photo: 1, illustration: 1, template: 1 } },
+        { key: 'diagQ5b', scores: { photo: 2, "3d": 2 } },
+        { key: 'diagQ5c', scores: { illustration: 1, icon: 1, music: 1, sound: 1 } },
+        { key: 'diagQ5d', scores: { font: 2, template: 1, illustration: 1 } }
+      ]
+    }
+  ];
+
+  let quizState = { step: 0, answers: [], scores: {}, resultType: null, topSites: [] };
 
   function initQuiz() {
     const startBtn = document.getElementById('quizStartBtn');
@@ -1106,7 +1213,7 @@ const App = (() => {
     if (!startBtn || !overlay) return;
 
     startBtn.addEventListener('click', () => {
-      quizState = { step: 1, q1: null, q2: null, q3: null };
+      quizState = { step: 1, answers: [], scores: {}, resultType: null, topSites: [] };
       overlay.style.display = 'flex';
       document.body.style.overflow = 'hidden';
       renderQuizStep();
@@ -1119,6 +1226,12 @@ const App = (() => {
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && overlay.style.display === 'flex') closeQuiz();
     });
+
+    // Check URL param for diagnosis result to auto-open
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('diagnosis')) {
+      startBtn.click();
+    }
   }
 
   function closeQuiz() {
@@ -1129,7 +1242,9 @@ const App = (() => {
 
   function renderQuizProgress() {
     const container = document.getElementById('quizProgress');
-    const steps = [1, 2, 3, 4];
+    const totalSteps = DIAGNOSIS_QUESTIONS.length + 1; // 5 questions + result
+    const steps = [];
+    for (let i = 1; i <= totalSteps; i++) steps.push(i);
     container.innerHTML = steps.map(s => {
       let cls = 'quiz-dot';
       if (s < quizState.step) cls += ' done';
@@ -1141,132 +1256,313 @@ const App = (() => {
   function renderQuizStep() {
     renderQuizProgress();
     const content = document.getElementById('quizContent');
-    if (quizState.step === 1) renderQuizQ1(content);
-    else if (quizState.step === 2) renderQuizQ2(content);
-    else if (quizState.step === 3) renderQuizQ3(content);
-    else if (quizState.step === 4) renderQuizResults(content);
+    if (quizState.step >= 1 && quizState.step <= DIAGNOSIS_QUESTIONS.length) {
+      renderDiagnosisQuestion(content, quizState.step - 1);
+    } else if (quizState.step === DIAGNOSIS_QUESTIONS.length + 1) {
+      renderDiagnosisResult(content);
+    }
   }
 
-  function renderQuizQ1(el) {
-    const cats = data.categories;
-    el.innerHTML = `<h2>${I18n.t('quizQ1')}</h2>
-      <div class="quiz-options">${cats.map(c =>
-        `<button class="quiz-option" data-value="${c.id}">${c.icon} ${I18n.localize(c.name)}</button>`
-      ).join('')}</div>`;
-    el.querySelectorAll('.quiz-option').forEach(btn => {
-      btn.addEventListener('click', () => {
-        quizState.q1 = btn.dataset.value;
-        quizState.step = 2;
-        renderQuizStep();
-      });
-    });
-  }
-
-  function renderQuizQ2(el) {
-    const ucs = data.useCases;
-    el.innerHTML = `<h2>${I18n.t('quizQ2')}</h2>
-      <div class="quiz-options">
-        ${ucs.map(u =>
-          `<button class="quiz-option" data-value="${u.id}">${u.icon} ${I18n.localize(u.name)}</button>`
-        ).join('')}
-        <button class="quiz-option" data-value="any">${I18n.t('quizQ2any')}</button>
-      </div>
-      <button class="quiz-back" id="quizBackBtn">${I18n.t('quizBack')}</button>`;
-    el.querySelectorAll('.quiz-option').forEach(btn => {
-      btn.addEventListener('click', () => {
-        quizState.q2 = btn.dataset.value;
-        quizState.step = 3;
-        renderQuizStep();
-      });
-    });
-    document.getElementById('quizBackBtn').addEventListener('click', () => {
-      quizState.step = 1;
-      renderQuizStep();
-    });
-  }
-
-  function renderQuizQ3(el) {
-    const keys = ['quizQ3a', 'quizQ3b', 'quizQ3c'];
-    const values = ['commercial', 'easy', 'beginner'];
-    el.innerHTML = `<h2>${I18n.t('quizQ3')}</h2>
-      <div class="quiz-options">${keys.map((k, i) =>
-        `<button class="quiz-option" data-value="${values[i]}">${I18n.t(k)}</button>`
+  function renderDiagnosisQuestion(el, qIndex) {
+    const q = DIAGNOSIS_QUESTIONS[qIndex];
+    el.innerHTML = `<h2>${I18n.t(q.key)}</h2>
+      <div class="quiz-options">${q.options.map(opt =>
+        `<button class="quiz-option" data-key="${opt.key}">${I18n.t(opt.key)}</button>`
       ).join('')}</div>
-      <button class="quiz-back" id="quizBackBtn">${I18n.t('quizBack')}</button>`;
+      ${qIndex > 0 ? `<button class="quiz-back" id="quizBackBtn">${I18n.t('quizBack')}</button>` : ''}`;
+
     el.querySelectorAll('.quiz-option').forEach(btn => {
       btn.addEventListener('click', () => {
-        quizState.q3 = btn.dataset.value;
-        quizState.step = 4;
+        const optKey = btn.dataset.key;
+        const opt = q.options.find(o => o.key === optKey);
+        if (opt) {
+          quizState.answers[qIndex] = opt.scores;
+          // Recalculate total scores
+          quizState.scores = {};
+          quizState.answers.forEach(ans => {
+            for (const [cat, val] of Object.entries(ans)) {
+              quizState.scores[cat] = (quizState.scores[cat] || 0) + val;
+            }
+          });
+        }
+        quizState.step = qIndex + 2;
         renderQuizStep();
       });
     });
-    document.getElementById('quizBackBtn').addEventListener('click', () => {
-      quizState.step = 2;
-      renderQuizStep();
-    });
+
+    if (qIndex > 0) {
+      document.getElementById('quizBackBtn').addEventListener('click', () => {
+        quizState.step = qIndex;
+        renderQuizStep();
+      });
+    }
   }
 
-  function quizScoreSites(sites) {
-    return sites.map(s => {
-      let score = 0;
-      // Base rating
-      score += s.rating * 2;
-      // Q3 priority
-      if (quizState.q3 === 'commercial') {
-        if (s.commercial) score += 8;
-        if (!s.creditRequired) score += 3;
-      } else if (quizState.q3 === 'easy') {
-        if (!s.registrationRequired) score += 6;
-        if (!s.creditRequired) score += 6;
-      } else if (quizState.q3 === 'beginner') {
-        if (s.beginnerFriendly) score += 8;
-        if (!s.registrationRequired) score += 3;
+  function determineCreatorType(scores) {
+    let bestType = "all-rounder";
+    let bestScore = 0;
+    for (const [typeId, typeInfo] of Object.entries(CREATOR_TYPES)) {
+      const typeScore = typeInfo.categories.reduce(
+        (sum, cat) => sum + (scores[cat] || 0), 0
+      );
+      if (typeScore > bestScore) {
+        bestScore = typeScore;
+        bestType = typeId;
       }
-      // Affiliate bonus
-      if (s.affiliateUrl) score += 1;
-      return { site: s, score };
-    }).sort((a, b) => b.score - a.score);
+    }
+    return bestType;
   }
 
-  function renderQuizResults(el) {
-    let sites = data.sites.filter(s => s.category === quizState.q1);
-    if (quizState.q2 !== 'any') {
-      const withUC = sites.filter(s => s.useCases.includes(quizState.q2));
-      if (withUC.length > 0) sites = withUC;
-    }
-    const scored = quizScoreSites(sites);
-    const top5 = scored.slice(0, 5);
+  function getTopSitesForType(typeId) {
+    const typeInfo = CREATOR_TYPES[typeId];
+    const matchingSites = data.sites.filter(s => typeInfo.categories.includes(s.category));
+    return matchingSites.sort((a, b) => (b.rating || 0) - (a.rating || 0)).slice(0, 5);
+  }
 
-    let html = `<h2 class="quiz-results-title">${I18n.t('quizResultTitle')}</h2>`;
-    if (top5.length === 0) {
-      html += `<p class="quiz-no-result">${I18n.t('quizNoResult')}</p>`;
-    } else {
-      html += '<div class="quiz-results-grid">' +
-        top5.map(s => cardHTML(s.site)).join('') +
-        '</div>';
-    }
-    html += `<button class="quiz-retry" id="quizRetryBtn">${I18n.t('quizRetry')}</button>`;
+  function renderDiagnosisResult(el) {
+    const typeId = determineCreatorType(quizState.scores);
+    const typeInfo = CREATOR_TYPES[typeId];
+    const topSites = getTopSitesForType(typeId);
+    quizState.resultType = typeId;
+    quizState.topSites = topSites;
+
+    const typeName = I18n.localize(typeInfo.name);
+    const typeDesc = I18n.localize(typeInfo.description);
+    const medals = ['\ud83e\udd47', '\ud83e\udd48', '\ud83e\udd49', '4.', '5.'];
+
+    let html = `
+      <div class="diagnosis-result">
+        <h2 class="result-subtitle">${I18n.t('diagResultSubtitle')}</h2>
+        <div class="result-type-card" style="background:${typeInfo.color}">
+          <div class="result-type-emoji">${typeInfo.emoji}</div>
+          <div class="result-type-name">${typeName}</div>
+          <div class="result-type-description">${typeDesc}</div>
+        </div>
+        <h3 class="result-sites-title">${I18n.t('diagResultSitesTitle')}</h3>
+        <div class="result-sites">
+          ${topSites.map((site, i) => {
+            const name = I18n.localize(site.name);
+            const grade = gradeLabel(site.rating);
+            return `<div class="result-site-row" data-id="${site.id}">
+              <span class="result-site-medal">${medals[i]}</span>
+              <span class="result-site-name">${name}</span>
+              <span class="result-site-grade ${grade.cls}">${grade.letter}</span>
+            </div>`;
+          }).join('')}
+        </div>
+        <div class="share-card-preview" id="shareCardPreviewWrap" style="display:none">
+          <canvas id="shareCardCanvas" width="1200" height="630"></canvas>
+        </div>
+        <div class="result-actions">
+          <button class="btn-share-x" id="diagShareX">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            ${I18n.t('diagShareX')}
+          </button>
+          <button class="btn-download-card" id="diagDownload">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            ${I18n.t('diagDownload')}
+          </button>
+          <button class="btn-copy-result" id="diagCopy">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            ${I18n.t('diagCopy')}
+          </button>
+          <button class="btn-retry" id="diagRetry">${I18n.t('quizRetry')}</button>
+        </div>
+      </div>`;
     el.innerHTML = html;
 
-    // Bind card clicks and fav buttons in results
-    el.querySelectorAll('.card[data-id]').forEach(card => {
-      card.addEventListener('click', (e) => {
-        if (e.target.closest('.fav-btn')) return;
-        openModal(card.dataset.id);
-      });
-    });
-    el.querySelectorAll('.fav-btn').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        toggleFavorite(btn.dataset.id);
-        renderQuizStep();
-        render();
-      });
+    // Generate share card
+    generateShareCard(typeId, topSites).then(() => {
+      document.getElementById('shareCardPreviewWrap').style.display = '';
     });
 
-    document.getElementById('quizRetryBtn').addEventListener('click', () => {
-      quizState = { step: 1, q1: null, q2: null, q3: null };
+    // Site row clicks
+    el.querySelectorAll('.result-site-row[data-id]').forEach(row => {
+      row.style.cursor = 'pointer';
+      row.addEventListener('click', () => openModal(row.dataset.id));
+    });
+
+    // Share to X
+    document.getElementById('diagShareX').addEventListener('click', () => {
+      shareToX(typeId, topSites);
+    });
+
+    // Download card
+    document.getElementById('diagDownload').addEventListener('click', () => {
+      const canvas = document.getElementById('shareCardCanvas');
+      if (canvas) downloadShareCard(canvas.toDataURL('image/png'));
+    });
+
+    // Copy result
+    document.getElementById('diagCopy').addEventListener('click', () => {
+      copyDiagnosisResult(typeId, topSites);
+    });
+
+    // Retry
+    document.getElementById('diagRetry').addEventListener('click', () => {
+      quizState = { step: 1, answers: [], scores: {}, resultType: null, topSites: [] };
       renderQuizStep();
+    });
+  }
+
+  // ── Share Card Canvas Generation ──
+  function adjustBrightness(hex, amount) {
+    let r = parseInt(hex.slice(1, 3), 16) + amount;
+    let g = parseInt(hex.slice(3, 5), 16) + amount;
+    let b = parseInt(hex.slice(5, 7), 16) + amount;
+    r = Math.max(0, Math.min(255, r));
+    g = Math.max(0, Math.min(255, g));
+    b = Math.max(0, Math.min(255, b));
+    return '#' + [r, g, b].map(v => v.toString(16).padStart(2, '0')).join('');
+  }
+
+  function addNoiseTexture(ctx, w, h, opacity) {
+    const imageData = ctx.getImageData(0, 0, w, h);
+    const d = imageData.data;
+    for (let i = 0; i < d.length; i += 4) {
+      const noise = (Math.random() - 0.5) * 255 * opacity;
+      d[i] += noise;
+      d[i + 1] += noise;
+      d[i + 2] += noise;
+    }
+    ctx.putImageData(imageData, 0, 0);
+  }
+
+  function roundRect(ctx, x, y, w, h, r) {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.lineTo(x + w - r, y);
+    ctx.quadraticCurveTo(x + w, y, x + w, y + r);
+    ctx.lineTo(x + w, y + h - r);
+    ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+    ctx.lineTo(x + r, y + h);
+    ctx.quadraticCurveTo(x, y + h, x, y + h - r);
+    ctx.lineTo(x, y + r);
+    ctx.quadraticCurveTo(x, y, x + r, y);
+    ctx.closePath();
+  }
+
+  async function generateShareCard(typeId, topSites) {
+    const type = CREATOR_TYPES[typeId];
+    const canvas = document.getElementById('shareCardCanvas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+
+    // Background gradient
+    const gradient = ctx.createLinearGradient(0, 0, 1200, 630);
+    gradient.addColorStop(0, type.color);
+    gradient.addColorStop(1, adjustBrightness(type.color, -30));
+    ctx.fillStyle = gradient;
+    ctx.fillRect(0, 0, 1200, 630);
+
+    // Noise texture
+    addNoiseTexture(ctx, 1200, 630, 0.03);
+
+    // Top section background
+    ctx.fillStyle = 'rgba(255,255,255,0.15)';
+    ctx.fillRect(0, 0, 1200, 200);
+
+    // Subtitle
+    ctx.font = "bold 28px 'Noto Serif JP', 'Hiragino Mincho ProN', serif";
+    ctx.fillStyle = 'rgba(255,255,255,0.7)';
+    ctx.textAlign = 'center';
+    ctx.fillText(I18n.t('diagCardSubtitle'), 600, 60);
+
+    // Type name with emoji
+    const typeName = I18n.localize(type.name);
+    ctx.font = "bold 52px 'Noto Serif JP', 'Hiragino Mincho ProN', serif";
+    ctx.fillStyle = '#ffffff';
+    ctx.fillText(type.emoji + ' ' + typeName, 600, 140);
+
+    // Description
+    const typeDesc = I18n.localize(type.description);
+    ctx.font = "20px 'Zen Kaku Gothic New', 'Hiragino Sans', sans-serif";
+    ctx.fillStyle = 'rgba(255,255,255,0.8)';
+    ctx.fillText(typeDesc, 600, 185);
+
+    // Recommended sites section
+    ctx.font = "bold 24px 'Zen Kaku Gothic New', 'Hiragino Sans', sans-serif";
+    ctx.fillStyle = 'rgba(255,255,255,0.6)';
+    ctx.textAlign = 'left';
+    ctx.fillText(I18n.t('diagCardRecommended'), 80, 260);
+
+    const medalTexts = ['\ud83e\udd47', '\ud83e\udd48', '\ud83e\udd49'];
+    topSites.slice(0, 3).forEach((site, i) => {
+      const y = 310 + i * 80;
+      // Row background
+      ctx.fillStyle = 'rgba(255,255,255,0.1)';
+      roundRect(ctx, 60, y - 25, 1080, 65, 8);
+      ctx.fill();
+      // Site name
+      const siteName = I18n.localize(site.name);
+      ctx.font = "bold 32px 'Zen Kaku Gothic New', 'Hiragino Sans', sans-serif";
+      ctx.fillStyle = '#ffffff';
+      ctx.textAlign = 'left';
+      ctx.fillText(medalTexts[i] + '  ' + siteName, 80, y + 15);
+      // Grade
+      const grade = gradeLabel(site.rating);
+      ctx.font = "bold 24px 'Zen Kaku Gothic New', 'Hiragino Sans', sans-serif";
+      ctx.fillStyle = 'rgba(255,255,255,0.6)';
+      ctx.textAlign = 'right';
+      ctx.fillText(I18n.t('diagCardQuality') + ' ' + grade.letter, 1120, y + 15);
+    });
+
+    // Bottom branding bar
+    ctx.fillStyle = 'rgba(0,0,0,0.3)';
+    ctx.fillRect(0, 560, 1200, 70);
+
+    ctx.font = "bold 24px 'Noto Serif JP', 'Hiragino Mincho ProN', serif";
+    ctx.fillStyle = 'rgba(255,255,255,0.9)';
+    ctx.textAlign = 'left';
+    ctx.fillText('freesozo.com', 80, 602);
+
+    ctx.font = "16px 'Zen Kaku Gothic New', 'Hiragino Sans', sans-serif";
+    ctx.fillStyle = 'rgba(255,255,255,0.5)';
+    ctx.textAlign = 'right';
+    ctx.fillText(I18n.t('diagCardFooter'), 1120, 600);
+  }
+
+  function shareToX(typeId, topSites) {
+    const type = CREATOR_TYPES[typeId];
+    const typeName = I18n.localize(type.name);
+    const shareText = I18n.localize(type.shareText);
+    const siteNames = topSites.slice(0, 3).map(s => I18n.localize(s.name)).join('\u30fb');
+    const shareUrl = 'https://freesozo.com/?diagnosis=' + typeId;
+
+    const isJa = I18n.currentLang === 'ja';
+    const text = isJa
+      ? '\u79c1\u306e\u30af\u30ea\u30a8\u30a4\u30bf\u30fc\u30bf\u30a4\u30d7\u306f\u300c' + typeName + '\u300d\u3067\u3057\u305f\uff01' + type.emoji + '\n\n' + shareText + '\n\u304a\u3059\u3059\u3081\u30b5\u30a4\u30c8: ' + siteNames + '\n\n\u3042\u306a\u305f\u3082\u8a3a\u65ad\u3057\u3066\u307f\u3066'
+      : 'My creator type is "' + typeName + '"! ' + type.emoji + '\n\n' + shareText + '\nRecommended: ' + siteNames + '\n\nTry the diagnosis!';
+
+    const xUrl = 'https://x.com/intent/tweet?text=' + encodeURIComponent(text)
+      + '&url=' + encodeURIComponent(shareUrl)
+      + '&hashtags=' + encodeURIComponent(isJa ? '\u30d5\u30ea\u30fc\u7d20\u6750\u8a3a\u65ad,freesozo' : 'FreeAssetDiagnosis,freesozo');
+
+    window.open(xUrl, '_blank', 'width=550,height=420');
+  }
+
+  function downloadShareCard(dataUrl) {
+    const link = document.createElement('a');
+    link.download = 'freesozo-diagnosis-result.png';
+    link.href = dataUrl;
+    link.click();
+  }
+
+  function copyDiagnosisResult(typeId, topSites) {
+    const type = CREATOR_TYPES[typeId];
+    const typeName = I18n.localize(type.name);
+    const typeDesc = I18n.localize(type.description);
+    const siteNames = topSites.slice(0, 3).map(s => I18n.localize(s.name)).join(', ');
+
+    const text = type.emoji + ' ' + typeName + '\n' + typeDesc + '\n\nTop 3: ' + siteNames + '\nhttps://freesozo.com/?diagnosis=' + typeId;
+
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.getElementById('diagCopy');
+      if (btn) {
+        const orig = btn.innerHTML;
+        btn.textContent = I18n.t('diagCopied');
+        setTimeout(() => { btn.innerHTML = orig; }, 2000);
+      }
     });
   }
 
