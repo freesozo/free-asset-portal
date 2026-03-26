@@ -342,6 +342,10 @@ const I18n = (() => {
       personalizedCtaBtn: 'クリエイター診断を受ける（30秒）',
       personalizedSuffix: 'のあなたへ',
       personalizedRediagnose: '再診断',
+      // Calendar
+      navCalendar: 'カレンダー',
+      calendarTitle: '素材カレンダー — 月別おすすめガイド',
+      calendarSubtitle: '季節やイベントに合わせた素材サイトを毎月ご紹介',
       // Collections
       navCollections: 'コレクション',
       collectionsTitle: 'マイコレクション',
@@ -702,6 +706,10 @@ const I18n = (() => {
       personalizedCtaBtn: 'Take Creator Quiz (30 sec)',
       personalizedSuffix: ' — For You',
       personalizedRediagnose: 'Retake',
+      // Calendar
+      navCalendar: 'Calendar',
+      calendarTitle: 'Asset Calendar — Monthly Guide',
+      calendarSubtitle: 'Recommended asset sites for each season and event',
       // Collections
       navCollections: 'Collections',
       collectionsTitle: 'My Collections',
