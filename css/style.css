@@ -3046,7 +3046,56 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 
 .section-recently-added .section-subtitle {
   font-size: 0.85rem;
-  color: var(--clr-txt-muted);
+  color: var(--c-text-sub);
   margin-top: -8px;
   margin-bottom: 20px;
+}
+
+/* ── Weekly Picks ── */
+.section-weekly-picks {
+  margin: 40px 0;
+  padding: 32px 0;
+  background: var(--c-surface);
+  border-top: 1px solid var(--c-border);
+  border-bottom: 1px solid var(--c-border);
+}
+
+.weekly-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.weekly-header h2 {
+  margin: 0;
+}
+
+.weekly-date {
+  font-size: 0.85rem;
+  background: var(--c-primary);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.weekly-grid {
+  max-width: 100%;
+}
+
+.weekly-card {
+  position: relative;
+}
+
+.weekly-rank {
+  position: absolute;
+  top: -8px;
+  left: -4px;
+  font-size: 1.4rem;
+  z-index: 2;
+}
+
+[data-theme="dark"] .section-weekly-picks {
+  background: var(--c-surface);
 }

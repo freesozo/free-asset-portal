@@ -694,6 +694,11 @@ const App = (() => {
       $recentlyAddedGrid.addEventListener('click', handleGridClick);
       $recentlyAddedGrid.addEventListener('keydown', handleGridKeydown);
     }
+    const $weeklyGrid = document.getElementById('weeklyGrid');
+    if ($weeklyGrid) {
+      $weeklyGrid.addEventListener('click', handleGridClick);
+      $weeklyGrid.addEventListener('keydown', handleGridKeydown);
+    }
 
     // Modal close
     if ($modalOverlay) {
@@ -724,6 +729,7 @@ const App = (() => {
     window.addEventListener('langchange', () => {
       renderCategoryNav();
       renderUseCaseNav();
+      renderWeeklyPicks();
       renderRecentlyAdded();
       renderRecentlyViewed();
       renderFavoritesHome();
@@ -742,6 +748,7 @@ const App = (() => {
     initFormatFilters();
     renderCategoryNav();
     renderUseCaseNav();
+    renderWeeklyPicks();
     renderRecentlyAdded();
     renderRecentlyViewed();
     renderFavoritesHome();
@@ -969,6 +976,70 @@ const App = (() => {
       document.head.appendChild(ldScript);
     }
     ldScript.textContent = JSON.stringify(jsonLd);
+  }
+
+  // ── Weekly Picks ──
+  function getWeekNumber() {
+    const now = new Date();
+    const start = new Date(now.getFullYear(), 0, 1);
+    const diff = now - start;
+    const oneWeek = 604800000;
+    return Math.floor(diff / oneWeek);
+  }
+
+  function getWeekDateRange() {
+    const now = new Date();
+    const dayOfWeek = now.getDay();
+    const monday = new Date(now);
+    monday.setDate(now.getDate() - (dayOfWeek === 0 ? 6 : dayOfWeek - 1));
+    const sunday = new Date(monday);
+    sunday.setDate(monday.getDate() + 6);
+    const format = (d) => `${d.getMonth() + 1}/${d.getDate()}`;
+    return `${format(monday)}〜${format(sunday)}`;
+  }
+
+  function seededRandom(seed) {
+    let x = Math.sin(seed) * 10000;
+    return x - Math.floor(x);
+  }
+
+  function renderWeeklyPicks() {
+    const grid = document.getElementById('weeklyGrid');
+    const dateEl = document.getElementById('weeklyDate');
+    if (!grid) return;
+
+    if (dateEl) dateEl.textContent = getWeekDateRange();
+
+    const week = getWeekNumber();
+    const year = new Date().getFullYear();
+    const seed = year * 100 + week;
+
+    // Top 50 sites by quality score sum
+    const topSites = data.sites
+      .filter(s => s.qualityScore)
+      .sort((a, b) => {
+        const aScore = Object.values(a.qualityScore || {}).reduce((sum, v) => sum + (typeof v === 'number' ? v : 0), 0);
+        const bScore = Object.values(b.qualityScore || {}).reduce((sum, v) => sum + (typeof v === 'number' ? v : 0), 0);
+        return bScore - aScore;
+      })
+      .slice(0, 50);
+
+    // Seeded shuffle
+    const shuffled = [...topSites].sort((a, b) => {
+      const aHash = seededRandom(seed + topSites.indexOf(a));
+      const bHash = seededRandom(seed + topSites.indexOf(b));
+      return aHash - bHash;
+    });
+
+    const picks = shuffled.slice(0, 3);
+    const medals = ['\uD83E\uDD47', '\uD83E\uDD48', '\uD83E\uDD49'];
+
+    grid.innerHTML = picks.map((site, i) => {
+      return `<div class="weekly-card">
+        <span class="weekly-rank">${medals[i]}</span>
+        ${cardHTML(site)}
+      </div>`;
+    }).join('');
   }
 
   // ── Recently Added ──

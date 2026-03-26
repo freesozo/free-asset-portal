@@ -337,6 +337,7 @@ const I18n = (() => {
       dropCatArchive: '総合',
       dropCatMockup: 'モックアップ',
       dropCatSound: '効果音',
+      weeklyPicksHeading: '今週のおすすめ',
     },
     en: {
       siteTitle: 'Free Asset Portal',
@@ -673,6 +674,7 @@ const I18n = (() => {
       dropCatArchive: 'General',
       dropCatMockup: 'Mockup',
       dropCatSound: 'Sound FX',
+      weeklyPicksHeading: 'Weekly Picks',
     }
   };
 
