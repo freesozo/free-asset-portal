@@ -338,6 +338,10 @@ const I18n = (() => {
       dropCatMockup: 'モックアップ',
       dropCatSound: '効果音',
       weeklyPicksHeading: '今週のおすすめ',
+      personalizedCtaText: 'あなたにぴったりの素材サイトを見つけよう',
+      personalizedCtaBtn: 'クリエイター診断を受ける（30秒）',
+      personalizedSuffix: 'のあなたへ',
+      personalizedRediagnose: '再診断',
     },
     en: {
       siteTitle: 'Free Asset Portal',
@@ -675,6 +679,10 @@ const I18n = (() => {
       dropCatMockup: 'Mockup',
       dropCatSound: 'Sound FX',
       weeklyPicksHeading: 'Weekly Picks',
+      personalizedCtaText: 'Find the perfect asset sites for you',
+      personalizedCtaBtn: 'Take Creator Quiz (30 sec)',
+      personalizedSuffix: ' — For You',
+      personalizedRediagnose: 'Retake',
     }
   };
 

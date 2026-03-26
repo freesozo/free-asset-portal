@@ -729,6 +729,7 @@ const App = (() => {
     window.addEventListener('langchange', () => {
       renderCategoryNav();
       renderUseCaseNav();
+      renderPersonalizedSection();
       renderWeeklyPicks();
       renderRecentlyAdded();
       renderRecentlyViewed();
@@ -748,6 +749,7 @@ const App = (() => {
     initFormatFilters();
     renderCategoryNav();
     renderUseCaseNav();
+    renderPersonalizedSection();
     renderWeeklyPicks();
     renderRecentlyAdded();
     renderRecentlyViewed();
@@ -996,6 +998,74 @@ const App = (() => {
     sunday.setDate(monday.getDate() + 6);
     const format = (d) => `${d.getMonth() + 1}/${d.getDate()}`;
     return `${format(monday)}〜${format(sunday)}`;
+  }
+
+  // ── Personalized Homepage Section ──
+  function renderPersonalizedSection() {
+    const container = document.getElementById('personalizedSection');
+    if (!container) return;
+    const inner = container.querySelector('.container') || container;
+
+    const savedType = localStorage.getItem('freesozo-creator-type');
+    if (!savedType) {
+      // Not diagnosed yet: show CTA
+      inner.innerHTML = `
+        <div class="personalized-cta">
+          <p>${I18n.t('personalizedCtaText')}</p>
+          <button class="btn-start-diagnosis" id="personalizedQuizBtn">
+            ${I18n.t('personalizedCtaBtn')}
+          </button>
+        </div>
+      `;
+      const btn = document.getElementById('personalizedQuizBtn');
+      if (btn) btn.addEventListener('click', () => {
+        const startBtn = document.getElementById('quizStartBtn');
+        if (startBtn) startBtn.click();
+      });
+      return;
+    }
+
+    const type = CREATOR_TYPES[savedType];
+    if (!type) return;
+
+    // Get sites matching this type's categories
+    const recommended = data.sites
+      .filter(s => type.categories.includes(s.category))
+      .sort((a, b) => (b.rating || 0) - (a.rating || 0))
+      .slice(0, 4);
+
+    const typeName = I18n.localize(type.name);
+    const shareText = I18n.localize(type.shareText);
+
+    inner.innerHTML = `
+      <div class="personalized-header">
+        <span class="personalized-emoji">${type.emoji}</span>
+        <div>
+          <h2>${typeName}${I18n.t('personalizedSuffix')}</h2>
+          <p class="personalized-subtitle">${shareText}</p>
+        </div>
+        <button class="btn-rediagnose" id="rediagnoseBtn">
+          ${I18n.t('personalizedRediagnose')}
+        </button>
+      </div>
+      <div class="card-grid personalized-grid" id="personalizedGrid">
+        ${recommended.map(s => cardHTML(s)).join('')}
+      </div>
+    `;
+
+    // Event delegation for cards
+    const grid = document.getElementById('personalizedGrid');
+    if (grid) {
+      grid.addEventListener('click', handleGridClick);
+      grid.addEventListener('keydown', handleGridKeydown);
+    }
+
+    // Rediagnose button
+    const rediagBtn = document.getElementById('rediagnoseBtn');
+    if (rediagBtn) rediagBtn.addEventListener('click', () => {
+      const startBtn = document.getElementById('quizStartBtn');
+      if (startBtn) startBtn.click();
+    });
   }
 
   function seededRandom(seed) {
@@ -1341,6 +1411,7 @@ const App = (() => {
     const overlay = document.getElementById('quizOverlay');
     overlay.style.display = 'none';
     document.body.style.overflow = '';
+    renderPersonalizedSection();
   }
 
   function renderQuizProgress() {
@@ -1424,6 +1495,7 @@ const App = (() => {
 
   function renderDiagnosisResult(el) {
     const typeId = determineCreatorType(quizState.scores);
+    localStorage.setItem('freesozo-creator-type', typeId);
     const typeInfo = CREATOR_TYPES[typeId];
     const topSites = getTopSitesForType(typeId);
     quizState.resultType = typeId;
