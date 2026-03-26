@@ -689,6 +689,11 @@ const App = (() => {
       $favHomeGrid.addEventListener('click', handleGridClick);
       $favHomeGrid.addEventListener('keydown', handleGridKeydown);
     }
+    const $recentlyAddedGrid = document.getElementById('recentlyAddedGrid');
+    if ($recentlyAddedGrid) {
+      $recentlyAddedGrid.addEventListener('click', handleGridClick);
+      $recentlyAddedGrid.addEventListener('keydown', handleGridKeydown);
+    }
 
     // Modal close
     if ($modalOverlay) {
@@ -719,6 +724,7 @@ const App = (() => {
     window.addEventListener('langchange', () => {
       renderCategoryNav();
       renderUseCaseNav();
+      renderRecentlyAdded();
       renderRecentlyViewed();
       renderFavoritesHome();
       render();
@@ -736,6 +742,7 @@ const App = (() => {
     initFormatFilters();
     renderCategoryNav();
     renderUseCaseNav();
+    renderRecentlyAdded();
     renderRecentlyViewed();
     renderFavoritesHome();
     render();
@@ -962,6 +969,31 @@ const App = (() => {
       document.head.appendChild(ldScript);
     }
     ldScript.textContent = JSON.stringify(jsonLd);
+  }
+
+  // ── Recently Added ──
+  function renderRecentlyAdded() {
+    const section = document.getElementById('recentlyAddedSection');
+    const grid = document.getElementById('recentlyAddedGrid');
+    const subtitle = document.getElementById('recentlyAddedSubtitle');
+    if (!section || !grid) return;
+
+    const recent = data.sites
+      .filter(s => s.dateAdded)
+      .sort((a, b) => (b.dateAdded || '').localeCompare(a.dateAdded || ''))
+      .slice(0, 6);
+
+    if (recent.length === 0) { section.style.display = 'none'; return; }
+    section.style.display = '';
+
+    // Show the latest month in subtitle
+    const latestDate = recent[0].dateAdded || '';
+    if (subtitle && latestDate) {
+      const [y, m] = latestDate.split('-');
+      subtitle.textContent = `${y}年${parseInt(m)}月に追加・更新`;
+    }
+
+    grid.innerHTML = recent.map(cardHTML).join('');
   }
 
   // ── Recently Viewed ──

@@ -51,7 +51,8 @@
         "licenseUrl": "https://kenney.nl/assets"
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2025-12"
     },
     {
       "id": "polyhaven-3d",
@@ -211,7 +212,8 @@
       "cautionsEn": [
         "License varies by model",
         "Free models mostly use CC licenses"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "turbosquid",
@@ -268,7 +270,8 @@
       "cautionsEn": [
         "Free model licenses vary individually",
         "Quality varies across models"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "threedscans",
@@ -475,7 +478,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "rigmodels",
@@ -642,7 +646,8 @@
       "cautionsEn": [
         "License varies by media file",
         "CC-BY licenses require attribution"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "metmuseum",
@@ -695,7 +700,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "smithsonian",
@@ -750,7 +756,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "loc",
@@ -804,7 +811,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "ndl",
@@ -857,7 +865,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "europeana",
@@ -910,7 +919,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "nasa",
@@ -970,7 +980,8 @@
       "cautionsEn": [
         "NASA logo usage is restricted",
         "Credit/attribution is recommended"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "rijksmuseum",
@@ -1024,7 +1035,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "artvee",
@@ -1078,7 +1090,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "internetarchive",
@@ -1129,7 +1142,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "gettyresearch",
@@ -1181,7 +1195,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "colbase",
@@ -1233,7 +1248,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "ukiyoe",
@@ -1286,7 +1302,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "britishmuseum",
@@ -1339,7 +1356,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "oldbookillustrations",
@@ -1393,7 +1411,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "biodiversity",
@@ -1446,7 +1465,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "nypl",
@@ -1499,7 +1519,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "gallica",
@@ -1552,7 +1573,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "dpla",
@@ -1602,7 +1624,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "nationalarchives",
@@ -1652,7 +1675,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "tokyolib",
@@ -1703,7 +1727,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "designresources",
@@ -1919,7 +1944,8 @@
       "cautionsEn": [
         "License varies by asset",
         "CC-BY licenses require attribution"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "itchio",
@@ -1970,7 +1996,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "polyhaven",
@@ -2024,7 +2051,8 @@
         "licenseUrl": "https://polyhaven.com/license"
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2025-12"
     },
     {
       "id": "mixamo",
@@ -2076,7 +2104,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "ambientcg",
@@ -2130,7 +2159,8 @@
         "licenseUrl": "https://ambientcg.com/license"
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2025-12"
     },
     {
       "id": "blenderkit",
@@ -2184,7 +2214,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "kaylousberg",
@@ -2288,7 +2319,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "craftpix",
@@ -2340,7 +2372,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "gamedevmarket",
@@ -2392,7 +2425,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "unityassetstore",
@@ -2444,7 +2478,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "blendswap",
@@ -2495,7 +2530,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "cgtrader",
@@ -2550,7 +2586,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "gameart2d",
@@ -2653,7 +2690,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "pixelgameart",
@@ -2923,7 +2961,8 @@
       "cautionsEn": [
         "This is a font directory; check license at each font's source",
         "Commercial use permission varies by font"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "fontna",
@@ -3138,7 +3177,8 @@
         "License varies by font",
         "Some fonts are personal use only",
         "Always verify before commercial use"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "fontesk",
@@ -3620,7 +3660,8 @@
       ],
       "cautionsEn": [
         "Redistribution of icon assets is prohibited"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "fontawesome",
@@ -3678,7 +3719,8 @@
       "cautionsEn": [
         "Pro version is paid",
         "Free version has limited icons"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "svgrepo",
@@ -3735,7 +3777,8 @@
       ],
       "cautionsEn": [
         "License varies by icon"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "flaticon",
@@ -3795,7 +3838,8 @@
       "cautionsEn": [
         "Free plan requires attribution",
         "Premium plan removes attribution requirement"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "heroicons",
@@ -3847,7 +3891,8 @@
         "licenseUrl": "https://github.com/tailwindlabs/heroicons/blob/master/LICENSE"
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2025-12"
     },
     {
       "id": "lucide",
@@ -3900,7 +3945,8 @@
         "licenseUrl": "https://github.com/lucide-icons/lucide/blob/main/LICENSE"
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2025-12"
     },
     {
       "id": "googlefonts",
@@ -3954,7 +4000,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "materialicons",
@@ -4007,7 +4054,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "tablericons",
@@ -4058,7 +4106,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "iconmonstr",
@@ -4110,7 +4159,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "feathericons",
@@ -4162,7 +4212,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "fontsquirrel",
@@ -4216,7 +4267,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "notosans",
@@ -4269,7 +4321,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "materialdesignicons",
@@ -4321,7 +4374,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "iconbuddy",
@@ -4376,7 +4430,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "ionicons",
@@ -4482,7 +4537,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "bootstrapicons",
@@ -4534,7 +4590,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "phosphoricons",
@@ -4585,7 +4642,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "simpleicons",
@@ -4638,7 +4696,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "icons8",
@@ -4692,7 +4751,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "boxicons",
@@ -4744,7 +4804,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "remixicon",
@@ -4796,7 +4857,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "iconoir",
@@ -4847,7 +4909,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "fontspace",
@@ -4901,7 +4964,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "goodfreefonts",
@@ -4957,7 +5021,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "lineicons",
@@ -5012,7 +5077,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "ffontjp",
@@ -5069,7 +5135,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "healthicons",
@@ -5654,7 +5721,8 @@
       "cautionsEn": [
         "Using 21+ illustrations in one project requires payment",
         "Redistribution of assets is prohibited"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "undraw",
@@ -5712,7 +5780,8 @@
       ],
       "cautionsEn": [
         "Color customization is only available on the website"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "freepik",
@@ -5775,7 +5844,8 @@
       "cautionsEn": [
         "Free plan requires attribution",
         "Daily download limits apply"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "lottiefiles",
@@ -5834,7 +5904,8 @@
       ],
       "cautionsEn": [
         "License may vary by animation"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "illustac",
@@ -5895,7 +5966,8 @@
       "cautionsEn": [
         "Free members have daily download limits",
         "Contains many ads"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "loosedrawing",
@@ -5954,7 +6026,8 @@
       ],
       "cautionsEn": [
         "Redistribution of assets is prohibited"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "lexica",
@@ -6010,7 +6083,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "storyset",
@@ -6068,7 +6142,8 @@
       ],
       "cautionsEn": [
         "Attribution required (Freepik family)"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "vecteezy",
@@ -6128,7 +6203,8 @@
       "cautionsEn": [
         "Free assets require attribution",
         "Contains many ads"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "humaaans",
@@ -6183,7 +6259,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "openpeeps",
@@ -6237,7 +6314,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "manypixels",
@@ -6291,7 +6369,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "blush",
@@ -6345,7 +6424,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "silhouetteac",
@@ -6400,7 +6480,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "playgroundai",
@@ -6456,7 +6537,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "openart",
@@ -6512,7 +6594,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "civitai",
@@ -6567,7 +6650,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "flaticondesign",
@@ -6622,7 +6706,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "choudoii",
@@ -6682,7 +6767,8 @@
       ],
       "cautionsEn": [
         "Redistribution of assets is prohibited"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "linustock",
@@ -6737,7 +6823,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "socoost",
@@ -6792,7 +6879,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "illustrain",
@@ -6847,7 +6935,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "irasuton",
@@ -6902,7 +6991,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "drawkit",
@@ -6955,7 +7045,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "icons8illust",
@@ -7010,7 +7101,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "townillust",
@@ -7065,7 +7157,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "pixelied",
@@ -7120,7 +7213,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "opendoodles",
@@ -7174,7 +7268,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "absurddesign",
@@ -7228,7 +7323,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "iradesign",
@@ -7282,7 +7378,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "stubborn",
@@ -7336,7 +7433,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "shigureni",
@@ -7393,7 +7491,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "logoipsum",
@@ -7821,7 +7920,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "delesign",
@@ -7876,7 +7976,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "error404-illustrations",
@@ -8144,7 +8245,8 @@
       ],
       "cautionsEn": [
         "Aggregates mockups from external sites; check each source for license terms"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "unblast",
@@ -8199,7 +8301,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "mockuptree",
@@ -8252,7 +8355,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "mrmockup",
@@ -8306,7 +8410,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "goodmockups",
@@ -8359,7 +8464,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "resourceboy",
@@ -8413,7 +8519,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "mockupsdesign",
@@ -8466,7 +8573,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "anthonyboyd-mockups",
@@ -8731,7 +8839,8 @@
       "cautionsEn": [
         "Some tracks may have individual conditions",
         "Check each track page for specific terms"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "maoudamashii",
@@ -8790,7 +8899,8 @@
       "cautionsEn": [
         "Redistribution of assets is prohibited",
         "Check terms on each track page"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "incompetech",
@@ -8844,7 +8954,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "ncs",
@@ -8902,7 +9013,8 @@
       "cautionsEn": [
         "Attribution required",
         "Commercial use outside YouTube needs verification"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "peritune",
@@ -8955,7 +9067,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "freemusicarchive",
@@ -9008,7 +9121,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "otologic",
@@ -9064,7 +9178,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "youtube-audio-library",
@@ -9174,7 +9289,8 @@
       "cautionsEn": [
         "Redistribution of assets is prohibited",
         "Site design is somewhat dated"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "musmus",
@@ -9228,7 +9344,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "bensound",
@@ -9282,7 +9399,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "uppbeat",
@@ -9334,7 +9452,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "hmixgallery",
@@ -9386,7 +9505,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "hurtrecord",
@@ -9438,7 +9558,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "shw",
@@ -9490,7 +9611,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "audiolibrary",
@@ -9541,7 +9663,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "ccmixter",
@@ -9594,7 +9717,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "jamendo",
@@ -9646,7 +9770,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "fugue",
@@ -9699,7 +9824,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "springinsound",
@@ -9755,7 +9881,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "chosic",
@@ -9810,7 +9937,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "fesliyanstudios",
@@ -9866,7 +9994,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "soundscrate",
@@ -9920,7 +10049,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "freepd",
@@ -10298,7 +10428,8 @@
       "cautionsEn": [
         "Model releases may not be available for photos with identifiable people",
         "Be cautious with photos containing visible brand logos"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "pexels",
@@ -10358,7 +10489,8 @@
       "cautionsEn": [
         "Be careful with personality rights when using photos of people commercially",
         "Reselling photos as-is is prohibited"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "photoac",
@@ -10420,7 +10552,8 @@
         "Free members have daily download limits",
         "Contains many ads",
         "Redistribution of assets is prohibited"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "pixabay",
@@ -10484,7 +10617,8 @@
         "Changed from CC0 to Pixabay License in 2019",
         "May include AI-generated images",
         "Registration required for high-res downloads"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "pakutaso",
@@ -10544,7 +10678,8 @@
       "cautionsEn": [
         "Redistribution of assets is prohibited",
         "Some uses of photos with people may be restricted"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "kaboompics",
@@ -10598,7 +10733,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "burst",
@@ -10652,7 +10788,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "stocksnap",
@@ -10710,7 +10847,8 @@
       ],
       "cautionsEn": [
         "Update frequency has been declining"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "reshot",
@@ -10763,7 +10901,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "foodiesfeed",
@@ -10816,7 +10955,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "girlydrop",
@@ -10870,7 +11010,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "nappy",
@@ -10924,7 +11065,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "rawpixel",
@@ -10978,7 +11120,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "lifeofpix",
@@ -11031,7 +11174,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "picjumbo",
@@ -11085,7 +11229,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "splitshire",
@@ -11138,7 +11283,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "tadapic",
@@ -11192,7 +11338,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "stockai",
@@ -11246,7 +11393,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "morguefile",
@@ -11300,7 +11448,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "isorepublic",
@@ -11354,7 +11503,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "picography",
@@ -11408,7 +11558,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "styledstock",
@@ -11462,7 +11613,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "magdeleine",
@@ -11516,7 +11668,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "photock",
@@ -11570,7 +11723,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "barnimages",
@@ -11677,7 +11831,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "ashinari",
@@ -11730,7 +11885,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "negativespace",
@@ -11784,7 +11940,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "skitterphoto",
@@ -11838,7 +11995,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "jaymantri",
@@ -11891,7 +12049,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "busitry",
@@ -11944,7 +12103,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "picspree",
@@ -12210,7 +12370,8 @@
       ],
       "cautionsEn": [
         "Redistribution of assets is prohibited"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "mixkitsound",
@@ -12263,7 +12424,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "onjin",
@@ -12315,7 +12477,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "pocketsound",
@@ -12368,7 +12531,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "freesound",
@@ -12428,7 +12592,8 @@
       "cautionsEn": [
         "License varies by sound",
         "Registration required"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "zapsplat",
@@ -12480,7 +12645,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "kuragekoushou",
@@ -12531,7 +12697,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "bbcsfx",
@@ -12583,7 +12750,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "pixabaysfx",
@@ -12635,7 +12803,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "gamesoundsxyz",
@@ -12687,7 +12856,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "freesfx",
@@ -12845,7 +13015,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "orangefreesounds",
@@ -12897,7 +13068,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "soundgator",
@@ -13530,7 +13702,8 @@
       ],
       "cautionsEn": [
         "Generated backgrounds can be used freely, but redistribution of the generator itself is prohibited"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "3dtextures",
@@ -13583,7 +13756,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "textures-com",
@@ -13691,7 +13865,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "heropatterns",
@@ -13744,7 +13919,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "coolbackgrounds",
@@ -13798,7 +13974,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "transparenttextures",
@@ -13850,7 +14027,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "patternmonster",
@@ -13904,7 +14082,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "svgbackgrounds",
@@ -13957,7 +14136,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "bgjar",
@@ -14011,7 +14191,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "lostandtaken",
@@ -14066,7 +14247,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "textureninja",
@@ -14119,7 +14301,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "sharetextures",
@@ -14175,7 +14358,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "texturecan",
@@ -14230,7 +14414,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "freepbr",
@@ -14285,7 +14470,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "cgbookcase",
@@ -14339,7 +14525,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "poliigon",
@@ -14394,7 +14581,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "architextures",
@@ -14450,7 +14638,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "texturebox",
@@ -14505,7 +14694,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "matcap-textures",
@@ -14663,7 +14853,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "plaintextures",
@@ -14716,7 +14907,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "seamlesstextures",
@@ -15037,7 +15229,8 @@
       ],
       "cautionsEn": [
         "Reselling videos as-is is prohibited"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "mixkit",
@@ -15093,7 +15286,8 @@
       ],
       "cautionsEn": [
         "Part of Envato family of services"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "coverr",
@@ -15150,7 +15344,8 @@
       ],
       "cautionsEn": [
         "Video assets only (no photos)"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "videvo",
@@ -15208,7 +15403,8 @@
       "cautionsEn": [
         "License varies by asset (Free/Videvo Attribution/Premium)",
         "Some assets require attribution"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "videezy",
@@ -15261,7 +15457,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "dareful",
@@ -15313,7 +15510,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "mazwai",
@@ -15365,7 +15563,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "motionelements",
@@ -15418,7 +15617,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "lifeofvids",
@@ -15471,7 +15671,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "vidsplay",
@@ -15523,7 +15724,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-03"
     },
     {
       "id": "clipstill",
@@ -15575,7 +15777,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-01"
     },
     {
       "id": "ignitemotion",
@@ -15627,7 +15830,8 @@
         "licenseUrl": ""
       },
       "cautions": [],
-      "cautionsEn": []
+      "cautionsEn": [],
+      "dateAdded": "2026-02"
     },
     {
       "id": "splitshire-video",

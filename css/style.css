@@ -3037,3 +3037,16 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .ck-license-icon svg, .ck-bar-stars svg, .ck-rating svg,
 .ck-header h2 svg, .checker-dropdown-item svg,
 .hero-extras svg, .btn-compare-toggle svg { display: inline-block; vertical-align: middle; }
+
+/* ── Recently Added Section ── */
+.section-recently-added {
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
+.section-recently-added .section-subtitle {
+  font-size: 0.85rem;
+  color: var(--clr-txt-muted);
+  margin-top: -8px;
+  margin-bottom: 20px;
+}
