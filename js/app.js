@@ -354,7 +354,45 @@ const App = (() => {
       <a href="${site.affiliateUrl || site.url}" target="_blank" rel="noopener noreferrer" class="btn-visit">
         ${I18n.t('visitSite')} ↗
       </a>
+
+      <div id="modalBoardPicker"></div>
     `;
+
+    // Board picker
+    const $boardPicker = document.getElementById('modalBoardPicker');
+    if ($boardPicker) {
+      const collections = JSON.parse(localStorage.getItem('freesozo-collections') || '[]');
+      if (collections.length > 0) {
+        const opts = collections.map(b => {
+          const bName = b.name.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+          return `<option value="${b.id}">${bName}</option>`;
+        }).join('');
+        $boardPicker.innerHTML = `<div class="modal-board-picker">
+          <label>${I18n.t('collectionsAddToBoard')}</label>
+          <select id="boardSelect">${opts}</select>
+          <button class="btn-add-to-board" id="addToBoardBtn">${I18n.t('collectionsAddBtn')}</button>
+        </div><div id="boardAddMsg"></div>`;
+        document.getElementById('addToBoardBtn').addEventListener('click', () => {
+          const boardId = document.getElementById('boardSelect').value;
+          const cols = JSON.parse(localStorage.getItem('freesozo-collections') || '[]');
+          const board = cols.find(b => b.id === boardId);
+          const msgEl = document.getElementById('boardAddMsg');
+          if (board) {
+            if (board.sites.includes(site.id)) {
+              msgEl.innerHTML = `<p class="board-added-msg" style="color:var(--c-warning)">${I18n.t('collectionsAlready')}</p>`;
+            } else {
+              board.sites.push(site.id);
+              localStorage.setItem('freesozo-collections', JSON.stringify(cols));
+              msgEl.innerHTML = `<p class="board-added-msg">${I18n.t('collectionsAdded')}</p>`;
+            }
+          }
+        });
+      } else {
+        $boardPicker.innerHTML = `<div class="modal-board-picker" style="border-top:1px solid var(--c-border);padding-top:12px;margin-top:12px;">
+          <span style="font-size:0.85rem;color:var(--c-text-sub)">${I18n.t('collectionsNoBoards')}</span>
+        </div>`;
+      }
+    }
 
     // Modal fav button
     const $modalFav = document.querySelector('.modal-fav-btn');
