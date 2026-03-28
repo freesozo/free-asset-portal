@@ -1,9 +1,9 @@
 name: Daily Tweet Bot
 
 on:
-  schedule:
-    # 毎日日本時間 12:00 (UTC 3:00) に投稿
-    - cron: '0 3 * * *'
+  # schedule:
+  #   # 毎日日本時間 12:00 (UTC 3:00) に投稿
+  #   - cron: '0 3 * * *'
   workflow_dispatch:
 
 jobs:
