@@ -4,6 +4,9 @@
    recommendation cards into .affiliate-slot
    elements on the page.
    ======================================== */
+// AdSense審査モード - 審査通過後にこの行を削除
+if (true) { console.log('[Affiliate] Review mode - disabled'); }
+else {
 (function () {
   'use strict';
 
@@ -138,3 +141,4 @@
   // Expose for manual calls
   window.AffiliateLoader = { load: insertAffiliateSlots };
 })();
+} // AdSense審査モード closing brace

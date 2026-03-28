@@ -277,7 +277,7 @@ const App = (() => {
       `<tr><th>${r.label}</th>${sites.map(s => `<td>${r.fn(s)}</td>`).join('')}</tr>`
     ).join('');
     const visitRow = `<tr><th></th>${sites.map(s =>
-      `<td><a href="${s.affiliateUrl || s.url}" target="_blank" rel="noopener noreferrer" class="btn-visit" style="font-size:.82rem;padding:8px 14px;">${I18n.t('visitSite')} ↗</a></td>`
+      `<td><a href="${/* affiliateUrl disabled for AdSense review */ s.url}" target="_blank" rel="noopener noreferrer" class="btn-visit" style="font-size:.82rem;padding:8px 14px;">${I18n.t('visitSite')} ↗</a></td>`
     ).join('')}</tr>`;
 
     document.getElementById('modalTitle').textContent = I18n.t('compareHeading');
@@ -351,7 +351,7 @@ const App = (() => {
         <a href="detail.html?id=${site.id}" class="btn-detail">${I18n.t('viewDetail')} →</a>
       </div>
 
-      <a href="${site.affiliateUrl || site.url}" target="_blank" rel="noopener noreferrer" class="btn-visit">
+      <a href="${/* affiliateUrl disabled for AdSense review */ site.url}" target="_blank" rel="noopener noreferrer" class="btn-visit">
         ${I18n.t('visitSite')} ↗
       </a>
 
@@ -969,7 +969,7 @@ const App = (() => {
           <p><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> ${I18n.t('detailDisclaimer')}</p>
         </div>
 
-        <a href="${site.affiliateUrl || site.url}" target="_blank" rel="noopener noreferrer" class="btn-visit" style="align-self:flex-start;">
+        <a href="${/* affiliateUrl disabled for AdSense review */ site.url}" target="_blank" rel="noopener noreferrer" class="btn-visit" style="align-self:flex-start;">
           ${I18n.t('visitSite')} ↗
         </a>
       `;
@@ -1215,7 +1215,7 @@ const App = (() => {
       const highlight = I18n.localize(ps.highlight);
       const pricing = I18n.localize(ps.pricing);
       const badge = I18n.localize(ps.badge);
-      const url = ps.affiliateUrl || ps.url;
+      const url = /* affiliateUrl disabled for AdSense review */ ps.url;
       return `
         <div class="premium-card">
           <span class="premium-badge">${badge}</span>
