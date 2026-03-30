@@ -186,9 +186,9 @@ def page_html(*, title, description, canonical, breadcrumbs, content, schema_jso
     bc_items = []
     for name, url in breadcrumbs:
         if url:
-            bc_items.append(f'<a href="{url}">{h(name)}</a>')
+            bc_items.append(f'<a href="{url}">{name}</a>')
         else:
-            bc_items.append(f'<span>{h(name)}</span>')
+            bc_items.append(f'<span>{name}</span>')
     bc_html = '\n      <span aria-hidden="true">›</span>\n      '.join(bc_items)
 
     return f'''<!DOCTYPE html>
